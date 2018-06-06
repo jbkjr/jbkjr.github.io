@@ -12,7 +12,8 @@ redirect_from:
 * Education
   * [**Yale University**](http://yale.edu), New Haven, Connecticut, USA
     * B.S. in [Applied Mathematics](https://applied.math.yale.edu/)
-      * Thesis: Tree-Tree Semantic Parsing Adviser: Prof. Dragomir Radev
+      * Thesis: Tree-Tree Semantic Parsing
+        * Adviser: Prof. Dragomir Radev
       * Concentration: Computer Science.
 
   * [**Stanford University**](http://stanford.edu), Stanford, California,
