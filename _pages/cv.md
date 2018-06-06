@@ -26,8 +26,7 @@ USA
 Yale**](https://yale-lily.github.io/), Yale University
     * Undergraduate Research Student, Computer Science Department
       * Project: Semantic Parsing
-      * Supervisors: Prof. Dragomir Radev and
- Alexander Fabbri
+      * Supervisors: Prof. Dragomir Radev and Alexander Fabbri
       * Focus: Tree-Tree Method for Semantic Parsing
 
 * Skills
