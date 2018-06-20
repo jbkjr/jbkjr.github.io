@@ -13,6 +13,9 @@ I recently came across [this article](https://www.nytimes.com/2018/06/09/technol
 I won't waste time recapping the article; it's worth a read. I want to write about something I've been thinking about that for me was highligted by the following quote from the article:
 
 > ...Mr. Etzioni, the head of the Allen Institute, took the microphone. “I am not going to grandstand,” he said. But urged on by Mr. Brooks, he walked onto the stage and laid into Mr. Harris for three minutes, saying that today’s A.I. systems are so limited, spending so much time worrying about superintelligence just doesn’t make sense.
+
+(here's the important bit)
+
 > *The people who take Mr. Musk’s side are philosophers, social scientists, writers — not the researchers who are working on A.I., he said. Among A.I. scientists, the notion that we should start worrying about superintelligence is “very much a fringe argument.”*
 
 ## The Need for ML Safety Researchers
