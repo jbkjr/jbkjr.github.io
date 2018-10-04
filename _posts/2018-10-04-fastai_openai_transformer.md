@@ -24,7 +24,7 @@ The code can be found in the [ROC_0 notebook](https://github.com/jbkjr/fastai-op
   * I copied the PyTorch code directly for dealing with text encoding and used their vocabulary files from the pretrained model.
 * Dataset
   * All of the code in this section is copied directly from the PyTorch port as well.
-*
+
 ```python
 class RocDataset(Dataset):
     def __init__(self, x, y):
@@ -55,6 +55,7 @@ md = ModelData(PATH, trn_dl, val_dl, tst_dl)
   * I used the “OpenAIAdam” implementation of AdamW from the PyTorch port. Ideally, I’d like to see fast.ai’s implementation of AdamW used because OpenAI’s optimizer takes care of linear warm up and decay internally (you initialize it with the total number of iterations). However, I didn’t have the time to both translating the minute optimization details into fast.ai and this reproduced the result fine.
 * Loss
   * OpenAI uses an auxiliary loss function with two output heads (one for language modeling, and one for the task-specific output) instead of discriminative learning rates like ULMFiT to prevent catastrophic forgetting of pretrained weights. So, I wrote my own loss function to use as my learner’s criterion to try and match the way OpenAI did it:
+
 ```python
 def MCLoss(lm_logits, clf_logits, X, Y, lm_coef=0.5):
     x_shifted = X[:, :, 1:, 0].contiguous().view(-1)  # Shape: 252
@@ -77,8 +78,10 @@ def MCLoss(lm_logits, clf_logits, X, Y, lm_coef=0.5):
 ```python
 learn.crit = MCLoss
 ```
+
   * Originally, I tried to mimic the way that they use a mask to ignore padded parts of the variable by rewriting the stepper to pass it along, but it was complicated and didn’t work. Instead, I was able to reproduce their results by telling F.cross_entropy to ignore 0 (the index for padding), and using different arguments for “reduction” to mimic the way that they summed and averaged the two losses in the original code.
 * Training
+
 ```python
 learn.metrics = [accuracy]
 learn.fit(6.25e-5, 3, cycle_len=1, stepper=RocStepper)
@@ -86,8 +89,8 @@ learn.fit(6.25e-5, 3, cycle_len=1, stepper=RocStepper)
 ![roc_train](/images/rocstories.png){:class="img-responsive"}
   * I called learn.fit with the learning rate parameter from OpenAI, but did not bother to use fast.ai’s learning rate scheduling because the OpenAIAdam class takes care of that internally. Once again, I’d ideally like to see if this result could be reproduced fully utilizing fast.ai’s training API.
 * Results
-```python
 
+```python
 from fastai.metrics import accuracy
 def my_test(model, dl):
     model.eval()
@@ -101,9 +104,11 @@ def my_test(model, dl):
         res.append([accuracy(datafy(clf_logits), datafy(targets))])
     return [np.average(loss, 0, weights=batch_cnts)] + list(np.average(np.stack(res), 0, weights=batch_cnts))
 ```
+
 ```python
 my_test(learn.model, tst_dl)
 ```
+
 ![roc_train](/images/rocstories_results.png){:class="img-responsive"}
   * In this version of the notebook, I got 86.05% accuracy on the test set, which is above the OpenAI’s median result of 85.8% but worse than their best reported result of 86.5%. I once surpassed their maximum accuracy, and in other runs I have gotten results in the 84-86% range.
 
