@@ -1,7 +1,7 @@
 ---
 title: 'Reproducing SOTA Commonsense Reasoning Result in fast.ai with a OpenAI’s Pretrained Transformer Language Model'
 date: 2018-10-04
-permalink: /posts/2018/08/need_ml_safety_researchers/
+permalink: /posts/2018/08/fastai_openai_transformer/
 tags:
   - nlp
   - transformer
