@@ -25,29 +25,29 @@ The code can be found in the [ROC_0 notebook](https://github.com/jbkjr/fastai-op
 * Dataset
   * All of the code in this section is copied directly from the PyTorch port as well.
 
-```python
-class RocDataset(Dataset):
-    def __init__(self, x, y):
-        self.x,self.y=x,y
+  ```python
+  class RocDataset(Dataset):
+      def __init__(self, x, y):
+          self.x,self.y=x,y
 
-    def __getitem__(self, idx):
-        x = self.x[idx]
-        return np.array(x),self.y[idx]
+      def __getitem__(self, idx):
+          x = self.x[idx]
+          return np.array(x),self.y[idx]
 
-    def __len__(self): return len(self.x)
+      def __len__(self): return len(self.x)
 
-trn_ds = RocDataset(trX, trY)
-val_ds = RocDataset(vaX, vaY)
-tst_ds = RocDataset(teX, teY)
-trn_samp = SortishSampler(trX, key=lambda x: len(trX[x]), bs=8)
-val_samp = SortSampler(vaX, key=lambda x: len(vaX[x]))
-tst_samp = SortSampler(teX, key=lambda x: len(teX[x]))
-trn_dl = DataLoader(trn_ds, 8, num_workers=1, pad_idx=0, sampler=trn_samp)
-val_dl = DataLoader(val_ds, 8, num_workers=1, pad_idx=0, sampler=val_samp)
-tst_dl = DataLoader(tst_ds, 1, num_workers=1, pad_idx=0, sampler=tst_samp)
-PATH = Path('data')
-md = ModelData(PATH, trn_dl, val_dl, tst_dl)
-```
+  trn_ds = RocDataset(trX, trY)
+  val_ds = RocDataset(vaX, vaY)
+  tst_ds = RocDataset(teX, teY)
+  trn_samp = SortishSampler(trX, key=lambda x: len(trX[x]), bs=8)
+  val_samp = SortSampler(vaX, key=lambda x: len(vaX[x]))
+  tst_samp = SortSampler(teX, key=lambda x: len(teX[x]))
+  trn_dl = DataLoader(trn_ds, 8, num_workers=1, pad_idx=0, sampler=trn_samp)
+  val_dl = DataLoader(val_ds, 8, num_workers=1, pad_idx=0, sampler=val_samp)
+  tst_dl = DataLoader(tst_ds, 1, num_workers=1, pad_idx=0, sampler=tst_samp)
+  PATH = Path('data')
+  md = ModelData(PATH, trn_dl, val_dl, tst_dl)
+  ```
   * This is how I put the data from the OpenAI data functions into fast.ai form. I used Sortish Sampler for the training dataset to group the sentences by sequence length, then used a DataLoader instance for the train, validation, and test sets.
 * Model
   * I copied the PyTorch code for the actual Transformer nn.Module implementation directly, the code to add task-specific output heads, and the code to load their pretrained weights.
@@ -56,59 +56,57 @@ md = ModelData(PATH, trn_dl, val_dl, tst_dl)
 * Loss
   * OpenAI uses an auxiliary loss function with two output heads (one for language modeling, and one for the task-specific output) instead of discriminative learning rates like ULMFiT to prevent catastrophic forgetting of pretrained weights. So, I wrote my own loss function to use as my learner’s criterion to try and match the way OpenAI did it:
 
-```python
-def MCLoss(lm_logits, clf_logits, X, Y, lm_coef=0.5):
-    x_shifted = X[:, :, 1:, 0].contiguous().view(-1)  # Shape: 252
-    """M = torch.ne(X[:, :, :, 0] , T(torch.zeros(X.size()[:-1], dtype=torch.long))).to(torch.float)
-    M = M.view(-1, M.size(2))
-    lm_losses = F.cross_entropy(lm_logits, x_shifted, reduction='none')
-    lm_losses = lm_losses.view(X.size(0) * X.size(1), X.size(2) - 1)
-    lm_losses = lm_losses * M[:, 1:]
-    lm_losses = lm_losses.sum(1) / torch.sum(M[:, 1:], 1)
+  ```python
+  def MCLoss(lm_logits, clf_logits, X, Y, lm_coef=0.5):
+      x_shifted = X[:, :, 1:, 0].contiguous().view(-1)  # Shape: 252
+      """M = torch.ne(X[:, :, :, 0] , T(torch.zeros(X.size()[:-1], dtype=torch.long))).to(torch.float)
+      M = M.view(-1, M.size(2))
+      lm_losses = F.cross_entropy(lm_logits, x_shifted, reduction='none')
+      lm_losses = lm_losses.view(X.size(0) * X.size(1), X.size(2) - 1)
+      lm_losses = lm_losses * M[:, 1:]
+      lm_losses = lm_losses.sum(1) / torch.sum(M[:, 1:], 1)
 
-    clf_losses = F.cross_entropy(clf_logits, Y, reduction='none')"""
+      clf_losses = F.cross_entropy(clf_logits, Y, reduction='none')"""
 
-    lm_losses = F.cross_entropy(lm_logits, x_shifted, ignore_index=0, reduction='elementwise_mean')
-    clf_losses = F.cross_entropy(clf_logits, Y, reduction='sum')
+      lm_losses = F.cross_entropy(lm_logits, x_shifted, ignore_index=0, reduction='elementwise_mean')
+      clf_losses = F.cross_entropy(clf_logits, Y, reduction='sum')
 
-    train_loss = clf_losses + lm_coef * lm_losses
-    return train_loss
-```
+      train_loss = clf_losses + lm_coef * lm_losses
+      return train_loss
+  ```
 
-```python
-learn.crit = MCLoss
-```
+  ```python
+  learn.crit = MCLoss
+  ```
 
   * Originally, I tried to mimic the way that they use a mask to ignore padded parts of the variable by rewriting the stepper to pass it along, but it was complicated and didn’t work. Instead, I was able to reproduce their results by telling F.cross_entropy to ignore 0 (the index for padding), and using different arguments for “reduction” to mimic the way that they summed and averaged the two losses in the original code.
 * Training
 
-```python
-learn.metrics = [accuracy]
-learn.fit(6.25e-5, 3, cycle_len=1, stepper=RocStepper)
-```  
+  ```python
+  learn.metrics = [accuracy]
+  learn.fit(6.25e-5, 3, cycle_len=1, stepper=RocStepper)
+  ```  
 ![roc_train](/images/rocstories.png){:class="img-responsive"}
   * I called learn.fit with the learning rate parameter from OpenAI, but did not bother to use fast.ai’s learning rate scheduling because the OpenAIAdam class takes care of that internally. Once again, I’d ideally like to see if this result could be reproduced fully utilizing fast.ai’s training API.
 * Results
 
-```python
-from fastai.metrics import accuracy
-def my_test(model, dl):
-    model.eval()
-    batch_cnts,loss,res = [], [], []
-    t = tqdm(iter(dl), leave=False, total=len(dl), miniters=0)
-    for inputs, targets in t:
-        lm_logits, clf_logits = model(inputs)
-        l = MCLoss(lm_logits, clf_logits, inputs, targets)
-        batch_cnts.append(inputs.size(0))
-        loss.append(to_np(l))
-        res.append([accuracy(datafy(clf_logits), datafy(targets))])
-    return [np.average(loss, 0, weights=batch_cnts)] + list(np.average(np.stack(res), 0, weights=batch_cnts))
-```
-
-```python
-my_test(learn.model, tst_dl)
-```
-
+  ```python
+  from fastai.metrics import accuracy
+  def my_test(model, dl):
+      model.eval()
+      batch_cnts,loss,res = [], [], []
+      t = tqdm(iter(dl), leave=False, total=len(dl), miniters=0)
+      for inputs, targets in t:
+          lm_logits, clf_logits = model(inputs)
+          l = MCLoss(lm_logits, clf_logits, inputs, targets)
+          batch_cnts.append(inputs.size(0))
+          loss.append(to_np(l))
+          res.append([accuracy(datafy(clf_logits), datafy(targets))])
+      return [np.average(loss, 0, weights=batch_cnts)] + list(np.average(np.stack(res), 0, weights=batch_cnts))
+  ```
+  ```python
+  my_test(learn.model, tst_dl)
+  ```
 ![roc_train](/images/rocstories_results.png){:class="img-responsive"}
   * In this version of the notebook, I got 86.05% accuracy on the test set, which is above the OpenAI’s median result of 85.8% but worse than their best reported result of 86.5%. I once surpassed their maximum accuracy, and in other runs I have gotten results in the 84-86% range.
 
