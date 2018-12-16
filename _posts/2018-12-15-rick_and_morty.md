@@ -35,7 +35,7 @@ While the term “metamodernism” is relatively new and possibly unfamiliar, po
 
 
 [^2]: Wendy Bishop and David Starkey, "Postmodernism," In _Keywords in Creative Writing_ (University Press of Colorado, 2006), 131.
-[^3]: Timotheus Vermeulen and Robin Van Den Akker, "Notes on Metamodernism," _Journal of Aesthetics & Culture_ 2, no. 1 (2010): 4.
+[^3]: Timotheus Vermeulen and Robin van den Akker, "Notes on Metamodernism," _Journal of Aesthetics & Culture_ 2, no. 1 (2010): 4.
 
 Most importantly, irony is central to postmodernism in every case: “‘More than anything else, postmodernism is an attitude, and that attitude is definitely ironic.’”[^4] Postmodernism became the dominant cultural practice of the second half of the twentieth century, but the postmodern era is now over. Its decline and demise has been described by “many academics, critics, and pundits.”[^5] Naturally, one might wonder what follows postmodernism, and Vermeulen and van den Akker have an answer: metamodernism.
 
@@ -58,8 +58,84 @@ This oscillation implies that metamodernism has a quintessentially “both-neith
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZcwdR29vD1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[^9]
 
-Test below
+[^9]: _Rick and Morty_, “Rixty Minutes,” Directed by Bryan Newton and Pete Michels, Written by Justin Roiland and Dan Harmon, Cartoon Network, March 17, 2014.
+
+The opening to “Rixty Minutes” is undeniably postmodern. The tranquil scene of the Smiths watching _The Bachelor_ is quickly interrupted by Rick’s nihilistic quip “none of it mattered, and the entire show was stupid.” The disruption of the metanarrative of the nuclear family is quintessentially postmodern and has been a common theme in postmodern television, especially in cartoon sitcoms like _The Simpsons_ and _Family Guy_. Matthew Henry writes that these shows use “the traditional nuclear family construct (mom, dad, kids, dog and a house in the suburbs) in order to skewer its conventions,”[^10] and _Rick and Morty_ is no different. As a cartoon sitcom, _Rick and Morty_ takes many postmodern cues from these shows but draws different conclusions, as will be seen throughout the rest of the episode.
+
+[^10]: Matthew Henry, "The Triumph of Popular Culture: Situation Comedy, Postmodernism and 'The Simpsons,''" _Studies in Popular Culture_ 17, no. 1 (1994): 89.
+
+Another fixture of such postmodern shows is self-reflexivity.[^11] Self-reflexivity or self-referentiality allows television shows to paradoxically self-critique myth-traditions such as the nuclear family by engaging in them. _Rick and Morty_ is also heavily self-referential, and, as the opening implies, “Rixty Minutes” is a self-reflexive examination _of television, through television_. It is one of very few episodes of the show set entirely at the Smith household and not involving interdimensional travel or adventures, and the futuristic technology used in the episode is little more than a slightly science fictionalized version of current technology (the cable box). For this reason, “Rixty Minutes” may seem a strange choice for a missing text, but the comparatively mundane construction of the episode facilitates even more emphasis on character over setting than usual. Essentially, it is television considering what television might look like in other universes in order to comment on television _in our reality_. Further, the show deprecates science fiction’s (and therefore its own) use of neologisms and “deploys pseudo-scientific babble self-reflexively:”[^12] “20% accurate, as usual, Morty.”
+
+[^11]: Ibid, 95.
+[^12]: Rhys Williams, "Rick and Morty: Season 1 by Dan Harmon, Justin Roiland (review)," _Science Fiction Film and Television_ 9, no. 1 (2016): 148.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dLZHlAiaLms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[^13]
+
+[^13]: _Rick and Morty_, "Rixty Minutes."
+
+Perhaps the best example of the episode’s self-reflexive examination of television is shown in the above clip. After Rick comments to Morty that cable from other dimensions has “an almost improvisational tone,” they turn to watch a trailer which has clearly been fully improvised by Justin Roiland. Littered with pauses and hesitations, the voiceover goes through a completely nonsensical series of enlargements of the scope of the movie’s plot. At one point, Roiland does a 180-degree turn mid-sentence (“But let's get back to the brothers, because they're - they - have a strong bond - but - you don't want to know about it here”) before changing the title of the movie from _Alien Invasion Tomato Monster Mexican Armada Brothers Who Are Just Regular Brothers Running In A Van From An Asteroid And All Kinds Of Things: The Movie_ to “just _Two Brothers_” and ending the trailer laughing at the ridiculousness of his own dialogue. It soon becomes clear that nearly all of the interdimensional television clips shown in the episode have been improvised.
+
+This improvised trailer for _Two Brothers_ is clearly both inspired by and critical of bad trailers for bad action movies that are seen constantly in American pop culture, just like _The Simpsons_ “incorporates into the sitcom format many of the techniques of postmodernism with the result of paradoxically both critiquing and creating American popular culture.”[^14] In the case of _Rick and Morty_, however, the fact that this is ostensibly a trailer from another dimension gives the show even more leeway to be completely ridiculous (everything possible exists in at least one universe) and (paradoxically) therefore even more biting in its satirization of not only television and media in general but also itself. Other interdimensional scenes shown in the episode touch upon and satirize commercialism, consumerism, advertising, and common television tropes and formats.
+
+[^14]: Henry, "Postmoderism and 'The Simpsons,'" 86.
+
+The episode’s self-reflexive examination of television is characteristically postmodern not only for its self-reflexivity but also because television itself is “the supreme medium of postmodernism.”[^15] Schneck argues that its rise to this position is connected to “the increasing pervasiveness of irony as the basic attitude of production and consumption in popular culture.”[^16] Thus, “Rixty Minutes” can be seen as doubly _characteristically_  (keyword: characteristically) postmodern by nature of its medium as well as its self-reflexivity and irony.
+
+[^15]: Peter Schneck, "Image Fictions: Literature, Television, and the End(s) of Irony," _Amerikastudien / American Studies_ 46, no. 3 (2001): 409.
+[^16]: Ibid.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gf-5PescuTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[^17]
+
+[^17]: _Rick and Morty_, "Rixty Minutes."
+
+The B plot of “Rixty Minutes” is equally important to understanding the episode’s importance as a missing text from the syllabus. After Jerry discovers that he is a famous actor in another universe (seen in the opening to the episode), Jerry, Beth, and Summer decide that they would rather “narcissitically obsess” (citation needed) about themselves than watch random television shows from different dimensions, so Rick gives them a pair of goggles (resembling a virtual reality headset) that enables them to view their lives in other universes through the eyes of their alternate selves. As seen in the clip above, Jerry and Beth discover that their alternate selves have achieved their lifelong dreams (Jerry is an A-list celebrity; Beth is a human surgeon instead of a horse surgeon) by not getting married and having kids. Summer, on the other hand, sees that her alternative lives are as boring as her own in every reality in which her parents “bothered to have” her. However, Beth and Jerry’s immediate happiness and excitement quickly turns to sadness that their alternate selves’ lives are not their own and anger toward each other for apparently having prevented the fulfillment of the other’s aspirations. After it is revealed that Summer was almost aborted, Summer resolves to run away, and Beth and Jerry decide to separate.
+
+The interdimensional goggles, like the interdimensional cable box, are only a slightly futurized version of existing technology (virtual reality) and further enable the episode to emphasize character over setting by reflecting the effects of current technology on the human psyche and existence. The goggles thus allow the episode to play upon the theme of alienation and technology’s role in its creation, common in sci-fi and postmodern texts alike. Further, the goggles highlight the difference between the shallow daily pleasures of the technological modern world and true fulfillment; while they allow Beth and Jerry to vicariously experience the successes of their alternate selves, they cannot replace actual experience, and they engender discontentment and disillusionment.
+
+Everything discussed thus far contributes to a postmodern conception of “Rixty Minutes” and _Rick and Morty_. Indeed, the common conception of the show seems to be that it is postmodern and nihilistic (nihilism being encompassed by postmodern irony, as described in the above aside on the topic). Rhys Williams echoes this sentiment when he writes, “Much like _Family Guy_, the show is the product of an intelligent but disillusioned and ironic world-view. To laugh with _Rick and Morty_ is to laugh at anything that presumes to provide meaning to the human experience.”[^18] In many senses, this is not an incorrect interpretation of the show, as the above analysis shows. Crucially, however, _being postmodern does not mean being not metamodern_. As Vermeulen and van den Akker write in their seminal paper on metamodernism, “We do not wish to suggest that all postmodern tendencies are over and done with. But we do believe many of them are taking another shape, and, more importantly a new _sens_, a new meaning and direction.”[^19] So it is with _Rick and Morty_. The show carries the postmodern construction of the ironic, self-referential, cartoon sitcom to metamodern conclusions, and this is the most compelling argument for why it best represents our present conception of futurity and related topics and therefore should be included as a missing text.
+
+[^18]: Williams, "Rick and Morty: Season 1," 149.
+[^19]: Vermeulen and van den Akker, "Notes on metamodernism," 4.
+
+The popular misconception of the show as nihilistic is most likely a result of mistaking Rick’s worldview for the worldview of the show itself. Rick is undeniably nihilistic, constantly proclaiming the meaningless of existence and the multiverse. Indeed, his nihilism was reflected in his first line in “Rixty Minutes” (in reference to _The Bachelor_ but applicable to his view on everything): “none of it mattered.” Because Rick is “blessed” with the gifts of near-omniscience and near-omnipotence, it would be easy to believe that he is as right about his nihilistic outlook as he is about everything else. However, _Rick and Morty_ also constantly reminds the viewer that Rick’s intelligence is as much a curse as it is a blessing, that all the scientific and rational knowledge in the universe cannot and will not solve Rick’s deepest and most existential psychological problems.
+
+“Rixty Minutes” is the episode most indicative of _Rick and Morty_’s metamodern alternative to a completely nihilistic or postmodern outlook. It is no coincidence that it also features Rick less than almost any other episode. Rick simply provides the technologies the episode uses to highlight the crises of his family members and remains on the couch watching interdimensional television for the rest of the episode. Instead, the show’s metamodernity is highlighted through the resolutions it presents to the dilemmas of Summer, Jerry, and Beth.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AcTFGzOjosk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[^20]
+
+[^20]: _Rick and Morty_, "Rixty Minutes."
+
+The above scene is one of the most popularly recognizable passages of the show. It also appears to be one of the most misunderstood. Lucas Miranda describes it as Morty presenting “Rick’s bleak worldview,”[^21] while Thomas Evans believes it “sums up the show’s philosophy” by depicting “the universe as meaningless.”[^22] Neither is entirely incorrect but both almost entirely miss the point. Morty makes a nihilistic-sounding argument _in pursuit of a very non-nihilistic goal_–convincing his sister to stay and easing her existential burden. That is, he admits the _inherent_ meaninglessness of existence (“nobody exists on purpose, nobody belongs anywhere, everybody’s gonna die”) but nonetheless implicitly acknowledges that meaning is something to be created by oneself, for oneself. Harmon and Roiland are declaring the universe is at once both meaningless and meaningful and neither of them (“both-neither”). This is why _Rick and Morty_ is metamodern at its core. It refuses nihilism as the final solution but recognizes its merits. It reaches for an ideal it knows to be impossible; “Metamodernism moves for the sake of moving, attempts in spite of its inevitable failure; it seeks forever for a truth that it never expects to find.”[^23]
+
+[^21]: Lucas Miranda, "The Self Is Dead – Alienation and Nihilism in Rick and Morty," _Class Race Corporate Power_ 5, no. 3 (2017).
+[^22]: Thomas Evans, "Wubba Lubba Dub Dub! : The Pursuit of Happiness in _Rick and Morty_," _Under Construction @ Keele_ 2, no. 1 (March 24, 2016): 11.
+[^23]: Vermeulen and van den Akker, "Notes on metamodernism," 5.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yOd6TbAWrMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[^24]
+
+[^24]: _Rick and Morty_, "Rixty Minutes."
+
+The show’s metamodernity is again reinforced with the resolution to Beth and Jerry’s problems. After they decide to separate, Jerry watches his alternative, celebrity self lead police on a slow-speed pursuit after suffering an apparent mental breakdown, while Beth uses the goggles to observe her alternative, “successful” self drunk and alone (with the exception of her countless birds) at home. Incredibly, celebrity Jerry leads the police to alternate Beth’s home, where he professes his love to her and declares, “I’ve never stopped thinking about what might have been.” Back in C-137, the two reunite and share a tender moment. This “happy ending” is decidedly not postmodern but instead metamodern. Achieving their goals (or anything, really) would not have made them happy; instead, fulfillment and contentment are achieved through awareness and appreciation of things _as they are_. Finally, as if the episode became aware of itself becoming too optimistic, the camera cuts back to an indifferent Summer, Morty, and Rick, who continue watching “Ball Fondlers”—“Each time the metamodern enthusiasm swings toward fanaticism, gravity pulls it back toward irony.”[^25]
+
+[^25]: Vermeulen and van den Akker, "Notes on metamodernism," 5.
+
+If the above analysis of “Rixty Minutes” is not sufficient proof of the metamodernity of _Rick and Morty_, perhaps what Harmon and Roiland themselves have to say about the episode will suffice. In response to a question about balancing comedy and sincerity, specifically with regard to “Rixty Minutes,” they replied:
+
+>**Dan Harmon**: “Well that was sort of like an example of balancing it at a seasonal level. Justin was like ‘Let’s do one episode where we don’t try to win people over with our…sincerity,’  as you call it. Justin is going to go into the VO booth and improvise. He’s going to be crazy and just do ridiculous things and then we’re going to animate to them without breaking a story for those things. So we cautiously paired it with a B-story that would be very emotional and sincere and grounded. So far we’ve been very chicken about giving you too much…”
+>
+>**Justin Roiland**: “…for Season 2, yeah…”
+
+>**Dan Harmon**: “…silliness without any sincerity. I suppose that’s a good kind of chicken to stay for a while.”[^26]
+
+[^26]: Wilson, "Dan Harmon and Justin Roiland Get Intergalactic."
+
+By infusing postmodern irony with (typically modern) sincerity, Dan Harmon and Justin Roiland have created a truly unique take on science fiction and futurity—today’s take, the metamodern take, the take most sorely missing from the syllabus.
 
 ---
 
@@ -69,7 +145,7 @@ Bishop, Wendy, and David Starkey. "Postmodernism." In _Keywords in Creative Writ
 
 Evans, Thomas. "Wubba Lubba Dub Dub! : The Pursuit of Happiness in _Rick and Morty_." _Under Construction @ Keele_ 2, no. 1 (March 24, 2016): 10-17.
 
-Henry, Matthew. "The Triumph of Popular Culture: Situation Comedy, Postmodernism and "The Simpsons"." _Studies in Popular Culture_ 17, no. 1 (1994): 85-99. http://www.jstor.org/stable/23413793.
+Henry, Matthew. "The Triumph of Popular Culture: Situation Comedy, Postmodernism and 'The Simpsons'." _Studies in Popular Culture_ 17, no. 1 (1994): 85-99. http://www.jstor.org/stable/23413793.
 
 Miranda, Lucas. "The Self Is Dead – Alienation and Nihilism in Rick and Morty." _Class Race Corporate Power_ 5, no. 3 (2017). doi:10.25148/crcp.5.3.006513.
 
@@ -77,7 +153,7 @@ _Rick and Morty_. “Rixty Minutes.” Directed by Bryan Newton and Pete Michels
 
 Schneck, Peter. "Image Fictions: Literature, Television, and the End(s) of Irony." _Amerikastudien / American Studies_ 46, no. 3 (2001): 409-28. http://www.jstor.org/stable/41157666.
 
-Vermeulen, Timotheus, and Robin Van Den Akker. "Notes on Metamodernism." _Journal of Aesthetics & Culture_ 2, no. 1 (2010). doi:10.3402/jac.v2i0.5677.
+Vermeulen, Timotheus, and Robin van den Akker. "Notes on Metamodernism." _Journal of Aesthetics & Culture_ 2, no. 1 (2010). doi:10.3402/jac.v2i0.5677.
 
 Williams, Rhys. "Rick and Morty: Season 1 by Dan Harmon, Justin Roiland (review)." _Science Fiction Film and Television_ 9, no. 1 (2016): 147-150. https://muse.jhu.edu/ (accessed December 15, 2018).
 
