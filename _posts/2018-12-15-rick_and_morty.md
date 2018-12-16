@@ -132,7 +132,7 @@ If the above analysis of “Rixty Minutes” is not sufficient proof of the meta
 >**Dan Harmon**: “Well that was sort of like an example of balancing it at a seasonal level. Justin was like ‘Let’s do one episode where we don’t try to win people over with our…sincerity,’  as you call it. Justin is going to go into the VO booth and improvise. He’s going to be crazy and just do ridiculous things and then we’re going to animate to them without breaking a story for those things. So we cautiously paired it with a B-story that would be very emotional and sincere and grounded. So far we’ve been very chicken about giving you too much…”
 >
 >**Justin Roiland**: “…for Season 2, yeah…”
-
+>
 >**Dan Harmon**: “…silliness without any sincerity. I suppose that’s a good kind of chicken to stay for a while.”[^27]
 
 [^27]: Wilson, "Dan Harmon and Justin Roiland Get Intergalactic."
