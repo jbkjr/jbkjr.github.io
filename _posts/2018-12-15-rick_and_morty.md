@@ -21,6 +21,8 @@ As discussed in class, science fiction has historically been more driven by sett
 >
 >**Justin Roiland**: “Dan does a great job too, of taking a sci-fi concept and grounding it in a really awesome, structurally stable, narrative. It’s more character based. You’re really putting yourself in the shoes of somebody when you’re watching the show. You’re really relating and connecting with somebody’s decision or choice or adventure.”[^1]
 
+[^1]: Kyle Wilson, "Interview: 'Rick and Morty's Dan Harmon and Justin Roiland Get Intergalactic," _The Nerd Repository_, August 05, 2014, accessed December 16, 2018, http://nerdrepository.com/interview-ricky-mortys-dan-harmon-justin-roiland-intergalactic/.
+
 Additionally, the show particularly highlights the themes of mental illness and isolation, mirroring the obsession of science today with matters of mind. It seems to deny (or at least question) science’s ability to answer the deepest mysteries of mind and mental illness by giving Rick essentially infinite knowledge (and therefore abilities), therefore blurring the distinction between human and god, while constantly highlighting the uselessness of his knowledge or abilities in solving his existential burden and deep depression.
 
 However, the most salient justification for the inclusion of an episode of _Rick and Morty_ in the class syllabus is not the actual science fictional concepts the show uses. Instead, it is that the show uses these concepts in an inherently metamodern way and therefore offers a conception of futurity and science fiction not covered by the syllabus—the _current_ conception. Before analyzing the metamodernity of _Rick and Morty_, however, the concept of metamodernism must first be understood.
@@ -35,7 +37,6 @@ While the term “metamodernism” is relatively new and possibly unfamiliar, po
 
 <center>Notes</center>
 
-[^1]: Kyle Wilson, "Interview: 'Rick and Morty's Dan Harmon and Justin Roiland Get Intergalactic," _The Nerd Repository_, August 05, 2014, accessed December 16, 2018, http://nerdrepository.com/interview-ricky-mortys-dan-harmon-justin-roiland-intergalactic/.
 
 [^2]: Wendy Bishop, and David Starkey, "Postmodernism," In _Keywords in Creative Writing_ (University Press of Colorado, 2006), 131.
 
