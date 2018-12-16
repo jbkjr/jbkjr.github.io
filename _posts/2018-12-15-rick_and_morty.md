@@ -36,6 +36,7 @@ While the term “metamodernism” is relatively new and possibly unfamiliar, po
 <center>Notes</center>
 
 [^1]: Kyle Wilson, "Interview: 'Rick and Morty's Dan Harmon and Justin Roiland Get Intergalactic," _The Nerd Repository_, August 05, 2014, accessed December 16, 2018, http://nerdrepository.com/interview-ricky-mortys-dan-harmon-justin-roiland-intergalactic/.
+
 [^2]: Wendy Bishop, and David Starkey, "Postmodernism," In _Keywords in Creative Writing_ (University Press of Colorado, 2006), 131.
 
 ---
