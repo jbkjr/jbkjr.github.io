@@ -29,16 +29,37 @@ However, the most salient justification for the inclusion of an episode of _Rick
 
 ### An Aside: Postmodernism and Metamodernism
 
-While the term “metamodernism” is relatively new and possibly unfamiliar, postmodernism has long been prevalent, if ill-defined: “Defining postmodernism… is a notoriously difficult endeavor, and there are plenty of elitist guardians at the gate telling us we will never succeed.”[^2] (Bishop and Starkey 131). Postmodernism arose as a departure from modernism, the dominant cultural philosophy of the first half of the twentieth century that emphasized innovation and reason. The difficulty in defining postmodernism is that it encompasses countless and often contradictory approaches, but Timeotheus Vermeulen and Robin van den Akker highlight the similarities between these disparate approaches:
+While the term “metamodernism” is relatively new and possibly unfamiliar, postmodernism has long been prevalent, if ill-defined: “Defining postmodernism… is a notoriously difficult endeavor, and there are plenty of elitist guardians at the gate telling us we will never succeed.”[^2] Postmodernism arose as a departure from modernism, the dominant cultural philosophy of the first half of the twentieth century that emphasized innovation and reason. The difficulty in defining postmodernism is that it encompasses countless and often contradictory approaches, but Timeotheus Vermeulen and Robin van den Akker highlight the similarities between these disparate approaches:
 
->However, what these distinct phenomena share is an opposition to ‘‘the’’ modern—to utopism, to (linear) progress, to grand narratives, to Reason, to functionalism and formal purism, and so on. These positions can most appropriately be summarized, perhaps, by Jos de Mul’s distinction between postmodern irony (encompassing nihilism, sarcasm, and the distrust and deconstruction of grand narratives, the singular and the truth) and modern enthusiasm (encompassing everything from utopism to the unconditional belief in Reason).
-
----
-
-<center>Notes</center>
+>However, what these distinct phenomena share is an opposition to ‘‘the’’ modern—to utopism, to (linear) progress, to grand narratives, to Reason, to functionalism and formal purism, and so on. These positions can most appropriately be summarized, perhaps, by Jos de Mul’s distinction between postmodern irony (encompassing nihilism, sarcasm, and the distrust and deconstruction of grand narratives, the singular and the truth) and modern enthusiasm (encompassing everything from utopism to the unconditional belief in Reason).[^3]
 
 
-[^2]: Wendy Bishop, and David Starkey, "Postmodernism," In _Keywords in Creative Writing_ (University Press of Colorado, 2006), 131.
+[^2]: Wendy Bishop and David Starkey, "Postmodernism," In _Keywords in Creative Writing_ (University Press of Colorado, 2006), 131.
+[^3]: Timotheus Vermeulen and Robin Van Den Akker, "Notes on Metamodernism," _Journal of Aesthetics & Culture_ 2, no. 1 (2010): 4.
+
+Most importantly, irony is central to postmodernism in every case: “‘More than anything else, postmodernism is an attitude, and that attitude is definitely ironic.’”[^4] Postmodernism became the dominant cultural practice of the second half of the twentieth century, but the postmodern era is now over. Its decline and demise has been described by “many academics, critics, and pundits.”[^5] Naturally, one might wonder what follows postmodernism, and Vermeulen and van den Akker have an answer: metamodernism.
+
+[^4]: Bishop and Starkey, "Postmodernism," 132.
+[^5]: Vermeulen and van den Akker, "Notes on metamodernism," 2.
+
+Most succinctly, they describe metamodernism as being “characterized by the oscillation between a typically modern commitment and a markedly postmodern detachment.”[^6] The notion of oscillation between the two poles of modernism and postmodernism is crucial, and Vermeulen and van den Akker elaborate further:
+
+[^6]: Ibid.
+
+>Ontologically, metamodernism oscillates between the modern and the postmodern. It oscillates between a modern enthusiasm and a postmodern irony, between hope and melancholy, between naïveté and knowingness, empathy and apathy, unity and plurality, totality and fragmentation, purity and ambiguity. Indeed, by oscillating to and fro or back and forth, the metamodern negotiates between the modern and the postmodern. One should be careful not to think of this oscillation as a balance however; rather, it is a pendulum swinging between 2, 3, 5, 10, innumerable poles. Each time the metamodern enthusiasm swings toward fanaticism, gravity pulls it back toward irony; the moment its irony sways toward apathy, gravity pulls it back toward enthusiasm.[^7]
+
+[^7]: Ibid, 5-6.
+
+This oscillation implies that metamodernism has a quintessentially “both-neither” dynamic; metamodernism is “at once modern and postmodern _and_ neither of them.”[^8] This “both-neither” dynamic will prove extremely useful in analyzing “Rixty Minutes” as a metamodern text.
+
+[^8]: Ibid, 6.
+
+### The Case for "Rixty Minutes"
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZcwdR29vD1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Test below
 
 ---
 
