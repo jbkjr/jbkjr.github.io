@@ -1,5 +1,5 @@
 ---
-title: 'Test Rick and Morty Post'
+title: 'Rick and Morty & Metamodernism: Always "both-neither", never "either-or"'
 date: 2018-11-15
 permalink: /posts/2018/12/rick_and_morty/
 tags:
