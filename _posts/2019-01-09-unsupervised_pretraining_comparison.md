@@ -9,5 +9,5 @@ tags:
 
 Test Latex Equation:
 {% raw %}
-\( \mathbf{r}_k = \gamma \sum_{j=0}^L \mathbf{s}_j \mathbf{h}_{k,j} \)
+$$ \mathbf{r}_k = \gamma \sum_{j=0}^L \mathbf{s}_j \mathbf{h}_{k,j} $$
 {% endraw %}
