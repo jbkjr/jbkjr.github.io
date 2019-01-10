@@ -84,7 +84,7 @@ The OpenAI Generatively Pre-trained Transformer (GPT) utilizes a 12-layer Transf
 
 $$\mathbf{h}_{:,0} = UW_e + W_p$$
 
-$$\mathbf{h}_{:,j} = \text{transformer\_block}(\mathbf{h}_{:,j-1}) \forall j \in [1,L]$$
+$$\mathbf{h}_{:,j} = \text{transformer_block}(\mathbf{h}_{:,j-1}) \forall j \in [1,L]$$
 
 where $U$ is the input sequence of tokens, $L$ is the number of layers, $W_e$ is the token embedding matrix, and $W_p$ is the position embedding matrix.
 
