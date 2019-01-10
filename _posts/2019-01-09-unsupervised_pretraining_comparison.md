@@ -51,9 +51,12 @@ where $\mathbf{h}_{k,j}$ is the activation associated with the $k$th token in th
 This "scalar mix" approach is essentially equivalent to the one used by ELMo,[^5] whereas ULMFiT,[^6] OpenAI GPT,[^7] and BERT[^8] all utilize a "fine-tuning" approach, in which the entire language model is instead tuned to the downstream task. There are several motivations for using the scalar mix approach in this comparison.
 
 [^5]: Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, and Luke Zettlemoyer. 2018. Deep contextualized word representations. CoRR abs/1802.05365. http://arxiv.org/abs/1802.05365.
+
 [^6]: Jeremy Howard and Sebastian Ruder. 2018.
 Universal language model fine-tuning for text classification. CoRR abs/1801.06146. http://arxiv.org/abs/1801.06146.
+
 [^7]: Alec Radford. 2018. Improving language understand- ing by generative pre-training.
+
 [^8]: Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. BERT: pre-training of deep bidirectional transformers for language understanding. CoRR abs/1810.04805. http://arxiv.org/abs/1810.04805.
 
 First, it precludes the necessity of determining the best approach to fine-tuning. There is no clear consensus on the best method to fine-tune models in order to avoid the problem of _catastrophic forgetting_, in which the knowledge contained within the pre-trained language model is destroyed as the model adjusts its weights to the target task. ULMFiT uses a combination of discriminative learning rates (different rates for each layer) and layer freezing/unfreezing, OpenAI GPT uses an auxiliary language modeling objective, and BERT ostensibly does not use any technique to avoid catastrophic forgetting. By instead freezing the models and learning how to best utilize the information already contained within them, it is possible to more directly compare their effectiveness.
