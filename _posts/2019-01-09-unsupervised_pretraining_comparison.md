@@ -1,13 +1,15 @@
 ---
 title: 'Comparing Pre-trained Language Models with Semantic Parsing'
 date: 2019-01-09
-permalink: /posts/2018/12/unsupervised_pretraining_comparison/
+permalink: /posts/2019/01/unsupervised_pretraining_comparison/
 tags:
   - nlp
   - transfer_learning
 ---
 
 In my [last post]({% post_url 2018-12-24-elmo_sempar %}), I showed how adding ELMo features to a seq2seq model improved performance on semantic parsing tasks. Recently, I have been experimenting with adding [OpenAI GPT](https://blog.openai.com/language-unsupervised/) and [BERT](https://arxiv.org/abs/1810.04805) to the model in order to compare their performance against ELMo's. All the data, configuration files, and scripts needed to reproduce my experiments have been pushed to the [GitHub repository](https://github.com/jbkjr/allennlp_sempar). I'm excited to share my results!
+
+**TL;DR: I was able to achieve significant gains in performance on several semantic parsing datasets above a vanilla seq2seq baseline by utilizing a "scalar mix" of pretrained features from ELMo, OpenAI GPT, and BERT. OpenAI and BERT produce the strongest results, likely due to being trained either with more data or with data with more long-term dependencies. I believe this work is the first application of pretrained language models to semantic parsing and the first application of the recent ELMo, OpenAI GPT, and BERT language models to any language generation task.**
 
 ## Improved Results on Baseline and with ELMo
 
