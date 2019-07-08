@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior at Yale College majoring in Applied Mathematics with a concentration in Computer Science. I do NLP research under the supervision of Professor Dragomir Radev in the Language, Information, and Learning at Yale (LILY) Lab. I plan to pursue a PhD in Computer Science/Machine Learning and hope to one day work on AI safety and alignment.
+I recently graduated from Yale with a B.S. in Applied Mathematics and a concentration in Computer Science in May 2019. At Yale, I conducted NLP research under the supervision of Professor Dragomir Radev in the [Language, Information, and Learning at Yale (LILY) Lab](https://yale-lily.github.io/). I am currently pursuing full-time employment in machine learning, data science, software engineering, or a related field.
