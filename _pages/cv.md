@@ -38,10 +38,10 @@ Yale**](https://yale-lily.github.io/), Yale University
     * Aided initial data scraping and analysis for new “BioNLP” project in conjunction with Yale School of Medicine
 
 ## Projects
-* [Comparing Pre-trained Language Models with Semantic Parsing](https://jbkjr.com/posts/2019/01/unsupervised_pretraining_comparison/)
+* [**Comparing Pre-trained Language Models with Semantic Parsing**](https://jbkjr.com/posts/2019/01/unsupervised_pretraining_comparison/)
   * First application of pre-trained language models to semantic parsing and the first application of the recent ELMo, OpenAI GPT, and BERT language models to any language generation task
   * Most significant project undertaken individually
-* [Tree2Tree: A Reimplementation and Discussion of Tree-Based Neural Semantic Parsing](https://jbkjr.com/files/tree_sempar_final.pdf)
+* [**Tree2Tree: A Reimplementation and Discussion of Tree-Based Neural Semantic Parsing**](https://jbkjr.com/files/tree_sempar_final.pdf)
   * Compared sequence-to-sequence, sequence-to-tree, and novel tree-to-tree architectures for semantic parsing
   * Contributions to this project satisfied senior thesis requirements
 
