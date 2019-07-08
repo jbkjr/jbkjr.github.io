@@ -9,6 +9,7 @@ redirect_from:
 ## Contact
 * jack [at] jbkjr.[first 3 letters of "commercial"]
 * john.koch [at] yale.[first 3 letters of "education"]
+
 ## Education
 * [**Yale University**](http://yale.edu), New Haven, Connecticut, USA
   * B.S. in [Applied Mathematics](https://applied.math.yale.edu/)
