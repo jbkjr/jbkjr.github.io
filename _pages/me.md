@@ -1,6 +1,6 @@
 ---
 permalink: /me/
-title: "Jack Koch"
+title: "About me"
 excerpt: "More about me"
 author_profile: true
 redirect_from:
