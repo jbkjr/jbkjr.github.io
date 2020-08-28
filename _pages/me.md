@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /me/
 title: "Jack Koch"
 excerpt: "More about me"
 author_profile: true
