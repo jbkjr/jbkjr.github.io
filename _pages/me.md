@@ -4,7 +4,6 @@ title: "Jack Koch"
 excerpt: "More about me"
 author_profile: true
 redirect_from:
-  - /me/
   - /me.html
 ---
 
