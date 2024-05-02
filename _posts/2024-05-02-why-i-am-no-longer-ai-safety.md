@@ -18,7 +18,7 @@ Now, what if you were to learn there really *is* a way to accomplish this, with
 
 Knowing this, what possible reason could you give to justify continuing to suffer, for yourself, for your communities, for humanity?
 
-### Why/how this preempts the priority of AI work on the present EA agenda
+## Why/how this preempts the priority of AI work on the present EA agenda
 
 I can only imagine one kind of possible world in which it makes more sense to work on AI safety now and then stop suffering thereafter. The sooner TAI is likely to arrive and the more likely it is that its arrival will be catastrophic without further intervention **and** (crucially) the more likely it is that the safety problem actually will be solved with further effort, the more reasonable it becomes to make AI safe first and then stop suffering.
 
@@ -34,7 +34,7 @@ In summary, given your preference, ceteris paribus, to not suffer, the only vali
 
 So, why are you still suffering? Is it because you believe that your efforts to solve AI safety will meaningfully result in the avoidance of catastrophe in expectation, and that you could not make said efforts without temporarily deprioritizing the end of your own suffering?
 
-### The Community’s Blindspot/Why I Quit AI Safety Work
+## The Community’s Blindspot/Why I Quit AI Safety Work
 
 I can only imagine three possible explanations for why this argument hasn’t already been considered and discussed by the EA/Rationalist community:
 
