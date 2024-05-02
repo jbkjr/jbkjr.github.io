@@ -1,6 +1,6 @@
 ---
 title: 'Why I'm no longer thinking about/working on AI safety' 
-date: 2024-05-02
+date: 2024-05-01
 permalink: /posts/2024/05/why-im-no-longer-ai-safety/
 tags:
   - alignment
