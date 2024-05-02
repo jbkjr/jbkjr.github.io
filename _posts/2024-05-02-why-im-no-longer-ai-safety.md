@@ -6,8 +6,8 @@ tags:
   - alignment
   - existential_safety
   - safety
-  - suffering reduction
-  - cause prioritization
+  - suffering_reduction
+  - cause_prioritization
 ---
 
 Here’s a description of a future which I understand Rationalists and Effective Altruists in general would endorse as an (if not the) ideal outcome of the labors of humanity: **no suffering**, minimal pain/displeasure, maximal ‘happiness’ (preferably for an astronomical number of intelligent, sentient minds/beings). (Because we obviously want the best future experiences possible, for ourselves and future beings.)
