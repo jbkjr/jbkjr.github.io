@@ -1,5 +1,5 @@
 ---
-title: 'Why I'm no longer thinking about/working on AI safety' 
+title: 'Why I am no longer thinking about/working on AI safety' 
 date: 2024-05-02
 permalink: /posts/2024/05/why_im_no_longer_ai_safety/
 tags:
