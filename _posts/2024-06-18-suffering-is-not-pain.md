@@ -23,7 +23,7 @@ In [the Buddhist parable of the second arrow](https://www.accesstoinsight.org/ti
 * **Pain**: An unpleasant physical sensation or emotional experience.[^1]
 
 
-* **Suffering:** The unsatisfactoriness that arises from craving, aversion, and clinging/attachment to sensations and experiences; [dukkha](https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca1/dukkha.html).
+* **Suffering**: The unsatisfactoriness that arises from craving, aversion, and clinging/attachment to sensations and experiences; [dukkha](https://www.accesstoinsight.org/ptf/dhamma/sacca/sacca1/dukkha.html).
 
 I feel it is important to clarify at this point that, while the above definition of suffering derives from historically-Buddhist teachings about dukkha and its cause, I am not endorsing this definition because it is Buddhist but rather because I believe it best identifies suffering as it can actually be observed in phenomenal experience. For those who are skeptical (possibly deeply so) about the claims and teachings of Buddhism, I ask that you consider the distinction I am advocating with reference to your own experience(s) of pain and suffering. While both pain and suffering are phenomena that “feel bad” experientially, I maintain that the sensations and experiences to which the terms/concepts “pain” and “suffering” respectively refer are actually distinct as differentiated by the above definitions. As a tradition, Buddhism is almost entirely concerned with suffering, its cause, its cessation, and the way to its cessation, so I do not consider it far-fetched to think that the way(s) in which it describes suffering are quite useful in distinguishing it as it is to be found in actual experience.
 
@@ -34,13 +34,13 @@ Defining these terms clearly and accurately is crucial in differentiating betwee
 
 ## The relationship between pain and suffering
 
-**Pain is not the cause of suffering. **As illustrated by the parable of the second arrow and made clear in the above definitions of the terms, the cause of suffering is not pain but rather the reaction of craving, aversion, and clinging/attachment to sensations and experiences (which may or may not be painful or unpleasant).
+**Pain is not the cause of suffering.** As illustrated by the parable of the second arrow and made clear in the above definitions of the terms, the cause of suffering is not pain but rather the reaction of craving, aversion, and clinging/attachment to sensations and experiences (which may or may not be painful or unpleasant).
 
 It is sometimes said that “suffering = pain * resistance.” While I believe this formula is useful insofar as it makes a distinction between pain and suffering and indicates that resistance or aversion to pain results in suffering, I do not think it entirely captures the truth of the matter in that it suggests that suffering would not arise in the absence of pain. As my definition of suffering indicates, craving pleasure, even in the absence of pain, will result in suffering.
 
-**There can be pain without suffering. **If pain is experienced without attachment and aversion, there is no resulting suffering. If the Buddha were to stub his toe, there would be pain, but he would not suffer as a result.
+**There can be pain without suffering.** If pain is experienced without attachment and aversion, there is no resulting suffering. If the Buddha were to stub his toe, there would be pain, but he would not suffer as a result.
 
-**Suffering can occur without pain. **Consider, for example, a drug addict, who suffers because they crave the pleasure of a high and/or are averse to sobriety, or the stereotypical rich-but-miserable millionaire, who may have a relatively pain-free life but suffers regardless.
+**Suffering can occur without pain.** Consider, for example, a drug addict, who suffers because they crave the pleasure of a high and/or are averse to sobriety, or the stereotypical rich-but-miserable millionaire, who may have a relatively pain-free life but suffers regardless.
 
 
 ## Examples of the conflation of suffering and pain
