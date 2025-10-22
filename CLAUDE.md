@@ -21,7 +21,9 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 - ✅ Basic configuration (site title, baseUrl, footer links)
 - ✅ Test homepage created (`content/index.md`)
 - ✅ Local dev server working (`npx quartz build --serve` on port 8080)
+- ✅ Development tooling configured (Prettier, ESLint, pre-commit hook)
 - ✅ Committed: "Initial Quartz setup" (89ac7b6)
+- ✅ Committed: "Add CLAUDE.md for project context and collaboration guidelines" (d631c7b)
 
 ### What's Next
 
@@ -55,6 +57,8 @@ Also: images in `images/`, some PDFs in `files/`
 
 - `quartz.config.ts` - Main config (site metadata, theme, plugins)
 - `quartz.layout.ts` - Layout/component configuration
+- `eslint.config.js` - ESLint configuration (code quality linting)
+- `.prettierrc` - Prettier configuration (code formatting)
 - `CNAME` - Domain configuration for GitHub Pages
 
 ### Content
@@ -108,12 +112,51 @@ npx quartz build --serve
 # Build once
 npx quartz build
 
-# Check for errors
+# Type checking + format checking
 npm run check
 
-# Format code
+# Auto-format code with Prettier
 npm run format
+
+# Lint code for quality issues
+npm run lint
+
+# Lint and auto-fix issues
+npm run lint:fix
 ```
+
+## Development Tooling
+
+### Code Quality Setup
+
+**Prettier (Auto-formatting)**
+
+- Config: `.prettierrc`
+- Runs automatically on every commit via pre-commit hook
+- Manual run: `npm run format`
+- Settings: 100 char line width, 2-space tabs, no semicolons, trailing commas
+
+**ESLint (Code Linting)**
+
+- Config: `eslint.config.js` (ESLint v9 modern format)
+- Only lints custom code (ignores `quartz/` framework directory)
+- Catches code quality issues, unused variables, type errors
+- Manual run: `npm run lint`
+- Auto-fix: `npm run lint:fix`
+
+**Pre-commit Hook**
+
+- Location: `.git/hooks/pre-commit`
+- Automatically runs `npm run format` before every commit
+- Ensures all committed code is properly formatted
+- No action needed - works automatically
+
+### npm Package Management
+
+- All packages install locally to `node_modules/` (no virtual environment needed)
+- Dependencies tracked in `package.json` and `package-lock.json`
+- Framework code in `quartz/`, custom code outside it
+- ESLint configured to only check custom code, not framework
 
 ## Useful Context
 
