@@ -14,7 +14,7 @@ Welcome to my personal website! This site is built with Quartz.
 
 Let's test some Quartz features:
 
-- **Bold text** and *italic text*
+- **Bold text** and _italic text_
 - Code: `inline code`
 - Math: $E = mc^2$
 
