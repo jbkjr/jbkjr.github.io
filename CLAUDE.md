@@ -175,6 +175,12 @@ When unsure about:
 - **Framework modifications** - Discuss impact and alternatives
 - **Deployment** - Confirm GitHub Pages setup approach
 
+## Future Considerations
+
+Ideas to potentially implement later (not immediate priorities):
+
+- **Web-based editor**: Decap CMS or similar for publishing posts from browser (not needed for now, comfortable with vim + git workflow)
+
 ## Notes
 
 - This is a personal learning project, not a rush
