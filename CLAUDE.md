@@ -22,14 +22,19 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 - ✅ Test homepage created (`content/index.md`)
 - ✅ Local dev server working (`npx quartz build --serve` on port 8080)
 - ✅ Development tooling configured (Prettier, ESLint, pre-commit hook)
+- ✅ Typography customization: Open Sans applied for headers and body text
+- ✅ Font Preference Finder tool created (ELO rating + characteristic tracking)
+- ✅ Fixed Quartz bug: font names with spaces now properly URL-encoded
+- ✅ Design exploration page created for testing typography changes
 - ✅ Committed: "Initial Quartz setup" (89ac7b6)
 - ✅ Committed: "Add CLAUDE.md for project context and collaboration guidelines" (d631c7b)
+- ✅ Committed: "Apply Open Sans typography and add Font Preference Finder" (d2c024f)
 
 ### What's Next
 
 - [ ] Migrate 11 blog posts from `master` branch to `content/`
 - [ ] Set up GitHub Actions workflow for automatic deployment to GitHub Pages
-- [ ] Customize theme/layout/components as desired
+- [ ] Further theme customization (colors, layout)
 - [ ] Replace test content with real homepage content
 - [ ] Add About page
 
@@ -73,6 +78,7 @@ Also: images in `images/`, some PDFs in `files/`
   - `quartz/components/` - UI components (React/TSX)
   - `quartz/plugins/` - Content processing plugins
   - `quartz/styles/` - Global styles
+  - `quartz/util/theme.ts` - Theme utilities (MODIFIED: fixed font URL encoding bug)
 - **Note**: User is open to modifying framework files for customization
 
 ### Build Artifacts (DO NOT COMMIT)
@@ -80,6 +86,12 @@ Also: images in `images/`, some PDFs in `files/`
 - `public/` - Generated site (gitignored)
 - `node_modules/` - Dependencies (gitignored)
 - `.quartz-cache/` - Build cache (gitignored)
+
+### Tools & Utilities
+
+- `font-finder-v2.html` - Font Preference Finder tool (main version)
+- `quartz/static/font-finder.html` - Hosted copy of font finder (accessible at `/static/font-finder.html`)
+- `content/design-exploration.md` - Test page for exploring design changes
 
 ## Working Preferences
 
@@ -157,6 +169,64 @@ npm run lint:fix
 - Dependencies tracked in `package.json` and `package-lock.json`
 - Framework code in `quartz/`, custom code outside it
 - ESLint configured to only check custom code, not framework
+
+## Typography Configuration
+
+### Current Typography Settings
+
+```typescript
+// In quartz.config.ts
+typography: {
+  header: "Open Sans",
+  body: "Open Sans",
+  code: "IBM Plex Mono",
+}
+```
+
+**Design Decision**: Using Open Sans consistently for all text (headers and body) based on scientific preference testing. Code font remains distinct (IBM Plex Mono) for readability.
+
+**Alternative Option**: PT Serif (humanist serif) scored 2nd in preference testing and could be reconsidered in the future.
+
+### Font Preference Finder Tool
+
+Built a comprehensive tool (`font-finder-v2.html`) to scientifically determine font preferences:
+
+**Features**:
+
+- ELO rating system (K-factor: 32, initial rating: 1500) to rank 22 fonts
+- Characteristic tracking across 7 dimensions: contrast, x-height, width, weight, formality, readability, style
+- 3-phase tournament structure: category exploration → cross-category → finals
+- Dynamic font loading (only 2 fonts per matchup for reliable rendering)
+- Canvas-based font verification to ensure proper rendering
+- Data export to JSON
+
+**Technical Implementation**:
+
+- Loads fonts dynamically per matchup to avoid race conditions
+- Uses `document.fonts.ready` API + canvas measurement for verification
+- Properly encodes font names for Google Fonts API URLs
+- Tracks user characteristic preferences to identify patterns
+
+### Quartz Bug Fix: Font URL Encoding
+
+**Issue**: Font names with spaces (like "Open Sans") weren't being URL-encoded when generating Google Fonts API URLs, causing fonts to fail to load.
+
+**Fix Location**: `quartz/util/theme.ts:88-94`
+
+**Solution**: Added `encodeURIComponent()` to properly encode font names:
+
+```typescript
+export function googleFontHref(theme: Theme) {
+  const { header, body, code } = theme.typography
+  const headerFont = encodeURIComponent(formatFontSpecification("header", header))
+  const bodyFont = encodeURIComponent(formatFontSpecification("body", body))
+  const codeFont = encodeURIComponent(formatFontSpecification("code", code))
+
+  return `https://fonts.googleapis.com/css2?family=${headerFont}&family=${bodyFont}&family=${codeFont}&display=swap`
+}
+```
+
+**Impact**: This fix benefits any Quartz user using multi-word font names. Before: `"Open Sans"` → broken URL. After: `"Open Sans"` → `"Open%20Sans"` → working URL.
 
 ## Useful Context
 
