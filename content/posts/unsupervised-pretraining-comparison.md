@@ -1,6 +1,8 @@
 ---
 title: "Comparing Pre-trained Language Models with Semantic Parsing"
 date: 2019-01-09
+aliases:
+  - posts/2019/01/unsupervised_pretraining_comparison
 tags:
   - nlp
   - transfer_learning

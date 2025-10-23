@@ -53,31 +53,27 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 
 **Old Jekyll URL format**: `/posts/YYYY/MM/permalink_slug/`
 
-**New Quartz URL format**: `/posts/YYYY/YYYY-MM-DD-filename`
+**New Quartz URL format**: `/posts/slug` (flat structure, clean URLs)
 
 **URL Mapping** (Old → New):
 
 ```
-/posts/2018/06/welcome/ → /posts/2018/2018-06-06-welcome
-/posts/2018/06/need_ml_safety_researchers/ → /posts/2018/2018-06-20-need_ml_safety_researchers
-/posts/2018/10/fastai_openai_transformer/ → /posts/2018/2018-10-04-fastai_openai_transformer
-/posts/2018/12/rick_and_morty/ → /posts/2018/2018-12-15-rick_and_morty
-/posts/2018/12/elmo_sempar/ → /posts/2018/2018-12-24-elmo_sempar
-/posts/2019/01/unsupervised_pretraining_comparison/ → /posts/2019/2019-01-09-unsupervised_pretraining_comparison
-/posts/2020/10/better_terminology_for_ai_x_risks/ → /posts/2020/2020-10-08-better-x-risk-terminology
-/posts/2020/11/getting-started-spinning-up/ → /posts/2020/2020-11-29-getting-started-spinning-up
-/posts/2020/12/mapping_conceptual_territory_AI_safety_alignment/ → /posts/2020/2020-12-17-mapping-conceptual-territory
-/posts/2024/05/why_i_am_no_longer_ai_safety/ → /posts/2024/2024-05-02-why-i-am-no-longer-ai-safety
-/posts/2024/06/suffering_is_not_pain/ → /posts/2024/2024-06-18-suffering-is-not-pain
+/posts/2018/06/welcome/ → /posts/welcome
+/posts/2018/06/need_ml_safety_researchers/ → /posts/need-ml-safety-researchers
+/posts/2018/10/fastai_openai_transformer/ → /posts/fastai-openai-transformer
+/posts/2018/12/rick_and_morty/ → /posts/rick-and-morty
+/posts/2018/12/elmo_sempar/ → /posts/elmo-sempar
+/posts/2019/01/unsupervised_pretraining_comparison/ → /posts/unsupervised-pretraining-comparison
+/posts/2020/10/better_terminology_for_ai_x_risks/ → /posts/better-x-risk-terminology
+/posts/2020/11/getting-started-spinning-up/ → /posts/getting-started-spinning-up
+/posts/2020/12/mapping_conceptual_territory_AI_safety_alignment/ → /posts/mapping-conceptual-territory
+/posts/2024/05/why_i_am_no_longer_ai_safety/ → /posts/why-i-am-no-longer-ai-safety
+/posts/2024/06/suffering_is_not_pain/ → /posts/suffering-is-not-pain
 ```
 
-**Implementation Options**:
+**Implementation**: ✅ Using Quartz's built-in `aliases` frontmatter field with AliasRedirects plugin. Each post has an `aliases` array pointing to its old Jekyll URL. The plugin generates SEO-friendly HTML redirect pages with meta refresh and canonical links.
 
-1. **Quartz AliasRedirects plugin**: Add `aliases` to frontmatter of each post
-2. **GitHub Pages redirects**: Use `_redirects` file or redirect HTML pages
-3. **Custom plugin**: Create a redirect plugin based on old permalink field
-
-**Recommended approach**: Use Quartz's built-in `aliases` frontmatter field, which the AliasRedirects plugin will handle automatically.
+**File Organization**: Posts are stored flat in `content/posts/` with clean filenames (no date prefixes). Explorer sorts posts chronologically by date metadata (newest first), providing visual organization without folder hierarchy.
 
 ## Key Files & Structure
 

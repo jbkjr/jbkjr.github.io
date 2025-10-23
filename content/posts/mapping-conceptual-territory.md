@@ -1,6 +1,8 @@
 ---
 title: "Mapping the Conceptual Territory in AI Existential Safety and Alignment"
 date: 2020-12-17
+aliases:
+  - posts/2020/12/mapping_conceptual_territory_AI_safety_alignment
 tags:
   - alignment
   - existential_safety

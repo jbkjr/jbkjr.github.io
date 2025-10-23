@@ -1,6 +1,8 @@
 ---
 title: "Spinning Up in Deep RL: Getting Started"
 date: 2020-11-29
+aliases:
+  - posts/2020/11/getting-started-spinning-up
 tags:
   - reinforcement learning
   - spinning up

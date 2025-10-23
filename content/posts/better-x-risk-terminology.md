@@ -1,6 +1,8 @@
 ---
 title: "The Need for Better Terminology in Discussing Existential Risks from AI"
 date: 2020-10-08
+aliases:
+  - posts/2020/10/better_terminology_for_ai_x_risks
 tags:
   - alignment
   - existential_safety

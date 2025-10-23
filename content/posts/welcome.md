@@ -1,6 +1,8 @@
 ---
 title: "Welcome!"
 date: 2018-06-06
+aliases:
+  - posts/2018/06/welcome
 tags:
   - general
 ---

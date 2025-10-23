@@ -1,6 +1,8 @@
 ---
 title: "Why I stopped working on AI safety"
 date: 2024-05-02
+aliases:
+  - posts/2024/05/why_i_am_no_longer_ai_safety
 tags:
   - alignment
   - existential_safety

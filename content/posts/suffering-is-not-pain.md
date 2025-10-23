@@ -1,6 +1,8 @@
 ---
 title: "Suffering Is Not Pain"
 date: 2024-06-18
+aliases:
+  - posts/2024/06/suffering_is_not_pain
 tags:
   - suffering
 ---

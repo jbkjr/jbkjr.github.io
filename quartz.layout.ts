@@ -40,10 +40,26 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       folderDefaultState: "collapsed",
-      mapFn: (node) => {
-        // Remove date prefix from post filenames (e.g., "2024-05-02-" → "")
-        node.displayName = node.displayName.replace(/^\d{4}-\d{2}-\d{2}-/, "")
-        return node
+      sortFn: (a, b) => {
+        // Sort folders first, then files
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          // For posts, sort by date (newest first)
+          if (
+            !a.isFolder &&
+            a.data?.slug?.startsWith("posts/") &&
+            b.data?.slug?.startsWith("posts/")
+          ) {
+            const aDate = new Date(a.data?.date ?? 0)
+            const bDate = new Date(b.data?.date ?? 0)
+            return bDate.getTime() - aDate.getTime() // Newest first
+          }
+          // For other files/folders, sort alphabetically
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        return a.isFolder ? -1 : 1
       },
     }),
   ],
@@ -71,10 +87,26 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       folderDefaultState: "collapsed",
-      mapFn: (node) => {
-        // Remove date prefix from post filenames (e.g., "2024-05-02-" → "")
-        node.displayName = node.displayName.replace(/^\d{4}-\d{2}-\d{2}-/, "")
-        return node
+      sortFn: (a, b) => {
+        // Sort folders first, then files
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          // For posts, sort by date (newest first)
+          if (
+            !a.isFolder &&
+            a.data?.slug?.startsWith("posts/") &&
+            b.data?.slug?.startsWith("posts/")
+          ) {
+            const aDate = new Date(a.data?.date ?? 0)
+            const bDate = new Date(b.data?.date ?? 0)
+            return bDate.getTime() - aDate.getTime() // Newest first
+          }
+          // For other files/folders, sort alphabetically
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        return a.isFolder ? -1 : 1
       },
     }),
   ],

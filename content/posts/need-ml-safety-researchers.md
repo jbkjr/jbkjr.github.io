@@ -1,6 +1,8 @@
 ---
 title: "The Need for ML Safety Researchers"
 date: 2018-06-20
+aliases:
+  - posts/2018/06/need_ml_safety_researchers
 tags:
   - agi
   - safety

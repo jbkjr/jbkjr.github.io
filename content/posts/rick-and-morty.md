@@ -1,6 +1,8 @@
 ---
 title: 'Rick and Morty & Metamodernism: Always "both-neither," Never "either-or"'
 date: 2018-12-15
+aliases:
+  - posts/2018/12/rick_and_morty
 tags:
   - television
   - rick_and_morty

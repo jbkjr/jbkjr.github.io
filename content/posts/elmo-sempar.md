@@ -1,6 +1,8 @@
 ---
 title: "Applying Unsupervised Pretraining to Language Generation: Semantic Parsing + ELMo"
 date: 2018-12-24
+aliases:
+  - posts/2018/12/elmo_sempar
 tags:
   - nlp
   - transfer_learning
