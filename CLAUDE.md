@@ -27,27 +27,32 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 - ✅ Fixed Quartz bug: font names with spaces now properly URL-encoded
 - ✅ Design exploration page created for testing typography changes
 - ✅ **Blog migration complete**: All 11 posts migrated from master branch
-  - Organized into year-based folders (`content/posts/2018/`, `2019/`, `2020/`, `2024/`)
+  - Flat structure: `content/posts/{slug}.md` (no year folders, no date prefixes)
+  - Clean URLs: `/posts/{slug}` (e.g., `/posts/welcome`)
   - Jekyll frontmatter cleaned up (removed `permalink` fields, kept `title`, `date`, `tags`)
+  - Added `aliases` to each post for backward compatibility with old Jekyll URLs
   - Removed Jekyll image syntax (`{:class="img-responsive"}`)
   - All 11 referenced images migrated to `content/images/`
-- ✅ **Explorer improvements**: Folders collapsed by default, date prefixes removed from display
+- ✅ **URL backward compatibility**: Old Jekyll URLs redirect to new flat URLs via AliasRedirects plugin
+- ✅ **Explorer improvements**: Sorts posts by date (newest first), folders collapsed by default
 - ✅ **Fixed footnote rendering**: Added inline text before footnote markers to fix markdown parsing
 - ✅ **Fixed Quartz popover bug**: Footnote previews now show correct content (popover IDs include hash)
 - ✅ Committed: "Initial Quartz setup" (89ac7b6)
 - ✅ Committed: "Add CLAUDE.md for project context and collaboration guidelines" (d631c7b)
 - ✅ Committed: "Apply Open Sans typography and add Font Preference Finder" (d2c024f)
+- ✅ Committed: "Migrate blog posts and fix footnote rendering" (c17e3f1)
+- ✅ Committed: "Fix permalink for fastai transformer post (Aug -> Oct)" on master (0a572b1)
+- ✅ Committed: "Implement flat URL structure with date-based sorting" (ebbaa80)
 
 ### What's Next
 
-- [ ] **CRITICAL: Set up URL redirects for backward compatibility** (see URL Migration section below)
-- [ ] Explorer sidebar refinement (organization/styling needs work)
 - [ ] Set up GitHub Actions workflow for automatic deployment to GitHub Pages
 - [ ] Further theme customization (colors, layout)
 - [ ] Replace test content with real homepage content
 - [ ] Add About page
+- [ ] Consider Explorer sidebar styling refinements (optional)
 
-### URL Migration (Backward Compatibility Required)
+### URL Migration (Backward Compatibility) ✅ COMPLETE
 
 **Requirement**: All existing URLs from the old Jekyll site must redirect to the new Quartz URLs to maintain SEO and existing links.
 
