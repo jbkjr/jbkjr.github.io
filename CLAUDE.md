@@ -60,7 +60,7 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 ```
 /posts/2018/06/welcome/ → /posts/2018/2018-06-06-welcome
 /posts/2018/06/need_ml_safety_researchers/ → /posts/2018/2018-06-20-need_ml_safety_researchers
-/posts/2018/08/fastai_openai_transformer/ → /posts/2018/2018-10-04-fastai_openai_transformer
+/posts/2018/10/fastai_openai_transformer/ → /posts/2018/2018-10-04-fastai_openai_transformer
 /posts/2018/12/rick_and_morty/ → /posts/2018/2018-12-15-rick_and_morty
 /posts/2018/12/elmo_sempar/ → /posts/2018/2018-12-24-elmo_sempar
 /posts/2019/01/unsupervised_pretraining_comparison/ → /posts/2019/2019-01-09-unsupervised_pretraining_comparison
