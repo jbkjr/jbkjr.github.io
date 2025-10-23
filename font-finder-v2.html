@@ -1,0 +1,1212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Preference Finder v2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fonts will be loaded dynamically as needed -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        background: #1a1a1a;
+        color: #e0e0e0;
+        padding: 20px;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+
+      .phase-info {
+        background: #252525;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .phase-info h3 {
+        color: #4a9eff;
+        margin-bottom: 5px;
+      }
+
+      .progress {
+        font-size: 0.9rem;
+        color: #888;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin-bottom: 30px;
+      }
+
+      .stat-box {
+        background: #252525;
+        padding: 15px;
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      .stat-box .label {
+        font-size: 0.8rem;
+        color: #888;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+      }
+
+      .stat-box .value {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #4a9eff;
+      }
+
+      .matchup {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin-bottom: 30px;
+      }
+
+      @media (max-width: 768px) {
+        .matchup {
+          grid-template-columns: 1fr;
+          gap: 20px;
+        }
+      }
+
+      .option {
+        background: #252525;
+        border: 3px solid transparent;
+        border-radius: 12px;
+        padding: 30px;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+
+      .option:hover {
+        border-color: #4a9eff;
+        transform: translateY(-2px);
+      }
+
+      .font-info {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #333;
+      }
+
+      .font-name {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .font-category {
+        font-size: 0.8rem;
+        color: #888;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .font-elo {
+        font-size: 0.9rem;
+        color: #4a9eff;
+        margin-top: 5px;
+      }
+
+      .sample-content {
+        line-height: 1.6;
+      }
+
+      .sample-content h2 {
+        margin-bottom: 15px;
+      }
+
+      .sample-content p {
+        margin-bottom: 15px;
+      }
+
+      .sample-content code {
+        background: #1a1a1a;
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-family: "Courier New", monospace;
+      }
+
+      .results {
+        display: none;
+      }
+
+      .results.show {
+        display: block;
+      }
+
+      .results h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 30px;
+        color: #4a9eff;
+      }
+
+      .winner-section {
+        background: #252525;
+        padding: 30px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .winner-section .winner-font {
+        font-size: 3rem;
+        margin: 20px 0;
+        font-weight: bold;
+      }
+
+      .characteristic-profile {
+        background: #252525;
+        padding: 30px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+      }
+
+      .characteristic-profile h3 {
+        margin-bottom: 20px;
+        color: #4a9eff;
+      }
+
+      .char-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #333;
+      }
+
+      .char-item:last-child {
+        border-bottom: none;
+      }
+
+      .char-label {
+        font-weight: bold;
+      }
+
+      .char-value {
+        color: #4a9eff;
+      }
+
+      .top-fonts {
+        background: #252525;
+        padding: 30px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+      }
+
+      .top-fonts h3 {
+        margin-bottom: 20px;
+        color: #4a9eff;
+      }
+
+      .font-ranking {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        padding: 15px;
+        background: #1a1a1a;
+        border-radius: 8px;
+      }
+
+      .rank {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #666;
+        width: 40px;
+      }
+
+      .font-details {
+        flex: 1;
+        margin: 0 20px;
+      }
+
+      .font-details .name {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+
+      .font-details .category {
+        font-size: 0.8rem;
+        color: #888;
+      }
+
+      .elo-score {
+        font-size: 1.2rem;
+        color: #4a9eff;
+        font-weight: bold;
+      }
+
+      button {
+        background: #4a9eff;
+        color: white;
+        border: none;
+        padding: 12px 30px;
+        border-radius: 6px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin: 10px;
+      }
+
+      button:hover {
+        background: #3a8eef;
+      }
+
+      .loading {
+        text-align: center;
+        padding: 100px;
+        font-size: 1.2rem;
+        color: #888;
+      }
+
+      .button-group {
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🎨 Font Preference Finder v2</h1>
+      </header>
+
+      <div class="phase-info" id="phaseInfo">
+        <h3>Loading fonts...</h3>
+        <div class="progress"></div>
+      </div>
+
+      <div class="stats" id="stats" style="display: none">
+        <div class="stat-box">
+          <div class="label">Comparisons</div>
+          <div class="value" id="comparisonCount">0</div>
+        </div>
+        <div class="stat-box">
+          <div class="label">Current Phase</div>
+          <div class="value" id="currentPhase">-</div>
+        </div>
+        <div class="stat-box">
+          <div class="label">Fonts Evaluated</div>
+          <div class="value" id="fontsEvaluated">0</div>
+        </div>
+      </div>
+
+      <div class="matchup" id="matchup">
+        <div class="loading">Preparing font comparison...</div>
+      </div>
+
+      <div class="results" id="results">
+        <h2>🎉 Your Perfect Font!</h2>
+
+        <div class="winner-section">
+          <h3>Best Overall Match</h3>
+          <div class="winner-font" id="winnerFont"></div>
+          <p id="winnerExplanation"></p>
+        </div>
+
+        <div class="characteristic-profile">
+          <h3>Your Characteristic Preferences</h3>
+          <div id="charProfile"></div>
+        </div>
+
+        <div class="top-fonts">
+          <h3>Top 5 by ELO Rating</h3>
+          <div id="topFonts"></div>
+        </div>
+
+        <div class="button-group">
+          <button onclick="restart()">Start Over</button>
+          <button onclick="exportResults()">Export Results</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Comprehensive font database with characteristics
+      const fonts = [
+        // Old Style Serifs
+        {
+          name: "EB Garamond",
+          family: '"EB Garamond", serif',
+          category: "Serif",
+          subcategory: "Old Style",
+          characteristics: {
+            contrast: "medium",
+            xHeight: "medium",
+            width: "normal",
+            weight: "light",
+            formality: "formal",
+            readability: "high",
+            style: "traditional",
+          },
+        },
+        {
+          name: "Crimson Text",
+          family: '"Crimson Text", serif',
+          category: "Serif",
+          subcategory: "Old Style",
+          characteristics: {
+            contrast: "medium",
+            xHeight: "medium",
+            width: "normal",
+            weight: "medium",
+            formality: "formal",
+            readability: "high",
+            style: "traditional",
+          },
+        },
+        // Transitional Serifs
+        {
+          name: "Libre Baskerville",
+          family: '"Libre Baskerville", serif',
+          category: "Serif",
+          subcategory: "Transitional",
+          characteristics: {
+            contrast: "high",
+            xHeight: "medium",
+            width: "normal",
+            weight: "medium",
+            formality: "formal",
+            readability: "high",
+            style: "elegant",
+          },
+        },
+        // Modern Serifs
+        {
+          name: "Playfair Display",
+          family: '"Playfair Display", serif',
+          category: "Serif",
+          subcategory: "Modern",
+          characteristics: {
+            contrast: "very-high",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "formal",
+            readability: "medium",
+            style: "dramatic",
+          },
+        },
+        // Humanist Serifs
+        {
+          name: "Lora",
+          family: "Lora, serif",
+          category: "Serif",
+          subcategory: "Humanist",
+          characteristics: {
+            contrast: "medium",
+            xHeight: "medium",
+            width: "normal",
+            weight: "medium",
+            formality: "semi-formal",
+            readability: "very-high",
+            style: "friendly",
+          },
+        },
+        {
+          name: "Merriweather",
+          family: "Merriweather, serif",
+          category: "Serif",
+          subcategory: "Humanist",
+          characteristics: {
+            contrast: "medium",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "semi-formal",
+            readability: "very-high",
+            style: "friendly",
+          },
+        },
+        {
+          name: "PT Serif",
+          family: '"PT Serif", serif',
+          category: "Serif",
+          subcategory: "Humanist",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "semi-formal",
+            readability: "very-high",
+            style: "modern",
+          },
+        },
+        // Slab Serifs
+        {
+          name: "Roboto Slab",
+          family: '"Roboto Slab", serif',
+          category: "Serif",
+          subcategory: "Slab",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "casual",
+            readability: "high",
+            style: "modern",
+          },
+        },
+        {
+          name: "Courier Prime",
+          family: '"Courier Prime", monospace',
+          category: "Monospace",
+          subcategory: "Slab",
+          characteristics: {
+            contrast: "low",
+            xHeight: "medium",
+            width: "wide",
+            weight: "medium",
+            formality: "technical",
+            readability: "medium",
+            style: "typewriter",
+          },
+        },
+        // Neo-Grotesque Sans
+        {
+          name: "Inter",
+          family: "Inter, sans-serif",
+          category: "Sans-serif",
+          subcategory: "Neo-Grotesque",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "neutral",
+            readability: "very-high",
+            style: "modern",
+          },
+        },
+        {
+          name: "Roboto",
+          family: "Roboto, sans-serif",
+          category: "Sans-serif",
+          subcategory: "Neo-Grotesque",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "neutral",
+            readability: "very-high",
+            style: "modern",
+          },
+        },
+        // Geometric Sans
+        {
+          name: "Montserrat",
+          family: "Montserrat, sans-serif",
+          category: "Sans-serif",
+          subcategory: "Geometric",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "casual",
+            readability: "high",
+            style: "geometric",
+          },
+        },
+        {
+          name: "Raleway",
+          family: "Raleway, sans-serif",
+          category: "Sans-serif",
+          subcategory: "Geometric",
+          characteristics: {
+            contrast: "low",
+            xHeight: "medium",
+            width: "normal",
+            weight: "light",
+            formality: "elegant",
+            readability: "high",
+            style: "geometric",
+          },
+        },
+        // Humanist Sans
+        {
+          name: "Source Sans 3",
+          family: '"Source Sans 3", sans-serif',
+          category: "Sans-serif",
+          subcategory: "Humanist",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "friendly",
+            readability: "very-high",
+            style: "organic",
+          },
+        },
+        {
+          name: "Open Sans",
+          family: '"Open Sans", sans-serif',
+          category: "Sans-serif",
+          subcategory: "Humanist",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "friendly",
+            readability: "very-high",
+            style: "organic",
+          },
+        },
+        {
+          name: "Lato",
+          family: "Lato, sans-serif",
+          category: "Sans-serif",
+          subcategory: "Humanist",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "friendly",
+            readability: "very-high",
+            style: "warm",
+          },
+        },
+        {
+          name: "Nunito",
+          family: "Nunito, sans-serif",
+          category: "Sans-serif",
+          subcategory: "Humanist",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "casual",
+            readability: "high",
+            style: "rounded",
+          },
+        },
+        {
+          name: "Work Sans",
+          family: '"Work Sans", sans-serif',
+          category: "Sans-serif",
+          subcategory: "Humanist",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "neutral",
+            readability: "very-high",
+            style: "modern",
+          },
+        },
+        {
+          name: "IBM Plex Sans",
+          family: '"IBM Plex Sans", sans-serif',
+          category: "Sans-serif",
+          subcategory: "Humanist",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "normal",
+            weight: "medium",
+            formality: "professional",
+            readability: "very-high",
+            style: "technical",
+          },
+        },
+        // Monospace
+        {
+          name: "Fira Code",
+          family: '"Fira Code", monospace',
+          category: "Monospace",
+          subcategory: "Modern",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "wide",
+            weight: "medium",
+            formality: "technical",
+            readability: "high",
+            style: "code",
+          },
+        },
+        {
+          name: "JetBrains Mono",
+          family: '"JetBrains Mono", monospace',
+          category: "Monospace",
+          subcategory: "Modern",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "wide",
+            weight: "medium",
+            formality: "technical",
+            readability: "very-high",
+            style: "code",
+          },
+        },
+        {
+          name: "IBM Plex Mono",
+          family: '"IBM Plex Mono", monospace',
+          category: "Monospace",
+          subcategory: "Modern",
+          characteristics: {
+            contrast: "low",
+            xHeight: "large",
+            width: "wide",
+            weight: "medium",
+            formality: "technical",
+            readability: "very-high",
+            style: "code",
+          },
+        },
+      ]
+
+      const sampleContent = `
+            <h2>The Quick Brown Fox</h2>
+            <p>Typography is the art and technique of arranging type to make written language <strong>legible</strong>, <em>readable</em>, and appealing when displayed. This is a sample of body text that shows how the font looks in paragraph form.</p>
+            <p>Here's a sentence with some <code>inline code</code> to see how it integrates. Numbers: 0123456789.</p>
+        `
+
+      // ELO rating system
+      const K_FACTOR = 32 // How much ratings change per game
+      const INITIAL_ELO = 1500
+
+      // State
+      let fontData = fonts.map((f) => ({
+        ...f,
+        elo: INITIAL_ELO,
+        matches: 0,
+        wins: 0,
+      }))
+
+      let characteristicPreferences = {}
+      let comparisonCount = 0
+      let currentPhase = "exploring"
+      let phases = []
+      let currentPhaseIndex = 0
+      let currentMatchupInPhase = 0
+
+      // Initialize characteristic preferences
+      Object.keys(fonts[0].characteristics).forEach((char) => {
+        characteristicPreferences[char] = {}
+      })
+
+      function calculateExpectedScore(ratingA, ratingB) {
+        return 1 / (1 + Math.pow(10, (ratingB - ratingA) / 400))
+      }
+
+      function updateELO(winner, loser) {
+        const expectedWinner = calculateExpectedScore(winner.elo, loser.elo)
+        const expectedLoser = calculateExpectedScore(loser.elo, winner.elo)
+
+        winner.elo = Math.round(winner.elo + K_FACTOR * (1 - expectedWinner))
+        loser.elo = Math.round(loser.elo + K_FACTOR * (0 - expectedLoser))
+
+        winner.matches++
+        loser.matches++
+        winner.wins++
+      }
+
+      function updateCharacteristicPreferences(winner, loser) {
+        Object.keys(winner.characteristics).forEach((char) => {
+          const winnerValue = winner.characteristics[char]
+          const loserValue = loser.characteristics[char]
+
+          if (winnerValue !== loserValue) {
+            if (!characteristicPreferences[char][winnerValue]) {
+              characteristicPreferences[char][winnerValue] = 0
+            }
+            if (!characteristicPreferences[char][loserValue]) {
+              characteristicPreferences[char][loserValue] = 0
+            }
+            characteristicPreferences[char][winnerValue]++
+            characteristicPreferences[char][loserValue]--
+          }
+        })
+      }
+
+      function generatePhases() {
+        phases = []
+
+        // Phase 1: Explore each category thoroughly
+        const categories = ["Serif", "Sans-serif", "Monospace"]
+
+        categories.forEach((cat) => {
+          const categoryFonts = fontData.filter((f) => f.category === cat)
+          if (categoryFonts.length > 0) {
+            // Round robin within category
+            const matchups = []
+            for (let i = 0; i < categoryFonts.length; i++) {
+              for (let j = i + 1; j < categoryFonts.length; j++) {
+                matchups.push([categoryFonts[i], categoryFonts[j]])
+              }
+            }
+            // Shuffle for variety
+            matchups.sort(() => Math.random() - 0.5)
+
+            phases.push({
+              name: `Exploring ${cat} fonts`,
+              description: `Finding your favorite ${cat.toLowerCase()} font`,
+              matchups: matchups.slice(0, Math.min(6, matchups.length)),
+            })
+          }
+        })
+
+        // Phase 2: Compare top candidates from each category
+        phases.push({
+          name: "Category Champions",
+          description: "Comparing the best from each category",
+          matchups: [], // Will be generated dynamically
+        })
+
+        // Phase 3: Final refinement
+        phases.push({
+          name: "Final Showdown",
+          description: "Finding your perfect font",
+          matchups: [], // Will be generated dynamically
+        })
+      }
+
+      function getTopFontsFromCategory(category, n = 2) {
+        return fontData
+          .filter((f) => f.category === category)
+          .sort((a, b) => b.elo - a.elo)
+          .slice(0, n)
+      }
+
+      function generateCrossCategoryMatchups() {
+        const matchups = []
+        const serifTop = getTopFontsFromCategory("Serif", 2)
+        const sansTop = getTopFontsFromCategory("Sans-serif", 2)
+        const monoTop = getTopFontsFromCategory("Monospace", 1)
+
+        // Serif vs Sans
+        serifTop.forEach((s) => {
+          sansTop.forEach((n) => {
+            matchups.push([s, n])
+          })
+        })
+
+        // Top serif vs mono
+        if (serifTop[0] && monoTop[0]) {
+          matchups.push([serifTop[0], monoTop[0]])
+        }
+
+        // Top sans vs mono
+        if (sansTop[0] && monoTop[0]) {
+          matchups.push([sansTop[0], monoTop[0]])
+        }
+
+        return matchups
+      }
+
+      function generateFinalMatchups() {
+        // Top 5 overall
+        const top5 = [...fontData].sort((a, b) => b.elo - a.elo).slice(0, 5)
+        const matchups = []
+
+        // Ensure top contenders face each other
+        for (let i = 0; i < Math.min(3, top5.length); i++) {
+          for (let j = i + 1; j < Math.min(4, top5.length); j++) {
+            matchups.push([top5[i], top5[j]])
+          }
+        }
+
+        return matchups.slice(0, 4) // Limit to 4 final matchups
+      }
+
+      function getCurrentMatchup() {
+        if (currentPhaseIndex >= phases.length) {
+          showResults()
+          return null
+        }
+
+        const phase = phases[currentPhaseIndex]
+
+        // Generate matchups for dynamic phases
+        if (phase.matchups.length === 0) {
+          if (phase.name === "Category Champions") {
+            phase.matchups = generateCrossCategoryMatchups()
+          } else if (phase.name === "Final Showdown") {
+            phase.matchups = generateFinalMatchups()
+          }
+        }
+
+        if (currentMatchupInPhase >= phase.matchups.length) {
+          currentPhaseIndex++
+          currentMatchupInPhase = 0
+          return getCurrentMatchup()
+        }
+
+        return phase.matchups[currentMatchupInPhase]
+      }
+
+      async function showMatchup() {
+        const matchup = getCurrentMatchup()
+        if (!matchup) return
+
+        const [fontA, fontB] = matchup
+        const phase = phases[currentPhaseIndex]
+
+        // Show loading state
+        const matchupEl = document.getElementById("matchup")
+        matchupEl.innerHTML = `
+                <div class="loading">Loading fonts: ${fontA.name} vs ${fontB.name}...</div>
+            `
+
+        // Update phase info
+        document.getElementById("phaseInfo").innerHTML = `
+                <h3>${phase.name}</h3>
+                <div class="progress">${phase.description} (${currentMatchupInPhase + 1}/${phase.matchups.length})</div>
+            `
+
+        // Update stats
+        document.getElementById("comparisonCount").textContent = comparisonCount
+        document.getElementById("currentPhase").textContent =
+          `${currentPhaseIndex + 1}/${phases.length}`
+        document.getElementById("fontsEvaluated").textContent = fontData.filter(
+          (f) => f.matches > 0,
+        ).length
+
+        // Load fonts for this matchup
+        await loadFontsForMatchup(fontA, fontB)
+
+        // Show matchup after fonts are loaded
+        matchupEl.innerHTML = `
+                <div class="option" onclick="choose(0)">
+                    <div class="font-info">
+                        <div class="font-name">${fontA.name}</div>
+                        <div class="font-category">${fontA.subcategory} ${fontA.category}</div>
+                        <div class="font-elo">ELO: ${fontA.elo} (${fontA.wins}W-${fontA.matches - fontA.wins}L)</div>
+                    </div>
+                    <div class="sample-content" style="font-family: ${fontA.family} !important; font-size: 18px;">
+                        ${sampleContent}
+                    </div>
+                </div>
+                <div class="option" onclick="choose(1)">
+                    <div class="font-info">
+                        <div class="font-name">${fontB.name}</div>
+                        <div class="font-category">${fontB.subcategory} ${fontB.category}</div>
+                        <div class="font-elo">ELO: ${fontB.elo} (${fontB.wins}W-${fontB.matches - fontB.wins}L)</div>
+                    </div>
+                    <div class="sample-content" style="font-family: ${fontB.family} !important; font-size: 18px;">
+                        ${sampleContent}
+                    </div>
+                </div>
+            `
+
+        // Force font-family on all text elements inside sample-content
+        const options = matchupEl.querySelectorAll(".option")
+        options[0]
+          .querySelectorAll(".sample-content, .sample-content *:not(code)")
+          .forEach((el) => {
+            el.style.fontFamily = fontA.family
+          })
+        options[1]
+          .querySelectorAll(".sample-content, .sample-content *:not(code)")
+          .forEach((el) => {
+            el.style.fontFamily = fontB.family
+          })
+      }
+
+      async function choose(index) {
+        const matchup = getCurrentMatchup()
+        const winner = matchup[index]
+        const loser = matchup[1 - index]
+
+        updateELO(winner, loser)
+        updateCharacteristicPreferences(winner, loser)
+        comparisonCount++
+
+        currentMatchupInPhase++
+        await showMatchup()
+      }
+
+      function getCharacteristicProfile() {
+        const profile = {}
+
+        Object.keys(characteristicPreferences).forEach((char) => {
+          const values = characteristicPreferences[char]
+          const entries = Object.entries(values)
+          if (entries.length > 0) {
+            const sorted = entries.sort((a, b) => b[1] - a[1])
+            profile[char] = {
+              preferred: sorted[0][0],
+              score: sorted[0][1],
+            }
+          }
+        })
+
+        return profile
+      }
+
+      function calculateCharacteristicMatch(font, profile) {
+        let score = 0
+        let total = 0
+
+        Object.keys(profile).forEach((char) => {
+          if (font.characteristics[char] === profile[char].preferred) {
+            score += Math.abs(profile[char].score)
+          }
+          total += Math.abs(profile[char].score)
+        })
+
+        return total > 0 ? score / total : 0
+      }
+
+      function showResults() {
+        document.getElementById("stats").style.display = "none"
+        document.getElementById("phaseInfo").style.display = "none"
+        document.getElementById("matchup").style.display = "none"
+
+        const profile = getCharacteristicProfile()
+
+        // Find best overall (ELO + characteristic match)
+        const fontsWithScores = fontData
+          .map((f) => ({
+            ...f,
+            charMatch: calculateCharacteristicMatch(f, profile),
+            combinedScore: f.elo + calculateCharacteristicMatch(f, profile) * 500,
+          }))
+          .sort((a, b) => b.combinedScore - a.combinedScore)
+
+        const winner = fontsWithScores[0]
+
+        // Show winner
+        document.getElementById("winnerFont").textContent = winner.name
+        document.getElementById("winnerFont").style.fontFamily = winner.family
+        document.getElementById("winnerExplanation").innerHTML = `
+                <strong>${winner.subcategory} ${winner.category}</strong><br>
+                ELO Rating: ${winner.elo} (${winner.wins}W-${winner.matches - winner.wins}L)<br>
+                Characteristic Match: ${Math.round(winner.charMatch * 100)}%<br>
+                Combined Score: ${Math.round(winner.combinedScore)}
+            `
+
+        // Show characteristic profile
+        const charProfileEl = document.getElementById("charProfile")
+        const charEntries = Object.entries(profile).sort((a, b) => b[1].score - a[1].score)
+
+        charProfileEl.innerHTML = charEntries
+          .map(
+            ([char, data]) => `
+                <div class="char-item">
+                    <span class="char-label">${char.charAt(0).toUpperCase() + char.slice(1)}:</span>
+                    <span class="char-value">${data.preferred} (${data.score > 0 ? "+" : ""}${data.score})</span>
+                </div>
+            `,
+          )
+          .join("")
+
+        // Show top 5 by ELO
+        const top5 = [...fontData].sort((a, b) => b.elo - a.elo).slice(0, 5)
+        document.getElementById("topFonts").innerHTML = top5
+          .map(
+            (f, i) => `
+                <div class="font-ranking">
+                    <div class="rank">${i + 1}</div>
+                    <div class="font-details">
+                        <div class="name" style="font-family: ${f.family}">${f.name}</div>
+                        <div class="category">${f.subcategory} ${f.category}</div>
+                    </div>
+                    <div class="elo-score">${f.elo}</div>
+                </div>
+            `,
+          )
+          .join("")
+
+        document.getElementById("results").classList.add("show")
+      }
+
+      async function restart() {
+        fontData = fonts.map((f) => ({
+          ...f,
+          elo: INITIAL_ELO,
+          matches: 0,
+          wins: 0,
+        }))
+
+        Object.keys(fonts[0].characteristics).forEach((char) => {
+          characteristicPreferences[char] = {}
+        })
+
+        comparisonCount = 0
+        currentPhaseIndex = 0
+        currentMatchupInPhase = 0
+
+        generatePhases()
+
+        document.getElementById("stats").style.display = "grid"
+        document.getElementById("phaseInfo").style.display = "block"
+        document.getElementById("matchup").style.display = "grid"
+        document.getElementById("results").classList.remove("show")
+
+        await showMatchup()
+      }
+
+      function exportResults() {
+        const profile = getCharacteristicProfile()
+        const top5 = [...fontData].sort((a, b) => b.elo - a.elo).slice(0, 5)
+
+        const results = {
+          winner: top5[0].name,
+          characteristicProfile: profile,
+          topFonts: top5.map((f) => ({
+            name: f.name,
+            category: f.category,
+            subcategory: f.subcategory,
+            elo: f.elo,
+            record: `${f.wins}-${f.matches - f.wins}`,
+          })),
+          comparisons: comparisonCount,
+        }
+
+        const blob = new Blob([JSON.stringify(results, null, 2)], { type: "application/json" })
+        const url = URL.createObjectURL(blob)
+        const a = document.createElement("a")
+        a.href = url
+        a.download = "font-preferences.json"
+        a.click()
+        URL.revokeObjectURL(url)
+      }
+
+      // Map font names to Google Fonts URL format
+      const fontToGoogleUrl = {
+        "EB Garamond": "EB+Garamond:ital,wght@0,400;0,700;1,400",
+        "Crimson Text": "Crimson+Text:ital,wght@0,400;0,700;1,400",
+        "Libre Baskerville": "Libre+Baskerville:ital,wght@0,400;0,700;1,400",
+        "Playfair Display": "Playfair+Display:ital,wght@0,400;0,700;1,400",
+        Lora: "Lora:ital,wght@0,400;0,700;1,400",
+        Merriweather: "Merriweather:ital,wght@0,400;0,700;1,400",
+        "PT Serif": "PT+Serif:ital,wght@0,400;0,700;1,400",
+        "Roboto Slab": "Roboto+Slab:wght@400;700",
+        "Courier Prime": "Courier+Prime:ital,wght@0,400;0,700;1,400",
+        Inter: "Inter:wght@400;700",
+        Roboto: "Roboto:ital,wght@0,400;0,700;1,400",
+        Montserrat: "Montserrat:wght@400;700",
+        Raleway: "Raleway:wght@400;700",
+        "Source Sans 3": "Source+Sans+3:ital,wght@0,400;0,700;1,400",
+        "Open Sans": "Open+Sans:ital,wght@0,400;0,700;1,400",
+        Lato: "Lato:ital,wght@0,400;0,700;1,400",
+        Nunito: "Nunito:wght@400;700",
+        "Work Sans": "Work+Sans:ital,wght@0,400;0,700;1,400",
+        "IBM Plex Sans": "IBM+Plex+Sans:ital,wght@0,400;0,700;1,400",
+        "Fira Code": "Fira+Code:wght@400;700",
+        "JetBrains Mono": "JetBrains+Mono:ital,wght@0,400;0,700;1,400",
+        "IBM Plex Mono": "IBM+Plex+Mono:ital,wght@0,400;0,700;1,400",
+      }
+
+      let currentFontLink = null
+
+      // Check if a font is actually rendering by measuring text width
+      function isFontLoaded(fontFamily, fallbackFamily = "monospace") {
+        const testText = "mmmmmmmmmmlli"
+        const fontSize = "72px"
+
+        const canvas = document.createElement("canvas")
+        const context = canvas.getContext("2d")
+
+        // Measure with fallback font
+        context.font = `${fontSize} ${fallbackFamily}`
+        const fallbackWidth = context.measureText(testText).width
+
+        // Measure with target font (with fallback)
+        context.font = `${fontSize} ${fontFamily}, ${fallbackFamily}`
+        const targetWidth = context.measureText(testText).width
+
+        // If widths are different, the font loaded
+        return Math.abs(targetWidth - fallbackWidth) > 0.1
+      }
+
+      // Load fonts dynamically for a specific matchup
+      async function loadFontsForMatchup(fontA, fontB) {
+        // Remove previous font link if it exists
+        if (currentFontLink && currentFontLink.parentNode) {
+          currentFontLink.parentNode.removeChild(currentFontLink)
+        }
+
+        // Create new link element for just these 2 fonts
+        const googleFontA = fontToGoogleUrl[fontA.name]
+        const googleFontB = fontToGoogleUrl[fontB.name]
+
+        const fontUrl = `https://fonts.googleapis.com/css2?family=${googleFontA}&family=${googleFontB}&display=swap`
+
+        const link = document.createElement("link")
+        link.rel = "stylesheet"
+        link.href = fontUrl
+
+        // Wait for the link to load
+        await new Promise((resolve, reject) => {
+          link.onload = resolve
+          link.onerror = reject
+          document.head.appendChild(link)
+        })
+
+        currentFontLink = link
+
+        // Wait for document.fonts.ready
+        await document.fonts.ready
+
+        // Now wait until fonts are actually rendering (poll with timeout)
+        const maxAttempts = 20
+        const delayMs = 100
+
+        for (let i = 0; i < maxAttempts; i++) {
+          const fontALoaded = isFontLoaded(fontA.family)
+          const fontBLoaded = isFontLoaded(fontB.family)
+
+          if (fontALoaded && fontBLoaded) {
+            break
+          }
+
+          await new Promise((resolve) => setTimeout(resolve, delayMs))
+        }
+
+        // Additional delay to ensure rendering is ready
+        await new Promise((resolve) => setTimeout(resolve, 100))
+      }
+
+      // Initialize
+      generatePhases()
+      document.getElementById("stats").style.display = "grid"
+      showMatchup()
+    </script>
+  </body>
+</html>

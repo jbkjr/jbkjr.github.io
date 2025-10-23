@@ -23,8 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Open Sans",
+        body: "Open Sans",
+        // Alternative option to try: "PT Serif" (humanist serif, scored 2nd in preference test)
         code: "IBM Plex Mono",
       },
       colors: {
