@@ -147,6 +147,20 @@ window.spaNavigate = navigate
 
 function createRouter() {
   if (typeof window !== "undefined") {
+    // On initial page load, scroll to top ONLY if it's not a reload and has no hash
+    // This fixes fresh loads scrolling to random positions while preserving reload behavior
+    const navigationEntry = performance.getEntriesByType(
+      "navigation",
+    )[0] as PerformanceNavigationTiming
+    if (
+      navigationEntry &&
+      navigationEntry.type !== "reload" &&
+      navigationEntry.type !== "back_forward" &&
+      !window.location.hash
+    ) {
+      window.scrollTo({ top: 0 })
+    }
+
     window.addEventListener("click", async (event) => {
       const { url } = getOpts(event) ?? {}
       // dont hijack behaviour, just let browser act normally
