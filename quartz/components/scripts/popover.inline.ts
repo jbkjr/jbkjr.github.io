@@ -41,9 +41,11 @@ async function mouseEnterHandler(
 
   const targetUrl = new URL(link.href)
   const hash = decodeURIComponent(targetUrl.hash)
+  const hashForId = hash // Save original hash for popover ID
   targetUrl.hash = ""
   targetUrl.search = ""
-  const popoverId = `popover-${link.pathname}`
+  // Include hash in popover ID for same-page anchors (like footnotes)
+  const popoverId = `popover-${link.pathname}${hashForId}`
   const prevPopoverElement = document.getElementById(popoverId)
 
   // dont refetch if there's already a popover

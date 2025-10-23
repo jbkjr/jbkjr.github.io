@@ -8,11 +8,11 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 - **Tech Stack**: Quartz (TypeScript/Node.js), hosted on GitHub Pages
 - **Learning Context**: This project is also for learning effective Claude collaboration
 
-## Current State (as of 2025-10-22)
+## Current State (as of 2025-10-23)
 
 ### Branch Structure
 
-- `master` - Old Jekyll site (preserved, contains 11 blog posts from 2018-2024)
+- `master` - Old Jekyll site (preserved, original content source)
 - `quartz-rebuild` - ✅ NEW Quartz setup (current working branch)
 
 ### What's Done
@@ -26,35 +26,25 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 - ✅ Font Preference Finder tool created (ELO rating + characteristic tracking)
 - ✅ Fixed Quartz bug: font names with spaces now properly URL-encoded
 - ✅ Design exploration page created for testing typography changes
+- ✅ **Blog migration complete**: All 11 posts migrated from master branch
+  - Organized into year-based folders (`content/posts/2018/`, `2019/`, `2020/`, `2024/`)
+  - Jekyll frontmatter cleaned up (removed `permalink` fields, kept `title`, `date`, `tags`)
+  - Removed Jekyll image syntax (`{:class="img-responsive"}`)
+  - All 11 referenced images migrated to `content/images/`
+- ✅ **Explorer improvements**: Folders collapsed by default, date prefixes removed from display
+- ✅ **Fixed footnote rendering**: Added inline text before footnote markers to fix markdown parsing
+- ✅ **Fixed Quartz popover bug**: Footnote previews now show correct content (popover IDs include hash)
 - ✅ Committed: "Initial Quartz setup" (89ac7b6)
 - ✅ Committed: "Add CLAUDE.md for project context and collaboration guidelines" (d631c7b)
 - ✅ Committed: "Apply Open Sans typography and add Font Preference Finder" (d2c024f)
 
 ### What's Next
 
-- [ ] Migrate 11 blog posts from `master` branch to `content/`
+- [ ] Explorer sidebar refinement (organization/styling needs work)
 - [ ] Set up GitHub Actions workflow for automatic deployment to GitHub Pages
 - [ ] Further theme customization (colors, layout)
 - [ ] Replace test content with real homepage content
 - [ ] Add About page
-
-### Old Content to Migrate (on master branch)
-
-11 blog posts in `_posts/`:
-
-- 2024-05-02: Why I stopped working on AI safety
-- 2024-06-18: Suffering is not pain
-- 2020-12-17: Mapping conceptual territory
-- 2020-11-29: Getting started with Spinning Up
-- 2020-10-08: Better x-risk terminology
-- 2019-01-09: Unsupervised pretraining comparison
-- 2018-12-24: ELMo semantic parsing
-- 2018-12-15: Rick and Morty
-- 2018-10-04: FastAI OpenAI Transformer
-- 2018-06-20: Need ML safety researchers
-- 2018-06-06: Welcome post
-
-Also: images in `images/`, some PDFs in `files/`
 
 ## Key Files & Structure
 
@@ -227,6 +217,26 @@ export function googleFontHref(theme: Theme) {
 ```
 
 **Impact**: This fix benefits any Quartz user using multi-word font names. Before: `"Open Sans"` → broken URL. After: `"Open Sans"` → `"Open%20Sans"` → working URL.
+
+### Quartz Bug Fix: Footnote Popover Caching
+
+**Issue**: When hovering over different footnotes on the same page, all footnotes showed the same popover content (the first footnote's content). This was because popovers were cached by pathname only, without considering the anchor hash.
+
+**Fix Location**: `quartz/components/scripts/popover.inline.ts:42-48`
+
+**Solution**: Include the hash in the popover ID to create unique popovers for each same-page anchor:
+
+```typescript
+const targetUrl = new URL(link.href)
+const hash = decodeURIComponent(targetUrl.hash)
+const hashForId = hash // Save original hash for popover ID
+targetUrl.hash = ""
+targetUrl.search = ""
+// Include hash in popover ID for same-page anchors (like footnotes)
+const popoverId = `popover-${link.pathname}${hashForId}`
+```
+
+**Impact**: Fixes popover previews for all same-page anchors, particularly important for footnote-heavy content. Each footnote now gets its own cached popover.
 
 ## Useful Context
 

@@ -38,7 +38,14 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      folderDefaultState: "collapsed",
+      mapFn: (node) => {
+        // Remove date prefix from post filenames (e.g., "2024-05-02-" → "")
+        node.displayName = node.displayName.replace(/^\d{4}-\d{2}-\d{2}-/, "")
+        return node
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +69,14 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      folderDefaultState: "collapsed",
+      mapFn: (node) => {
+        // Remove date prefix from post filenames (e.g., "2024-05-02-" → "")
+        node.displayName = node.displayName.replace(/^\d{4}-\d{2}-\d{2}-/, "")
+        return node
+      },
+    }),
   ],
   right: [],
 }
