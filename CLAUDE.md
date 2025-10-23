@@ -40,11 +40,44 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 
 ### What's Next
 
+- [ ] **CRITICAL: Set up URL redirects for backward compatibility** (see URL Migration section below)
 - [ ] Explorer sidebar refinement (organization/styling needs work)
 - [ ] Set up GitHub Actions workflow for automatic deployment to GitHub Pages
 - [ ] Further theme customization (colors, layout)
 - [ ] Replace test content with real homepage content
 - [ ] Add About page
+
+### URL Migration (Backward Compatibility Required)
+
+**Requirement**: All existing URLs from the old Jekyll site must redirect to the new Quartz URLs to maintain SEO and existing links.
+
+**Old Jekyll URL format**: `/posts/YYYY/MM/permalink_slug/`
+
+**New Quartz URL format**: `/posts/YYYY/YYYY-MM-DD-filename`
+
+**URL Mapping** (Old → New):
+
+```
+/posts/2018/06/welcome/ → /posts/2018/2018-06-06-welcome
+/posts/2018/06/need_ml_safety_researchers/ → /posts/2018/2018-06-20-need_ml_safety_researchers
+/posts/2018/08/fastai_openai_transformer/ → /posts/2018/2018-10-04-fastai_openai_transformer
+/posts/2018/12/rick_and_morty/ → /posts/2018/2018-12-15-rick_and_morty
+/posts/2018/12/elmo_sempar/ → /posts/2018/2018-12-24-elmo_sempar
+/posts/2019/01/unsupervised_pretraining_comparison/ → /posts/2019/2019-01-09-unsupervised_pretraining_comparison
+/posts/2020/10/better_terminology_for_ai_x_risks/ → /posts/2020/2020-10-08-better-x-risk-terminology
+/posts/2020/11/getting-started-spinning-up/ → /posts/2020/2020-11-29-getting-started-spinning-up
+/posts/2020/12/mapping_conceptual_territory_AI_safety_alignment/ → /posts/2020/2020-12-17-mapping-conceptual-territory
+/posts/2024/05/why_i_am_no_longer_ai_safety/ → /posts/2024/2024-05-02-why-i-am-no-longer-ai-safety
+/posts/2024/06/suffering_is_not_pain/ → /posts/2024/2024-06-18-suffering-is-not-pain
+```
+
+**Implementation Options**:
+
+1. **Quartz AliasRedirects plugin**: Add `aliases` to frontmatter of each post
+2. **GitHub Pages redirects**: Use `_redirects` file or redirect HTML pages
+3. **Custom plugin**: Create a redirect plugin based on old permalink field
+
+**Recommended approach**: Use Quartz's built-in `aliases` frontmatter field, which the AliasRedirects plugin will handle automatically.
 
 ## Key Files & Structure
 
