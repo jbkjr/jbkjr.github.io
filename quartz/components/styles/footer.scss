@@ -1,7 +1,9 @@
 footer {
   text-align: left;
   margin-bottom: 4rem;
-  opacity: 0.7;
+  /* CUSTOMIZATION: Removed opacity: 0.7 to keep footer links consistent with site colors */
+  /* To revert: uncomment line below */
+  /* opacity: 0.7; */
 
   & ul {
     list-style: none;
