@@ -4,8 +4,11 @@ date: 2019-01-09
 aliases:
   - posts/2019/01/unsupervised_pretraining_comparison
 tags:
+  - ai
   - nlp
-  - transfer_learning
+  - transfer-learning
+  - language-models
+  - semantic-parsing
 ---
 
 In my [last post]({% post_url 2018-12-24-elmo_sempar %}), I showed how adding ELMo features to a seq2seq model improved performance on semantic parsing tasks. Recently, I have been experimenting with adding [OpenAI GPT](https://blog.openai.com/language-unsupervised/) and [BERT](https://arxiv.org/abs/1810.04805) to the model in order to compare their performance against ELMo's. All the data, configuration files, and scripts needed to reproduce my experiments have been pushed to the [GitHub repository](https://github.com/jbkjr/allennlp_sempar). I'm excited to share my results!

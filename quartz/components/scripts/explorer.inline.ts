@@ -54,6 +54,11 @@ function toggleFolder(evt: MouseEvent) {
         target.parentElement?.parentElement
   ) as MaybeHTMLElement
   if (!folderContainer) return
+
+  // Don't toggle empty folders
+  const parentLi = folderContainer.closest("li")
+  if (parentLi?.classList.contains("empty-folder")) return
+
   const childFolderContainer = folderContainer.nextElementSibling as MaybeHTMLElement
   if (!childFolderContainer) return
 
@@ -145,6 +150,11 @@ function createFolderNode(
       ? createFolderNode(currentSlug, child, opts)
       : createFileNode(currentSlug, child)
     ul.appendChild(childNode)
+  }
+
+  // Add class for empty folders (folders with no children after filtering)
+  if (node.children.length === 0) {
+    li.classList.add("empty-folder")
   }
 
   return li

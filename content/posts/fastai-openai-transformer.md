@@ -5,9 +5,10 @@ aliases:
   - posts/2018/08/fastai_openai_transformer
   - posts/2018/10/fastai_openai_transformer
 tags:
+  - ai
   - nlp
-  - transformer
-  - transfer_learning
+  - transfer-learning
+  - language-models
 ---
 
 I wanted to write this blog post to share a bit of interesting code I’ve been working on recently. Earlier this year, [OpenAI achieved SOTA results](https://blog.openai.com/language-unsupervised/) on a diverse set of NLP tasks and datasets utilizing unsupervised pretraining, nearly identically the same approach as the one [ULMFiT](https://arxiv.org/abs/1801.06146) used to achieve SOTA on several text classification datasets. However, OpenAI used the new Transformer architecture instead of the AWD LSTM used by ULMFiT and trained on a billion token corpus instead of ULMFiT’s Wikitext-103.

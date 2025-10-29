@@ -4,9 +4,8 @@ date: 2020-12-17
 aliases:
   - posts/2020/12/mapping_conceptual_territory_AI_safety_alignment
 tags:
-  - alignment
-  - existential_safety
-  - safety
+  - ai
+  - ai-safety
 ---
 
 Throughout my studies in alignment and AI-related existential risks, I’ve found it helpful to build a mental map of the field and how its various questions and considerations interrelate, so that when I read a new paper, a post on the [Alignment Forum](https://www.alignmentforum.org/), or similar material, I have some idea of how it might contribute to the overall goal of making our deployment of AI technology go as well as possible for humanity. I’m writing this post to communicate what I’ve learned through this process, in order to help others trying to build their own mental maps and provide them with links to relevant resources for further, more detailed information. This post was largely inspired by (and would not be possible without) [two](https://ai-alignment.com/ai-alignment-landscape-d3773c37ae38) [talks](https://www.youtube.com/watch?v=AMSKIDEbjLY) by Paul Christiano and Rohin Shah, respectively, that give very similar overviews of the field,[^1] as well as a few posts on the Alignment Forum that will be discussed below. This post is not intended to replace these talks but is instead an attempt to coherently integrate their ideas with ideas from other sources attempting to clarify various aspects of the field. You should nonetheless watch these presentations and read some of the resources provided below if you’re trying to build your mental map as completely as possible.

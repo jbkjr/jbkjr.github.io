@@ -4,9 +4,9 @@ date: 2018-06-20
 aliases:
   - posts/2018/06/need_ml_safety_researchers
 tags:
-  - agi
-  - safety
-  - alignment
+  - ai
+  - ai-safety
+  - career
 ---
 
 I recently came across [this article](https://www.nytimes.com/2018/06/09/technology/elon-musk-mark-zuckerberg-artificial-intelligence.html?emc=edit_th_180610&nl=todaysheadlines&nlid=609109170610) in the _New York Times_, entitled "Mark Zuckerberg, Elon Musk and the Feud Over Killer Robots." I found it quite thought provoking, even though the mainstream media's accounts of these topics and debates always leave much to be desired (note: if you mention _The Terminator, The Matrix,_ and _2001: A Space Odyssey_ in a discussion about AGI and superintelligence, you've already lost me).

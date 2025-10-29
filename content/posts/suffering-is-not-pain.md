@@ -5,6 +5,7 @@ aliases:
   - posts/2024/06/suffering_is_not_pain
 tags:
   - suffering
+  - buddhism
 ---
 
 “_Pain is inevitable; suffering is optional_.”

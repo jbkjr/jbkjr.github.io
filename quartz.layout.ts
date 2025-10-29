@@ -40,6 +40,13 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       folderDefaultState: "collapsed",
+      filterFn: (node) => {
+        // Default: hide tags folder
+        if (node.slugSegment === "tags") return false
+        // Hide individual post pages (but keep the posts folder)
+        if (node.data?.slug?.startsWith("posts/") && !node.isFolder) return false
+        return true
+      },
       sortFn: (a, b) => {
         // Sort folders first, then files
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
@@ -87,6 +94,13 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       folderDefaultState: "collapsed",
+      filterFn: (node) => {
+        // Default: hide tags folder
+        if (node.slugSegment === "tags") return false
+        // Hide individual post pages (but keep the posts folder)
+        if (node.data?.slug?.startsWith("posts/") && !node.isFolder) return false
+        return true
+      },
       sortFn: (a, b) => {
         // Sort folders first, then files
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {

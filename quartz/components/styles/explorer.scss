@@ -210,6 +210,13 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   color: var(--tertiary);
 }
 
+// Hide triangle for empty folders (folders with no children after filtering)
+li.empty-folder {
+  & > .folder-container > .folder-icon {
+    display: none;
+  }
+}
+
 .explorer {
   @media all and ($mobile) {
     &.collapsed {

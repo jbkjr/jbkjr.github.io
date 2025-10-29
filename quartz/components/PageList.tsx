@@ -83,18 +83,6 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
                   </a>
                 </h3>
               </div>
-              <ul class="tags">
-                {tags.map((tag) => (
-                  <li>
-                    <a
-                      class="internal tag-link"
-                      href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
-                    >
-                      {tag}
-                    </a>
-                  </li>
-                ))}
-              </ul>
             </div>
           </li>
         )
@@ -105,10 +93,6 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
 
 PageList.css = `
 .section h3 {
-  margin: 0;
-}
-
-.section > .tags {
   margin: 0;
 }
 `

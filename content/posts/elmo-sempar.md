@@ -4,8 +4,11 @@ date: 2018-12-24
 aliases:
   - posts/2018/12/elmo_sempar
 tags:
+  - ai
   - nlp
-  - transfer_learning
+  - transfer-learning
+  - language-models
+  - semantic-parsing
 ---
 
 For those who haven't heard it yet, [NLP's ImageNet moment has arrived](http://ruder.io/nlp-imagenet/); approaches such as [ULMFiT](https://arxiv.org/abs/1801.06146), [ELMo](https://allennlp.org/elmo), [OpenAI GPT](https://blog.openai.com/language-unsupervised/), and [BERT](https://arxiv.org/abs/1810.04805) have gained significant traction in the community in the last year by using the unsupervised pretraining of language models to achieve significant improvements above prior state-of-the-art results on a diverse set of language understanding tasks (including classification, commonsense reasoning, and coreference resolution, among others) and datasets. (For more on unsupervised pretraining and the motivations behind it, read the blog post about NLP's ImageNet moment I have linked above.)

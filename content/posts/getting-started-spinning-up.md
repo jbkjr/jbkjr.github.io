@@ -4,8 +4,10 @@ date: 2020-11-29
 aliases:
   - posts/2020/11/getting-started-spinning-up
 tags:
-  - reinforcement learning
-  - spinning up
+  - ai
+  - reinforcement-learning
+  - ai-safety
+  - career
 ---
 
 I'll be spending the next month getting some hands-on experience with deep reinforcement learning via OpenAI's [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/index.html), which includes both an overview of key concepts in deep reinforcement learning and a [well-documented repository](https://github.com/openai/spinningup) of implementations of key algorithms that are designed to be 1) "as simple as possible while still being reasonably good," and 2) "highly-consistent with each other to expose fundamental similarities between algorithms." I'll be posting here about this endeavor in order to document the process and share the lessons I learn along the way for those who are also looking to "spin up" in deep RL.

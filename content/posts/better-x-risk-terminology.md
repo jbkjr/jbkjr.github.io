@@ -4,9 +4,8 @@ date: 2020-10-08
 aliases:
   - posts/2020/10/better_terminology_for_ai_x_risks
 tags:
-  - alignment
-  - existential_safety
-  - safety
+  - ai
+  - ai-safety
 ---
 
 Recently, I listened to a podcast[^1] from the Future of Life Institute in which Andrew Critch (from the Center for Human Compatible AI at Berkeley) discussed his and David Krueger’s recent paper, “AI Research Considerations for Human Existential Safety (ARCHES)”[^2]. Throughout the episode, I found myself impressed by the clarity and the strength of many of the points Critch made. In particular, I’m thinking about how Critch distinguishes “existential safety” from “safety” more generally, “delegation” from “alignment,” and “prepotent AI” from “generally intelligent AI” or “superintelligent AI” as concepts that can help give us more traction in analyzing the potential existential risks posed by artificial intelligences. So, I decided it would be worthwhile to write this post on one of my key takeaways from the episode: the community working on AI-related existential risks needs to adopt better, more precise terminology.

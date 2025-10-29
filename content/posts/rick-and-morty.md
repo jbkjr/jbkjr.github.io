@@ -4,8 +4,7 @@ date: 2018-12-15
 aliases:
   - posts/2018/12/rick_and_morty
 tags:
-  - television
-  - rick_and_morty
+  - metamodernism
 ---
 
 In examining any piece of science fiction, considering the context of the work, whether historical, cultural, philosophical, etc., is of the utmost importance. “Literature & the Future” is missing a text that accurately reflects the context of _today_; that is, a text should be included that is representative of the way that our society and culture presently thinks of futurity. The TV show _Rick and Morty_, specifically the episode “Rixty Minutes,” is the best candidate for a text of this nature. Humanity is now living in “the future” that the thinkers discussed in class speculated about in the past, so it is desirable to consider what the concept of futurity means in an age where humans are simultaneously more connected and isolated than ever before. In essence, “Rixty Minutes” should be included as a “missing text” for the class syllabus because it self-reflexively offers a metamodern, integrative worldview as a solution for the crisis of human existence as it presently exists in the age of technology.
