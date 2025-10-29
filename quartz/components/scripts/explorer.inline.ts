@@ -157,6 +157,11 @@ function createFolderNode(
     li.classList.add("empty-folder")
   }
 
+  // Add class for posts folder to show custom icon
+  if (node.slugSegment === "posts") {
+    li.classList.add("posts-folder")
+  }
+
   return li
 }
 
@@ -255,6 +260,22 @@ async function setupExplorer(currentSlug: FullSlug) {
       for (const button of folderButtons) {
         button.addEventListener("click", toggleFolder)
         window.addCleanup(() => button.removeEventListener("click", toggleFolder))
+      }
+    } else if (opts.folderClickBehavior === "link") {
+      // For link behavior, forward clicks on folder-container to the nested link
+      const folderContainers = explorer.getElementsByClassName(
+        "folder-container",
+      ) as HTMLCollectionOf<HTMLElement>
+      const forwardClick = (e: MouseEvent) => {
+        const container = e.currentTarget as HTMLElement
+        const link = container.querySelector(".folder-title") as HTMLAnchorElement
+        if (link && e.target !== link) {
+          link.click()
+        }
+      }
+      for (const container of folderContainers) {
+        container.addEventListener("click", forwardClick)
+        window.addCleanup(() => container.removeEventListener("click", forwardClick))
       }
     }
 

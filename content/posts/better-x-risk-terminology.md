@@ -38,7 +38,7 @@ This immediately resonated with me. As someone who likes to think a lot about AI
 > 2. Present-day AI developments present safety issues, which, if solved, could be relevant to existential safety.
 > 3. Present-day AI developments present non-safety issues which could later become relevant to existential safety.[^2]
 
-[^5]: Jack Koch, [The Need for ML Safety Researchers](https://jbkjr.com/posts/2018/06/need_ml_safety_researchers/)
+[^5]: Jack Koch, [[need-ml-safety-researchers|The Need for ML Safety Researchers]]
 
 They also provide this diagram which helpfully illustrates these points:
 

@@ -22,7 +22,10 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => !page.fileData.slug?.startsWith("projects/"),
+    }),
     Component.TagList(),
   ],
   left: [
@@ -39,6 +42,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderClickBehavior: "link",
       folderDefaultState: "collapsed",
       filterFn: (node) => {
         // Default: hide tags folder
@@ -93,6 +97,7 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderClickBehavior: "link",
       folderDefaultState: "collapsed",
       filterFn: (node) => {
         // Default: hide tags folder
