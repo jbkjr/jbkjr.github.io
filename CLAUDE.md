@@ -469,34 +469,6 @@ const popoverId = `popover-${link.pathname}${hashForId}`
 
 **Impact**: Fixes popover previews for all same-page anchors, particularly important for footnote-heavy content. Each footnote now gets its own cached popover.
 
-## Troubleshooting
-
-### Build Cache Issues
-
-**Problem**: After updating frontmatter (e.g., changing tags), changes don't appear in the built site even after hard refresh or private browsing window.
-
-**Cause**: Quartz caches build artifacts in `.quartz-cache/` directory. Stale cache can prevent updated content from appearing.
-
-**Solution**:
-
-```bash
-# Remove the cache directory
-rm -rf .quartz-cache
-
-# Kill and restart the dev server
-# Find the process: ps aux | grep quartz
-# Kill it: kill <PID>
-# Restart: npx quartz build --serve
-```
-
-**When to suspect cache issues**:
-
-- Source files show correct content, but site shows old content
-- Changes to frontmatter (tags, dates, etc.) don't appear
-- Hard refresh and private browsing don't help
-
-**Prevention**: The `.quartz-cache` directory is gitignored, so it's safe to delete anytime.
-
 ## Useful Context
 
 ### Quartz Documentation
