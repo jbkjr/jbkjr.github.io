@@ -220,6 +220,12 @@ li.empty-folder {
   & > .folder-container > .folder-icon {
     display: none;
   }
+
+  // Unified hover: highlight link text when hovering anywhere on empty folder
+  // (icon and text both navigate to folder index, no separate expand/collapse action)
+  &:hover > .folder-container div > a {
+    color: var(--tertiary);
+  }
 }
 
 // Custom icon for posts folder (stack of documents)
