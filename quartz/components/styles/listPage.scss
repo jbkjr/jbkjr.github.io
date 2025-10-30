@@ -24,6 +24,17 @@ li.section-li {
   }
 }
 
+// For lists without dates (like projects)
+.no-dates {
+  & li.section-li > .section {
+    grid-template-columns: 1fr;
+
+    & .meta {
+      display: none;
+    }
+  }
+}
+
 // modifications in popover context
 .popover .section {
   grid-template-columns: 8em 1fr !important;

@@ -109,9 +109,19 @@ export default ((opts?: Partial<TagContentOptions>) => {
       )
     } else {
       const pages = allPagesWithTag(tag)
-      const listProps = {
+
+      // Split pages into projects and posts
+      const projects = pages.filter((page) => page.slug?.startsWith("projects/"))
+      const posts = pages.filter((page) => !page.slug?.startsWith("projects/"))
+
+      const projectsListProps = {
         ...props,
-        allFiles: pages,
+        allFiles: projects,
+      }
+
+      const postsListProps = {
+        ...props,
+        allFiles: posts,
       }
 
       return (
@@ -119,9 +129,20 @@ export default ((opts?: Partial<TagContentOptions>) => {
           <article class={classes}>{content}</article>
           <div class="page-listing">
             <p>{i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}</p>
-            <div>
-              <PageList {...listProps} sort={options?.sort} />
-            </div>
+
+            {projects.length > 0 && (
+              <div class="no-dates">
+                <h2>Projects</h2>
+                <PageList {...projectsListProps} sort={options?.sort} />
+              </div>
+            )}
+
+            {posts.length > 0 && (
+              <div>
+                <h2>Posts</h2>
+                <PageList {...postsListProps} sort={options?.sort} />
+              </div>
+            )}
           </div>
         </div>
       )
