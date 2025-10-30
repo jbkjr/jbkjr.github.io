@@ -6,7 +6,11 @@ tags:
   - reinforcement-learning
 ---
 
-[Add project description here]
+I co-led this research project at the [AI Safety Camp](https://aisafety.camp), producing the first empirical demonstrations of goal misgeneralization in deep reinforcement learning.
+
+Goal misgeneralization is a failure mode where agents retain their capabilities but pursue the wrong objectives. For example, an agent might continue to competently avoid obstacles while navigating to the wrong destination. This is more insidious than typical failures where agents simply break down under distribution shift.
+
+The paper was published at ICML 2022.
 
 ## Publications & Writing
 
