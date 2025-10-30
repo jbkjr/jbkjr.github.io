@@ -11,7 +11,7 @@ tags:
   - semantic-parsing
 ---
 
-In my [last post]({% post_url 2018-12-24-elmo_sempar %}), I showed how adding ELMo features to a seq2seq model improved performance on semantic parsing tasks. Recently, I have been experimenting with adding [OpenAI GPT](https://blog.openai.com/language-unsupervised/) and [BERT](https://arxiv.org/abs/1810.04805) to the model in order to compare their performance against ELMo's. All the data, configuration files, and scripts needed to reproduce my experiments have been pushed to the [GitHub repository](https://github.com/jbkjr/allennlp_sempar). I'm excited to share my results!
+In my [[elmo-sempar|last post]], I showed how adding ELMo features to a seq2seq model improved performance on semantic parsing tasks. Recently, I have been experimenting with adding [OpenAI GPT](https://blog.openai.com/language-unsupervised/) and [BERT](https://arxiv.org/abs/1810.04805) to the model in order to compare their performance against ELMo's. All the data, configuration files, and scripts needed to reproduce my experiments have been pushed to the [GitHub repository](https://github.com/jbkjr/allennlp_sempar). I'm excited to share my results!
 
 **TL;DR: I was able to achieve significant gains in performance on several semantic parsing datasets above a vanilla seq2seq baseline by utilizing a "scalar mix" of pre-trained features from ELMo, OpenAI GPT, and BERT. OpenAI and BERT produce the strongest results, likely due to being trained either with more data or with data with more long-term dependencies. I believe this work is the first application of pre-trained language models to semantic parsing and the first application of the recent ELMo, OpenAI GPT, and BERT language models to any language generation task.**
 
@@ -22,7 +22,7 @@ In my [last post]({% post_url 2018-12-24-elmo_sempar %}), I showed how adding EL
 | S2S + attention (old / new)        | 75.2 / **79.9** | 62.5 / **68.9** | 58.6 / **71.4** |
 | S2S + attention + ELMo (old / new) | 79.0 / **83.3** | 71.1 / **75.7** | 74.3 / **77.9** |
 
-I was able to significantly improve all the results reported in my [last post]({% post_url 2018-12-24-elmo_sempar %}), providing a stronger baseline against which to compare OpenAI GPT and BERT. I was able to achieve this improvement primarily through these three changes to my original code:
+I was able to significantly improve all the results reported in my [[elmo-sempar|last post]], providing a stronger baseline against which to compare OpenAI GPT and BERT. I was able to achieve this improvement primarily through these three changes to my original code:
 
 - Early stopping is now performed with _sequence accuracy on the validation set_ (previously validation loss). This allows the selection of better models by directly measuring the type of performance we're actually looking for.
 - Training for a maximum of more epochs and with greater patience for early stopping.
@@ -92,7 +92,7 @@ The OpenAI Generatively Pre-trained Transformer (GPT) utilizes a 12-layer Transf
 
 $$\mathbf{h}_{:,0} = UW_e + W_p$$
 
-$$\mathbf{h}_{:,j} = \text{transformer_block}(\mathbf{h}_{:,j-1}) \forall j \in [1,L]$$
+$$\mathbf{h}_{:,j} = \text{transformer\_block}(\mathbf{h}_{:,{j-1}}) \forall j \in [1,L]$$
 
 where $U$ is the input sequence of tokens, $L$ is the number of layers, $W_e$ is the token embedding matrix, and $W_p$ is the position embedding matrix.
 
