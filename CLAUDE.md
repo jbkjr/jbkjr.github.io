@@ -39,12 +39,39 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 - **Listing Page**: Minimal 2-column (date | title) design
 - **Bug Fixes**: Font URL encoding, footnote popover caching
 
-### What's Next
+### What's Done
 
-- [ ] GitHub Actions workflow for deployment to GitHub Pages
-- [ ] Real homepage content (currently test content)
-- [ ] About page
+- ✅ GitHub Actions workflow created (`.github/workflows/deploy.yml`)
+- ✅ Real homepage content migrated from Jekyll about page
+- ✅ Project pages fleshed out with descriptions
+- ✅ Homepage title changed to "About" (name already in sidebar)
+- ✅ Date/reading time hidden from homepage
+
+### Ready to Merge to Master
+
+**WHEN USER SAYS "ready to merge to main", REMIND THEM:**
+
+**1. Merge the branch:**
+
+```bash
+git checkout master
+git merge quartz-rebuild
+git push origin master
+```
+
+**2. Update GitHub Pages settings (one-time):**
+
+- Go to https://github.com/jbkjr/jbkjr.github.io/settings/pages
+- Under "Build and deployment" → "Source"
+- Change from "Deploy from a branch" to **"GitHub Actions"**
+- Save
+
+**3. Done!** The workflow automatically runs on push to `master` and deploys the site.
+
+### Future Enhancements
+
 - [ ] Theme refinements (colors, spacing)
+- [ ] Consider adding more content sections
 
 ## Key Configuration Files
 
@@ -225,9 +252,34 @@ quartz.layout.ts            # Layout configuration
 CLAUDE.md                   # This file
 ```
 
+## Quartz Markdown Features
+
+Quick reference for writing posts:
+
+**Callouts** (for highlighting information):
+
+```markdown
+> [!note]
+> General information or notes
+
+> [!tip]
+> Helpful suggestions or recommendations
+
+> [!warning]
+> Important cautions or warnings
+
+> [!abstract]
+> Summaries or overviews
+```
+
+**Other callout types**: `info`, `todo`, `success`, `question`, `failure`, `danger`, `bug`, `example`, `quote`
+
+**Math**: Inline `$E = mc^2$` or block `$$\sum_{i=1}^{n} x_i$$`
+
+**Wikilinks**: `[[slug]]` or `[[slug|display text]]` for internal links
+
 ## Notes
 
 - User is open to modifying Quartz framework files for customization
 - This is a learning project - understanding "why" is important
 - Public-facing site - quality matters
-- GitHub Pages deployment pending

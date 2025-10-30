@@ -13,5 +13,36 @@ footer {
     flex-direction: row;
     gap: 1rem;
     margin-top: -1rem;
+
+    & li a {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--tertiary);
+      }
+
+      & .social-icon {
+        display: inline-flex;
+        align-items: center;
+        width: 1.2rem;
+        height: 1.2rem;
+
+        & svg {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      & .social-icon-image {
+        background-color: currentColor;
+        mask-image: url("/static/lw_icon.png");
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+    }
   }
 }
