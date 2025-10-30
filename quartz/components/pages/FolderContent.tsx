@@ -102,6 +102,9 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         : htmlToJsx(fileData.filePath!, tree)
     ) as ComponentChildren
 
+    // Hide dates for projects folder
+    const isProjectsFolder = fileData.slug?.startsWith("projects")
+
     return (
       <div class="popover-hint">
         <article class={classes}>{content}</article>
@@ -113,7 +116,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
               })}
             </p>
           )}
-          <div>
+          <div class={isProjectsFolder ? "no-dates" : ""}>
             <PageList {...listProps} />
           </div>
         </div>

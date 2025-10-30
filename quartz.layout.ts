@@ -24,7 +24,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ConditionalRender({
       component: Component.ContentMeta(),
-      condition: (page) => !page.fileData.slug?.startsWith("projects/"),
+      condition: (page) =>
+        page.fileData.slug !== "index" && !page.fileData.slug?.startsWith("projects/"),
     }),
     Component.TagList(),
   ],

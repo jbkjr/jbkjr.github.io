@@ -132,14 +132,14 @@ export default ((opts?: Partial<TagContentOptions>) => {
 
             {projects.length > 0 && (
               <div class="no-dates">
-                <h2>Projects</h2>
+                <h2>projects</h2>
                 <PageList {...projectsListProps} sort={options?.sort} />
               </div>
             )}
 
             {posts.length > 0 && (
               <div>
-                <h2>Posts</h2>
+                <h2>posts</h2>
                 <PageList {...postsListProps} sort={options?.sort} />
               </div>
             )}
