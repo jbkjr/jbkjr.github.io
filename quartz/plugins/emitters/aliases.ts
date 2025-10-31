@@ -16,6 +16,7 @@ async function* processFile(ctx: BuildCtx, file: VFile) {
     ) as FullSlug
 
     const redirUrl = resolveRelative(aliasTargetSlug, ogSlug)
+
     yield write({
       ctx,
       content: `
@@ -31,7 +32,7 @@ async function* processFile(ctx: BuildCtx, file: VFile) {
         </html>
         `,
       slug: aliasTargetSlug,
-      ext: ".html",
+      ext: "/index.html",
     })
   }
 }
