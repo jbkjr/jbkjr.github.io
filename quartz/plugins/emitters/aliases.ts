@@ -15,7 +15,29 @@ async function* processFile(ctx: BuildCtx, file: VFile) {
         : aliasTarget
     ) as FullSlug
 
-    const redirUrl = resolveRelative(aliasTargetSlug, ogSlug)
+    // Calculate proper relative path by finding common prefix
+    const aliasSegments = aliasTargetSlug.split("/")
+    const targetSegments = ogSlug.split("/")
+
+    // Find common prefix length
+    let commonPrefixLength = 0
+    while (
+      commonPrefixLength < aliasSegments.length &&
+      commonPrefixLength < targetSegments.length &&
+      aliasSegments[commonPrefixLength] === targetSegments[commonPrefixLength]
+    ) {
+      commonPrefixLength++
+    }
+
+    // Calculate levels up (from alias to common ancestor)
+    const levelsUp = aliasSegments.length - commonPrefixLength
+    const upPath = levelsUp > 0 ? Array(levelsUp).fill("..").join("/") : "."
+
+    // Get remaining target path (from common ancestor to target)
+    const remainingTarget = targetSegments.slice(commonPrefixLength).join("/")
+
+    // Join them
+    const redirUrl = remainingTarget ? `${upPath}/${remainingTarget}` : upPath
 
     yield write({
       ctx,
