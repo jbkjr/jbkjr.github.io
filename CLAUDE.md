@@ -72,6 +72,7 @@ git push origin master
 
 - [ ] Theme refinements (colors, spacing)
 - [ ] Consider adding more content sections
+- [ ] Add multiple authors support to ContentMeta component (for co-authored posts)
 
 ## Key Configuration Files
 
