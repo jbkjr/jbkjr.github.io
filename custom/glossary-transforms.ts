@@ -288,7 +288,6 @@ function linkIndex(tree: Root, collection: HeadwordCollection): void {
       const label = labelFromHeadingText(cleanHeadingText(mdastToString(node as Heading)))
       if (label === "Index") {
         inIndex = true
-        addHClass(node, "glossary-index-heading")
       } else if ((node as Heading).depth === 2 && label) {
         inIndex = false
       }

@@ -124,8 +124,6 @@ article.dhamma-glossary {
 
   > h2 {
     margin-top: 2.75rem;
-    padding-top: 1.2rem;
-    border-top: 1px solid var(--lightgray);
   }
 
   > h2:first-of-type {
@@ -139,23 +137,25 @@ article.dhamma-glossary {
   h4 {
     color: var(--darkgray);
     font-size: 0.95rem;
-    text-transform: uppercase;
   }
 
   .glossary-entry {
     margin: 0.58rem 0;
-    list-style: none;
     position: relative;
   }
 
-  .glossary-entry::before {
-    content: "\2022";
-    position: absolute;
-    top: 0;
-    left: -1.35rem;
-    color: var(--darkgray);
-    font-weight: 700;
-    line-height: 1.6rem;
+  ul > .glossary-entry {
+    list-style: none;
+
+    &::before {
+      content: "\2022";
+      position: absolute;
+      top: 0;
+      left: -1.35rem;
+      color: var(--darkgray);
+      font-weight: 700;
+      line-height: 1.6rem;
+    }
   }
 
   .glossary-entry > p,
