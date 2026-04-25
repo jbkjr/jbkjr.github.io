@@ -144,6 +144,18 @@ article.dhamma-glossary {
 
   .glossary-entry {
     margin: 0.58rem 0;
+    list-style: none;
+    position: relative;
+  }
+
+  .glossary-entry::before {
+    content: "\2022";
+    position: absolute;
+    top: 0;
+    left: -1.35rem;
+    color: var(--darkgray);
+    font-weight: 700;
+    line-height: 1.6rem;
   }
 
   .glossary-entry > p,
