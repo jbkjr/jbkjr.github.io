@@ -35,6 +35,15 @@
 - Posts stored flat under `content/posts/{slug}.md`; clean URLs `/posts/{slug}`.
 - Each post frontmatter includes `aliases` mapping old `/posts/YYYY/MM/slug/` paths.
 - Images reside in `content/images/`; index/root content in `content/index.md`.
+- Dhamma content lives in `content/dhamma/`; the generated glossary PDF is `content/dhamma/glossary.pdf` and is served at `/dhamma/glossary.pdf`.
+
+## Dhamma Glossary
+
+- Keep glossary implementation code under `custom/`: shared mdast transforms in `custom/glossary-transforms.ts`, the Quartz adapter in `custom/glossary.ts`, and glossary-only components in `custom/components/`.
+- Keep `content/dhamma/glossary.md` clean source markdown. Do not commit explicit heading attributes like `{#part-i}` or `{.unlisted}`; the shared transform generates section IDs, entry anchors, and the curated TOC.
+- The shared transform is used by both Quartz and `scripts/glossary/preprocess.mjs`, so HTML and PDF links stay aligned. It handles multi-headword entries, duplicate headword suffixes, section-qualified term links, validated section refs, and index links.
+- PDF output is generated, not committed. Use `npm run glossary:pdf` to create `content/dhamma/glossary.pdf`; `npm run build` and `npm run serve` rebuild the PDF before running Quartz.
+- The glossary page uses `GlossaryMeta` for "Last updated" from Quartz git/file dates and `GlossaryTOC` as a narrow-screen inline TOC; desktop still uses the right-rail Quartz TOC.
 
 ## Working Agreements
 

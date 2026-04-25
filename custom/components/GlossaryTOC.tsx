@@ -3,13 +3,14 @@ import {
   QuartzComponentConstructor,
   QuartzComponentProps,
 } from "../../quartz/components/types"
+import { i18n } from "../../quartz/i18n"
 
-const GlossaryTOC: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
+const GlossaryTOC: QuartzComponent = ({ cfg, fileData }: QuartzComponentProps) => {
   if (!fileData.toc || fileData.toc.length === 0) return null
 
   return (
     <details class="glossary-inline-toc">
-      <summary>Table of contents</summary>
+      <summary>{i18n(cfg.locale).components.tableOfContents.title}</summary>
       <ol>
         {fileData.toc.map((entry) => (
           <li key={entry.slug} class={`depth-${entry.depth}`}>
