@@ -1,0 +1,1774 @@
+---
+title: "A Dhamma Glossary"
+subtitle: "A historical-stratum reference for the dhamma, in order to understand the goal and how to attain it"
+author: "Jack Koch"
+published: 2026-04-01
+description: "A historical-stratum reference for the dhamma, in order to understand the goal and how to attain it."
+tags:
+  - dhamma
+  - buddhism
+cssclasses:
+  - dhamma-glossary
+enableToc: true
+---
+
+<!-- pdf:skip-start -->
+<div class="dhamma-doc-actions" aria-label="Glossary downloads">
+  <a href="/dhamma/glossary.pdf">Download PDF</a>
+  <span>Living document</span>
+</div>
+<!-- pdf:skip-end -->
+
+**Format.** Each Part carries a `(language; stratum)` annotation. In Pāli-canonical Parts (I–XI), headwords are Pāli with the Sanskrit form in parentheses — e.g. `**diṭṭhi** (Skt: dṛṣṭi)`, or `(Skt: same)` when IAST-identical. In Sanskrit-tradition Parts (XII–XIV), the Sanskrit form is the headword; a Pāli cognate is parenthesized only when it carries parallel doctrinal use. Non-Indic Parts (XV) use the standard transliteration with the original script where useful. Terms whose stratum diverges from the Part default carry an inline stratum tag after the headword. Entries give brief glosses and rendering-notes rather than full prose definitions; longer def-flags surface contested scholarship or multi-sense terms.
+
+**Abbreviations.** _Canonical:_ DN / MN / SN / AN — the four main Nikāyas (Dīgha / Majjhima / Saṃyutta / Aṅguttara); Sn — Sutta Nipāta; Dhp — Dhammapada; Itiv. — Itivuttaka; Ud. — Udāna; Vin. — Vinaya. _Commentarial / Abhidhamma:_ Vism — Visuddhimagga; Abhi. — Abhidhamma. _Dictionaries:_ PED — PTS Pali-English Dictionary; DPD — Digital Pali Dictionary; MW — Monier-Williams Sanskrit-English Dictionary; Apte — Apte Practical Sanskrit-English Dictionary.
+
+---
+
+## Part I — Earliest Stratum (Pāli; Aṭṭhakavagga / Pārāyanavagga)
+
+_The earliest stratum within the Pāli canon. Direct soteriology of dropping taṇhā / upādāna / diṭṭhi, prior to the systematic lists. Flag here any term whose earliest clear attestation is in the Aṭṭhakavagga / Pārāyanavagga / parts of Sutta Nipāta._
+
+_What is to be relinquished:_
+
+- **diṭṭhi** (Skt: dṛṣṭi) — view, opinion.
+
+  _def-flag: treated here in its earliest-stratum sense as "view/opinion to be dropped"; the technical sammā-diṭṭhi usage belongs under VIII.a, and `sakkāya-diṭṭhi` (identity-view, fetter 1) at VIII.g picks up the negative-view-to-be-abandoned sense in a later technical key._
+
+- **upādāna** (Skt: same) — clinging, grasping; selfing, self-making (modern dharma usage, Rob Burbea — picking up the reflexive "taking-for-oneself" force of upa + ā + √dā); "fuel, sustenance" (PED's material-support sense). Lit. "taking up." _Also appears in VII.a as `upādāna@VII.a` (DO link 9); flagged here because the Aṭṭhakavagga treats non-clinging as the whole soteriology._
+- **taṇhā** (Skt: tṛṣṇā) — craving / aversion; lit. "thirst" (cognate with English _thirst_ via PIE \*ters-). _Also appears in VII.a as `taṇhā@VII.a` (DO link 8); flagged here for the same reason._
+
+  _def-flag: classical Pāli scholarship renders taṇhā as "craving" alone, with aversion handled under separate technical terms occupying distinct analytic levels — dosa "hatred" (root unwholesome state, VI.f), paṭigha "aversion / resistance" (reactive aversion-moment, VIII.g fetter), and vyāpāda "ill will" (intentional disposition, III.b hindrance). The "craving / aversion" framing here treats the pulling-toward and pushing-away modes as two sides of a single dukkha-generating dynamic — the wanting-things-otherwise that drives upādāna. This is the contemporary insight-teaching emphasis (Goldstein, Salzberg, Brach, much IMS / Spirit Rock pedagogy). Canonical warrant: vibhava-taṇhā ("craving for non-becoming") in the three-fold scheme of taṇhā at SN 56.11 / DN 22 is structurally aversion-to-existence — already showing taṇhā extending beyond positive craving._
+
+- **upadhi** (Skt: same) — substrate, acquisition, attachment.
+
+  _def-flag: the Aṭṭhakavagga's central soteriological axis (Sn 4.6, 4.10, etc.), with the goal articulated as anupadhi / nirupadhi (freedom from upadhi). No single rendering carries the full sense — major translators differ: Burford "substrate / basis for existence" (basis-of-becoming, not metaphysical substance) tracks the upa-√dhā "place-under" force most directly; Norman "acquisition" and Fronsdal "clinging" foreground the agential side; Bodhi "attachment" is the most general. Distinct from the Sanskrit term `upādhi` (XIV, Advaita limiting-adjunct): Pāli `upadhi` is from upa-√dhā; Sanskrit `upādhi` is from upa-ā-√dhā. The two are different words with the same IAST root-letters; the macron on the long ā in `upādhi` is the visual tell._
+
+_The predicament:_
+
+- **dukkha** (Skt: duḥkha) — unsatisfactory (adj.), unsatisfactoriness, suffering (nom.). _The existential predicament that frames the Aṭṭhakavagga soteriology — non-clinging is the response to dukkha. The goal-pointers in II (`vimutti`, `āsavakkhaya`, `nibbāna`) are co-extensively described as liberation FROM dukkha (Sn 5.6 `dukkhā vimoceyya`, `dukkha-pamokkha` "release from dukkha", `dukkhass'antakaro` "one who makes an end of dukkha") and FROM the āsavas (DN 2 formula `kāmāsavāpi cittaṃ vimuccati…`); the āsava-language specifies the producing-currents that ending dukkha requires. Doctrinally `pariññeyya` (to be fully understood) within the 4NT schema, distinct from taṇhā / upādāna / diṭṭhi which are `pahātabba` (to be abandoned); cf. VI.a for the three-marks treatment, IX for the 4NT framing._
+
+_The goal as freedom from clinging:_
+
+- **anupadhi** (Skt: same) / **nirupadhi** (Skt: same) — without substrate, free of acquisition; _the goal-pointer corresponding to upadhi._
+- **santi** (Skt: śānti) — peace; _cf. Sn 4.10 `santi-pada` ("peace-state") as a synonym for the goal._
+
+_The sage:_
+
+- **muni** (Skt: same) — sage; lit. "silent one" (cf. _mona_ / Skt _mauna_ "silence")
+- **moneyya** (Skt: mauneya) — sagehood, the sage's way; _cf. `mona` (Skt: mauna)._
+- **viveka** (Skt: same) — separation, seclusion; _cf. III.c for the jhāna-formula sense._
+- **akiñcana** (Skt: same) (adj.) / **ākiñcañña** (Skt: ākiñcanya) (nom.) — owning nothing / owning-nothingness; _the adjective describes the muni at Sn 4.9 (Māgandiya-sutta) — `akiñcanaṃ kāmabhave asattaṃ` "owning nothing, unattached to sensual existence"; the abstract noun is the form compounded into the third arūpa-samāpatti `ākiñcaññāyatana` (III.c)._
+
+---
+
+## Part II — The Goal: Nibbāna & Āsavakkhaya (Pāli; EBT)
+
+- **nibbāna** (Skt: nirvāṇa) — the goal; lit. "blowing out, extinguishing" (nir- + √vā "blow"). _Often left untransliterated; when glossed, "extinguishing" or "quenching" is the standard modern rendering._
+- **parinibbāna** (Skt: parinirvāṇa) — final nibbāna; the nibbāna-at-death of the arhat. _Near-synonym of `anupādisesa-nibbāna` in EBT usage — both name the nibbāna-at-death when the khandhas drop, contrasted with `saupādisesa-nibbāna`, the nibbāna-while-alive of the arhat with khandhas still present._
+- **saupādisesa-nibbāna** (Skt: sopadhiśeṣa-nirvāṇa) — nibbāna "with remainder"; the arhat's liberation while still alive (khandhas remaining) (Itiv. 44).
+- **anupādisesa-nibbāna** (Skt: nirupadhiśeṣa-nirvāṇa) — nibbāna "without remainder"; the nibbāna-at-death (khandhas drop) (Itiv. 44). _≈ `parinibbāna` in EBT usage._
+- **amata** (Skt: amṛta) — the deathless; lit. "un-dying" (a- + √mṛ "die"). _A pervasive EBT epithet for the goal._
+- **saṃsāra** (Skt: same) — the round of rebirths, the wandering-on; lit. "flowing on" (saṃ- + √sṛ "flow"). _The correlative-contrast term to nibbāna; the condition from which nibbāna is release._
+- **āsava** (Skt: āsrava) — taint, defilement; lit. "flowing, inflow/outflow" (ā- + √sru "flow"). _The standard EBT enumeration is three (kāmāsava sensual-taint / bhavāsava becoming-taint / avijjāsava ignorance-taint, e.g. MN 9), with diṭṭhāsava added as a fourth in some lists (DN 33). The Jain cognate `āsrava` means "karmic inflow."_
+- **āsavakkhaya** (Skt: āsravakṣaya) — destruction of the āsavas. _An early goal-description (AN 3.65, AN 6.55, MN 27, etc.) — pre-systematic in the sense that "ending of the āsavas" predates and underwrites the more elaborate nibbāna / vimutti vocabulary as a compact name for what awakening accomplishes._
+- **anāsava** (Skt: anāsrava) — taint-free; _of the arhat, of nibbāna itself._
+- **khīṇāsava** (Skt: kṣīṇāsrava) — one whose āsavas are destroyed; _the arhat's defining state._
+- **vimutti** (Skt: vimukti) — liberation, release.
+- **cetovimutti** (Skt: cetovimukti) — liberation of mind; _paired with paññāvimutti as the two aspects of the arhat's liberation (AN 2.31, MN 43, etc.)._
+- **paññāvimutti** (Skt: prajñāvimukti) — liberation by wisdom; _paired with cetovimutti._
+- **ubhatobhāgavimutta** (Skt: ubhayatobhāgavimukta) — liberated both ways; _every arhat has both cetovimutti and paññāvimutti; the ubhatobhāgavimutta arhat additionally has mastery of the `aṭṭha vimokkha` (eight liberations, DN 15 / AN 8.66 — three form-based contemplations, the four āruppa attainments, and `saññāvedayitanirodha`), distinguishing them from the paññāvimutta arhat (MN 70). Distinct schema from the three `vimokkha-mukha` (suññatā / animitta / appaṇihita) above — same root, different list._
+- **mutti** (Skt: mukti) — liberation, release; _near-synonym of vimutti, used more sparingly in the canon._
+- **mokkha** (Skt: mokṣa) — liberation, release.
+
+  _def-flag: Pāli has two homophonous `mokkha` forms, both inherited reflexes of OIA — one from OIA `mukhya` "chief, foremost," one from OIA `*mokṣa-` (√muc "release") "liberation." Regular sound change: OIA `kṣ` → Middle Indic `kkh`. Pāli did not borrow the word from classical Sanskrit; Pāli and Sanskrit are sister developments from OIA. The liberation-sense `mokkha` is rare in the Pāli canon, which prefers `vimutti` / `mutti` / `nibbāna`; the soteriological weight of the word lies with the cognate Sanskrit `mokṣa` in Brahmanical Upaniṣadic and Jain usage._
+
+- **nirodha** (Skt: same) — cessation, stopping; lit. "obstruction, holding back" (ni- + √rudh "obstruct"). _The etymology suggests "blocking-off / bringing to a halt" rather than metaphysical annihilation. The 3rd noble truth (`nirodha-sacca`, IX); the cessation-half of paṭiccasamuppāda's "this-not-being, that does not arise."_
+- **nibbidā** (Skt: nirveda) — disenchantment, disillusionment. _Standard EBT goal-path sequence yathābhūtaṃ ñāṇadassana → nibbidā → virāga → vimutti (SN 12.23 Upanisā-sutta, etc.). "Revulsion" in older translations._
+- **virāga** (Skt: same) — dispassion, fading of passion; _same sequence._
+- **bodhi** (Skt: same) — awakening. _"Enlightenment" in older translations; "awakening" is the modern scholarly consensus that better tracks the √budh "wake" root._
+- **sammā-sambodhi** (Skt: samyak-saṃbodhi) — complete, proper awakening; a Buddha's kind of awakening. _Standardly "right awakening" or "perfect awakening" (sammā rendered "right" / "perfect" in most translations); see VIII.a sammā note for the "proper" rendering rationale._
+- **suññatā** (Skt: śūnyatā) — emptiness. _One of the three `vimokkha-mukha` ("doors to liberation"; with `animitta` and `appaṇihita`); corresponds to `anattā` in the three-marks-to-three-doors mapping (VI.a). Distinct from the `aṭṭha vimokkha` (eight liberations, DN 15 / AN 8.66) referenced under `ubhatobhāgavimutta` below — same root, different schema._
+
+  _def-flag: EBT sense is meditative/phenomenological (MN 121, MN 122); the Prajñāpāramitā/Madhyamaka sense — universal negation of svabhāva (not itself an ontological posit; cf. XII.b śūnyatā-śūnyatā) — goes under XII.a / XII.b._
+
+- **animitta** (Skt: same) — signless (meditation / liberation); without `nimitta` (III.c). _One of the three vimokkha-mukha alongside `suññatā` and `appaṇihita` — corresponding to the three marks (animitta ↔ anicca, appaṇihita ↔ dukkha, suññatā ↔ anattā)._
+- **appaṇihita** (Skt: apraṇihita) — undirected, wishless, non-aspiring (meditation / liberation). _One of the three vimokkha-mukha (with `suññatā` and `animitta`); corresponds to `dukkha` in the three-marks-to-three-doors mapping (VI.a). "Undirected" follows Sujato; Bodhi "directionless / wishless."_
+
+- **pabhassara** (Skt: prabhāsvara) — luminous, radiant, bright; *the AN 1.49–52 description of citta (Sujato numbering; Bodhi *Numerical Discourses* AN 1.51–52; PTS 1.5.1–2) — `pabhassaramidaṃ, bhikkhave, cittaṃ, tañca kho āgantukehi upakkilesehi upakkiliṭṭhaṃ` "luminous, bhikkhus, is this mind, but it is defiled by adventitious defilements." A contested EBT passage: Theravāda commentarial readings identify the luminous citta with `bhavaṅga` (XI.a) — the subliminal life-continuum running between active cognitive moments; proto-Mahāyāna readings take it as a primordial luminous awareness, a thread that develops into Mahāyāna `prabhāsvara-citta` (XII.d), tathāgatagarbha (XII.d), and Vajrayāna `'od gsal` clear-light (XIII). Distinct from `viññāṇa` (VI.b) — viññāṇa is object-distinguishing cognition; pabhassara names the mind's luminous-knowing register, the closest Buddhist analogue to "phenomenal consciousness" in modern philosophy of mind (Block, Chalmers — qualia, what-it-is-likeness), though framed soteriologically rather than descriptively.*
+
+---
+
+## Part III — The Gradual Training (Pāli; EBT)
+
+_The **DN 2 / MN 27 gradual-training pericope** (`anupubbasikkhā`) is the most stable pedagogical sequence in the four Nikāyas, repeated nearly verbatim across DN 2 Sāmaññaphala-sutta, MN 27 Cūḷahatthipadopama, MN 38, MN 39, MN 51, MN 53, MN 107, MN 125 (Chinese Āgama parallels at DĀ 27, MĀ 80). Its closing pericope inside the āsavakkhaya-ñāṇa fruit — yathābhūtaṃ-pajāna of the 4NT and of the 4NT-of-the-āsavas → `cittaṃ vimuccati` from the āsavas → `vimutti-ñāṇadassana` ("`khīṇā jāti…`") — is the gradual training's terminus. **SN 12.23 Upanisā-sutta** presents a parallel post-jhāna formula in a different idiom: `yathābhūta-ñāṇadassana` → `nibbidā` → `virāga` → `vimutti` → `khaye-ñāṇa` ("knowledge of destruction"). The terminal goal-terms (`nibbidā`, `virāga`, `vimutti`, `āsavakkhaya`) are at Part II as goal-pointers; commentarial jhāna apparatus is at XI.b._
+
+### III.a Sequence of the Training
+
+_The gradual-training pericope (DN 2, MN 27, MN 38, MN 39, MN 51, MN 53, MN 107, MN 125):_
+
+1. **sīla** (Skt: śīla) — virtue, ethical conduct, morality. _DN 2 expounds in three sub-sections: `cūḷasīla`, `majjhimasīla`, `mahāsīla`._
+2. **indriya-saṃvara** (Skt: same) — sense-restraint, restraint of the faculties.
+3. **sati-sampajañña** (Skt: smṛti-samprajanya) — mindfulness and clear comprehension; _expanded as the satipaṭṭhāna training in IV._
+4. **santuṭṭhi** (Skt: saṃtuṣṭi) — contentment; _DN 2's bird-with-wings simile._
+5. **vivitta-senāsana** (Skt: vivikta-śayanāsana) — resort to a solitary lodging; _the canonical training-narrative for the renunciant retiring to root-of-tree, charnel-ground, mountain-cleft. Neither necessary nor sufficient for jhāna — what the jhānas require is `viveka` (III.c): separation from sensuality and unwholesome states. Physical solitude supports but doesn't compel that._
+6. **nīvaraṇa-pahāna** — abandonment of the hindrances; _DN 2: `pañca nīvaraṇe pahāya cetaso upakkilese paññāya dubbalīkaraṇe` ("having abandoned the five hindrances — the corruptions of the mind that weaken wisdom"). See III.b for `pañca nīvaraṇa`._
+7. **cattāro rūpa-jhānā** — the four form-jhānas; _see III.c._
+8. **yathābhūtaṃ ñāṇadassana** (Skt: yathābhūta-jñāna-darśana) — knowledge-and-vision of things as they are; lit. "as-it-has-come-to-be knowledge-and-seeing." _In DN 2's closing pericope, the yathābhūtaṃ-pajāna is of the four noble truths and of the four-noble-truths-of-the-āsavas; this knowing-and-seeing is the proximate condition for liberation._
+9. **vimutti** (II) / **āsavakkhaya** (II) — _the liberation event itself (DN 2: `kāmāsavāpi cittaṃ vimuccati, bhavāsavāpi cittaṃ vimuccati, avijjāsavāpi cittaṃ vimuccati`); named from two sides as `vimutti` (the citta becoming free) and `āsavakkhaya` (the āsavas being destroyed). Doctrinally co-extensive descriptions of one event, not two sequential steps._
+10. **vimutti-ñāṇadassana** (Skt: vimukti-jñāna-darśana) — knowledge-and-vision of liberation; _the post-liberation reviewing certitude (DN 2: `vimuttasmiṃ vimuttamiti ñāṇaṃ hoti`) expressed as `khīṇā jāti, vusitaṃ brahmacariyaṃ, kataṃ karaṇīyaṃ, nāparaṃ itthattāyā` ("birth is destroyed, the holy life has been lived, what was to be done is done, there is no more becoming-this") (DN 2, MN 39)._
+
+_Each step is developmentally conditioned by the prior; DN 2 expresses this with "endowed with X…" or "having abandoned X…" connectives rather than the explicit `upanisā`-vocabulary used in SN 12.23._
+
+_Parallel canonical formulas:_
+
+- _SN 12.23 Upanisā-sutta substitutes a different post-yathābhūtaṃ chain: `yathābhūta-ñāṇadassana` → `nibbidā` → `virāga` → `vimutti` → `khaye-ñāṇa` (= `āsavakkhaya-ñāṇa`). The Upanisā chain is structured around the explicit `upanisā` (supporting-condition) idiom — `X-upanisaṃ Y` ("Y has X as its supporting condition") — and interposes an affective-evaluative pair (turning-away from formations, fading of passion) between insight and liberation that DN 2's closing pericope does not. `khaye-ñāṇa` and `vimutti-ñāṇadassana` are formula-distinct but doctrinally near-synonymous reviewing knowledges, naming the post-liberation certitude by what's destroyed (the āsavas) and what's gained (vimutti) respectively. The two formulas have been read as reflecting different strata or competing liberation-narratives within EBT (Schmithausen 1981_ On Some Aspects of Descriptions of "Liberating Insight" in Early Buddhism*; Vetter 1988* The Ideas and Meditative Practices of Early Buddhism*); both are EBT.*
+- _Note on DN 2's surface narrative: post-fourth-jhāna, DN 2 actually presents a sequence of `ñāṇa`-fruits beginning with `ñāṇadassana` of the body-and-the-viññāṇa-bound-thereto (a four-element-and-consciousness contemplation, distinct from step 8's 4NT `yathābhūtaṃ-ñāṇadassana`), continuing through `manomayiddhi` and the five abhiññās (`iddhividhi`, `dibbasota`, `cetopariyañāṇa`, `pubbenivāsānussati`, `cutūpapāta-/dibba-cakkhu-ñāṇa`) — all optional fruits — and culminating in `āsavakkhaya-ñāṇa`. The closing pericope (4NT `yathābhūtaṃ-pajāna` → `cittaṃ vimuccati` → `vimutti-ñāṇadassana`) is internal to that final ñāṇa; steps 8–10 of the numbered list above synthesize by extracting them as their own developmentally-conditioned moments. The "six abhiññās" listing under `abhiññā` below counts `āsavakkhaya-ñāṇa` as the sixth — an alternate organizing convention that folds the first DN 2 ñāṇa (body-with-viññāṇa) and `manomayiddhi` into the fourth-jhāna fruit and counts only the remaining five as numbered abhiññās._
+
+_Ethical cultivation (adjacent to sīla):_
+
+- **hiri** (Skt: hrī) / **ottappa** (Skt: apatrāpya) — shame / moral dread; _the "guardians of the world" (AN 2.9, Itiv. 42); a paired-virtues cluster sitting beside sīla rather than within the numbered DN-2 sequence._
+- **nekkhamma** (Skt: naiṣkramya) — renunciation; lit. "going forth" (nis- + √kram "step"). _Component of sammā-saṅkappa (VIII.a); the going-forth from household life that frames the entire training in DN 2 / MN 27._
+
+_Frame-terms for the training:_
+
+- **majjhimā paṭipadā** (Skt: madhyamā pratipad) — the middle way; _the frame of the first sermon (SN 56.11), identified there with the noble eightfold path._
+- **kusala** (Skt: kuśala) / **akusala** (Skt: akuśala) — wholesome / unwholesome (alt. skillful / unskillful); _the fundamental ethical-qualitative category applied throughout EBT — the criterion being whether an action or quality leads to suffering (dukkha) or to its cessation (cf. MN 9 Sammādiṭṭhi-sutta, AN 3.65 Kālāma-sutta)._
+- **appamāda** (Skt: apramāda) / **pamāda** (Skt: pramāda) — heedfulness / heedlessness. _Summary term for the urgency and care of the whole training: Dhp 21 `appamādo amatapadaṃ` "heedfulness is the deathless path"; Dhp 2; the Buddha's last words at DN 16 — `appamādena sampādetha` "strive on with heedfulness." Distinct from effort / vīriya (VI.f) — appamāda is attentive vigilance as an attitudinal stance, not exertion._
+- **adhisīla** (Skt: adhiśīla) / **adhicitta** (Skt: same) / **adhipaññā** (Skt: adhiprajñā) — higher virtue / higher mind / higher wisdom; _the three higher trainings; the master frame under which the gradual training is often presented (AN 3.81, etc.)._
+- **bhāvanā** (Skt: same) — development, cultivation (used as a near-synonym for "meditation"); lit. "bringing-into-being" (causative of √bhū)
+
+_The six direct knowledges (post-jhāna fruits):_
+
+- **abhiññā** (Skt: abhijñā) — direct knowledge, higher knowledge. _The six abhiññās as a canonical set (DN 2, MN 27): (1) `iddhi-vidhā` psychic powers, (2) `dibba-sota` divine ear, (3) `cetopariya-ñāṇa` knowing others' minds, (4) `pubbenivāsānussati` recollection of past lives, (5) `dibba-cakkhu` / `cutūpapāta-ñāṇa` divine eye / passing-and-rebirth, (6) `āsavakkhaya-ñāṇa` knowledge of the destruction of the taints. The last three alone are the `tevijjā` (three knowledges). In the long gradual-training suttas (DN 2, MN 27) the first five are presented as optional fruits available from the fourth jhāna onward — not as required steps; only the sixth is the goal itself (cf. II `āsavakkhaya`)._
+
+### III.b Hindrances (nīvaraṇa / Skt: nivāraṇa)
+
+- **nīvaraṇa** (Skt: nivāraṇa) — hindrance; lit. "obstruction, covering" (ni- + √vṛ "cover")
+
+_The Five Hindrances (pañca nīvaraṇāni):_
+
+1. **kāmacchanda** (Skt: same) — sensual desire; _the hindrance-mode of `kāma-rāga` (fetter 4, VIII.g) ≈ `kāma-taṇhā` (the sensuality-form of taṇhā at SN 56.11) — same referent at different abstraction levels (hindrance-moment / fetter / craving-form)._
+2. **vyāpāda** (Skt: same) — ill will; lit. "going against, opposing" (vi- + ā- + √pad). _The intentional / dispositional aversion of wishing harm; distinct from dosa (root unwholesome state, VI.f) and paṭigha (reactive aversion-moment, VIII.g)._
+3. **thīna-middha** (Skt: styāna-middha) — sloth and torpor (alt. dullness and drowsiness)
+4. **uddhacca-kukkucca** (Skt: auddhatya-kaukṛtya) — restlessness and remorse (alt. restlessness and worry)
+5. **vicikicchā** (Skt: vicikitsā) — doubt, skeptical doubt; _also fetter 2 (VIII.g)._
+
+### III.c Jhāna & Samādhi — EBT formulation
+
+_The rendering cluster below follows Kumāra Bhikkhu,_ What You Might Not Know about Jhāna & Samādhi _(2022), in treating the Sutta jhāna as a progression of mental composure (not single-object absorption). Each entry carries a compressed rationale; Kumāra's full argument is in that book._
+
+- **jhāna** (Skt: dhyāna) — meditation. _Standardly "meditative absorption," "absorption," or left as "jhāna." Following Kumāra: the verb `jhāyati` ("meditate, contemplate, think upon, brood over") carries the core sense. AN 1.394–574 attaches "not devoid of jhāna" to many cultivations beyond the four stages — brahmavihāras, satipaṭṭhāna, sammappadhāna, iddhipāda, indriyas, recollections of death / not-self — so the word's scope is wider than the four absorption-stages. "Absorption" imports the Visuddhimagga framing._
+
+_The four rūpa-jhānas (cattāro rūpa-jhānā):_
+
+1. **paṭhamajjhāna** — first jhāna; `savitakka savicāra` (with thinking-and-considering); `vivekajaṃ pītisukhaṃ` (joy-and-happiness born of separation).
+2. **dutiyajjhāna** — second jhāna; `avitakka avicāra` (without thinking-and-considering); `ajjhattaṃ sampasādanaṃ` (internal serene-confidence); `cetaso ekodibhāvaṃ` (mental poise); `samādhijaṃ pītisukhaṃ` (joy-and-happiness born of composure).
+3. **tatiyajjhāna** — third jhāna; `pītiyā ca virāgā` (with the fading of joy); `upekkhako sato sampajāno` (equanimous, mindful, fully aware); `sukhaṃ kāyena paṭisaṃvedeti` (sukha experienced with the body).
+4. **catutthajjhāna** — fourth jhāna; `upekkhā-sati-pārisuddhi` (purity of equanimity and mindfulness); `adukkham-asukhaṃ` (neither-suffering-nor-happiness, in the feeling-tone sense).
+
+_Core EBT meditation vocabulary:_
+
+- **samādhi** (Skt: same) — composure, collectedness; lit. "placing/collecting together" (saṃ- "together" + ā-√dhā "put, place"). _Standardly "concentration." Samādhi is the abstract noun corresponding to the participle `samāhita` ("composed, collected"), as in `samāhita citta` ("composed mind") — gathering oneself rather than fixing attention on a single object. Kumāra's central contrast: Sutta samādhi is unification of mind; the Visuddhimagga reframes it as one-pointed concentration on a single object. Parallels: German `Sammlung` "collection, collectedness, composure" (same `sam-` prefix); Chinese 定 (dìng) "calm, stable"; Thai forest-tradition `jit ruam` "collected mind"; U Tejaniya "stability of mind." Anālayo independently arrived at the same etymology (Satipaṭṭhāna, p72). "Concentration" as a mental-focus word is only a mid-19th-c. English coinage._
+- **samatha** (Skt: śamatha) — settling. _Standardly "tranquillity," "serenity," or "calm abiding." Kumāra: samatha has a general sense of settling/settlement — `sabba·saṅkhāra·samatha` "settling of all fabrications" (as an epithet of Nibbāna, SN 6.1); `adhikaraṇa·samatha` "case-settlement" in the Vinaya. In meditation specifically, `cetosamatha` "mental settling." AN 4.170 (Yuganaddha-sutta) enumerates four ways samatha and vipassanā are cultivated: samatha-preceded vipassanā, vipassanā-preceded samatha, samatha-and-vipassanā yoke-tied (`yuganaddha`), and a fourth case in which the mind is seized by `dhamma-uddhacca` (restlessness regarding dhammas) and then settles into samādhi — none treats samatha and vipassanā as alternate methods to be chosen between (vs. the orthodox-Theravāda framing of `samatha-yānika` "samatha-vehicle practitioner" and `suddha-vipassanā-yānika` "pure-insight practitioner" as alternate paths). Chinese 止 (zhǐ) "cease, stop, halt"; Tibetan `shinay` "calm abiding."_
+- **vipassanā** (Skt: vipaśyanā) — insight, clear-seeing, discernment; lit. "seeing clearly / seeing distinctly" (vi- + √paś). _"Insight" is the standard rendering and entered English Buddhist usage via the late-19th-c. PTS translators (Rhys-Davids et al.); the in-sight / inward-seeing register fits the vi- + √paś "see-distinctly" sense reasonably even if not literal. "Clear-seeing" / "discernment" (following Kumāra) keep the √paś root visible without the Mahāsi insight-moment register. In the Suttas vipassanā is the distinct-seeing of saṅkhāras (Tatiya·samādhi Sutta AN 4.94), cultivated together with samatha (in any of the three ways noted under samatha), not as a separate opposed meditation-type. What orthodox Theravāda calls "vipassanā meditation" is actually `satipaṭṭhāna` in Sutta terminology._
+- **nimitta** (Skt: same) — basis, object. _Standardly "sign" or "theme." "Basis / object" follows Kumāra: in the Suttas nimitta is a general meditation basis or theme (what the mind is set on), NOT the visual `kasiṇa`-style concentration-object of the Visuddhimagga commentarial apparatus. The commentarial three-fold nimitta series (parikamma-/uggaha-/paṭibhāga-nimitta) is at XI.b._
+
+_The Jhāna Factors (jhānaṅga) — in canonical order, as in the 1st-jhāna formula:_
+
+- **vitakka** (Skt: vitarka) — thinking, thought. _Standardly "applied thought" or "directed thought." "Thinking" follows Kumāra and the wide reading — see def-flag below._
+
+  _def-flag: the EBT sense of vitakka-vicāra as jhāna factors is genuinely contested. Wide reading (Polak, Arbel, Sujato, Thanissaro, Kumāra): ordinary thinking / pondering, such that first jhāna admits wholesome discursive cognition and the 2nd-jhāna avitakka-avicāra marks a phenomenal shift from verbal-discursive to non-verbal awareness. Narrow / commentarial reading (Visuddhimagga, Mahāsi, Pa Auk, Brahm): subtle attention-mechanics proper to absorption, glossed as abhiniropana ("initial application of mind to the object") and anumajjana ("sustained examination"), with the bee-at-flower and bell-reverberation similes. Key sutta evidence for the wide reading is SN 41.6 (Kāmabhū) and MN 44 (Cūḷavedalla), which define vitakka-vicāra as vacīsaṅkhāra ("verbal formation") because "having first thought and considered, one breaks into speech"; AN 3.60 (Saṅgārava) further shows that vitakka creates "mental sound" that a mind-reader can hear. MN 19 (Dvedhāvitakka) shows the Buddha dividing his own vitakkas into unskillful and skillful. This also explains why the 2nd jhāna — avitakka-avicāra — is called "noble silence" (`ariyo tuṇhībhāvo`, SN 21.1): the first jhāna has internal speech, the second doesn't. The narrow reading is a progressive technicalization through Abhidhamma → Buddhaghosa; see XI.b for the commentarial attention-mechanics apparatus._
+
+- **vicāra** (Skt: same) — considering; lit. "moving/wandering about" (cf. _vicarati_ "to wander"). _Standardly "sustained thought," "examination," or "evaluation." "Considering" follows Kumāra; see vitakka def-flag for the scholarly divide._
+- **pīti** (Skt: prīti) — joy. _Standardly "rapture." "Joy" (Thanissaro, Kumāra) avoids the Christian-origin ecstasy-register of "rapture," which misfits the EBT picture of pīti arising from freedom-from-remorse (the pāmojja-chain below) and from `vivekajaṃ` (separation-born). A vibrating/swaying-body "rapture" reading does not track the Sutta usage._
+- **sukha** (Skt: same) — happiness, happy. _Standardly "pleasure," "bliss," or "ease." "Happiness" follows Kumāra: sukha covers a range from gross (`kāmasukha` sensual happiness), to bodily (`kāyika sukha`), to the supramundane (`nibbānaṃ paramaṃ sukhaṃ` "Nibbāna is the highest happiness," where Sāriputta adds "just that is the sukha here: where there is nothing felt" — AN 9.34). "Pleasure" and "bliss" are too narrow: sukha includes a non-vedanā evaluative sense — the 4th jhāna formula explicitly abandons sukha as a vedanā-factor (`sukhassa ca pahānā` → `adukkham-asukhaṃ` "neither-painful-nor-pleasant"), but this evaluative-sukha sense is what licenses calling Nibbāna `paramaṃ sukhaṃ` in the same Sāriputta-AN-9.34 idiom (a sukha-of-peace that obtains where vedanā has been transcended)._
+- **ekaggatā** (Skt: ekāgratā) — still, stillness; lit. "one-placed, one-placed-ness." _Standardly "one-pointed, one-pointedness." "Still / stillness" follows Kumāra against "one-pointedness." Kumāra's case: `agga` in EBT usage does not mean "point" (spatially limited location) but either "top / tip" literally (tip-of-grass, top-of-tree) or — in a contracted-form sense related to `agāra` "place" (cf. `suññāgāra` "empty place," `dānagga` "alms-place") — "place." `Ekagga` = "one-placed" → idiomatically "still" (a still mind being one that is gathered, not scattered). PED (1921) introduced "one-pointedness of mind" as a hedged rendering in quote-marks acknowledging its non-Englishness, and it became entrenched in 20th-c. Theravāda; C. A. F. Rhys Davids (1900) earlier rendered `cittassekaggatā` as "self-collectedness." The `cittassa ekaggatā ayaṃ samādhi` passage (MN 44.12) reads naturally as "stillness of mind — this is composure," awkwardly as "one-pointedness of mind — this is concentration." Cross-ref to def-flag below on whether ekaggatā is a jhāna-factor._
+
+  _def-flag: the EBT first-jhāna formula lists four factors (vitakka, vicāra, pīti, sukha); ekaggatā appears as a separate mental quality but is not counted among those four in the sutta formula. The pañca-jhānaṅga analysis (counting ekaggatā as the fifth factor of first jhāna) is commentarial — see XI.b._
+
+_Adjacent / supporting terms (not jhāna factors):_
+
+- **viveka** (Skt: same) — separation. _Standardly "seclusion." "Separation" (following Kumāra) tracks the adverbial `vivicca` "having separated" in the 1st jhāna formula — `vivekajaṃ pītisukhaṃ`, "joy-and-happiness born of separation (from sensuality and unwholesome states)."_
+- **pāmojja** (Skt: prāmodya) — gladness; lit. "rejoicing, delight" (from `pamodati` "rejoice, enjoy, be glad"). _"Gladness" follows Kumāra. Not itself a jhāna factor; the canonical gladdening-chain (AN 10.1, AN 10.2, SN 12.23 Upanisā-sutta) — sīla → avippaṭisāra (freedom from remorse) → pāmojja (gladness) → pīti (joy) → passaddhi (tranquillity) → sukha (happiness) → samādhi (composure) → yathā·bhūta·ñāṇa·dassana — runs upstream into the jhānas._
+- **ekodibhāva** (Skt: ekotibhāva) — poise, equipoise; lit. "equipoised state." _Standardly "unification" or "singleness" (of mind). "Poise" follows Kumāra's etymology: `eka` here bearing the less-common sense "equal" (cf. Latin `aequus`) + `odi` (for `odhi`, `o-` + √dhā "hold inside") → "equal-inside-holding" = equipoise. Not itself a jhāna factor; characterizes the 2nd jhāna's `cetaso ekodibhāvaṃ` ("mental poise") and describes a person at Sn 4.16 — `ekodi nipako sato` "poised, judicious, mindful," where "unified" cannot render._
+
+_The Formless Attainments (cattāro arūpa-samāpatti):_
+
+- **arūpa-samāpatti** (Skt: ārūpya-samāpatti) — formless attainments
+
+1. **ākāsānañcāyatana** (Skt: ākāśānantyāyatana) — base of infinite space
+2. **viññāṇañcāyatana** (Skt: vijñānānantyāyatana) — base of infinite consciousness
+3. **ākiñcaññāyatana** (Skt: ākiñcanyāyatana) — base of nothingness
+4. **nevasaññānāsaññāyatana** (Skt: naivasaṃjñānāsaṃjñāyatana) — base of neither-perception-nor-non-perception
+
+- **saññāvedayitanirodha** (Skt: saṃjñāvedayitanirodha) — cessation of perception and feeling; _the attainment beyond the four arūpa-samāpattis._
+- **nirodha-samāpatti** (Skt: same) — attainment of cessation; _= `saññāvedayitanirodha`; same referent, shorter name._
+
+---
+
+## Part IV — Satipaṭṭhāna (Pāli; EBT)
+
+_def-flag on the Part: the inclusion of the 21-exercise expansion (ānāpāna, four postures, clear comprehension, 31 body parts, four elements, nine charnel grounds, etc.) in the earliest stratum of MN 10 / DN 22 is contested in scholarship (Sujato, Anālayo disagree); the basic four-foundation framework is uncontroversially EBT._
+
+- **satipaṭṭhāna** (Skt: smṛtyupasthāna) — establishment of mindfulness, foundation of mindfulness
+- **sati** (Skt: smṛti) — mindfulness; lit. "remembering, recollection" (√smṛ "remember" — same root as Vedic `smṛti` "that which is remembered, tradition"). _Recurs across the seven sets: as sammā-sati on the eightfold path (VIII.a), as bojjhaṅga (VIII.b), as faculty (VIII.c), as power (VIII.d) — and as the EBT-attested cetasika (VI.f)._
+
+  _def-flag on the "mindfulness" rendering: the Pāli core-semantic is a memory-and-attention fusion — keeping-in-mind, holding-in-awareness, not-forgetting-what-should-be-attended-to (the object of practice, the teaching, the bodily posture, etc.). "Mindfulness" is a late-19th-c. English coinage (Rhys-Davids, Buddhist Suttas, 1881) that lost both the mnemonic layer and the deliberateness layer; in modern pop-mindfulness usage it has collapsed further into bare present-moment awareness, stripped of the object-keeping and remembering-the-instruction dimensions. Sujato has pushed "remembering" or "memory"; Gethin ("On Some Definitions of Mindfulness," 2011) has written the definitive critical survey. The rendering is now too entrenched to displace, but the √smṛ-root sense matters for reading sati as "holding the teaching / object-of-attention in mind" — a cognitive discipline with directional content — rather than as the thinner "being aware" register pop usage has accreted. This divergence is a live problem across the glossary: wherever "mindfulness" appears (IV, VI.f, VIII.a/b/c/d, sati-sampajañña in III.a), the Pāli term is doing heavier lifting than the English naming suggests._
+
+- **anupassanā** (Skt: anupaśyanā) — contemplation, sustained observation; lit. "looking-along, repeated-seeing" (anu- "along, repeatedly" + √paś "see"). _The abstract noun underlying all four foundation-names below; the satipaṭṭhāna formula's `kāye kāyānupassī viharati` ("dwells contemplating the body in the body") makes it the verbal-form of the practice._
+
+_The Four Foundations (cattāro satipaṭṭhānā):_
+
+1. **kāyānupassanā** (Skt: kāyānupaśyanā) — contemplation of the body; _the body-section within the four-satipaṭṭhāna framework. Cf. `kāyagatāsati` below — body-mindfulness as a self-standing practice in MN 119, covering substantially the same content (breathing, postures, sampajañña, 31 body parts, four elements, charnel-ground contemplations)._
+2. **vedanānupassanā** (Skt: vedanānupaśyanā) — contemplation of feelings
+3. **cittānupassanā** (Skt: cittānupaśyanā) — contemplation of mind
+4. **dhammānupassanā** (Skt: dharmānupaśyanā) — contemplation of mental objects / of phenomena / of dhammas; _the ambiguity is deliberate — "dhamma" here spans the teaching, categories of analysis, and phenomena generally._
+
+_Associated terms:_
+
+- **ānāpānasati** (Skt: ānāpānasmṛti) — mindfulness of breathing
+- **kāyagatāsati** (Skt: kāyagatāsmṛti) — mindfulness directed to the body, mindfulness immersed in the body. _Title and topic of MN 119, presenting body-mindfulness as a self-standing practice (breathing, postures, sampajañña, 31 body parts, four elements, charnel-ground contemplations) rather than within the four-satipaṭṭhāna framework of MN 10 / DN 22. AN 1.563 lists it as a practice "conducing to great benefit" (`mahānusaṃsa`)._
+- **sampajañña** (Skt: samprajanya) — clear comprehension, clear knowing, full awareness; _`sato sampajāno` — "mindful and fully aware" — the pair describing the meditator throughout the gradual training. "Full awareness" is Kumāra's rendering; "clear comprehension" (Bodhi, Ñāṇamoli) is the traditional phrasing. Sati Sutta (SN 47.35) defines sampajañña as knowing feelings, thoughts, and perceptions as they arise, persist, and disappear._
+- **ātāpī** (Skt: ātāpin) — ardent; _element of the satipaṭṭhāna refrain formula._
+- **abhijjhā-domanassa** (Skt: abhidhyā-daurmanasya) — covetousness and grief; _the refrain pairs ātāpī with having put these away._
+
+---
+
+## Part V — Brahmavihāras (Pāli; EBT)
+
+- **brahmavihāra** (Skt: same) — divine abiding, sublime abiding; lit. "brahma-dwelling"
+- **appamāṇā** (Skt: apramāṇa) — immeasurable, boundless; _the four brahmavihāras as "the four immeasurables."_
+
+_The Four Brahmavihāras (cattāro brahmavihārā) — listed canonically in this order across the Nikāyas; Visuddhimagga ch. IX (the Brahmavihāra-niddesa, in commentarial XI.b) reads the order as developmental (karuṇā / muditā extending from mettā toward suffering / flourishing beings; upekkhā integrating and culminating)._
+
+1. **mettā** (Skt: maitrī) — loving-kindness; alt. "good-will" (Thanissaro), "friendliness," "loving-friendliness" (Bhante Gunaratana); lit. "friend-ness" (from _mitra_ "friend")
+2. **karuṇā** (Skt: same) — compassion
+3. **muditā** (Skt: same) — appreciative joy, altruistic joy; _joy at another's flourishing. "Sympathetic joy" is the older translator idiom (pre-Bloom sympathy/empathy distinction); "appreciative joy" and "altruistic joy" (Thanissaro) avoid the empathy-as-affective-mirroring reading — muditā is neither feeling-into another's state nor concern-for-another's-wellbeing but joyful appreciation of their flourishing._
+4. **upekkhā** (Skt: upekṣā) — equanimity; lit. "looking-over, looking-past" (upa- + √īkṣ "see")
+
+---
+
+## Part VI — Understanding Experience (Pāli; EBT)
+
+### VI.a Three Marks (tilakkhaṇa / Skt: trilakṣaṇa)
+
+- **anicca** (Skt: anitya) — impermanent (adj.), impermanence (nom.); lit. "not-lasting" (a- + nicca "lasting, constant"). _Corresponds to `animitta` (signless liberation) in the three-vimokkhas mapping; cf. II._
+- **dukkha** (Skt: duḥkha) — unsatisfactory (adj.), unsatisfactoriness, suffering (nom.). _A traditional folk etymology parses du-kha as "bad axle-hole" (contrasted with su-kha "good axle-hole") — memorable but philologically unreliable. The 1st noble truth (IX); corresponds to `appaṇihita` (undirected liberation) in the three-vimokkhas mapping; cf. II._
+- **anattā** (Skt: anātman) — not-self (serves adj. and nom.); a- privative + attā "self." _Corresponds to `suññatā` (empty liberation) in the three-vimokkhas mapping; cf. II. Sanskrit-tradition counterpart `nairātmya` (selflessness of persons and dharmas) extends the doctrine to dharmas in Mahāyāna (XII.b)._
+
+### VI.b Aggregates (khandha / Skt: skandha)
+
+- **khandha** (Skt: skandha) — aggregate, heap, bundle; lit. "shoulder, trunk (of a tree), mass"
+
+_The Five Aggregates (pañcakkhandha):_
+
+1. **rūpa** (Skt: same) — form, material form; _Bodhi sometimes renders "materiality."_
+2. **vedanā** (Skt: same) — feeling, hedonic tone (pleasant, unpleasant, or neither-pleasant-nor-unpleasant tonal quality of experience); _also DO link 7 (VII.a); 2nd satipaṭṭhāna foundation (IV)._
+3. **saññā** (Skt: saṃjñā) — perception; lit. "together-knowing" (saṃ- + √jñā). _Covers recognition, labeling, apperception._
+4. **saṅkhāra** (Skt: saṃskāra) — (here, the 4th aggregate) intentional formations, intentional activities; lit. "con-struction, together-making" (saṃ- + √kṛ "do, make"). _The Abhi. takes cetanā (intention, VI.f) as the leading factor of this aggregate, hence the older rendering "volitional formations" (Bodhi) — re-rendered "intentional" here for consistency with cetanā = intention. Alternative renderings: "fabrications" (widespread in contemporary insight-teaching idiom — Thanissaro's signature, also Sujato, Anālayo, Goldstein, Kornfield, etc.) emphasizes the saṃ-√kṛ "together-making" root over the cetanā-specific reading; Sujato's "choices" emphasizes the active cetanā-led-decision angle._
+
+   _def-flag: `saṅkhāra` has at least five distinct doctrinal uses: (1) the second link in dependent origination — intentional formations conditioning consciousness (VII.a); (2) the fourth aggregate — intentional / constructive factors led by cetanā (here); (3) broadly, "all conditioned phenomena" / "all fabrications" (`sabbe saṅkhārā aniccā` "all fabrications are impermanent" — see VII.b); (4) the triad `kāya-saṅkhāra` / `vacī-saṅkhāra` / `citta-saṅkhāra` (bodily, verbal, mental formations / fabrications — MN 44, MN 9); (5) `āyu-saṅkhārā` — life-formations/life-force (MN 43, DN 16). Contexts do not reduce to a single gloss._
+
+5. **viññāṇa** (Skt: vijñāna) — consciousness; lit. "knowing-apart" (vi- "apart, distinct" + √jñā "know") — the cognitive moment of _being-aware-of-an-object_, distinguishing X from non-X. _Six kinds: cakkhu-, sota-, ghāna-, jivhā-, kāya-, mano-viññāṇa — one per sense-modality. Also DO link 3 (VII.a); the consciousness-element (viññāṇa-dhātu, VI.d). Distinct from `citta` (heart-mind, VI.f) and `mano` (mind-as-sense-base, VI.c) — viññāṇa is the cognitive event arising at any sense-base; mano is itself a sense-base, the sixth one (mano-viññāṇa = the cognition arising at mano, parallel to cakkhu-viññāṇa at the eye). EBT sometimes treats the three (citta / mano / viññāṇa) as interchangeable (DN 16)._
+
+- **upādāna-khandha** (Skt: upādāna-skandha) — clinging-aggregate, aggregate subject to clinging; _the five khandhas insofar as they are objects of upādāna._
+
+### VI.c Sense Bases (saḷāyatana / Skt: ṣaḍāyatana)
+
+_Four overlapping technical terms — three EBT (āyatana, indriya, dhātu) and one Abhi./commentarial (dvāra) — for the **standing apparatus** at each sense-organ. For the five physical sense-organs the three Abhi. framings co-refer to a single subtle-matter referent (`pasāda-rūpa`: `cakkhu-pasāda` "eye-sensitivity," `sota-pasāda` "ear-sensitivity," etc.; XI.a). The mental case is different — `mano` has no `pasāda-rūpa`; `manāyatana` / `manindriya` / `mano-dhātu` co-refer to a non-physical mental capacity-and-base, with their own Abhi. divisions of citta-types serving the door-and-base function._
+
+- **āyatana** (here, VI.c) — base / sphere / locus; the eye as the _where-of-seeing_. The canonical 12-āyatana analysis (6 internal + 6 external).
+- **indriya** (VIII.c; Abhi. expands to 22 faculties) — faculty / controlling-power (from _indra_ "lord, chief"); the eye as the _structural capacity / dispositional power_ enabling seeing — distinct from the actual seeing-event (`viññāṇa`).
+- **dhātu** (VI.d) — element / constituent; the eye as a _basic constituent_ in the 18-element analysis.
+- **dvāra** (XI.a) — door / gate (Abhi./commentarial); the eye as the _access-point_ through which objects enter cognition.
+
+_Abhi. explicitly identifies these for the eye: `cakkhāyatana` = `cakkhundriya` = `cakkhu-dhātu` — same `cakkhu-pasāda` referent under three (or four) lenses, all naming the **standing apparatus** rather than the cognitive event. (Parallel identification holds for the other four physical sense-organs; for `mano` the three framings co-refer but to a non-physical mental capacity, not to a `pasāda-rūpa`.) The actual seeing/hearing-as-event is `viññāṇa` (eye-consciousness, ear-consciousness, etc.; VI.b) arising from base + object via `phassa` (contact, VI.c) — saḷāyatana → phassa → vedanā at VII.a tracks the structural-to-dynamic transition._
+
+- **āyatana** (Skt: same) — sense-base, sense-sphere
+- **saḷāyatana** (Skt: ṣaḍāyatana) — the six sense-bases; _also DO link 5 (VII.a)._
+
+_The Six Sense-bases:_
+
+1. **cakkhu** (Skt: cakṣus) — eye
+2. **sota** (Skt: śrotra) — ear
+3. **ghāna** (Skt: ghrāṇa) — nose
+4. **jivhā** (Skt: jihvā) — tongue
+5. **kāya** (Skt: same) — body
+6. **mano** (Skt: manas) — mind (as the sixth sense-base); _the cognitive faculty grasping `dhamma` (mental object); kept distinct from `citta` (mind, heart-mind, VI.f) and `viññāṇa` (consciousness, VI.b)._
+
+_The Six Sense-objects (corresponding to the six bases):_
+
+1. **rūpa** (Skt: same) — visible form, sight-object; _cross-ref to VI.b and VI.e._
+2. **sadda** (Skt: śabda) — sound
+3. **gandha** (Skt: same) — smell, odor
+4. **rasa** (Skt: same) — taste, flavor
+5. **phoṭṭhabba** (Skt: spraṣṭavya) — tangible, touch-object
+6. **dhamma** (Skt: dharma) — mental object, mind-object; _cross-ref to XI.a for the Abhi. "ultimate constituent" technical sense._
+
+- **phassa** (Skt: sparśa) — contact; _also DO link 6._
+
+### VI.d Elements (dhātu)
+
+- **dhātu** (Skt: same) — element; lit. "that which places/holds" (from √dhā "place")
+- **pathavī-dhātu** (Skt: pṛthivī-dhātu) — earth element (solidity)
+- **āpo-dhātu** (Skt: ap-dhātu) — water element (cohesion)
+- **tejo-dhātu** (Skt: tejas-dhātu) — fire element (heat)
+- **vāyo-dhātu** (Skt: vāyu-dhātu) — wind / air element (motion)
+- **ākāsa-dhātu** (Skt: ākāśa-dhātu) — space element
+- **viññāṇa-dhātu** (Skt: vijñāna-dhātu) — consciousness element; _cf. `viññāṇa` (5th aggregate, VI.b; DO link 3, VII.a)._
+
+_Stephen Procter (MIDL — Mindfulness in Daily Life) frames the four primary elements experientially as quality-ranges directly observed in body and mind, citing MN 10's `'This is earth element, this is water element, this is fire element, & this is wind element'`:_
+
+- **earth** (`pathavī`) — range of **solidity**: hardness, softness, pressure, heaviness, lightness
+- **water** (`āpo`) — range of **cohesion**: wetness, dryness, stickiness, trickling
+- **fire** (`tejo`) — range of **temperature**: hotness, warmth, coolness _(extends the canonical "heat" rendering to include coolness)_
+- **wind** (`vāyo`) — range of **movement**: movement, vibration, contraction, expansion
+
+_Each element-quality is most readily encountered at specific phenomenological loci — earth at body-contact-points, water in saliva / mouth / lips and the stickiness of mental qualities, fire in body and mental qualities, wind in breathing / physical pain / attention-movement. The framing keeps the elements as direct experiential observables rather than as "external" physical substances — consistent with the canonical satipaṭṭhāna treatment at MN 10 / MN 28 / MN 62._
+
+### VI.e Form and Name-and-form
+
+- **rūpa** (Skt: same) — form, material form; _cross-ref to VI.b._
+- **arūpa** (Skt: same) — formless, immaterial
+- **nāma-rūpa** (Skt: same) — name-and-form; _standardly "name-and-form" (Bodhi, Sujato, Thanissaro); Bodhi elsewhere "mentality-materiality." Also DO link 4._
+- **jīva** (Skt: same) — soul, life-principle; _in EBT chiefly in the avyākata formulas (e.g., `taṃ jīvaṃ taṃ sarīraṃ` "the soul is the body"); the technical Jaina/Vedāntic sense goes under XIV._
+
+### VI.f Mental Qualities & Functions (EBT-attested)
+
+_def-flag on the section: this gathers EBT-attested mental qualities, factors, and functions — covering both what would later be systematized as `cetasika` (concomitant mental factors) in Theravāda Abhi. and structural mind-terms (e.g., `citta` itself, `ñāṇa`) that are not `cetasika` under the technical 52-cetasika typology. `cetasika` as a category delimiting a fixed list of 52 is an Abhi. development; the systematic cetasika-theory apparatus is in XI.a._
+
+- **cetasika** (Skt: caitasika / caitta) — mental factor, mental concomitant; _the umbrella category for the qualities listed below. The technical 52-cetasika typology is at XI.a._
+- **citta** (Skt: same) — mind, heart-mind; _the affective/intentional sense, distinct from `viññāṇa` (consciousness, VI.b) and `mano` (mind-as-sense-base, VI.c). 3rd satipaṭṭhāna foundation (IV); also the iddhipāda-sense at VIII.f._
+- **cetanā** (Skt: same) — intention; _AN 6.63 famously defines kamma as cetanā:_ cetanāhaṃ bhikkhave kammaṃ vadāmi _— "what I call kamma, monks, is intention." Distinct from `saṅkappa` (deliberate forming/disposing of mind — VIII.a sammā-saṅkappa)._
+- **manasikāra** (Skt: same) — attention, bringing to mind; lit. "mind-making" (manas + √kṛ)
+- **saddhā** (Skt: śraddhā) — faith; lit. "putting heart on" (śrad + √dhā). _Faculty (VIII.c) and power (VIII.d)._
+- **chanda** (Skt: same) — motivation, zeal, wish-to-do; _in the wholesome / iddhipāda sense (VIII.f), explicitly distinct from `taṇhā` — chanda is the directional motivation that drives wholesome cultivation, taṇhā is the dukkha-generating craving._
+- **vīriya** (Skt: vīrya) — effort, energy, vigor; lit. "heroic-ness" (from vīra "hero"). _Recurs across the seven sets: bojjhaṅga (VIII.b), faculty (VIII.c), power (VIII.d), sammappadhāna (VIII.e), iddhipāda (VIII.f), and as sammā-vāyāma (VIII.a)._
+- **passaddhi** (Skt: praśrabdhi) — tranquillity, calm, repose; _also bojjhaṅga (VIII.b)._
+- **paññā** (Skt: prajñā) — wisdom; _faculty (VIII.c) and power (VIII.d); the wisdom-section of the eightfold path (sammā-diṭṭhi + sammā-saṅkappa, VIII.a)._
+- **ñāṇa** (Skt: jñāna) — knowledge, direct knowledge; _cf. yathābhūtaṃ ñāṇadassana (III.a), the sixteen vipassanā-ñāṇas (XI.b)._
+- **upekkhā** (Skt: upekṣā) — equanimity; _cross-ref to V (brahmavihāra) and VIII.b (bojjhaṅga); also the 4th-jhāna characteristic (III.c)._
+
+_Wholesome and unwholesome roots (mūla):_
+
+- **kusala-mūla** (Skt: kuśala-mūla) / **akusala-mūla** (Skt: akuśala-mūla) — wholesome / unwholesome roots; _the three wholesome and three unwholesome root-qualities paired as a root-analytic schema (AN 3.34, etc.)._
+- **lobha** (Skt: same) / **dosa** (Skt: dveṣa) / **moha** (Skt: same) — greed (covetous-pull-toward), hatred, delusion; _the three akusala-mūla. At the root-analytic level: `lobha` ≈ `taṇhā` (broad craving-side); `dosa` ≈ taṇhā's aversion-side (on the craving/aversion reading at I); `moha` ≈ `avijjā` (DO link 1, fetter 10). Sensuality-restricted manifestations at lower analytic levels — `kāma-rāga` (VIII.g fetter 4, eliminated at 3rd path while broader taṇhā extends through bhava-/rūpa-/arūpa-forms only fully ended at 4th path), `kāmacchanda` (III.b hindrance), `kāma-taṇhā` (sensuality-form of the three-fold taṇhā at SN 56.11). Aversion-mode at lower levels — `paṭigha` (VIII.g fetter 5, reactive aversion-moment), `vyāpāda` (III.b hindrance, intentional ill-will-as-disposition)._
+- **alobha** (Skt: same) / **adosa** (Skt: adveṣa) / **amoha** (Skt: same) — non-greed, non-hatred, non-delusion; _the three kusala-mūla._
+- **rāga** (Skt: same) — passion, lust; _the broader pull-toward term, paired throughout EBT with dosa and moha. Related to but broader than `lobha` — rāga is the general coloring/passion register, `lobha` the technical root-quality. Reappears compounded in the fetters as kāma-rāga (4), rūpa-rāga (6), arūpa-rāga (7) — see VIII.g._
+- **domanassa** (Skt: daurmanasya) — mental pain, sadness, displeasure; _cf. IV satipaṭṭhāna refrain (`abhijjhā-domanassa`)._
+- **somanassa** (Skt: saumanasya) — mental pleasure, gladness, joy
+
+---
+
+## Part VII — Dependent Origination & Causal Frame (Pāli; EBT)
+
+### VII.a Twelve Links (paṭiccasamuppāda / Skt: pratītyasamutpāda)
+
+- **paṭiccasamuppāda** (Skt: pratītyasamutpāda) — dependent origination, dependent arising; lit. "arising-together-in-dependence" (paṭicca "depending on" + saṃ- "together" + uppāda "arising")
+- **idappaccayatā** (Skt: idaṃpratyayatā) — specific conditionality, this-that conditionality; lit. "this-as-condition-ness"
+
+1. **avijjā** (Skt: avidyā) — ignorance; lit. "not-knowing" (a- + √vid "know"). _Also fetter 10 (VIII.g); ≈ `moha` (delusion, VI.f) at the root-analytic level._
+2. **saṅkhāra** (Skt: saṃskāra) — (here, DO link 2) intentional formations, intentional activities; _cross-ref to VI.b saṅkhāra def-flag._
+3. **viññāṇa** (Skt: vijñāna) — consciousness; _cross-ref to VI.b (5th aggregate) and VI.d (consciousness-element)._
+4. **nāma-rūpa** (Skt: same) — name-and-form; _cross-ref to VI.e._
+5. **saḷāyatana** (Skt: ṣaḍāyatana) — six sense-bases; _cross-ref to VI.c._
+6. **phassa** (Skt: sparśa) — contact; _cross-ref to VI.c._
+7. **vedanā** (Skt: same) — feeling; _cross-ref to VI.b (2nd aggregate); 2nd satipaṭṭhāna foundation (IV)._
+8. **taṇhā** (Skt: tṛṣṇā) — craving / aversion; _cf. Part I for the def-flag on the unified clinging-engagement reading._
+9. **upādāna** (Skt: same) — clinging
+10. **bhava** (Skt: same) — becoming; _Bodhi renders "existence" to emphasize the state-of-being resulting from upādāna._
+11. **jāti** (Skt: same) — birth
+12. **jarā-maraṇa** (Skt: same) — aging-and-death
+
+_The canonical formula extends with the trailing phrase: `...jarā-maraṇa-soka-parideva-dukkha-domanassa-upāyāsa sambhavanti` — "aging, death, sorrow, lamentation, dukkha, displeasure, despair come into being." The chain culminates in `evametassa kevalassa dukkhakkhandhassa samudayo hoti` ("thus is the arising of this whole mass of dukkha") — and the reverse formula in `...nirodho hoti` ("thus is the cessation"). The 12 links explain the arising and cessation of dukkha (I); dukkha is the predicament the chain accounts for, not a discrete link within it._
+
+### VII.b Causal-Frame Terms
+
+- **hetu** (Skt: same) — cause
+- **paccaya** (Skt: pratyaya) — condition
+- **nidāna** (Skt: same) — source, cause, causal link
+- **saṅkhāra** (Skt: saṃskāra) — (here, sense 3 of the def-flag at VI.b) all conditioned phenomena, all fabrications; _the noun corresponding to `saṅkhata` below — used in `sabbe saṅkhārā aniccā` ("all fabrications are impermanent"), `sabba-saṅkhāra-samatha` ("settling of all fabrications," epithet of nibbāna at SN 6.1). Cross-ref to VI.b def-flag for the five distinct senses of saṅkhāra._
+- **saṅkhata** (Skt: saṃskṛta) — conditioned, constructed, fabricated
+- **asaṅkhata** (Skt: asaṃskṛta) — unconditioned, unconstructed, unfabricated; _standard epithet of nibbāna (cf. II)._
+- **kamma** (Skt: karman) — action; _usually left untransliterated in modern usage. EBT-defined as cetanā (intention, VI.f) at AN 6.63: "cetanāhaṃ bhikkhave kammaṃ vadāmi" — "what I call kamma, monks, is intention."_
+- **vipāka** (Skt: same) — result, fruition (of kamma); lit. "ripening"
+
+---
+
+## Part VIII — Path Systematizations within EBT (Pāli; EBT — systematic)
+
+_The seven sets (bodhipakkhiyā dhammā) are grouped together in EBT material (DN 16, MN 103, SN 22.81, AN 7.67 — per Gethin, The Buddhist Path to Awakening). What's late-canonical/commentarial is (a) the strict identification of `bodhipakkhiya-dhammā` with exactly these seven sets, (b) the fixed count "37," and (c) the systematic cross-mapping of items across sets._
+
+- **bodhipakkhiyā dhammā** (Skt: bodhipakṣa-dharma) — qualities conducive to awakening, factors of awakening; lit. "awakening-side dhammas."
+
+  _def-flag: see Part header; the "37" as a fixed technical enumeration is late._
+
+### VIII.a Noble Eightfold Path (ariya aṭṭhaṅgika magga / Skt: āryāṣṭāṅgamārga)
+
+_Note on `sammā`: rendered "proper" throughout, following Kumāra (2022). Standardly rendered "right" (Bodhi, Sujato, Thanissaro) — the near-universal Anglophone convention. `Sammā` is `sam-` "together, completely, correctly" — perfected / complete / correct — not English "right vs. wrong" in any moral-binary sense. "Proper" is a better calque; "right" is the reader's likely first encounter with each term. The Pāli-form references throughout this glossary (`sammā-diṭṭhi`, `sammā·samādhi`, etc.) stay as Pāli._
+
+#### Wisdom (paññā / Skt: prajñā)
+
+- **sammā-diṭṭhi** (Skt: samyag-dṛṣṭi) — proper view; _contrasts with the diṭṭhi-as-view-to-be-dropped of Part I and with sakkāya-diṭṭhi (fetter 1, VIII.g)._
+- **sammā-saṅkappa** (Skt: samyak-saṃkalpa) — proper thought, proper resolve; _modern textbooks frequently render "right intention," but "intention" is more strictly cetanā (VI.f). Saṅkappa is the deliberate forming/disposing of mind, defined at MN 117 as thoughts of nekkhamma (renunciation, III.a), abyāpāda (non-ill-will), and avihiṃsā (non-cruelty)._
+
+#### Ethical Conduct (sīla / Skt: śīla)
+
+- **sammā-vācā** (Skt: samyag-vāc) — proper speech
+- **sammā-kammanta** (Skt: samyak-karmānta) — proper action
+- **sammā-ājīva** (Skt: samyag-ājīva) — proper livelihood
+
+#### Composure (samādhi / Skt: same)
+
+- **sammā-vāyāma** (Skt: samyag-vyāyāma) — proper effort; _the four sammappadhānas (VIII.e) elaborate this._
+- **sammā-sati** (Skt: samyak-smṛti) — proper mindfulness; _the four satipaṭṭhānas (IV) elaborate this._
+- **sammā-samādhi** (Skt: samyak-samādhi) — proper composure, proper collectedness; _diverges on the noun too — standardly "concentration," see III.c `samādhi`. The four jhānas (III.c) elaborate this._
+
+### VIII.b Bojjhaṅgas (satta bojjhaṅgā / Skt: sapta bodhyaṅga)
+
+- **bojjhaṅga** (Skt: bodhyaṅga) — factor of awakening; lit. "awakening-limb" (bodhi + aṅga).
+
+_def-flag on the subsection: the list itself and the sequential developmental chain (each factor conditioning the next — MN 118 Ānāpānasati, SN 46.3) are both EBT. What is commentarial is the balancing-pairs analysis (energy/tranquillity, investigation/concentration counterposed around mindfulness), the hindrance-counteractive mapping, and the path-moment integration. Keep the developmental-chain reading as canonical; flag the balancing-pairs framework as Theravāda comm. when it comes up._
+
+- **sati** (Skt: smṛti) — mindfulness; _cf. IV satipaṭṭhāna; VI.f cetasika; VIII.a/c/d._
+- **dhamma-vicaya** (Skt: dharma-pravicaya) — investigation of dhammas, discrimination of phenomena; _"dhamma" here spans mind-states, phenomena, and the teaching. The wisdom-cultivation factor of the bojjhaṅga set; ≈ paññā (VI.f) in the active discriminative mode._
+- **vīriya** (Skt: vīrya) — effort, energy; _cf. VI.f cetasika; recurs across VIII.a/c/d/e/f._
+- **pīti** (Skt: prīti) — joy; _cf. III.c (jhāna factor)._
+- **passaddhi** (Skt: praśrabdhi) — tranquillity; _cf. VI.f cetasika._
+- **samādhi** (Skt: same) — composure, collectedness; _cf. III.c (jhāna formulation); VIII.a/c/d._
+- **upekkhā** (Skt: upekṣā) — equanimity; _cf. V (brahmavihāra), VI.f (cetasika), III.c (4th jhāna characteristic)._
+
+### VIII.c Faculties (pañca indriyāni / Skt: pañca indriya)
+
+- **indriya** (Skt: same) — faculty, spiritual faculty; lit. "pertaining to Indra" (i.e. belonging to a ruler, hence "controlling faculty"). _The five faculties listed below are the path-faculties; Abhi. enumerates 22 faculties total, including the six sense-faculties (cakkhundriya, sotindriya, etc.) which share referent with the VI.c sense-bases (āyatana) under a different framing — the eye as structural capacity rather than as locus._
+
+_The Five Faculties:_
+
+1. **saddhindriya** (Skt: śraddhendriya) — faculty of faith
+2. **vīriyindriya** (Skt: vīryendriya) — faculty of energy
+3. **satindriya** (Skt: smṛtīndriya) — faculty of mindfulness
+4. **samādhindriya** (Skt: samādhīndriya) — faculty of composure (samādhi)
+5. **paññindriya** (Skt: prajñendriya) — faculty of wisdom
+
+### VIII.d Powers (pañca balāni / Skt: pañca bala)
+
+- **bala** (Skt: same) — power, strength
+
+_The Five Powers — identical items to the faculties (saddhā / vīriya / sati / samādhi / paññā), held as unshakable:_
+
+1. **saddhā-bala** — power of faith
+2. **vīriya-bala** — power of energy
+3. **sati-bala** — power of mindfulness
+4. **samādhi-bala** — power of composure
+5. **paññā-bala** — power of wisdom
+
+### VIII.e Proper Strivings (cattāro sammappadhānā / Skt: catvāri samyakpradhāna)
+
+- **sammappadhāna** (Skt: samyakpradhāna) — proper striving, proper exertion
+
+_The Four Strivings:_
+
+1. preventing unarisen unwholesome
+2. abandoning arisen unwholesome
+3. developing unarisen wholesome
+4. maintaining arisen wholesome
+
+### VIII.f Bases of Power (cattāro iddhipādā / Skt: catvāra ṛddhipāda)
+
+- **iddhipāda** (Skt: ṛddhipāda) — basis of success, base of psychic power; lit. "foot of iddhi"
+
+_The Four Bases:_
+
+1. **chanda** (Skt: same) — motivation, zeal; _cross-ref to VI.f._
+2. **vīriya** (Skt: vīrya) — effort; _cross-ref._
+3. **citta** (Skt: same) — (purposeful) mind, application of mind; _cross-ref to VI.f in iddhipāda sense._
+4. **vīmaṃsā** (Skt: mīmāṃsā) — investigation, inquiry, examination
+
+- **iddhi** (Skt: ṛddhi) — psychic/spiritual power, success, accomplishment. _Pāli `iddhi` = Skt `ṛddhi` (from √ṛdh "thrive, accomplish"), NOT Skt `siddhi` (from √sidh "succeed"). The two are frequently conflated in Anglophone dharma writing — probably because both came to mean yogic attainments in later tantra, and `siddhi` is the form that escaped into English. In the Pāli canonical register the correct Pāli term is iddhi. Cf. `siddhi` at XIII for the Sanskrit-tantric term that absorbed iddhi-sense in later usage._
+
+### VIII.g Fetters & Stages of Awakening
+
+_def-flag on the subsection: the fetter-vocabulary and the stages-of-awakening vocabulary are both EBT, as is the broad mapping of which fetters are eliminated at which stage (MN 6, AN 10.13, etc.). What is arguably late-canonical crystallization is (a) the fixed "ten fetters" list — EBT material shows some count-variation; (b) the strict one-to-one codification of the fetter-to-stage correspondence. Cross-ref to the bodhipakkhiyā-"37" def-flag at the head of Part VIII._
+
+_Ten Fetters (dasa saṃyojanāni / Skt: daśa saṃyojana):_
+
+_Lower fetters (orambhāgiya):_
+
+1. **sakkāya-diṭṭhi** (Skt: satkāya-dṛṣṭi) — identity-view, personality-view; lit. "view-of-the-existing-group"
+2. **vicikicchā** (Skt: vicikitsā) — doubt, skeptical doubt; _also hindrance (III.b)._
+3. **sīlabbata-parāmāsa** (Skt: śīlavrata-parāmarśa) — clinging to precepts-and-practices, misapprehension of rites-and-rituals
+
+_Middle fetters:_ 4. **kāma-rāga** (Skt: same) — sensual lust; _cf. `kāmacchanda` (sensual desire as hindrance, III.b) and `lobha`/`rāga` (root, VI.f)._ 5. **paṭigha** (Skt: pratigha) — aversion, repulsion, resistance; lit. "striking against" (prati- + √han). _The reactive / phenomenological aversion-moment; distinct from dosa (root unwholesome state, VI.f) and vyāpāda (intentional ill-will as hindrance, III.b) at analytic levels, though the three are functionally close. The standard 10-fetter list (AN 10.13, MN 64, etc.) uses `paṭigha` in this slot; some sutta lists and many translations use `vyāpāda` interchangeably here. Often paired in commentary with `anunaya` ("inclining-toward") as the basic two-fold like/dislike reaction structure._
+
+_Higher fetters (uddhambhāgiya):_ 6. **rūpa-rāga** (Skt: same) — lust for form (form-sphere existence) 7. **arūpa-rāga** (Skt: ārūpya-rāga) — lust for formlessness (formless-sphere existence) 8. **māna** (Skt: same) — conceit, pride; lit. "measuring" (measuring self against other) 9. **uddhacca** (Skt: auddhatya) — restlessness; _cf. `uddhacca-kukkucca` as hindrance (III.b)._ 10. **avijjā** (Skt: avidyā) — ignorance; _also DO link 1 (VII.a); ≈ `moha` (delusion, VI.f) at the root-analytic level._
+
+_Path, fruit, noble persons:_
+
+- **magga** (Skt: mārga) / **phala** (Skt: same) / **magga-phala** (Skt: mārga-phala) — path / fruit / path-and-fruit; _the momentary path-consciousness immediately followed by fruition at each of the four stages. EBT has the twofold structure; the magga-phala technical analysis as distinct consciousness-moments is Abhidhammic — see XI.b vipassanā-ñāṇa sequence (ñāṇas 14–15)._
+- **ariya-puggala** (Skt: ārya-pudgala) — noble person; _generic category-term for the four stages below; lit. "noble individual."_
+
+_Stages:_
+
+- **puthujjana** (Skt: pṛthagjana) — worldling, ordinary person; lit. "many-folk"; _the baseline the stream-enterer breaks from._
+- **sekha** (Skt: śaikṣa) — trainee, learner; _the first three noble persons, still with work to do._
+- **asekha** (Skt: aśaikṣa) — non-trainee, adept; _the arahant, training complete._
+- **sotāpanna** (Skt: srotāpanna) — stream-enterer; lit. "one who has entered the stream"; _drops fetters 1–3 (sakkāya-diṭṭhi, vicikicchā, sīlabbata-parāmāsa)._
+- **sakadāgāmī** (Skt: sakṛdāgāmin) — once-returner; lit. "one who returns once"; _weakens fetters 4–5 (kāma-rāga, paṭigha)._
+- **anāgāmī** (Skt: anāgāmin) — non-returner; lit. "one who does not return"; _drops fetters 4–5._
+- **arahant** (Skt: arhat) — arahant, worthy one; lit. "one worthy / deserving" (√arh "deserve"). _Usually left untransliterated. Drops fetters 6–10 (rūpa-rāga, arūpa-rāga, māna, uddhacca, avijjā)._
+
+---
+
+## Part IX — Four Noble Truths as Systematic Frame (Pāli; EBT — late-systematic)
+
+_def-flag on the Part: the four noble truths as a systematic four-fold master schema unifying the whole teaching is a useful later systematization within the four Nikāyas (Vetter, Schmithausen, Bronkhorst position — not Anālayo's). It is not necessarily adding new content relative to the gradual training and the goal, but is a downstream organizing presentation. The individual truths' contents (dukkha, taṇhā, nirodha, magga) are of course EBT and appear in earlier Parts; what is placed here is the master-schema framing itself._
+
+- **ariyasacca** (Skt: āryasatya) — noble truth
+- **cattāri ariyasaccāni** (Skt: catvāri āryasatyāni) — the four noble truths
+
+_The Four Noble Truths (cattāri ariyasaccāni):_
+
+1. **dukkha-sacca** (Skt: duḥkha-satya) — truth of unsatisfactoriness / suffering; _cf. VI.a `dukkha`._
+2. **samudaya-sacca** (Skt: samudaya-satya) — truth of (the) origin; lit. "arising-together" (saṃ- + udaya "arising"); _the origin of dukkha = `taṇhā` (I, VII.a)._
+3. **nirodha-sacca** (Skt: nirodha-satya) — truth of cessation; _cf. II `nirodha` and `nibbāna`._
+4. **magga-sacca** (Skt: mārga-satya) — truth of the path; _the noble eightfold path (VIII.a)._
+
+_The four functions (kicca) — what is to be done regarding each truth, as articulated in the second turning of SN 56.11:_
+
+- **pariññā** (Skt: parijñā) — full understanding; _the kicca for `dukkha-sacca` (1st truth: `pariññeyya` "to be fully understood"). Distinguishes dukkha-as-pariññā-object from taṇhā-as-pahāna-object — dukkha is not what gets abandoned, but what gets seen-through._
+- **pahāna** (Skt: prahāṇa) — abandonment, relinquishment; _the kicca for `samudaya-sacca` (2nd truth: `pahātabba` "to be abandoned"); specifically the abandonment of `taṇhā`._
+- **sacchikiriyā** (Skt: sākṣātkriyā) — realization; lit. "eye-witnessing" (sacchi- < sa- + akkhi "eye"). _The kicca for `nirodha-sacca` (3rd truth: `sacchikātabba` "to be realized") — direct experiential realization, not inferential knowing._
+- **bhāvanā** (Skt: same) — development, cultivation; _the kicca for `magga-sacca` (4th truth: `bhāvetabba` "to be developed"). Already present in III.a as a frame-term for the training; also a Part XI.a Abhi. category._
+
+- **tiparivaṭṭa** (Skt: triparivarta) — the three turnings / twelve-aspects framing; _SN 56.11._
+- **sacca** (Skt: satya) — truth; lit. "what is, what really is" (from sant- "being")
+
+---
+
+## Part X — Non-clinging and the Limits of Doctrine (Pāli; EBT)
+
+### X.a Non-clinging themes
+
+- **anupādāna** (Skt: same) — non-clinging; also "without fuel, without sustenance" (the complement of upādāna's fuel-sense)
+- **nissaya** (Skt: niśraya) — support, reliance, what one leans on; _often in the negative formulation — the sage leans on nothing._
+- **nissita** (Skt: niśrita) — leaning on, dependent on, attached to; _in the Aṭṭhakavagga sense of what the sage does not do._
+- **atammayatā** (Skt: atanmayatā) — non-identification; lit. "not-made-of-that" (a- + tad-maya-tā); _MN 137._
+- **anissita** (Skt: aniśrita) — not leaning on, unsupported, independent
+- **tathatā** (Skt: same) — suchness, the way things are; lit. "thus-ness" (from tathā "thus"). _EBT sense (cf. SN 12.20 Paccaya-sutta — `tathatā avitathatā anaññathatā idappaccayatā` "suchness, non-falsity, non-otherness, this-conditionality" applied to dependent origination) is epistemic / phenomenological — the way things are come to be. Yogācāra and Tathāgatagarbha strata (XII.c / XII.d) develop ontologically-reifying readings of tathatā that Madhyamaka (XII.b) explicitly refuses. Cf. XII.a for the Prajñāpāramitā usage compatible with emptiness._
+
+### X.b Open Questions (avyākata)
+
+- **avyākata** (Skt: avyākṛta) — the undeclared, the unanswered; lit. "not-explained, not-elaborated" (a- + vi- + ā- + √kṛ). _The four / ten questions the Buddha set aside (MN 63, MN 72, SN 44)._
+- **taṇhākkhaya** (Skt: tṛṣṇākṣaya) — the ending / destruction of craving; _MN 37 (Cūḷataṇhāsaṅkhaya-sutta) frames the whole training around `taṇhākkhaya`. Compressed paraphrase of the Buddha's repeated formulation that he teaches "only dukkha and its ending" — `dukkhañ ceva paññāpemi dukkhassa ca nirodhaṃ` (MN 22.38, SN 22.86); cf. AN 10.58, SN 12.23._
+- **papañca** (Skt: prapañca) — conceptual proliferation, mental proliferation, objectification; _standardly "conceptual proliferation" (Ñāṇananda, Bodhi); "objectification" (Bodhi alt), "mental proliferation" (Thanissaro). Its stilling (papañca-vūpasama) frames the limit of useful doctrine (MN 18)._
+- **nippapañca** (Skt: niṣprapañca) — free of proliferation, unelaborated
+
+---
+
+## Part XI — Later Theravāda (Pāli; Abhi. + Theravāda comm.)
+
+### XI.a Abhidhamma systematics
+
+_Note: Abhidhamma vocabulary below is the post-canonical systematization of EBT terminology — the dhamma-theory, the enumeration of 52 cetasika, the citta-typology. The Abhi. strata treats these as paramattha-sacca (ultimate) categories; modern critical scholarship (Y. Karunadasa, Ronkin, Cousins) treats the dhamma-theory as a later analytic development rather than as recoverable from the Nikāyas themselves._
+
+- **dhamma** (Skt: dharma) — (Abhi. technical sense) ultimate constituent, ultimate phenomenon; _the Abhi. usage specifically — the irreducible "real" phenomenal atom; general doctrinal/teaching sense is everywhere._
+- **paramattha** (Skt: paramārtha) — ultimate (truth / reality); _Abhi. sense: paramattha-sacca "ultimate truth" contrasted with sammuti-sacca "conventional truth."_
+- **sammuti** (Skt: saṃvṛti) — convention, conventional (truth); _Abhi. sense; cf. XII.b for the Madhyamaka `saṃvṛti-satya` usage._
+- **paññatti** (Skt: prajñapti) — concept, designation, nominal entity; _the conventional-reality counterpart to paramattha in Abhi._
+- **sabhāva** (Skt: svabhāva) — own-nature, intrinsic nature; _Abhi. sense: the defining characteristic by which a dhamma is that dhamma; cf. XII.b for Madhyamaka's critique of svabhāva._
+- **asabhāva** (Skt: asvabhāva) — without own-nature
+- **cetasika** (Skt: caitasika / caitta) (Abhi.) — mental factor, mental concomitant; _Abhi. sense: the technical 52-cetasika typology, paired with citta in the citta-cetasika analysis. Cf. VI.f for the EBT-attested mental-quality entries._
+- **javana** (Skt: same) — (in Abhi.) impulsion, active cognition, apperception; lit. "swift, running"
+- **bhavaṅga** (Skt: bhavāṅga) — life-continuum, subliminal mind; lit. "factor of existence/becoming." _Theravāda commentarial readings of the AN 1.49–52 `pabhassara citta` (II) identify the luminous citta with bhavaṅga — the subliminal continuity-mind running between active cognitive moments._
+- **cittavīthi** (Skt: cittavīthī) — cognitive series, thought-process
+- **dvāra** (Skt: dvāra) — door, gate; _the Abhi./commentarial framing of the six internal sense-organs as access-points through which objects enter cognition. Same referent as `āyatana` (VI.c) and `indriya` (VIII.c sense-faculty usage) — the eye/ear/etc. as access-point rather than as locus or capacity. Used especially in Mahāsi-tradition vipassanā literature ("guarding the sense-doors"); not the same as `āyatana`, with which it is sometimes confused in popular usage._
+- **pasāda** / **pasāda-rūpa** (Skt: prasāda / prasāda-rūpa) — sensitive matter, sensitive material; lit. "clarity, translucence, calm" (`pa-` + √sad "settle, be clear"). _The subtle / refined matter within each gross sense-organ that is the Abhi. analysis's actual locus of sense-cognition. Theravāda Abhi. recognizes five `pasāda-rūpa`: `cakkhu-pasāda` (eye-sensitivity), `sota-pasāda` (ear-sensitivity), `ghāna-pasāda` (nose-sensitivity), `jivhā-pasāda` (tongue-sensitivity), `kāya-pasāda` (body-sensitivity, distributed throughout the body). The `cakkhāyatana` / `cakkhundriya` / `cakkhu-dhātu` triple identification (VI.c) refers to `cakkhu-pasāda` as the shared referent. Loosely analogous to the modern physiological transducers (retina, cochlea) but conceived as subtle matter rather than gross neuroanatomy. Not a Sutta term; the pasāda-rūpa analysis is an Abhi. systematization (with Sarvāstivāda parallels in Abhidharmakośa)._
+- **kalāpa** (Skt: same) — cluster, group, bundle
+- **rūpa-kalāpa** (Skt: same) — material cluster, cluster of matter
+- **paṭṭhāna** (Skt: prasthāna) — conditional relations; _the 24 conditions; also the name of the Abhidhamma text._
+
+_Spheres of citta (cittāvacara):_
+
+- **kāmāvacara** (Skt: same) — sense-sphere (realm of sense-desire)
+- **rūpāvacara** (Skt: same) — form-sphere (realm of subtle form)
+- **arūpāvacara** (Skt: ārūpyāvacara) — formless-sphere (realm of formlessness)
+- **lokuttara** (Skt: lokottara) — supramundane, transcendent; lit. "beyond the world"
+
+### XI.b Commentarial Meditation Apparatus (Visuddhimagga / aṭṭhakathā)
+
+_The Three Nimittas (commentarial three-fold progression, ascending):_
+
+1. **parikamma-nimitta** (Skt: parikarma-nimitta) — preparatory sign; _the original physical object or initial percept._
+2. **uggaha-nimitta** (Skt: udgraha-nimitta) — acquired sign, learned sign; _the internalized mental image._
+3. **paṭibhāga-nimitta** (Skt: pratibhāga-nimitta) — counterpart sign; _the most refined of the three, taken as an idealized mental image independent of the physical object._
+
+_Commentarial Samādhi stages:_
+
+- **upacāra-samādhi** (Skt: upacāra-samādhi) — access concentration, neighborhood concentration; _the stage just short of absorption._
+- **appanā-samādhi** (Skt: arpaṇā-samādhi) — absorption concentration, fixed concentration; _full jhāna in the commentarial scheme._
+- **khaṇika-samādhi** (Skt: kṣaṇika-samādhi) — momentary concentration; _the form of concentration proper to vipassanā in the commentarial dry-insight (sukkha-vipassaka) path._
+
+_Jhāna-factor analysis:_
+
+- **pañca-jhānaṅga** (Skt: pañca-dhyānāṅga) — the five jhāna-factors.
+
+  _def-flag: the five-factor analysis of first jhāna (vitakka, vicāra, pīti, sukha, ekaggatā) is Theravāda commentarial — cross-ref to III.c ekaggatā def-flag._
+
+_Other Vism. apparatus:_
+
+- **kasiṇa** (Skt: kṛtsna) — kasiṇa; a meditation object used as a fixed visual or elemental basis for absorption; lit. "whole, entire." _Usually left untransliterated; "totality" when glossed._
+- **asubha** (Skt: aśubha) — the foul, the unattractive; _the ten contemplations of the foul (decomposing-corpse contemplations)._
+- **anussati** (Skt: anusmṛti) — recollection; _the ten recollections (Buddhānussati, etc.), systematized in Vism._
+- **visuddhi** (Skt: viśuddhi) — purification; _the seven purifications scheme specifically (Visuddhimagga spine); cf. II for the general term._
+- **vipassanā-ñāṇa** (Skt: vipaśyanā-jñāna) — insight-knowledge; _the general category-term; see the sixteen-ñāṇa sequence below._
+
+_The Sixteen Vipassanā-ñāṇas (Visuddhimagga insight-progress series):_
+
+1. **nāma-rūpa-pariccheda-ñāṇa** (Skt: nāma-rūpa-paricchedaka-jñāna) — knowledge of the delimitation of mind-and-matter
+2. **paccaya-pariggaha-ñāṇa** (Skt: pratyaya-parigraha-jñāna) — knowledge of discerning conditions
+3. **sammasana-ñāṇa** (Skt: sammarśana-jñāna) — knowledge of comprehension (investigating the three marks in formations)
+4. **udayabbaya-ñāṇa** (Skt: udaya-vyaya-jñāna) — knowledge of rise and fall; _also "arising and passing away."_
+5. **bhaṅga-ñāṇa** (Skt: bhaṅga-jñāna) — knowledge of dissolution
+6. **bhayatupaṭṭhāna-ñāṇa** (Skt: bhayopasthāna-jñāna) — knowledge of appearance as fearful; _also "knowledge of fear" / "fearfulness" (tracking the shorter `bhaya-ñāṇa` form)._
+7. **ādīnavānupassanā-ñāṇa** (Skt: ādīnavānupaśyanā-jñāna) — knowledge of contemplation of danger; _also "misery" (older translator-idiom)._
+8. **nibbidānupassanā-ñāṇa** (Skt: nirvedānupaśyanā-jñāna) — knowledge of contemplation of disenchantment; _also "disgust" / "aversion" (older translator-idiom). Cf. `nibbidā` in II._
+9. **muñcitukamyatā-ñāṇa** (Skt: mumukṣā-jñāna) — knowledge of desire for deliverance
+10. **paṭisaṅkhānupassanā-ñāṇa** (Skt: pratisaṃkhyānupaśyanā-jñāna) — knowledge of contemplation of re-examination; _also "re-observation."_
+11. **saṅkhārupekkhā-ñāṇa** (Skt: saṃskāropekṣā-jñāna) — knowledge of equanimity about formations
+12. **anuloma-ñāṇa** (Skt: anuloma-jñāna) — conformity-knowledge
+13. **gotrabhū-ñāṇa** (Skt: gotrabhū-jñāna) — change-of-lineage knowledge; _the transition-moment to the path._
+14. **magga-ñāṇa** (Skt: mārga-jñāna) — path-knowledge; _the path-moment itself._
+15. **phala-ñāṇa** (Skt: phala-jñāna) — fruition-knowledge; _immediately following the path-moment._
+16. **paccavekkhaṇa-ñāṇa** (Skt: pratyavekṣaṇā-jñāna) — reviewing-knowledge; _reflection upon what has been attained._
+
+---
+
+## Part XII — Mahāyāna (Sanskrit, with Japanese / Chinese in XII.d East Asian; Prajñāpāramitā, Madhyamaka, Yogācāra, Mahāyāna sūtra)
+
+_Ordered by chronological-developmental stratum: Prajñāpāramitā → Madhyamaka → Yogācāra → broader Mahāyāna sūtra corpus. (First-wave chronology — Madhyamaka and Yogācāra continued to develop in dialogue after the 4th–5th c., and Yogācāra is not a strict "improvement" on Madhyamaka.)_
+
+### XII.a Prajñāpāramitā
+
+- **prajñāpāramitā** — the perfection of wisdom; _both the doctrine and the name of the corpus (Aṣṭasāhasrikā, Pañcaviṃśatisāhasrikā, Heart Sūtra, Diamond Sūtra, etc.) in which śūnyatā is first elaborated as the central Mahāyāna doctrinal pivot._
+- **śūnyatā** — emptiness; lit. "zero-ness, void-ness" (from śūnya "empty, zero"). _Prajñāpāramitā-stratum ontological-soteriological sense: all phenomena empty of svabhāva. Cf. II for the EBT meditative sense, XII.b for Madhyamaka's systematization of the Prajñāpāramitā teaching._
+- **tathatā** — suchness, thusness; _Prajñāpāramitā usage: the way-things-are, used compatibly with emptiness (not as a reified ultimate). The ontologically-reifying readings of tathatā develop later in the Yogācāra (XII.c) and especially the Tathāgatagarbha (XII.d) strata — Madhyamaka (XII.b) explicitly refuses those. Cf. X.a for the EBT sense._
+
+### XII.b Madhyamaka
+
+- **madhyamaka** — the Middle (Way school); from madhyama "middle."
+- **mādhyamika** — Mādhyamika, adherent of Madhyamaka
+- **śūnyatā** — emptiness; _Madhyamaka sense: the absence of svabhāva in all phenomena. Cf. II and XII.a._
+- **svabhāva** — own-nature, intrinsic nature, inherent existence, ultimate existence; _the target of Nāgārjuna's critique. "Inherent existence" (Garfield, Siderits) emphasizes the ontological bite; "ultimate existence" / "true existence" (Hopkins, Gelug-tradition) emphasize the bears-up-under-ultimate-analysis quality — something ultimately exists iff it has svabhāva, and Madhyamaka denies this for all phenomena (everything exists only conventionally / `saṃvṛti-sat`). "Own-nature" (Gethin, more literal) is also common. Cf. XI.a for the Abhi. `sabhāva` sense this critique is aimed at._
+- **niḥsvabhāva** — without svabhāva, lacking intrinsic nature
+- **nairātmya** — selflessness, absence of self; _abstract-noun form from `anātman` (= Pāli `anattā`, VI.a); systematized in Mahāyāna as the two selflessnesses (pudgala- / dharma-nairātmya below)._
+- **pudgala-nairātmya** — selflessness of persons; _the selflessness the śrāvakayāna already teaches._
+- **dharma-nairātmya** — selflessness of dharmas; _the distinctive Mahāyāna extension (no svabhāva in the dharmas themselves) — the point at which Mahāyāna departs from Abhi._
+- **pratītyasamutpāda** — dependent origination; _Madhyamaka reading: `śūnyatā`, `pratītyasamutpāda`, and `upādāya-prajñapti` ("dependent designation") are three equivalent ways of saying the same thing (MMK 24.18). The counterintuitive radical claim: phenomena themselves ARE designations in this reading — not in the realist sense where a designation is a label applied to a separately-existing thing, but in the sense that there is no thing-in-itself underlying the designation. What we call "the cup" is not an inherently-existing entity to which we apply the name "cup," but a `prajñapti-mātra` ("mere imputation") imputed by mind onto a basis (parts, causal history, function). The cup IS the imputed object — it exists conventionally as such but lacks the `svabhāva` that would make it exist ultimately. The thing/name distinction the realist relies on collapses; phenomena exist only as dependent designations. Cf. VII.a._
+- **saṃvṛti-satya** — conventional truth; _cf. XI.a `sammuti` for the Abhi. sense._
+- **paramārtha-satya** — ultimate truth; _cf. XI.a `paramattha`._
+- **dve satye** — the two truths; _the two-truths framing._
+- **catuṣkoṭi** — tetralemma, four corners; lit. "four-cornered"; _the fourfold logical schema (X / not-X / both / neither). Madhyamaka's distinctive move is to negate all four positions — sometimes called the "negative catuṣkoṭi" (in modern scholarship: Garfield, Westerhoff) or `catuṣkoṭi-vinirmukta` ("free from the four corners"). Nāgārjuna deploys this fourfold-negation pattern at MMK 1.1 ("not from itself, not from another, not from both, not without cause") and MMK 22.13–16 (the Tathāgata-after-death tetralemma in the Tathāgata-parīkṣā, picking up the EBT `avyākata` register at X.b); MMK 25.17–18 returns to the Tathāgata case under the nirvāṇa-parīkṣā. MMK 18.8 (`sarvaṃ tathyaṃ na vā tathyaṃ tathyaṃ cātathyam eva ca / naivātathyaṃ naiva tathyaṃ etad buddhānuśāsanam`) states the four-corner schema as such — phenomena's reality-status across the four positions._
+- **prasaṅga** / **Prāsaṅgika** — consequence; _the Prāsaṅgika sub-school of Madhyamaka (Buddhapālita, Candrakīrti, Tsongkhapa) uses the consequence-only (`prasaṅga`) method of argumentation — refuting opponents by showing that their own premises entail absurd consequences, without putting forth any counter-thesis of one's own. The method is purely negational: it accepts no positive thesis carrying svabhāva-implication; it uses the opponent's metaphysical presumptions (their assumption of svabhāva) to undermine the opponent's argument from within, on the opponent's own terms. Contrasts with **Svātantrika** (Bhāviveka), which uses autonomous positive syllogisms (`svatantra-anumāna`) to establish Madhyamaka conclusions._
+- **svātantra** / **svātantrika** — independent inference; Svātantrika (sub-school admitting positive arguments)
+- **apratiṣṭhita** — non-abiding, unestablished; _a characterization of emptiness._
+- **niṣprapañca** — free of conceptual proliferation, unelaborated; _cf. X.b._
+- **śūnyatā-śūnyatā** — "emptiness of emptiness"; _Nāgārjuna's guard against reifying śūnyatā into a view or ultimate — emptiness itself is empty of svabhāva and cannot be grasped as a doctrinal position. MMK 24.11 warns that śūnyatā mis-grasped "ruins the dull-witted, as a snake wrongly caught or a spell wrongly cast." Central to Prāsaṅgika-rangtong reading: the point at which Madhyamaka refuses all ontological reification including its own apparent metaphysics._
+
+### XII.c Yogācāra
+
+- **yogācāra** — Yogācāra; lit. "yoga-practice," the practice-school
+- **vijñānavāda** — doctrine of consciousness, consciousness-school; _alternate name for Yogācāra._
+- **cittamātra** — mind-only, nothing-but-mind
+- **vijñaptimātra** — representation-only, cognition-only; _Vasubandhu's preferred formulation; subtly distinct from cittamātra — "vijñapti" is the appearance-in-cognition, not mind as such._
+- **aṣṭa-vijñāna** — the eight consciousnesses (as a schema)
+- **ālayavijñāna** — store-consciousness, storehouse consciousness, foundational consciousness; lit. "home/store-consciousness" (ālaya "abode, store")
+- **kliṣṭa-manas** — the defiled mind (seventh consciousness)
+- **manovijñāna** — mind-consciousness, mental consciousness; _the sixth; distinct from kliṣṭa-manas and from the five sense-consciousnesses._
+- **pravṛtti-vijñāna** — active / "turning" / forthcoming consciousnesses; _the first seven, or the first six, depending on schema._
+- **trisvabhāva** — the three natures
+- **parikalpita-svabhāva** — imagined nature, constructed nature
+- **paratantra-svabhāva** — dependent nature, other-dependent nature
+- **pariniṣpanna-svabhāva** — perfected nature, accomplished nature
+- **āśraya-parāvṛtti** — transformation / revolution of the basis
+- **bīja** — seed; _technical term for karmic potentials in the ālaya._
+- **vāsanā** — habitual trace, perfuming, latent impression; lit. "infusing, perfuming"
+- **pariṇāma** — transformation, evolution (of consciousness); *Vasubandhu's *Triṃśikā* frame: the threefold `vijñāna-pariṇāma` — (1) the ālayavijñāna storing seeds, (2) kliṣṭa-manas' self-grasping, (3) the six active consciousnesses' object-perception. The Yogācāra account of how consciousness appears to produce a world while remaining only consciousness.*
+- **svasaṃvedana** / **svasaṃvitti** — reflexive cognition, self-awareness (of cognition); *Dignāga and Dharmakīrti's claim that every moment of cognition is implicitly aware of itself — each cognition cognizes both its object and its own cognizing. A pillar of the Dignāga-Dharmakīrti pramāṇa tradition (in Tibetan doxography: "Yogācāra-Sautrāntika" epistemology, distinct from the Yogācāra-Svātantrika Madhyamaka sub-school of Śāntarakṣita / Kamalaśīla — same Yogācāra-prefix, different second term). Contested by Mādhyamikas (Candrakīrti's critique in *Madhyamakāvatāra* VI.72–76).*
+- **nirvikalpa-jñāna** — non-conceptual cognition; _direct non-conceptual realization of suchness, contrasted with conceptual (`savikalpa`) cognition. In Yogācāra-Buddhist epistemology (Dignāga, Dharmakīrti), the mode of knowing proper to meditative realization. Cf. XIV `nirvikalpa` / `vikalpa` generally._
+- **dharmatā** — dharma-nature, the dharma's nature; _the pariniṣpanna, the way things are._
+- **dharmadhātu** — dharma-realm, dharma-sphere; _Yogācāra and later East Asian Mahāyāna ontological category for the total field of dharmas._
+
+### XII.d Broader Sūtra Corpus
+
+_The Mahāyāna sūtra material beyond the Prajñāpāramitā pivot: bodhisattva-path vocabulary, trikāya doctrine, tathāgatagarbha, pure-land, and East Asian Mahāyāna usages._
+
+- **mahāyāna** — the Great Vehicle
+- **yāna** — vehicle; _the organizing category under which the Mahāyāna distinguishes itself._
+- **ekayāna** — one vehicle; _Lotus-sūtra frame asserting the three yānas ultimately collapse into one._
+
+_The Three Yānas:_
+
+1. **śrāvakayāna** — hearers' vehicle
+2. **pratyekabuddhayāna** — solitary-buddhas' vehicle
+3. **bodhisattvayāna** — bodhisattvas' vehicle
+
+- **hīnayāna** — lesser vehicle.
+
+  _def-flag: originally a Mahāyāna polemical term for the śrāvakayāna. Modern scholarship (and inter-tradition courtesy) substitutes `śrāvakayāna` / `mainstream Buddhism` / `early Buddhism`; listed here with the polemic flagged, not endorsed._
+
+_Bodhisattva-path vocabulary:_
+
+- **anuttara-samyak-saṃbodhi** — unsurpassed complete awakening; _the Mahāyāna goal formula._
+- **bodhisattva** — bodhisattva; lit. "awakening-being, being-(destined-for)-awakening." _Usually left untransliterated._
+- **bodhicitta** — mind of awakening, awakening-mind; _sometimes left untransliterated._
+- **pāramitā** — perfection; _the six (and in later lists ten) perfections of the bodhisattva path; cf. XII.a for `prajñāpāramitā` specifically._
+
+_The Six Pāramitās:_
+
+1. **dāna-pāramitā** — perfection of giving / generosity
+2. **śīla-pāramitā** — perfection of ethics / virtue
+3. **kṣānti-pāramitā** — perfection of patience / forbearance
+4. **vīrya-pāramitā** — perfection of energy / diligence
+5. **dhyāna-pāramitā** — perfection of meditation
+6. **prajñā-pāramitā** — perfection of wisdom; _cf. XII.a for the corpus / doctrine._
+
+- **upāya** / **upāya-kauśalya** — skillful means; lit. "means / skill-in-means"
+- **dhāraṇī** — mnemonic formula, protective formula; _bridges Mahāyāna sūtra and tantric literature._
+
+_The Three Bodies (trikāya):_
+
+- **trikāya** — the three bodies; _the three-bodies doctrine as a systematic frame._
+
+1. **dharmakāya** (Pāli: dhammakāya) — dharma-body, truth-body.
+
+   _def-flag: Pāli `dhammakāya` is attested (DN 27, etc.) as "body/embodiment of dhamma" — an epithet of the Buddha; the Mahāyāna trikāya-doctrinal sense (unconditioned absolute body of the Buddha) is a later development._
+
+2. **sambhogakāya** — enjoyment-body, reward-body
+3. **nirmāṇakāya** — emanation-body, manifestation-body, transformation-body
+
+_Tathāgatagarbha vocabulary:_
+
+- **tathāgatagarbha** (Tathāgatagarbha) — tathāgata-womb, buddha-embryo, buddha-matrix; _the central Tathāgatagarbha-stratum doctrine — the teaching that all beings have the potential for buddhahood within._
+- **buddhadhātu** (Tathāgatagarbha) — buddha-nature, buddha-element.
+
+  _def-flag: Pāli `buddhadhātu` exists meaning "Buddha-relic" or "Buddha-element"; the Mahāyāna buddha-nature doctrinal sense (synonymous with tathāgatagarbha) is the loaded one._
+
+- **prabhāsvara-citta** — luminous mind; _the Mahāyāna systematization of the EBT `pabhassara citta` (II) theme. The intrinsic luminosity of mind that is obscured but never destroyed by defilements; closely associated with tathāgatagarbha and buddha-nature literature, and a central category in Yogācāra accounts of non-conceptual wisdom (jñāna). Vajrayāna inherits this as `'od gsal` clear-light (XIII)._
+
+_Pure-land / bodhisattva-stages vocabulary:_
+
+- **buddha-kṣetra** — buddha-field, buddha-realm
+- **daśa-bhūmi** — the ten stages, ten grounds (of the bodhisattva)
+
+#### East Asian (Japanese / Chinese)
+
+- **satori** (悟り; Japanese) — awakening, realization
+- **kenshō** (見性; Japanese) — seeing (one's) nature; lit. "see-nature"
+- **wu** (無; Chinese) — no, not, nothingness; _the Chinese gate-word of the famous Zhàozhōu kōan (Mumonkan 1)._
+- **mu** (無; Japanese) — same graph as Chinese `wu`; common in Zen kōan usage and in Nishida / Kyōto-school philosophical vocabulary ("absolute nothingness")
+
+---
+
+## Part XIII — Vajrayāna, Dzogchen & Mahāmudrā (Sanskrit / Tibetan; Vajrayāna, Dzogchen, Mahāmudrā)
+
+### Sanskrit-stratum
+
+- **vajrayāna** — Diamond / Adamantine / Thunderbolt Vehicle
+- **vajra** — diamond, thunderbolt, adamant; _the implement, the path-principle, and a widely compounded element (vajra-guru, vajra-sattva, etc.)._
+- **mantra** — mantra, sacred formula; lit. "instrument of thought" (manas + -tra "instrument"). _Included here in the tantric sense; the Pāli `manta` / `paritta` usage is separate._
+- **tantra** — tantra; lit. "loom, warp, continuum" (√tan "stretch")
+- **maṇḍala** — maṇḍala; lit. "circle, disk"
+- **mudrā** — mudrā, seal, ritual gesture; lit. "seal"
+- **sādhana** — practice, means of accomplishment; lit. "means of achieving"
+- **abhiṣeka** — empowerment, initiation; lit. "sprinkling, consecration." _Tibetan `wang` (Wylie: dbang)._
+- **samaya** — tantric commitment / pledge; _taken at abhiṣeka._
+- **guru** — teacher, spiritual master; _in Vajrayāna, soteriologically central._
+- **siddhi** — accomplishment, attainment; _both ordinary/supernormal powers and the supreme siddhi of awakening. Distinct from Pāli `iddhi` (Skt `ṛddhi`, VIII.f) — `siddhi` (√sidh "succeed") and `iddhi`/`ṛddhi` (√ṛdh "thrive") are different etymological roots that frequently get conflated in Anglophone dharma writing because both came to denote yogic attainments in later tantra; see VIII.f iddhi for the EBT register._
+- **siddha** — accomplished one; _a practitioner who has attained siddhi._
+- **mahāsiddha** — great siddha; _the 84 Mahāsiddhas of the Indian tantric tradition._
+- **ḍākinī** — ḍākinī, sky-dancer, feminine enlightened energy; _Tibetan `khandro` (Wylie: mkha' 'gro "sky-goer")._
+- **mahāmudrā** — the Great Seal; _the Kagyü realization-system._
+- **mahāsukha** — great bliss
+
+### Tibetan (Dzogchen / Mahāmudrā)
+
+- **dzogchen** (Wylie: rdzogs chen) (Dzogchen) — the Great Perfection; lit. "great completion." _The Nyingma tradition's non-dual realization-system — emphasizing the primordially-pure (`kadag`) and spontaneously-present (`lhundrub`) nature of mind (`rigpa`). Often classified as the ninth and highest of the nine yānas in Nyingma doxography._
+- **lama** (Wylie: bla ma) — lama, teacher; _cognate/translation of Skt `guru`. Tulku-lama, root-lama, etc._
+- **tulku** (Wylie: sprul sku) — incarnate lama, recognized reincarnation; _the Tibetan term that also translates Skt `nirmāṇakāya` (emanation-body, XII.d); in Tibetan Buddhist institutional usage, a recognized reincarnate teacher._
+- **bardo** (Wylie: bar do) — intermediate state, in-between state; _Tibetan-tradition elaboration of Skt `antarābhava`. The Bardo Thödol frames six bardos; the term has broader use beyond the between-lives bardo._
+- **yidam** (Wylie: yi dam) — personal meditation deity; _translates / functions like Skt `iṣṭa-devatā`._
+- **rigpa** (Wylie: rig pa) (Dzogchen) — awareness, pristine awareness, knowing; _the Dzogchen term for non-dual awareness as the ground of experience. Cognate with Skt vidyā._
+- **ma rigpa** (Wylie: ma rig pa) (Dzogchen) — ignorance, non-knowing, non-recognition (of rigpa); _cognate with Skt `avidyā` but Dzogchen-specific in usage._
+- **'od gsal** (Wylie) / **clear light** — Tibetan rendering of Skt `prabhāsvara`; _central to Mahāmudrā, Dzogchen, and the Six Yogas of Nāropa. The clear-light nature of mind, recognized at moments of subtle dissolution (sleep, dreaming, dying) and as the goal of practice. Cognate with the EBT `pabhassara` (II) and Mahāyāna `prabhāsvara-citta` (XII.d) but with its own Vajrayāna technical apparatus._
+- **sems nyid** (Wylie) — mind-itself, the nature of mind; _the Tibetan term for the intrinsic, non-dual nature of mind as opposed to thoughts / contents arising within it. Used across Mahāmudrā and Dzogchen; closely tied to `rigpa` and `'od gsal`._
+- **cherdrol** (Wylie: gcer grol) (Dzogchen) — naked liberation, liberation upon nakedness
+- **shardrol** (Wylie: shar grol) (Dzogchen) — liberation upon arising
+- **rangdrol** (Wylie: rang grol) (Dzogchen) — self-liberation
+- **jalü** (Wylie: 'ja' lus) (Dzogchen) — rainbow body
+- **gankyil** (Wylie: dga' 'khyil) (Dzogchen) — wheel of joy; _the tri-partite swirling symbol._
+- **rangtong** (Wylie: rang stong) — self-empty; _the Gelug/Madhyamaka reading — phenomena empty of own-nature._
+- **shentong** (Wylie: gzhan stong) — other-empty; _the Jonang reading — ultimate reality empty only of what is other than itself; a Tathāgatagarbha-inflected position._
+- **trekchö** (Wylie: khregs chod) (Dzogchen) — cutting through, breakthrough; _one of the two principal Dzogchen practices (with tögal)._
+- **tögal** (Wylie: thod rgal) (Dzogchen) — direct crossing, leap-over; _the visionary / luminosity practice._
+- **kadag** (Wylie: ka dag) (Dzogchen) — primordial purity
+- **lhundrub** (Wylie: lhun grub) (Dzogchen) — spontaneous presence, self-accomplished
+
+---
+
+## Part XIV — Vedānta & Indic Comparatives (Sanskrit; Vedānta, Sāṅkhya, Yoga)
+
+_Pāli surface cognates exist for several entries below (`puruṣa`/`purisa`, `prakṛti`/`pakati`, `pratyakṣa`/`paccakkha`, `prāṇa`/`pāṇa`, `svarūpa`/`sarūpa`) but the doctrinal usage here is Sanskrit-tradition only; the Pāli forms are not listed in parentheses._
+
+### Vedānta
+
+- **ātman** — self, Self; _the Upaniṣadic self-principle; contrasts with Buddhist `anātman` (VI.a)._
+- **brahman** (n.) — brahman, the Absolute; _the Upaniṣadic ground of reality. Advaita distinguishes `nirguṇa-brahman` (brahman without qualities, the absolute) from `saguṇa-brahman` (brahman with qualities, identified with `īśvara`, the personal God)._
+- **nirguṇa** (Vedānta) — without qualities, unqualified; _applied to brahman: `nirguṇa-brahman` = brahman without qualities, the absolute ultimate beyond all attributes — the higher Advaita reading approached via `neti neti`. Contrasts with `saguṇa-brahman` below._
+- **saguṇa** (Vedānta) — with qualities, qualified; _applied to brahman: `saguṇa-brahman` = brahman conceived with attributes, identified with `īśvara` (the personal God) in Advaita; the lower / conditioned reading._
+- **nirvikalpa-samādhi** (later Vedānta / post-classical yoga) — samādhi without conceptual distinction, non-conceptual samādhi.
+- **savikalpa-samādhi** (later Vedānta / post-classical yoga) — samādhi with conceptual distinction, conceptual samādhi. _The savikalpa/nirvikalpa pair is widely used in later Vedānta and post-classical yoga literature; the classical Pātañjala Yogasūtra division is `samprajñāta` / `asamprajñāta` with sub-types `savitarka` / `nirvitarka` / `savicāra` / `nirvicāra` — see Sāṅkhya / Yoga sub-section below._
+- **Brahmā** (m.) — Brahmā; _the personified creator deity._
+- **īśvara** — Lord, the personal God; _central in Viśiṣṭādvaita and the Yogasūtra; in Advaita, saguṇa-brahman (brahman-with-qualities)._
+- **advaita** (Vedānta — Advaita) — non-dualism, non-duality; lit. "not-two"
+- **dvaita** (Vedānta — Dvaita) — dualism; lit. "two-ness"
+- **viśiṣṭādvaita** (Vedānta — Viśiṣṭādvaita) — qualified non-dualism; lit. "non-dualism-with-distinction"
+- **Vedānta** — Vedānta; lit. "end / culmination of the Vedas"
+- **Veda** / **Vedas** — Veda(s), revealed knowledge; lit. "knowledge" (√vid)
+- **Upaniṣad** / **Upaniṣads** — Upaniṣad(s); lit. "sitting down near" (a teacher, for esoteric instruction)
+- **śruti** — that which is heard, revealed scripture; _the Vedas + Upaniṣads as divinely-heard texts._
+- **smṛti** — that which is remembered, tradition; _in the Vedic-canonical sense (contrasts with `śruti`). Cf. III/IV for the meditative `sati`/`smṛti`._
+- **tat tvam asi** — "you are that" (Chāndogya Upaniṣad 6.8.7, etc.); _one of the four mahāvākyas._
+- **so'ham** — "I am he / that"; _abbreviated contemplative formula._
+- **aham brahmāsmi** — "I am brahman" (Bṛhadāraṇyaka 1.4.10); _another mahāvākya._
+- **neti neti** — "not this, not this"; _the foundational apophatic formula from the Bṛhadāraṇyaka Upaniṣad — primary locus BU 2.3.6 (`athāta ādeśo neti neti`), recurring at BU 3.9.26, 4.2.4, 4.4.22, 4.5.15 in the formula `sa eṣa neti nety ātmā`. Brahman / ātman characterized only by what it is not. Structural parallel to Buddhist negation-of-self (`na me so attā`) and to the Christian apophatic tradition (cf. XV Greek `apophasis`, `hyperousia`)._
+- **oṃkāra** — the syllable Oṃ; lit. "the making / uttering of Oṃ"
+- **praṇava** — the praṇava; _a synonym for Oṃ, emphasizing its primordial / resonant quality._
+- **udgītha** — the high-chant; _the chanted portion of Sāmavedic recitation; a major Chāndogya meditation object._
+- **turīya** — "the fourth"; _the fourth / transcendent state of consciousness (beyond waking, dreaming, and deep sleep)._
+- **svarūpa** — own-form, essential nature, intrinsic form; _structurally parallel to Sanskrit `svabhāva` (XII.b) — own-nature — but in Advaita used affirmatively for brahman's essential nature rather than as a target of critique._
+- **cidākāśa** — consciousness-space, space of consciousness
+- **Hiraṇyagarbha** — the Golden Embryo / Golden Womb; _the cosmogonic principle of Vedic-Upaniṣadic thought._
+- **saccidānanda** — being-consciousness-bliss; _Advaita's tri-partite characterization of brahman._
+- **sat** — being, existence, that-which-is; _component of saccidānanda._
+- **cit** — consciousness, awareness; _component of saccidānanda._
+- **ānanda** — bliss; _component of saccidānanda._
+- **māyā** — illusion, cosmic appearance-power; _core Advaita category for the world's dependent-appearance status vis-à-vis brahman._
+- **avidyā** — ignorance (Advaita sense).
+
+  _def-flag: Advaita uses `avidyā` for metaphysical ignorance-as-cause-of-superimposition of world on brahman; the Buddhist `avijjā` / `avidyā` (DO link 1; fetter 10 — see VII.a, VIII.g) is the ignorance of the four noble truths / the three marks. Same IAST word, incompatible doctrinal contexts — a sabhāva/svabhāva-style split._
+
+- **adhyāsa** — superimposition; _Śaṅkara's preamble to the Brahmasūtrabhāṣya frames the root epistemic error as mutual superimposition of ātman and anātman._
+- **upādhi** — limiting adjunct.
+
+  _def-flag: Advaita "limiting adjunct" — that which makes the one brahman appear as many. Distinct from Pāli `upadhi` (I) — different Sanskrit words (upa-ā-√dhā vs. upa-√dhā); the macron is the tell._
+
+- **sākṣin** / **sākṣi-caitanya** — witness, witness-consciousness; _the uninvolved awareness in which experience appears. A distinctive Advaita category._
+- **jīvanmukta** / **jīvanmukti** — one-liberated-while-living / liberation-while-living; _the Advaita doctrine that mokṣa can obtain while the body persists._
+- **videhamukti** — liberation at death, bodiless liberation; _paired with jīvanmukti._
+- **ahaṃkāra** — I-maker, ego-principle; _ego-principle in the Sāṅkhya-Vedānta psychological hierarchy._
+- **buddhi** — intellect, discriminating faculty; _Sāṅkhya-Vedānta._
+- **manas** — mind, sensory-coordinating faculty; _Sāṅkhya-Vedānta sense; distinct from the Buddhist `mano` at VI.c._
+- **antaḥkaraṇa** — inner instrument; _the four-fold psychological apparatus (manas, buddhi, ahaṃkāra, citta)._
+- **ajāti-vāda** (Vedānta — Advaita) — the doctrine of non-origination; *Gauḍapāda's claim in the *Māṇḍūkya-kārikā* (esp. book IV `Alātaśānti`) that nothing ever truly comes into being; apparent arising of a world is unreal. Structurally parallel to — and likely absorbing premises from — Madhyamaka's critique of origination (XII.b), while redirecting the conclusion toward non-dual brahman rather than śūnyatā.*
+
+_Yogas (paths of practice):_
+
+- **bhakti** (Vedānta) — devotion; *loving devotion to a personal deity, the path of the *Bhagavad-Gītā*'s bhakti-yoga and of the later devotional traditions.*
+- **karma-yoga** (Vedānta) — the yoga of action; *selfless action without attachment to its fruits (niṣkāma-karma), as taught in the *Gītā*.*
+- **jñāna-yoga** (Vedānta) — the yoga of knowledge; _discriminative knowledge of brahman-ātman identity — the Advaita path par excellence. Cf. VI.f `ñāṇa` / XIV `jñāna` for the underlying term._
+
+### Sāṅkhya / Yoga
+
+- **puruṣa** (Sāṅkhya) — spirit, pure consciousness, the conscious principle
+- **prakṛti** (Sāṅkhya) — nature, primordial matter, the unconscious-material principle
+- **guṇa** (Sāṅkhya) — quality, strand; _the three strands constituting prakṛti._
+
+_The Three Guṇas:_
+
+1. **sattva** (Sāṅkhya) — lucidity, clarity, goodness
+2. **rajas** (Sāṅkhya) — passion, activity
+3. **tamas** (Sāṅkhya) — inertia, dullness, darkness
+
+- **vyakta** (Sāṅkhya) — manifest
+- **avyakta** (Sāṅkhya) — unmanifest
+- **kaivalya** (Sāṅkhya / Yoga) — isolation, aloneness; _the Sāṅkhya-Yoga goal: puruṣa's separation from prakṛti._
+- **samprajñāta-samādhi** / **asamprajñāta-samādhi** (Pātañjala Yoga) — samādhi with / without cognized object; _the two-fold division in Yogasūtra 1.17–1.18, with samprajñāta further sub-divided into savitarka, nirvitarka, savicāra, nirvicāra forms (YS 1.42–1.44)._
+- **prāṇa** — breath, life-force, vital energy
+- **kuṇḍalinī** (Hindu tantra / Haṭha-yoga) — coiled (serpent-energy); _not Sāṅkhya / Pātañjala-Yoga vocabulary — a Hindu-tantric and Haṭha-yoga concept (developed in the Śaiva and Nātha tantric corpora, codified in the Haṭhayogapradīpikā and similar texts) of dormant energy at the base of the spine, raised through the central channel in subtle-body practice. Listed here under Indic comparatives for its structural parallel to Vajrayāna `caṇḍālī` / Tibetan `tummo` (XIII)._
+
+### Epistemology (pan-Indic)
+
+- **pramāṇa** — means of valid knowledge, instrument of cognition; _systems differ on which and how many pramāṇas are admitted — e.g. Nyāya accepts four (perception, inference, comparison, verbal testimony), Advaita six (adding postulation and non-apprehension), the Cārvāka only direct perception._
+
+_Core pramāṇas (common to most systems):_
+
+1. **pratyakṣa** — direct perception; lit. "before-the-eye"
+2. **anumāna** — inference
+3. **śabda** — verbal testimony, authoritative word; _(in epistemology); the same word as "sound" generally — cf. VI.c._
+
+- **vikalpa** — conceptualization, mental construct, discriminative thought
+- **nirvikalpa** — without conceptualization, non-conceptual
+- **jñāna** (Pāli: ñāṇa) — knowledge, cognition; _cross-ref to VI.f._
+
+### Ethics / Other
+
+- **ahiṃsā** — non-harming, non-violence; lit. "non-injuring"
+- **dharma** — order, duty, righteousness (pan-Indic sense); _cf. XI.a for the Abhi. technical sense._
+
+---
+
+## Part XV — Non-Indic Philosophical / Mystical Comparatives (Greek, Hebrew, German; non-Indic comparative)
+
+### Greek
+
+_Platonic / Neoplatonic principles (Plotinus, Proclus, Pseudo-Dionysius):_
+
+- **to hen** (τὸ ἕν) (Plotinian) — the One; _Plotinus's first and highest principle, beyond being and beyond predication (Enneads VI.9). Cf. `brahman` (XIV) as non-dual ground._
+- **nous** (νοῦς) (Plotinian) — intellect, mind, intelligence; _the second hypostasis — first emanation from the One, realm of the Platonic Forms._
+- **psychē** (ψυχή) (Plotinian) — soul; _the third hypostasis — world-soul and individual souls as its particularizations._
+- **hypostasis** (ὑπόστασις) (Plotinian) — "standing-under," subsistence, level-of-reality; _Plotinus's three principle-levels — `to hen`, `nous`, `psychē` — are the three hypostases. Christian trinitarian theology later redeploys the term for the three divine persons in one `ousia`._
+- **monad** (μονάς) — one, unity, unit; _Neoplatonic primal unity; Leibnizian metaphysical individual._
+- **ousia** (οὐσία) (Aristotelian / Neoplatonic / Christian) — being, essence, substance; _the Aristotelian category of what-something-is, redeployed in Christian trinitarian theology (three hypostases in one ousia) and inverted by `hyperousia`._
+
+_Apophatic / beyond-being:_
+
+- **hyperousia** (ὑπερούσιος / ὑπερουσία) (Neoplatonic / Pseudo-Dionysius) — beyond being, superessential; _the One's transcendence of `ousia` — not a being among beings, not the highest being. Central to Pseudo-Dionysius's apophatic theology._
+- **apophasis** (ἀπόφασις) — negation, denial; _the apophatic theological method — knowing God by what God is not._
+
+_Modes of knowing:_
+
+- **noēsis** (νόησις) (Platonic / Plotinian) — intellection, direct intellectual apprehension; _the non-discursive knowing proper to `nous`, contrasted with `dianoia` (διάνοια) — discursive step-by-step reasoning._
+- **gnosis** (γνῶσις) — knowledge (esp. spiritual / experiential knowledge); _Greek cognate of Skt `jñāna` / Pāli `ñāṇa` — all from PIE \*ǵneh3- "know" (same root as English know, Latin cognoscere)._
+
+_Contemplation, return, union:_
+
+- **theōria** (θεωρία) (Platonic / Neoplatonic) — contemplation, contemplative vision; _engagement with the intelligible, contrasted with `praxis` (practical activity); the Neoplatonic soteriological ideal._
+- **epistrophē** (ἐπιστροφή) (Plotinian / Proclean) — return, reversion; _the soul's turn back toward the One, reversing the outward `proodos` (procession). Proclus's triad: `monē` → `proodos` → `epistrophē`._
+- **henōsis** (ἕνωσις) (Plotinian) — union with the One; _Plotinus's soteriological goal — "the flight of the alone to the alone" (Enneads VI.9.11)._
+- **theōsis** (θέωσις) (Eastern Orthodox) — deification, divinization; _the human person becomes "by grace what God is by nature" (Athanasius, Maximus, Palamas); the Christian-personalist redeployment of Plotinian `henōsis`._
+
+_Love (the Platonic-Christian trio):_
+
+- **eros** (ἔρως) (Platonic) — desiring love, aspirational love; _in Plato (`Symposium`, `Phaedrus`), the soul's ascent toward the Beautiful and the Good; in Plotinus, the soul's drive-toward-the-One._
+- **agape** (ἀγάπη) — selfless / divine love; _distinguished from `eros` (desiring) and `philia` (friendship)._
+
+_Christian-mystical / Gnostic:_
+
+- **plērōma** (πλήρωμα) — fullness; _Pauline cosmic fullness; Gnostic Pleroma as the totality of divine emanations._
+- **kenosis** (κένωσις) — emptying, self-emptying; _Philippians 2:7 on Christ's self-emptying incarnation; semantic echo of `śūnyatā`._
+
+### Hebrew (Kabbalah)
+
+_Divine absolute (beyond emanation):_
+
+- **ein sof** (אֵין סוֹף) — the Infinite, without-end; _the hidden, unmanifest Godhead prior to the sefirot. An affirmative (though hidden) divine infinitude, not a predicate-stripped absence._
+- **ayin** (אַיִן) — nothing, there-is-not; _the Kabbalistic "divine nothingness" — especially in the Ḥasidic reading, Ein Sof as Ayin from the creaturely side. Names divine transcendence, not the absence of svabhāva._
+
+_The sefirot (the ten emanations through which Ein Sof manifests):_
+
+- **sefirot** (סְפִירוֹת; sing. **sefirah**) — emanations, numerations, divine attributes; _the ten channels through which Ein Sof flows into manifestation; read as both divine self-structure and map of creation._
+
+_The Ten Sefirot (canonical order, from nearest-the-Infinite downward):_
+
+1. **keter** (כֶּתֶר) — crown; _the first sefirah, closest to Ein Sof; sometimes identified with Ayin._
+2. **ḥokhmah** (חָכְמָה) — wisdom; _the second sefirah — flash-of-insight, pre-discursive._
+3. **binah** (בִּינָה) — understanding; _the third sefirah — articulated comprehension; often paired with ḥokhmah as wisdom-unfolded._
+4. **ḥesed** (חֶסֶד) — lovingkindness, mercy; _the fourth sefirah — outward-flowing grace._
+5. **gevurah** (גְּבוּרָה) — strength, severity, judgment; _the fifth sefirah — the restraining / limiting aspect, paired with ḥesed._
+6. **tifʾeret** (תִּפְאֶרֶת) — beauty, harmony; _the sixth sefirah — the balanced center of the tree, harmonizing ḥesed and gevurah._
+7. **netzaḥ** (נֶצַח) — victory, eternity, endurance; _the seventh sefirah._
+8. **hod** (הוֹד) — splendor, majesty, acknowledgment; _the eighth sefirah; paired with netzaḥ._
+9. **yesod** (יְסוֹד) — foundation; _the ninth sefirah — the channel gathering the flow toward malkhut._
+10. **malkhut** (מַלְכוּת) — kingdom, sovereignty; _the tenth sefirah — the manifest world / receiving-vessel; frequently identified with Shekhinah._
+
+_Divine immanence, mystical union:_
+
+- **shekhinah** (שְׁכִינָה) — divine presence, indwelling; _God's immanent / dwelling aspect; often feminine-coded and identified with the tenth sefirah malkhut. In exile with Israel in post-biblical Jewish thought._
+- **devekut** (דְּבֵקוּת) — cleaving, adherence (to God); _mystical union via continuous cleaving to the divine — the central soteriological term in Ḥasidism._
+
+### German
+
+- **Erleuchtung** — enlightenment, illumination
+- **Aufklärung** — the (European) Enlightenment
+- **Istigkeit** (Eckhart) — is-ness, is-ity; _Meister Eckhart's neologism for the sheer being-of-things._
+- **Gelassenheit** (Eckhart / Heidegger) — releasement, letting-be, equanimity; _Eckhart: detachment as spiritual posture; Heidegger: a stance toward technology and Being._
+- **Ungrund** (Böhme) — un-ground, abyss; _Jacob Böhme's term for the groundless ground of divine reality prior to any determinate being._
+
+---
+
+_Notes:_
+
+- _Pāli headwords always carry `(Skt: …)` — `(Skt: same)` when IAST-identical._
+- _Part titles carry `(language; stratum)`. Anomalous terms get inline stratum tags._
+- _Entries give brief glosses and rendering-notes rather than full prose definitions. Def-flags surface contested scholarship or multi-sense terms._
+- _Sanskrit -an stem nouns use the technical stem (`ātman`, `karman`, `brahman`, `nāman`), not popular shortened forms. In compounds the -n drops by sandhi (`nāma-rūpa`, `brahma-vihāra`)._
+
+---
+
+## Index
+
+*Alphabetical index of all headwords across Parts I–XV. Primary entries are in **bold**; cross-references from Sanskrit or Pāli equivalents are in *italics* and point to the primary entry. Location abbreviations are the Part + subsection (e.g. `VI.b`) or Part + named subsection (e.g. `XV (Greek)`). Terms with multiple appearances list all locations. Sort is alphabetical by Pāli / primary form, diacritics folded.*
+
+### A
+
+- _abhidhyā-daurmanasya_ → see **abhijjhā-domanassa** (IV)
+- **abhijjhā-domanassa** (Skt: abhidhyā-daurmanasya) — IV
+- _abhijñā_ → see **abhiññā** (III.a)
+- **abhiññā** (Skt: abhijñā) — III.a
+- **abhiṣeka** — XIII (Sanskrit-stratum)
+- **adhicitta** — III.a
+- **adhipaññā** (Skt: adhiprajñā) — III.a
+- _adhiprajñā_ → see **adhipaññā** (III.a)
+- **adhisīla** (Skt: adhiśīla) — III.a
+- **adhyāsa** — XIV (Vedānta)
+- _ādīnavānupaśyanā-jñāna_ → see **ādīnavānupassanā-ñāṇa** (XI.b)
+- **ādīnavānupassanā-ñāṇa** (Skt: ādīnavānupaśyanā-jñāna) — XI.b
+- **adosa** (Skt: adveṣa) — VI.f
+- **advaita** — XIV (Vedānta)
+- _adveṣa_ → see **adosa** (VI.f)
+- **agape** — XV (Greek)
+- **aham brahmāsmi** — XIV (Vedānta)
+- **ahaṃkāra** — XIV (Vedānta)
+- **ahiṃsā** — XIV (Ethics / Other)
+- **ajāti-vāda** — XIV (Vedānta)
+- **ākāsa-dhātu** (Skt: ākāśa-dhātu) — VI.d
+- **ākāsānañcāyatana** (Skt: ākāśānantyāyatana) — III.c
+- _ākāśānantyāyatana_ → see **ākāsānañcāyatana** (III.c)
+- **akiñcana** — I
+- **ākiñcañña** (Skt: ākiñcanya) — I
+- **ākiñcaññāyatana** (Skt: ākiñcanyāyatana) — III.c
+- _ākiñcanya_ → see **ākiñcañña** (I)
+- _ākiñcanyāyatana_ → see **ākiñcaññāyatana** (III.c)
+- **akusala** (Skt: akuśala) — III.a
+- **akusala-mūla** (Skt: akuśala-mūla) — VI.f
+- **ālayavijñāna** — XII.c
+- **alobha** — VI.f
+- **amata** (Skt: amṛta) — II
+- **amoha** — VI.f
+- _amṛta_ → see **amata** (II)
+- **anāgāmī** (Skt: anāgāmin) — VIII.g
+- _anāgāmin_ → see **anāgāmī** (VIII.g)
+- **ānanda** — XIV (Vedānta)
+- **ānāpānasati** (Skt: ānāpānasmṛti) — IV
+- _ānāpānasmṛti_ → see **ānāpānasati** (IV)
+- **anāsava** (Skt: anāsrava) — II
+- _anāsrava_ → see **anāsava** (II)
+- _anātman_ → see **anattā** (VI.a)
+- **anattā** (Skt: anātman) — VI.a
+- **anicca** (Skt: anitya) — VI.a
+- **animitta** — II
+- _aniśrita_ → see **anissita** (X.a)
+- **anissita** (Skt: aniśrita) — X.a
+- _anitya_ → see **anicca** (VI.a)
+- **antaḥkaraṇa** — XIV (Vedānta)
+- _anuloma-jñāna_ → see **anuloma-ñāṇa** (XI.b)
+- **anuloma-ñāṇa** (Skt: anuloma-jñāna) — XI.b
+- **anumāna** — XIV (Epistemology)
+- **anupādāna** — X.a
+- **anupadhi** — I
+- **anupādisesa-nibbāna** (Skt: nirupadhiśeṣa-nirvāṇa) — II
+- _anupaśyanā_ → see **anupassanā** (IV)
+- **anupassanā** (Skt: anupaśyanā) — IV
+- _anusmṛti_ → see **anussati** (XI.b)
+- **anussati** (Skt: anusmṛti) — XI.b
+- **anuttara-samyak-saṃbodhi** — XII.d
+- _ap-dhātu_ → see **āpo-dhātu** (VI.d)
+- _apatrāpya_ → see **ottappa** (III.a)
+- **āpo-dhātu** (Skt: ap-dhātu) — VI.d
+- **apophasis** — XV (Greek)
+- **appamāda** (Skt: apramāda) — III.a
+- **appamāṇā** (Skt: apramāṇa) — V
+- **appanā-samādhi** (Skt: arpaṇā-samādhi) — XI.b
+- **appaṇihita** (Skt: apraṇihita) — II
+- _apramāda_ → see **appamāda** (III.a)
+- _apramāṇa_ → see **appamāṇā** (V)
+- _apraṇihita_ → see **appaṇihita** (II)
+- **apratiṣṭhita** — XII.b
+- **arahant** (Skt: arhat) — VIII.g
+- _arhat_ → see **arahant** (VIII.g)
+- **ariya-puggala** (Skt: ārya-pudgala) — VIII.g
+- **ariyasacca** (Skt: āryasatya) — IX
+- _arpaṇā-samādhi_ → see **appanā-samādhi** (XI.b)
+- **arūpa** — VI.e
+- **arūpa-rāga** (Skt: ārūpya-rāga) — VIII.g
+- **arūpa-samāpatti** (Skt: ārūpya-samāpatti) — III.c
+- **arūpāvacara** (Skt: ārūpyāvacara) — XI.a
+- _ārūpya-rāga_ → see **arūpa-rāga** (VIII.g)
+- _ārūpya-samāpatti_ → see **arūpa-samāpatti** (III.c)
+- _ārūpyāvacara_ → see **arūpāvacara** (XI.a)
+- _ārya-pudgala_ → see **ariya-puggala** (VIII.g)
+- _āryasatya_ → see **ariyasacca** (IX)
+- **asabhāva** (Skt: asvabhāva) — XI.a
+- _aśaikṣa_ → see **asekha** (VIII.g)
+- _asamprajñāta-samādhi_ → see **samprajñāta-samādhi** (XIV)
+- _asaṃskṛta_ → see **asaṅkhata** (VII.b)
+- **asaṅkhata** (Skt: asaṃskṛta) — VII.b
+- **āsava** (Skt: āsrava) — II
+- **āsavakkhaya** (Skt: āsravakṣaya) — II
+- **asekha** (Skt: aśaikṣa) — VIII.g
+- _āsrava_ → see **āsava** (II)
+- _āsravakṣaya_ → see **āsavakkhaya** (II)
+- **āśraya-parāvṛtti** — XII.c
+- **aṣṭa-vijñāna** — XII.c
+- **asubha** (Skt: aśubha) — XI.b
+- _asvabhāva_ → see **asabhāva** (XI.a)
+- **atammayatā** (Skt: atanmayatā) — X.a
+- _atanmayatā_ → see **atammayatā** (X.a)
+- **ātāpī** (Skt: ātāpin) — IV
+- _ātāpin_ → see **ātāpī** (IV)
+- **ātman** — XIV (Vedānta)
+- _auddhatya_ → see **uddhacca** (VIII.g)
+- _auddhatya-kaukṛtya_ → see **uddhacca-kukkucca** (III.b)
+- **Aufklärung** — XV (German)
+- _avidyā_ → see **avijjā** (VII.a, VIII.g)
+- **avidyā** — XIV (Vedānta)
+- **avijjā** (Skt: avidyā) — VII.a, VIII.g
+- **avyākata** (Skt: avyākṛta) — X.b
+- _avyākṛta_ → see **avyākata** (X.b)
+- **avyakta** — XIV (Sāṅkhya / Yoga)
+- **āyatana** — VI.c
+- **ayin** — XV (Hebrew)
+
+### B
+
+- **bala** — VIII.d
+- **bardo** — XIII (Tibetan)
+- **bhakti** — XIV (Vedānta)
+- _bhaṅga-jñāna_ → see **bhaṅga-ñāṇa** (XI.b)
+- **bhaṅga-ñāṇa** (Skt: bhaṅga-jñāna) — XI.b
+- **bhava** — VII.a
+- **bhāvanā** — III.a, IX
+- **bhavaṅga** (Skt: bhavāṅga) — XI.a
+- _bhayopasthāna-jñāna_ → see **bhayatupaṭṭhāna-ñāṇa** (XI.b)
+- **bhayatupaṭṭhāna-ñāṇa** (Skt: bhayopasthāna-jñāna) — XI.b
+- **bīja** — XII.c
+- **binah** — XV (Hebrew)
+- **bodhi** — II
+- **bodhicitta** — XII.d
+- **bodhipakkhiyā dhammā** (Skt: bodhipakṣa-dharma) — VIII
+- _bodhipakṣa-dharma_ → see **bodhipakkhiyā dhammā** (VIII)
+- **bodhisattva** — XII.d
+- **bodhisattvayāna** — XII.d
+- _bodhyaṅga_ → see **bojjhaṅga** (VIII.b)
+- **bojjhaṅga** (Skt: bodhyaṅga) — VIII.b
+- **Brahmā** — XIV (Vedānta)
+- **brahman** — XIV (Vedānta)
+- **brahmavihāra** — V
+- **buddha-kṣetra** — XII.d
+- **buddhadhātu** — XII.d
+- **buddhi** — XIV (Vedānta)
+
+### C
+
+- _caitasika / caitta_ → see **cetasika** (XI.a)
+- **cakkhu** (Skt: cakṣus) — VI.c
+- _cakṣus_ → see **cakkhu** (VI.c)
+- **cattāri ariyasaccāni** (Skt: catvāri āryasatyāni) — IX
+- **catutthajjhāna** — III.c
+- **catuṣkoṭi** — XII.b
+- _catvāri āryasatyāni_ → see **cattāri ariyasaccāni** (IX)
+- **cetanā** — VI.f
+- **cetasika** (Skt: caitasika / caitta) — XI.a
+- _cetovimukti_ → see **cetovimutti** (II)
+- **cetovimutti** (Skt: cetovimukti) — II
+- **chanda** — VI.f, VIII.f
+- **cherdrol** — XIII (Tibetan)
+- **cidākāśa** — XIV (Vedānta)
+- **cit** — XIV (Vedānta)
+- **citta** — VI.f, VIII.f
+- **cittamātra** — XII.c
+- **cittānupassanā** (Skt: cittānupaśyanā) — IV
+- _cittānupaśyanā_ → see **cittānupassanā** (IV)
+- **cittavīthi** (Skt: cittavīthī) — XI.a
+
+### D
+
+- **ḍākinī** — XIII (Sanskrit-stratum)
+- **dāna-pāramitā** — XII.d
+- **daśa-bhūmi** — XII.d
+- _daurmanasya_ → see **domanassa** (VI.f)
+- **devekut** — XV (Hebrew)
+- **dhamma** (Skt: dharma) — VI.c, XI.a
+- **dhamma-vicaya** (Skt: dharma-pravicaya) — VIII.b
+- _dhammakāya_ → see **dharmakāya** (XII.d)
+- **dhammānupassanā** (Skt: dharmānupaśyanā) — IV
+- **dhāraṇī** — XII.d
+- _dharma_ → see **dhamma** (VI.c, XI.a)
+- **dharma** — XIV (Ethics / Other)
+- **dharma-nairātmya** — XII.b
+- _dharma-pravicaya_ → see **dhamma-vicaya** (VIII.b)
+- **dharmadhātu** — XII.c
+- **dharmakāya** (Pāli: dhammakāya) — XII.d
+- _dharmānupaśyanā_ → see **dhammānupassanā** (IV)
+- **dharmatā** — XII.c
+- **dhātu** — VI.d
+- _dhyāna_ → see **jhāna** (III.c)
+- **dhyāna-pāramitā** — XII.d
+- **diṭṭhi** (Skt: dṛṣṭi) — I
+- **domanassa** (Skt: daurmanasya) — VI.f
+- **dosa** (Skt: dveṣa) — VI.f
+- _dṛṣṭi_ → see **diṭṭhi** (I)
+- _duḥkha_ → see **dukkha** (I, VI.a)
+- _duḥkha-satya_ → see **dukkha-sacca** (IX)
+- **dukkha** (Skt: duḥkha) — I, VI.a
+- **dukkha-sacca** (Skt: duḥkha-satya) — IX
+- **dutiyajjhāna** — III.c
+- **dvaita** — XIV (Vedānta)
+- **dvāra** — XI.a
+- **dve satye** — XII.b
+- _dveṣa_ → see **dosa** (VI.f)
+- **dzogchen** — XIII (Tibetan)
+
+### E
+
+- **ein sof** — XV (Hebrew)
+- **ekaggatā** (Skt: ekāgratā) — III.c
+- _ekāgratā_ → see **ekaggatā** (III.c)
+- **ekayāna** — XII.d
+- **ekodibhāva** (Skt: ekotibhāva) — III.c
+- _ekotibhāva_ → see **ekodibhāva** (III.c)
+- **epistrophē** — XV (Greek)
+- **Erleuchtung** — XV (German)
+- **eros** — XV (Greek)
+
+### G
+
+- **gandha** — VI.c
+- **gankyil** — XIII (Tibetan)
+- **Gelassenheit** — XV (German)
+- **gevurah** — XV (Hebrew)
+- **ghāna** (Skt: ghrāṇa) — VI.c
+- _ghrāṇa_ → see **ghāna** (VI.c)
+- **gnosis** — XV (Greek)
+- _gotrabhū-jñāna_ → see **gotrabhū-ñāṇa** (XI.b)
+- **gotrabhū-ñāṇa** (Skt: gotrabhū-jñāna) — XI.b
+- **guṇa** — XIV (Sāṅkhya / Yoga)
+- **guru** — XIII (Sanskrit-stratum)
+
+### H
+
+- **henōsis** — XV (Greek)
+- **ḥesed** — XV (Hebrew)
+- **hetu** — VII.b
+- **hīnayāna** — XII.d
+- **Hiraṇyagarbha** — XIV (Vedānta)
+- **hiri** (Skt: hrī) — III.a
+- **hod** — XV (Hebrew)
+- **ḥokhmah** — XV (Hebrew)
+- _hrī_ → see **hiri** (III.a)
+- **hyperousia** — XV (Greek)
+- **hypostasis** — XV (Greek)
+
+### I
+
+- _idaṃpratyayatā_ → see **idappaccayatā** (VII.a)
+- **idappaccayatā** (Skt: idaṃpratyayatā) — VII.a
+- **iddhi** (Skt: ṛddhi) — VIII.f
+- **iddhipāda** (Skt: ṛddhipāda) — VIII.f
+- **indriya** — VIII.c
+- **indriya-saṃvara** — III.a
+- **Istigkeit** — XV (German)
+- **īśvara** — XIV (Vedānta)
+
+### J
+
+- **jalü** — XIII (Tibetan)
+- **jarā-maraṇa** — VII.a
+- **jāti** — VII.a
+- **javana** — XI.a
+- **jhāna** (Skt: dhyāna) — III.c
+- _jihvā_ → see **jivhā** (VI.c)
+- **jīva** — VI.e
+- **jīvanmukta** — XIV (Vedānta)
+- **jīvanmukti** — XIV (Vedānta)
+- **jivhā** (Skt: jihvā) — VI.c
+- _jñāna_ → see **ñāṇa** (VI.f)
+- **jñāna** (Pāli: ñāṇa) — XIV (Epistemology)
+- **jñāna-yoga** — XIV (Vedānta)
+
+### K
+
+- **kadag** — XIII (Tibetan)
+- **kaivalya** — XIV (Sāṅkhya / Yoga)
+- **kalāpa** — XI.a
+- **kāma-rāga** — VIII.g
+- **kāmacchanda** — III.b
+- **kāmāvacara** — XI.a
+- **kamma** (Skt: karman) — VII.b
+- **karma-yoga** — XIV (Vedānta)
+- _karman_ → see **kamma** (VII.b)
+- **karuṇā** — V
+- **kasiṇa** (Skt: kṛtsna) — XI.b
+- **kāya** — VI.c
+- **kāyagatāsati** (Skt: kāyagatāsmṛti) — IV
+- _kāyagatāsmṛti_ → see **kāyagatāsati** (IV)
+- **kāyānupassanā** (Skt: kāyānupaśyanā) — IV
+- _kāyānupaśyanā_ → see **kāyānupassanā** (IV)
+- **kenosis** — XV (Greek)
+- **kenshō** — XII.d
+- **keter** — XV (Hebrew)
+- **khandha** (Skt: skandha) — VI.b
+- **khaṇika-samādhi** (Skt: kṣaṇika-samādhi) — XI.b
+- **khīṇāsava** (Skt: kṣīṇāsrava) — II
+- **kliṣṭa-manas** — XII.c
+- _kṛtsna_ → see **kasiṇa** (XI.b)
+- _kṣaṇika-samādhi_ → see **khaṇika-samādhi** (XI.b)
+- **kṣānti-pāramitā** — XII.d
+- _kṣīṇāsrava_ → see **khīṇāsava** (II)
+- **kuṇḍalinī** — XIV (Hindu tantra / Haṭha-yoga)
+- **kusala** (Skt: kuśala) — III.a
+- **kusala-mūla** (Skt: kuśala-mūla) — VI.f
+
+### L
+
+- **lama** — XIII (Tibetan)
+- **lhundrub** — XIII (Tibetan)
+- **lobha** — VI.f
+- _lokottara_ → see **lokuttara** (XI.a)
+- **lokuttara** (Skt: lokottara) — XI.a
+
+### M
+
+- **ma rigpa** — XIII (Tibetan)
+- _madhyamā pratipad_ → see **majjhimā paṭipadā** (III.a)
+- **madhyamaka** — XII.b
+- **mādhyamika** — XII.b
+- **magga** (Skt: mārga) — VIII.g
+- **magga-ñāṇa** (Skt: mārga-jñāna) — XI.b
+- **magga-phala** (Skt: mārga-phala) — VIII.g
+- **magga-sacca** (Skt: mārga-satya) — IX
+- **mahāmudrā** — XIII (Sanskrit-stratum)
+- **mahāsiddha** — XIII (Sanskrit-stratum)
+- **mahāsukha** — XIII (Sanskrit-stratum)
+- **mahāyāna** — XII.d
+- _maitrī_ → see **mettā** (V)
+- **majjhimā paṭipadā** (Skt: madhyamā pratipad) — III.a
+- **malkhut** — XV (Hebrew)
+- **māna** — VIII.g
+- _manas_ → see **mano** (VI.c)
+- **manas** — XIV (Vedānta)
+- **manasikāra** — VI.f
+- **maṇḍala** — XIII (Sanskrit-stratum)
+- **mano** (Skt: manas) — VI.c
+- **manovijñāna** — XII.c
+- **mantra** — XIII (Sanskrit-stratum)
+- _mārga_ → see **magga** (VIII.g)
+- _mārga-jñāna_ → see **magga-ñāṇa** (XI.b)
+- _mārga-phala_ → see **magga-phala** (VIII.g)
+- _mārga-satya_ → see **magga-sacca** (IX)
+- _mauneya_ → see **moneyya** (I)
+- **māyā** — XIV (Vedānta)
+- **mettā** (Skt: maitrī) — V
+- _mīmāṃsā_ → see **vīmaṃsā** (VIII.f)
+- **moha** — VI.f
+- **mokkha** (Skt: mokṣa) — II
+- _mokṣa_ → see **mokkha** (II)
+- **monad** — XV (Greek)
+- **moneyya** (Skt: mauneya) — I
+- **mu** — XII.d
+- **muditā** — V
+- **mudrā** — XIII (Sanskrit-stratum)
+- _mukti_ → see **mutti** (II)
+- _mumukṣā-jñāna_ → see **muñcitukamyatā-ñāṇa** (XI.b)
+- **muñcitukamyatā-ñāṇa** (Skt: mumukṣā-jñāna) — XI.b
+- **muni** — I
+- **mutti** (Skt: mukti) — II
+
+### N
+
+- **nairātmya** — XII.b
+- _naiṣkramya_ → see **nekkhamma** (III.a)
+- _naivasaṃjñānāsaṃjñāyatana_ → see **nevasaññānāsaññāyatana** (III.c)
+- **nāma-rūpa** — VI.e, VII.a
+- **nāma-rūpa-pariccheda-ñāṇa** (Skt: nāma-rūpa-paricchedaka-jñāna) — XI.b
+- _nāma-rūpa-paricchedaka-jñāna_ → see **nāma-rūpa-pariccheda-ñāṇa** (XI.b)
+- **ñāṇa** (Skt: jñāna) — VI.f
+- _ñāṇa_ → see **jñāna** (XIV (Epistemology))
+- **nekkhamma** (Skt: naiṣkramya) — III.a
+- **neti neti** — XIV (Vedānta)
+- **netzaḥ** — XV (Hebrew)
+- **nevasaññānāsaññāyatana** (Skt: naivasaṃjñānāsaṃjñāyatana) — III.c
+- **nibbāna** (Skt: nirvāṇa) — II
+- **nibbidā** (Skt: nirveda) — II
+- **nibbidānupassanā-ñāṇa** (Skt: nirvedānupaśyanā-jñāna) — XI.b
+- **nidāna** — VII.b
+- **niḥsvabhāva** — XII.b
+- **nimitta** — III.c
+- **nippapañca** (Skt: niṣprapañca) — X.b
+- **nirguṇa** — XIV (Vedānta)
+- **nirmāṇakāya** — XII.d
+- **nirodha** — II
+- **nirodha-sacca** (Skt: nirodha-satya) — IX
+- **nirodha-samāpatti** — III.c
+- _nirodha-satya_ → see **nirodha-sacca** (IX)
+- **nirupadhi** — I
+- _nirupadhiśeṣa-nirvāṇa_ → see **anupādisesa-nibbāna** (II)
+- _nirvāṇa_ → see **nibbāna** (II)
+- _nirveda_ → see **nibbidā** (II)
+- _nirvedānupaśyanā-jñāna_ → see **nibbidānupassanā-ñāṇa** (XI.b)
+- **nirvikalpa** — XIV (Epistemology)
+- **nirvikalpa-jñāna** — XII.c
+- **nirvikalpa-samādhi** — XIV (Vedānta)
+- _niṣprapañca_ → see **nippapañca** (X.b)
+- **niṣprapañca** — XII.b
+- _niśraya_ → see **nissaya** (X.a)
+- _niśrita_ → see **nissita** (X.a)
+- **nissaya** (Skt: niśraya) — X.a
+- **nissita** (Skt: niśrita) — X.a
+- **nīvaraṇa** (Skt: nivāraṇa) — III.b
+- **noēsis** — XV (Greek)
+- **nous** — XV (Greek)
+
+### O
+
+- **'od gsal** / **clear light** — XIII (Tibetan)
+- **oṃkāra** — XIV (Vedānta)
+- **ottappa** (Skt: apatrāpya) — III.a
+- **ousia** — XV (Greek)
+
+### P
+
+- **pabhassara** (Skt: prabhāsvara) — II
+- **paccavekkhaṇa-ñāṇa** (Skt: pratyavekṣaṇā-jñāna) — XI.b
+- **paccaya** (Skt: pratyaya) — VII.b
+- **paccaya-pariggaha-ñāṇa** (Skt: pratyaya-parigraha-jñāna) — XI.b
+- **pahāna** (Skt: prahāṇa) — IX
+- **pamāda** (Skt: pramāda) — III.a
+- **pāmojja** (Skt: prāmodya) — III.c
+- _pañca-dhyānāṅga_ → see **pañca-jhānaṅga** (XI.b)
+- **pañca-jhānaṅga** (Skt: pañca-dhyānāṅga) — XI.b
+- **paññā** (Skt: prajñā) — VI.f
+- **paññatti** (Skt: prajñapti) — XI.a
+- **paññāvimutti** (Skt: prajñāvimukti) — II
+- **paññindriya** (Skt: prajñendriya) — VIII.c
+- **papañca** (Skt: prapañca) — X.b
+- _paramārtha_ → see **paramattha** (XI.a)
+- **paramārtha-satya** — XII.b
+- **paramattha** (Skt: paramārtha) — XI.a
+- **pāramitā** — XII.d
+- **paratantra-svabhāva** — XII.c
+- **parikalpita-svabhāva** — XII.c
+- **parikamma-nimitta** (Skt: parikarma-nimitta) — XI.b
+- _parijñā_ → see **pariññā** (IX)
+- _parikarma-nimitta_ → see **parikamma-nimitta** (XI.b)
+- **pariṇāma** — XII.c
+- **pariññā** (Skt: parijñā) — IX
+- **parinibbāna** (Skt: parinirvāṇa) — II
+- _parinirvāṇa_ → see **parinibbāna** (II)
+- **pariniṣpanna-svabhāva** — XII.c
+- **pasāda** / **pasāda-rūpa** (Skt: prasāda / prasāda-rūpa) — XI.a
+- **passaddhi** (Skt: praśrabdhi) — VI.f, VIII.b
+- **paṭhamajjhāna** — III.c
+- **pathavī-dhātu** (Skt: pṛthivī-dhātu) — VI.d
+- **paṭibhāga-nimitta** (Skt: pratibhāga-nimitta) — XI.b
+- **paṭiccasamuppāda** (Skt: pratītyasamutpāda) — VII.a
+- **paṭigha** (Skt: pratigha) — VIII.g
+- **paṭisaṅkhānupassanā-ñāṇa** (Skt: pratisaṃkhyānupaśyanā-jñāna) — XI.b
+- **paṭṭhāna** (Skt: prasthāna) — XI.a
+- **phala** — VIII.g
+- _phala-jñāna_ → see **phala-ñāṇa** (XI.b)
+- **phala-ñāṇa** (Skt: phala-jñāna) — XI.b
+- **phassa** (Skt: sparśa) — VI.c, VII.a
+- **phoṭṭhabba** (Skt: spraṣṭavya) — VI.c
+- **pīti** (Skt: prīti) — III.c, VIII.b
+- **plērōma** — XV (Greek)
+- _prabhāsvara_ → see **pabhassara** (II)
+- **prabhāsvara-citta** — XII.d
+- _prahāṇa_ → see **pahāna** (IX)
+- _prajñā_ → see **paññā** (VI.f)
+- **prajñā-pāramitā** — XII.d
+- **prajñāpāramitā** — XII.a
+- _prajñapti_ → see **paññatti** (XI.a)
+- _prajñāvimukti_ → see **paññāvimutti** (II)
+- _prajñendriya_ → see **paññindriya** (VIII.c)
+- **prakṛti** — XIV (Sāṅkhya / Yoga)
+- _pramāda_ → see **pamāda** (III.a)
+- **pramāṇa** — XIV (Epistemology)
+- _prāmodya_ → see **pāmojja** (III.c)
+- **prāṇa** — XIV (Sāṅkhya / Yoga)
+- **praṇava** — XIV (Vedānta)
+- _prapañca_ → see **papañca** (X.b)
+- **prasaṅga** — XII.b
+- _prasāda_ / _prasāda-rūpa_ → see **pasāda** / **pasāda-rūpa** (XI.a)
+- **prāsaṅgika** — XII.b
+- _praśrabdhi_ → see **passaddhi** (VI.f, VIII.b)
+- _prasthāna_ → see **paṭṭhāna** (XI.a)
+- _pratibhāga-nimitta_ → see **paṭibhāga-nimitta** (XI.b)
+- _pratigha_ → see **paṭigha** (VIII.g)
+- _pratisaṃkhyānupaśyanā-jñāna_ → see **paṭisaṅkhānupassanā-ñāṇa** (XI.b)
+- _pratītyasamutpāda_ → see **paṭiccasamuppāda** (VII.a)
+- **pratītyasamutpāda** — XII.b
+- **pratyakṣa** — XIV (Epistemology)
+- _pratyavekṣaṇā-jñāna_ → see **paccavekkhaṇa-ñāṇa** (XI.b)
+- _pratyaya_ → see **paccaya** (VII.b)
+- _pratyaya-parigraha-jñāna_ → see **paccaya-pariggaha-ñāṇa** (XI.b)
+- **pratyekabuddhayāna** — XII.d
+- **pravṛtti-vijñāna** — XII.c
+- _prīti_ → see **pīti** (III.c, VIII.b)
+- _pṛthagjana_ → see **puthujjana** (VIII.g)
+- _pṛthivī-dhātu_ → see **pathavī-dhātu** (VI.d)
+- **psychē** — XV (Greek)
+- **pudgala-nairātmya** — XII.b
+- **puruṣa** — XIV (Sāṅkhya / Yoga)
+- **puthujjana** (Skt: pṛthagjana) — VIII.g
+
+### R
+
+- **rāga** — VI.f
+- **rajas** — XIV (Sāṅkhya / Yoga)
+- **rangdrol** — XIII (Tibetan)
+- **rangtong** — XIII (Tibetan)
+- **rasa** — VI.c
+- _ṛddhi_ → see **iddhi** (VIII.f)
+- _ṛddhipāda_ → see **iddhipāda** (VIII.f)
+- **rigpa** — XIII (Tibetan)
+- **rūpa** — VI.b, VI.c, VI.e
+- **rūpa-kalāpa** — XI.a
+- **rūpa-rāga** — VIII.g
+- **rūpāvacara** — XI.a
+
+### S
+
+- _śabda_ → see **sadda** (VI.c)
+- **śabda** — XIV (Epistemology)
+- **sabhāva** (Skt: svabhāva) — XI.a
+- **sacca** (Skt: satya) — IX
+- **sacchikiriyā** (Skt: sākṣātkriyā) — IX
+- **saccidānanda** — XIV (Vedānta)
+- _ṣaḍāyatana_ → see **saḷāyatana** (VI.c, VII.a)
+- **sadda** (Skt: śabda) — VI.c
+- **saddhā** (Skt: śraddhā) — VI.f
+- **saddhindriya** (Skt: śraddhendriya) — VIII.c
+- **sādhana** — XIII (Sanskrit-stratum)
+- **saguṇa** — XIV (Vedānta)
+- _śaikṣa_ → see **sekha** (VIII.g)
+- **sakadāgāmī** (Skt: sakṛdāgāmin) — VIII.g
+- **sakkāya-diṭṭhi** (Skt: satkāya-dṛṣṭi) — VIII.g
+- _sakṛdāgāmin_ → see **sakadāgāmī** (VIII.g)
+- **sākṣi-caitanya** — XIV (Vedānta)
+- **sākṣin** — XIV (Vedānta)
+- _sākṣātkriyā_ → see **sacchikiriyā** (IX)
+- **saḷāyatana** (Skt: ṣaḍāyatana) — VI.c, VII.a
+- **samādhi** — III.c, VIII.b
+- **samādhindriya** (Skt: samādhīndriya) — VIII.c
+- **samatha** (Skt: śamatha) — III.c
+- **samaya** — XIII (Sanskrit-stratum)
+- **sambhogakāya** — XII.d
+- _saṃjñā_ → see **saññā** (VI.b)
+- _saṃjñāvedayitanirodha_ → see **saññāvedayitanirodha** (III.c)
+- **sammā-ājīva** (Skt: samyag-ājīva) — VIII.a
+- **sammā-diṭṭhi** (Skt: samyag-dṛṣṭi) — VIII.a
+- **sammā-kammanta** (Skt: samyak-karmānta) — VIII.a
+- **sammā-samādhi** (Skt: samyak-samādhi) — VIII.a
+- **sammā-sambodhi** (Skt: samyak-saṃbodhi) — II
+- **sammā-saṅkappa** (Skt: samyak-saṃkalpa) — VIII.a
+- **sammā-sati** (Skt: samyak-smṛti) — VIII.a
+- **sammā-vācā** (Skt: samyag-vāc) — VIII.a
+- **sammā-vāyāma** (Skt: samyag-vyāyāma) — VIII.a
+- **sammappadhāna** (Skt: samyakpradhāna) — VIII.e
+- _sammarśana-jñāna_ → see **sammasana-ñāṇa** (XI.b)
+- **sammasana-ñāṇa** (Skt: sammarśana-jñāna) — XI.b
+- **sammuti** (Skt: saṃvṛti) — XI.a
+- **sampajañña** (Skt: samprajanya) — IV
+- _samprajanya_ → see **sampajañña** (IV)
+- **samprajñāta-samādhi** / **asamprajñāta-samādhi** — XIV (Sāṅkhya / Yoga)
+- **saṃsāra** — II
+- _saṃskāra_ → see **saṅkhāra** (VI.b, VII.a, VII.b)
+- _saṃskāropekṣā-jñāna_ → see **saṅkhārupekkhā-ñāṇa** (XI.b)
+- _saṃskṛta_ → see **saṅkhata** (VII.b)
+- _saṃtuṣṭi_ → see **santuṭṭhi** (III.a)
+- **samudaya-sacca** (Skt: samudaya-satya) — IX
+- _samudaya-satya_ → see **samudaya-sacca** (IX)
+- _saṃvṛti_ → see **sammuti** (XI.a)
+- **saṃvṛti-satya** — XII.b
+- _samyag-ājīva_ → see **sammā-ājīva** (VIII.a)
+- _samyag-dṛṣṭi_ → see **sammā-diṭṭhi** (VIII.a)
+- _samyag-vāc_ → see **sammā-vācā** (VIII.a)
+- _samyag-vyāyāma_ → see **sammā-vāyāma** (VIII.a)
+- _samyak-karmānta_ → see **sammā-kammanta** (VIII.a)
+- _samyak-samādhi_ → see **sammā-samādhi** (VIII.a)
+- _samyak-saṃbodhi_ → see **sammā-sambodhi** (II)
+- _samyak-saṃkalpa_ → see **sammā-saṅkappa** (VIII.a)
+- _samyak-smṛti_ → see **sammā-sati** (VIII.a)
+- _samyakpradhāna_ → see **sammappadhāna** (VIII.e)
+- **saṅkhāra** (Skt: saṃskāra) — VI.b, VII.a, VII.b
+- **saṅkhārupekkhā-ñāṇa** (Skt: saṃskāropekṣā-jñāna) — XI.b
+- **saṅkhata** (Skt: saṃskṛta) — VII.b
+- **saññā** (Skt: saṃjñā) — VI.b
+- **saññāvedayitanirodha** (Skt: saṃjñāvedayitanirodha) — III.c
+- **santi** (Skt: śānti) — I
+- **santuṭṭhi** (Skt: saṃtuṣṭi) — III.a
+- **sat** — XIV (Vedānta)
+- **sati** (Skt: smṛti) — IV, VIII.b
+- **sati-sampajañña** (Skt: smṛti-samprajanya) — III.a
+- **satindriya** (Skt: smṛtīndriya) — VIII.c
+- **satipaṭṭhāna** (Skt: smṛtyupasthāna) — IV
+- _satkāya-dṛṣṭi_ → see **sakkāya-diṭṭhi** (VIII.g)
+- **satori** — XII.d
+- **sattva** — XIV (Sāṅkhya / Yoga)
+- _satya_ → see **sacca** (IX)
+- _saumanasya_ → see **somanassa** (VI.f)
+- **saupādisesa-nibbāna** (Skt: sopadhiśeṣa-nirvāṇa) — II
+- **savikalpa-samādhi** — XIV (Vedānta)
+- **sefirah** — XV (Hebrew)
+- **sefirot** — XV (Hebrew)
+- **sekha** (Skt: śaikṣa) — VIII.g
+- **sems nyid** — XIII (Tibetan)
+- **shardrol** — XIII (Tibetan)
+- **shekhinah** — XV (Hebrew)
+- **shentong** — XIII (Tibetan)
+- **siddha** — XIII (Sanskrit-stratum)
+- **siddhi** — XIII (Sanskrit-stratum)
+- **sīla** (Skt: śīla) — III.a
+- **śīla-pāramitā** — XII.d
+- **sīlabbata-parāmāsa** (Skt: śīlavrata-parāmarśa) — VIII.g
+- _śīlavrata-parāmarśa_ → see **sīlabbata-parāmāsa** (VIII.g)
+- _skandha_ → see **khandha** (VI.b)
+- _smṛti_ → see **sati** (IV, VIII.b)
+- **smṛti** — XIV (Vedānta)
+- _smṛti-samprajanya_ → see **sati-sampajañña** (III.a)
+- _smṛtīndriya_ → see **satindriya** (VIII.c)
+- _smṛtyupasthāna_ → see **satipaṭṭhāna** (IV)
+- **so'ham** — XIV (Vedānta)
+- **somanassa** (Skt: saumanasya) — VI.f
+- _sopadhiśeṣa-nirvāṇa_ → see **saupādisesa-nibbāna** (II)
+- **sota** (Skt: śrotra) — VI.c
+- **sotāpanna** (Skt: srotāpanna) — VIII.g
+- _sparśa_ → see **phassa** (VI.c, VII.a)
+- _spraṣṭavya_ → see **phoṭṭhabba** (VI.c)
+- _śraddhā_ → see **saddhā** (VI.f)
+- _śraddhendriya_ → see **saddhindriya** (VIII.c)
+- **śrāvakayāna** — XII.d
+- _srotāpanna_ → see **sotāpanna** (VIII.g)
+- _śrotra_ → see **sota** (VI.c)
+- **śruti** — XIV (Vedānta)
+- _styāna-middha_ → see **thīna-middha** (III.b)
+- **sukha** — III.c
+- **suññatā** (Skt: śūnyatā) — II
+- _śūnyatā_ → see **suññatā** (II)
+- **śūnyatā** — XII.a, XII.b
+- **śūnyatā-śūnyatā** — XII.b
+- _svabhāva_ → see **sabhāva** (XI.a)
+- **svabhāva** — XII.b
+- **svarūpa** — XIV (Vedānta)
+- **svasaṃvedana** — XII.c
+- **svasaṃvitti** — XII.c
+- **svātantra** — XII.b
+- **svātantrika** — XII.b
+
+### T
+
+- **tamas** — XIV (Sāṅkhya / Yoga)
+- **taṇhā** (Skt: tṛṣṇā) — I, VII.a
+- **taṇhākkhaya** (Skt: tṛṣṇākṣaya) — X.b
+- **tantra** — XIII (Sanskrit-stratum)
+- **tat tvam asi** — XIV (Vedānta)
+- **tathāgatagarbha** — XII.d
+- **tathatā** — X.a, XII.a
+- **tatiyajjhāna** — III.c
+- _tejas-dhātu_ → see **tejo-dhātu** (VI.d)
+- **tejo-dhātu** (Skt: tejas-dhātu) — VI.d
+- **theōria** — XV (Greek)
+- **theōsis** — XV (Greek)
+- **thīna-middha** (Skt: styāna-middha) — III.b
+- **tifʾeret** — XV (Hebrew)
+- **tiparivaṭṭa** (Skt: triparivarta) — IX
+- **to hen** — XV (Greek)
+- **tögal** — XIII (Tibetan)
+- **trekchö** — XIII (Tibetan)
+- **trikāya** — XII.d
+- _triparivarta_ → see **tiparivaṭṭa** (IX)
+- **trisvabhāva** — XII.c
+- _tṛṣṇā_ → see **taṇhā** (I, VII.a)
+- _tṛṣṇākṣaya_ → see **taṇhākkhaya** (X.b)
+- **tulku** — XIII (Tibetan)
+- **turīya** — XIV (Vedānta)
+
+### U
+
+- **ubhatobhāgavimutta** (Skt: ubhayatobhāgavimukta) — II
+- _ubhayatobhāgavimukta_ → see **ubhatobhāgavimutta** (II)
+- _udaya-vyaya-jñāna_ → see **udayabbaya-ñāṇa** (XI.b)
+- **udayabbaya-ñāṇa** (Skt: udaya-vyaya-jñāna) — XI.b
+- **uddhacca** (Skt: auddhatya) — VIII.g
+- **uddhacca-kukkucca** (Skt: auddhatya-kaukṛtya) — III.b
+- **udgītha** — XIV (Vedānta)
+- _udgraha-nimitta_ → see **uggaha-nimitta** (XI.b)
+- **uggaha-nimitta** (Skt: udgraha-nimitta) — XI.b
+- **Ungrund** — XV (German)
+- **upacāra-samādhi** (Skt: upacāra-samādhi) — XI.b
+- **upādāna** — I, VII.a
+- **upādāna-khandha** (Skt: upādāna-skandha) — VI.b
+- _upādāna-skandha_ → see **upādāna-khandha** (VI.b)
+- **upadhi** — I
+- **upādhi** — XIV (Vedānta)
+- **Upaniṣad** — XIV (Vedānta)
+- **Upaniṣads** — XIV (Vedānta)
+- **upāya** — XII.d
+- **upāya-kauśalya** — XII.d
+- **upekkhā** (Skt: upekṣā) — V, VI.f, VIII.b
+- _upekṣā_ → see **upekkhā** (V, VI.f, VIII.b)
+
+### V
+
+- **vajra** — XIII (Sanskrit-stratum)
+- **vajrayāna** — XIII (Sanskrit-stratum)
+- **vāsanā** — XII.c
+- **vāyo-dhātu** (Skt: vāyu-dhātu) — VI.d
+- _vāyu-dhātu_ → see **vāyo-dhātu** (VI.d)
+- **Veda** — XIV (Vedānta)
+- **vedanā** — VI.b, VII.a
+- **vedanānupassanā** (Skt: vedanānupaśyanā) — IV
+- _vedanānupaśyanā_ → see **vedanānupassanā** (IV)
+- **Vedānta** — XIV (Vedānta)
+- **Vedas** — XIV (Vedānta)
+- **vicāra** — III.c
+- **vicikicchā** (Skt: vicikitsā) — III.b, VIII.g
+- _vicikitsā_ → see **vicikicchā** (III.b, VIII.g)
+- **videhamukti** — XIV (Vedānta)
+- _vijñāna_ → see **viññāṇa** (VI.b, VII.a)
+- _vijñāna-dhātu_ → see **viññāṇa-dhātu** (VI.d)
+- _vijñānānantyāyatana_ → see **viññāṇañcāyatana** (III.c)
+- **vijñānavāda** — XII.c
+- **vijñaptimātra** — XII.c
+- **vikalpa** — XIV (Epistemology)
+- **vīmaṃsā** (Skt: mīmāṃsā) — VIII.f
+- _vimukti_ → see **vimutti** (II)
+- _vimukti-jñāna-darśana_ → see **vimutti-ñāṇadassana** (III.a)
+- **vimutti** (Skt: vimukti) — II
+- **vimutti-ñāṇadassana** (Skt: vimukti-jñāna-darśana) — III.a
+- **viññāṇa** (Skt: vijñāna) — VI.b, VII.a
+- **viññāṇa-dhātu** (Skt: vijñāna-dhātu) — VI.d
+- **viññāṇañcāyatana** (Skt: vijñānānantyāyatana) — III.c
+- **vipāka** — VII.b
+- **vipassanā** (Skt: vipaśyanā) — III.c
+- **vipassanā-ñāṇa** (Skt: vipaśyanā-jñāna) — XI.b
+- _vipaśyanā_ → see **vipassanā** (III.c)
+- _vipaśyanā-jñāna_ → see **vipassanā-ñāṇa** (XI.b)
+- **virāga** — II
+- **vīriya** (Skt: vīrya) — VI.f, VIII.b, VIII.f
+- **vīriyindriya** (Skt: vīryendriya) — VIII.c
+- _vīrya_ → see **vīriya** (VI.f, VIII.b, VIII.f)
+- **vīrya-pāramitā** — XII.d
+- _vīryendriya_ → see **vīriyindriya** (VIII.c)
+- **viśiṣṭādvaita** — XIV (Vedānta)
+- **visuddhi** (Skt: viśuddhi) — XI.b
+- **vitakka** (Skt: vitarka) — III.c
+- _vitarka_ → see **vitakka** (III.c)
+- **viveka** — I, III.c
+- **vyakta** — XIV (Sāṅkhya / Yoga)
+- **vyāpāda** — III.b
+
+### W
+
+- **wu** — XII.d
+
+### Y
+
+- **yāna** — XII.d
+- _yathābhūta-jñāna-darśana_ → see **yathābhūtaṃ ñāṇadassana** (III.a)
+- **yathābhūtaṃ ñāṇadassana** (Skt: yathābhūta-jñāna-darśana) — III.a
+- **yesod** — XV (Hebrew)
+- **yidam** — XIII (Tibetan)
+- **yogācāra** — XII.c

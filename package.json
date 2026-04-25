@@ -13,6 +13,9 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
+    "build": "npm run glossary:pdf && npm run quartz -- build",
+    "serve": "npm run glossary:pdf && npm run quartz -- build --serve",
+    "glossary:pdf": "bash scripts/glossary/build-pdf.sh",
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
@@ -83,6 +86,7 @@
     "remark-math": "^6.0.0",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.2",
+    "remark-stringify": "^11.0.0",
     "remark-smartypants": "^3.0.2",
     "rfdc": "^1.4.1",
     "satori": "^0.18.3",

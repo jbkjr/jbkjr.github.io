@@ -1,0 +1,29 @@
+% xelatex header for the generated Dhamma glossary PDF.
+
+\usepackage{fontspec}
+\usepackage{xeCJK}
+
+\IfFontExistsTF{Times New Roman}{
+  \setmainfont{Times New Roman}
+}{
+  \IfFontExistsTF{FreeSerif}{
+    \setmainfont{FreeSerif}
+  }{
+    \IfFontExistsTF{TeX Gyre Termes}{
+      \setmainfont{TeX Gyre Termes}
+    }{
+      \setmainfont{Latin Modern Roman}
+    }
+  }
+}
+
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans Mono CJK SC}
+
+% Keep xeCJK from applying CJK punctuation spacing to English prose.
+\xeCJKDeclareCharClass{HalfLeft}{`“}
+\xeCJKDeclareCharClass{HalfRight}{`”}
+\xeCJKDeclareCharClass{Default}{`—, `–, `‘, `’}
+
+\setlength{\parskip}{4pt plus 1pt minus 1pt}

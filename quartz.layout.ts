@@ -1,5 +1,47 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import GlossaryMeta from "./custom/components/GlossaryMeta"
+import GlossaryTOC from "./custom/components/GlossaryTOC"
+
+const sidebarExplorerOptions: Parameters<typeof Component.Explorer>[0] = {
+  folderClickBehavior: "link",
+  folderDefaultState: "collapsed",
+  filterFn: (node) => {
+    if (node.slugSegment === "tags") return false
+    if (node.data?.slug?.startsWith("posts/") && !node.isFolder) return false
+    return true
+  },
+  mapFn: (node) => {
+    if (node.data?.slug === "dhamma/glossary") {
+      node.displayName = "glossary"
+    }
+  },
+  sortFn: (a, b) => {
+    if (a.isFolder && b.isFolder) {
+      const preferredFolderOrder: Record<string, number> = {
+        posts: 0,
+        projects: 1,
+        dhamma: 2,
+      }
+      const aRank = preferredFolderOrder[a.slugSegment] ?? 100
+      const bRank = preferredFolderOrder[b.slugSegment] ?? 100
+      if (aRank !== bRank) return aRank - bRank
+    }
+
+    if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+      if (!a.isFolder && a.data?.slug?.startsWith("posts/") && b.data?.slug?.startsWith("posts/")) {
+        const aDate = new Date(a.data?.date ?? 0)
+        const bDate = new Date(b.data?.date ?? 0)
+        return bDate.getTime() - aDate.getTime()
+      }
+      return a.displayName.localeCompare(b.displayName, undefined, {
+        numeric: true,
+        sensitivity: "base",
+      })
+    }
+    return a.isFolder ? -1 : 1
+  },
+}
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -26,9 +68,20 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.ContentMeta(),
       condition: (page) =>
-        page.fileData.slug !== "index" && !page.fileData.slug?.startsWith("projects/"),
+        page.fileData.slug !== "index" &&
+        !page.fileData.slug?.startsWith("projects/") &&
+        page.fileData.slug !== "dhamma" &&
+        page.fileData.slug !== "dhamma/glossary",
+    }),
+    Component.ConditionalRender({
+      component: GlossaryMeta(),
+      condition: (page) => page.fileData.slug === "dhamma/glossary",
     }),
     Component.TagList(),
+    Component.ConditionalRender({
+      component: GlossaryTOC(),
+      condition: (page) => page.fileData.slug === "dhamma/glossary",
+    }),
   ],
   left: [
     Component.PageTitle(),
@@ -43,38 +96,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
-      folderClickBehavior: "link",
-      folderDefaultState: "collapsed",
-      filterFn: (node) => {
-        // Default: hide tags folder
-        if (node.slugSegment === "tags") return false
-        // Hide individual post pages (but keep the posts folder)
-        if (node.data?.slug?.startsWith("posts/") && !node.isFolder) return false
-        return true
-      },
-      sortFn: (a, b) => {
-        // Sort folders first, then files
-        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
-          // For posts, sort by date (newest first)
-          if (
-            !a.isFolder &&
-            a.data?.slug?.startsWith("posts/") &&
-            b.data?.slug?.startsWith("posts/")
-          ) {
-            const aDate = new Date(a.data?.date ?? 0)
-            const bDate = new Date(b.data?.date ?? 0)
-            return bDate.getTime() - aDate.getTime() // Newest first
-          }
-          // For other files/folders, sort alphabetically
-          return a.displayName.localeCompare(b.displayName, undefined, {
-            numeric: true,
-            sensitivity: "base",
-          })
-        }
-        return a.isFolder ? -1 : 1
-      },
-    }),
+    Component.Explorer(sidebarExplorerOptions),
   ],
   right: [
     Component.Graph(),
@@ -98,38 +120,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({
-      folderClickBehavior: "link",
-      folderDefaultState: "collapsed",
-      filterFn: (node) => {
-        // Default: hide tags folder
-        if (node.slugSegment === "tags") return false
-        // Hide individual post pages (but keep the posts folder)
-        if (node.data?.slug?.startsWith("posts/") && !node.isFolder) return false
-        return true
-      },
-      sortFn: (a, b) => {
-        // Sort folders first, then files
-        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
-          // For posts, sort by date (newest first)
-          if (
-            !a.isFolder &&
-            a.data?.slug?.startsWith("posts/") &&
-            b.data?.slug?.startsWith("posts/")
-          ) {
-            const aDate = new Date(a.data?.date ?? 0)
-            const bDate = new Date(b.data?.date ?? 0)
-            return bDate.getTime() - aDate.getTime() // Newest first
-          }
-          // For other files/folders, sort alphabetically
-          return a.displayName.localeCompare(b.displayName, undefined, {
-            numeric: true,
-            sensitivity: "base",
-          })
-        }
-        return a.isFolder ? -1 : 1
-      },
-    }),
+    Component.Explorer(sidebarExplorerOptions),
   ],
   right: [],
 }

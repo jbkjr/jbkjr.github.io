@@ -1,4 +1,4 @@
-import { FullSlug, isRelativeURL, resolveRelative, simplifySlug } from "../../util/path"
+import { FullSlug, isRelativeURL, joinSegments, simplifySlug } from "../../util/path"
 import { QuartzEmitterPlugin } from "../types"
 import { write } from "./helpers"
 import { BuildCtx } from "../../util/ctx"
@@ -53,8 +53,8 @@ async function* processFile(ctx: BuildCtx, file: VFile) {
         </head>
         </html>
         `,
-      slug: aliasTargetSlug,
-      ext: "/index.html",
+      slug: joinSegments(aliasTargetSlug, "index") as FullSlug,
+      ext: ".html",
     })
   }
 }
