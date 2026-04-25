@@ -443,10 +443,18 @@ function linkGeneralSectionReferences(
   value: string,
   sections: Map<string, string>,
 ): PhrasingContent[] {
-  const linked = linkSectionReferenceMatches(value, sections, GENERAL_SECTION_REF_RE, (match) => {
-    if (match[1]) return match[2] ? `${match[1]}.${match[2]}` : match[1]
-    return match[3]
-  })
+  const linked = linkSectionReferenceMatches(
+    value,
+    sections,
+    GENERAL_SECTION_REF_RE,
+    (match) => {
+      if (match[1]) return match[2] ? `${match[1]}.${match[2]}` : match[1]
+      return match[3]
+    },
+    {
+      getText: (_match, label) => label,
+    },
+  )
 
   return linked.flatMap((child) => {
     if (child.type !== "text") return [child]
@@ -455,7 +463,9 @@ function linkGeneralSectionReferences(
       sections,
       STANDALONE_SECTION_REF_RE,
       (match) => match[1],
-      shouldLinkStandaloneSectionRef,
+      {
+        shouldLink: shouldLinkStandaloneSectionRef,
+      },
     )
   })
 }
@@ -472,7 +482,10 @@ function linkSectionReferenceMatches(
   sections: Map<string, string>,
   regex: RegExp,
   getLabel: (match: RegExpMatchArray) => string,
-  shouldLink: (match: RegExpMatchArray, start: number, value: string) => boolean = () => true,
+  options: {
+    getText?: (match: RegExpMatchArray, label: string) => string
+    shouldLink?: (match: RegExpMatchArray, start: number, value: string) => boolean
+  } = {},
 ): PhrasingContent[] {
   const linked: PhrasingContent[] = []
   let lastIndex = 0
@@ -481,19 +494,26 @@ function linkSectionReferenceMatches(
     const label = getLabel(match)
     const id = sections.get(label)
     const start = match.index ?? 0
+    const shouldLink = options.shouldLink ?? (() => true)
     if (!id || !shouldLink(match, start, value)) continue
 
-    if (start > lastIndex) {
-      linked.push({ type: "text", value: value.slice(lastIndex, start) })
+    const text = match[0]
+    const linkText = options.getText?.(match, label) ?? text
+    const linkOffset = Math.max(0, text.lastIndexOf(linkText))
+    const linkStart = start + linkOffset
+
+    if (linkStart > lastIndex) {
+      linked.push({ type: "text", value: value.slice(lastIndex, linkStart) })
     }
 
-    const text = match[0]
-    if (text.startsWith("(") && text.endsWith(")")) {
+    if (linkText.startsWith("(") && linkText.endsWith(")")) {
       linked.push({ type: "text", value: "(" })
       linked.push(makeLinkNode(`#${id}`, "glossary-section-ref", [{ type: "text", value: label }]))
       linked.push({ type: "text", value: ")" })
     } else {
-      linked.push(makeLinkNode(`#${id}`, "glossary-section-ref", [{ type: "text", value: text }]))
+      linked.push(
+        makeLinkNode(`#${id}`, "glossary-section-ref", [{ type: "text", value: linkText }]),
+      )
     }
     lastIndex = start + text.length
   }

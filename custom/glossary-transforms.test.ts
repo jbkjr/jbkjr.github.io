@@ -85,7 +85,7 @@ test("links validated section references and index entries", () => {
   const { tree } = transform(`
 ## Part I — Earliest
 
-- **dukkha** — unsatisfactory; see II.a, Part VII, and below III.
+- **dukkha** — unsatisfactory; see II.a, Part VII, under VIII.a, at VIII.g, and below III.
 
 ## Part II — Goal
 
@@ -94,6 +94,12 @@ test("links validated section references and index entries", () => {
 - **nibbāna** — goal.
 
 ## Part VII — Dependent Origination
+
+## Part VIII — Path
+
+### VIII.a Subsection
+
+### VIII.g Subsection
 
 ## Index
 
@@ -104,7 +110,10 @@ test("links validated section references and index entries", () => {
 
   const found = links(tree)
   assert(found.some((link) => link.text === "II.a" && link.url === "#part-ii-a"))
-  assert(found.some((link) => link.text === "Part VII" && link.url === "#part-vii"))
+  assert(found.some((link) => link.text === "VII" && link.url === "#part-vii"))
+  assert(found.some((link) => link.text === "VIII.a" && link.url === "#part-viii-a"))
+  assert(found.some((link) => link.text === "VIII.g" && link.url === "#part-viii-g"))
+  assert(found.every((link) => !/\b(?:under|at|see|Part)\b/.test(link.text)))
   assert(found.some((link) => link.text === "III" && link.url === "#part-iii") === false)
   assert(found.some((link) => link.text === "dukkha" && link.url === "#dukkha"))
   assert(found.some((link) => link.text === "I" && link.url === "#part-i"))
