@@ -10,10 +10,7 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 
 ## Current State
 
-### Branch Structure
-
-- `master` - Old Jekyll site (preserved, not actively developed)
-- `quartz-rebuild` - ✅ Current working branch
+Active branch: `master` (Quartz site, deployed via GitHub Actions on push). The `quartz-rebuild` branch exists but is dormant — the rebuild has been merged.
 
 ### Content Structure
 
@@ -39,40 +36,9 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 - **Listing Page**: Minimal 2-column (date | title) design
 - **Bug Fixes**: Font URL encoding, footnote popover caching
 
-### What's Done
+### Deployment
 
-- ✅ GitHub Actions workflow created (`.github/workflows/deploy.yml`)
-- ✅ Real homepage content migrated from Jekyll about page
-- ✅ Project pages fleshed out with descriptions
-- ✅ Homepage title changed to "About" (name already in sidebar)
-- ✅ Date/reading time hidden from homepage
-
-### Ready to Merge to Master
-
-**WHEN USER SAYS "ready to merge to main", REMIND THEM:**
-
-**1. Merge the branch:**
-
-```bash
-git checkout master
-git merge quartz-rebuild
-git push origin master
-```
-
-**2. Update GitHub Pages settings (one-time):**
-
-- Go to https://github.com/jbkjr/jbkjr.github.io/settings/pages
-- Under "Build and deployment" → "Source"
-- Change from "Deploy from a branch" to **"GitHub Actions"**
-- Save
-
-**3. Done!** The workflow automatically runs on push to `master` and deploys the site.
-
-### Future Enhancements
-
-- [ ] Theme refinements (colors, spacing)
-- [ ] Consider adding more content sections
-- [ ] Add multiple authors support to ContentMeta component (for co-authored posts)
+Push to `master` → `.github/workflows/deploy.yml` builds and deploys to GitHub Pages. No manual step.
 
 ## Key Configuration Files
 
@@ -211,20 +177,23 @@ Component.Explorer({
 ### Commands
 
 ```bash
-npx quartz build --serve  # Dev server with hot reload (port 8080)
-npx quartz build          # Build once
+npm run serve             # Build glossary PDF + dev server with hot reload (port 8080)
+npm run build             # Build glossary PDF + static site (one-shot)
+npm run glossary:pdf      # Just rebuild content/dhamma/glossary.pdf
+npm run test              # tsx --test (currently covers custom/glossary-transforms.test.ts)
 npm run check             # Type checking + format checking
 npm run format            # Auto-format with Prettier
 npm run lint              # Lint code
 npm run lint:fix          # Lint + auto-fix
 ```
 
+Quartz CLI (`npx quartz build --serve`) works but skips the glossary PDF step — prefer the npm scripts.
+
 ### Git Practices
 
-- Work on `quartz-rebuild` branch
+- Work on `master` (default) — the rebuild branch is dormant
 - Clear, descriptive commit messages
 - Pre-commit hook auto-formats code with Prettier
-- Don't accidentally commit to `master`
 
 ### Communication Preferences
 
@@ -240,6 +209,7 @@ content/                    # All markdown files and images
   ├── index.md             # Homepage
   ├── posts/               # Blog posts (flat structure)
   ├── projects/            # Project pages
+  ├── dhamma/              # Glossary + editorial conventions (see content/dhamma/CLAUDE.md)
   └── images/              # Post images
 
 quartz/                     # Framework (can be modified for customization)
@@ -247,6 +217,17 @@ quartz/                     # Framework (can be modified for customization)
   ├── plugins/             # Content processing plugins
   ├── styles/              # Global styles
   └── util/                # Utilities (includes bug fixes)
+
+custom/                     # Project-local code that isn't an upstream Quartz patch
+  ├── glossary-transforms.ts      # Shared mdast transform (used by Quartz + PDF preprocess)
+  ├── glossary-transforms.test.ts # tsx --test
+  ├── glossary.ts                 # Quartz adapter
+  └── components/                 # GlossaryMeta, GlossaryTOC
+
+scripts/glossary/           # Glossary PDF build pipeline
+  ├── build-pdf.sh         # Pandoc → LaTeX → PDF
+  ├── header.tex           # LaTeX preamble
+  └── preprocess.mjs       # Runs the same shared transform headlessly for PDF
 
 quartz.config.ts            # Main configuration
 quartz.layout.ts            # Layout configuration
@@ -280,6 +261,12 @@ Quick reference for writing posts:
 **Wikilinks**: `[[slug]]` or `[[slug|display text]]` for internal links
 
 ## Dhamma Glossary
+
+Implementation lives in `custom/`: shared mdast transform in `custom/glossary-transforms.ts`, Quartz adapter in `custom/glossary.ts`, glossary-only React components (`GlossaryMeta`, `GlossaryTOC`) in `custom/components/`. Keep `content/dhamma/glossary.md` as clean source markdown — don't commit explicit heading attributes (`{#part-i}`, `{.unlisted}`); the shared transform generates section IDs, entry anchors, and the curated TOC.
+
+The shared transform runs in two places — Quartz (web build) and `scripts/glossary/preprocess.mjs` (PDF build) — so HTML and PDF cross-links stay aligned. PDF output is generated, not committed: `npm run glossary:pdf` regenerates `content/dhamma/glossary.pdf`; `npm run build` and `npm run serve` rebuild the PDF before running Quartz.
+
+The glossary page swaps in `GlossaryMeta` (Last-updated from Quartz git/file dates) and `GlossaryTOC` (narrow-screen inline TOC); desktop keeps the right-rail Quartz TOC.
 
 - Editorial / authoring conventions for the glossary content (headword rules, 15-Part stratum spine, def-flags, translation clusters) live at [`content/dhamma/CLAUDE.md`](content/dhamma/CLAUDE.md). Read it before editing [`content/dhamma/glossary.md`](content/dhamma/glossary.md). [`content/dhamma/AGENTS.md`](content/dhamma/AGENTS.md) is a symlink to the same file.
 - Translation rendering reference (Kumāra-2022 EBT samādhi/jhāna cluster, etc.) at [`content/dhamma/TRANSLATION_CONVENTIONS.md`](content/dhamma/TRANSLATION_CONVENTIONS.md) — internal working file, not cited from `glossary.md`.
