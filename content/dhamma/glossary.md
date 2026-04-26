@@ -35,10 +35,10 @@ _What is to be relinquished:_
 
   _def-flag: treated here in its earliest-stratum sense as "view/opinion to be dropped"; the technical sammā-diṭṭhi usage belongs under VIII.a, and `sakkāya-diṭṭhi` (identity-view, fetter 1) at VIII.g picks up the negative-view-to-be-abandoned sense in a later technical key._
 
-- **upādāna** (Skt: same) — clinging, grasping; selfing, self-making (modern dharma usage, Rob Burbea — picking up the reflexive "taking-for-oneself" force of upa + ā + √dā); "fuel, sustenance" (PED's material-support sense). Lit. "taking up." _Also appears in VII.a as `upādāna@VII.a` (DO link 9); flagged here because the Aṭṭhakavagga treats non-clinging as the whole soteriology._
+- **upādāna** (Skt: same) — clinging, grasping; selfing, self-making (modern contemplative dharma teaching, Rob Burbea — picking up the reflexive "taking-for-oneself" force of upa + ā + √dā); "fuel, sustenance" (PED's material-support sense). Lit. "taking up." _Also appears in VII.a as `upādāna@VII.a` (DO link 9); flagged here because the Aṭṭhakavagga treats non-clinging as the whole soteriology._
 - **taṇhā** (Skt: tṛṣṇā) — craving / aversion; lit. "thirst" (cognate with English _thirst_ via PIE \*ters-). _Also appears in VII.a as `taṇhā@VII.a` (DO link 8); flagged here for the same reason._
 
-  _def-flag: classical Pāli scholarship renders taṇhā as "craving" alone, with aversion handled under separate technical terms occupying distinct analytic levels — dosa "hatred" (root unwholesome state, VI.f), paṭigha "aversion / resistance" (reactive aversion-moment, VIII.g fetter), and vyāpāda "ill will" (intentional disposition, III.b hindrance). The "craving / aversion" framing here treats the pulling-toward and pushing-away modes as two sides of a single dukkha-generating dynamic — the wanting-things-otherwise that drives upādāna. This is the contemporary insight-teaching emphasis (Goldstein, Salzberg, Brach, much IMS / Spirit Rock pedagogy). Canonical warrant: vibhava-taṇhā ("craving for non-becoming") in the three-fold scheme of taṇhā at SN 56.11 / DN 22 is structurally aversion-to-existence — already showing taṇhā extending beyond positive craving._
+  _def-flag: classical Pāli scholarship renders taṇhā as "craving" alone, with aversion handled under separate technical terms occupying distinct analytic levels — dosa "hatred" (root unwholesome state, VI.f), paṭigha "aversion / resistance" (reactive aversion-moment, VIII.g fetter), and vyāpāda "ill will" (intentional disposition, III.b hindrance). The "craving / aversion" framing here treats the pulling-toward and pushing-away modes as two sides of a single dukkha-generating dynamic — the wanting-things-otherwise that drives upādāna. This is the modern Anglophone insight-pedagogy emphasis (Goldstein, Salzberg, Brach, much IMS / Spirit Rock teaching). Canonical warrant: vibhava-taṇhā ("craving for non-becoming") in the three-fold scheme of taṇhā at SN 56.11 / DN 22 is structurally aversion-to-existence — already showing taṇhā extending beyond positive craving._
 
 - **upadhi** (Skt: same) — substrate, acquisition, attachment.
 
@@ -215,7 +215,7 @@ _def-flag on the Part: the inclusion of the 21-exercise expansion (ānāpāna, f
 - **satipaṭṭhāna** (Skt: smṛtyupasthāna) — establishment of mindfulness, foundation of mindfulness
 - **sati** (Skt: smṛti) — mindfulness; lit. "remembering, recollection" (√smṛ "remember" — same root as Vedic `smṛti` "that which is remembered, tradition"). _Recurs across the seven sets: as sammā-sati on the eightfold path (VIII.a), as bojjhaṅga (VIII.b), as faculty (VIII.c), as power (VIII.d) — and as the EBT-attested cetasika (VI.f)._
 
-  _def-flag on the "mindfulness" rendering: the Pāli core-semantic is a memory-and-attention fusion — keeping-in-mind, holding-in-awareness, not-forgetting-what-should-be-attended-to (the object of practice, the teaching, the bodily posture, etc.). "Mindfulness" is an older English word, but its use as a Buddhist technical rendering of `sati` begins with late-19th-c. Buddhist studies (Rhys Davids, _Buddhist Suttas_, 1881); the rendering lost both the mnemonic layer and the deliberateness layer; in modern pop-mindfulness usage it has collapsed further into bare present-moment awareness, stripped of the object-keeping and remembering-the-instruction dimensions. Sujato has pushed "remembering" or "memory"; Gethin ("On Some Definitions of Mindfulness," 2011) has written the definitive critical survey. The rendering is now too entrenched to displace, but the √smṛ-root sense matters for reading sati as "holding the teaching / object-of-attention in mind" — a cognitive discipline with directional content — rather than as the thinner "being aware" register pop usage has accreted. This divergence is a live problem across the glossary: wherever "mindfulness" appears (IV, VI.f, VIII.a/b/c/d, sati-sampajañña in III.a), the Pāli term is doing heavier lifting than the English naming suggests._
+  _def-flag on the "mindfulness" rendering: the Pāli core-semantic is a memory-and-attention fusion — keeping-in-mind, holding-in-awareness, not-forgetting-what-should-be-attended-to (the object of practice, the teaching, the bodily posture, etc.). "Mindfulness" is an older English word, but its use as a Buddhist technical rendering of `sati` begins with late-19th-c. Buddhist studies (Rhys Davids, _Buddhist Suttas_, 1881); the rendering lost both the mnemonic layer and the deliberateness layer; in modern pop-mindfulness usage it has collapsed further into bare present-moment awareness, stripped of the object-keeping and remembering-the-instruction dimensions. Sujato has pushed "remembering" or "memory"; Gethin ("On Some Definitions of Mindfulness," 2011) has written the definitive critical survey. The rendering is now too entrenched to displace, but the √smṛ-root sense matters for reading sati as "holding the teaching / object-of-attention in mind" — a cognitive discipline with directional content — rather than as the thinner "being aware" register pop-mindfulness usage has accreted. This divergence is a live problem across the glossary: wherever "mindfulness" appears (IV, VI.f, VIII.a/b/c/d, sati-sampajañña in III.a), the Pāli term is doing heavier lifting than the English naming suggests._
 
 - **anupassanā** (Skt: anupaśyanā) — contemplation, sustained observation; lit. "looking-along, repeated-seeing" (anu- "along, repeatedly" + √paś "see"). _The abstract noun underlying all four foundation-names below; the satipaṭṭhāna formula's `kāye kāyānupassī viharati` ("dwells contemplating the body in the body") makes it the verbal-form of the practice._
 
@@ -267,7 +267,7 @@ _The Five Aggregates (pañcakkhandha):_
 1. **rūpa** (Skt: same) — form, material form; _Bodhi sometimes renders "materiality."_
 2. **vedanā** (Skt: same) — feeling, hedonic tone (pleasant, unpleasant, or neither-pleasant-nor-unpleasant tonal quality of experience); _also DO link 7 (VII.a); 2nd satipaṭṭhāna foundation (IV)._
 3. **saññā** (Skt: saṃjñā) — perception; lit. "together-knowing" (saṃ- + √jñā). _Covers recognition, labeling, apperception._
-4. **saṅkhāra** (Skt: saṃskāra) — (here, the 4th aggregate) intentional formations, intentional activities; lit. "con-struction, together-making" (saṃ- + √kṛ "do, make"). _The Abhi. takes cetanā (intention, VI.f) as the leading factor of this aggregate, hence the older rendering "volitional formations" (Bodhi) — re-rendered "intentional" here for consistency with cetanā = intention. Alternative renderings: "fabrications" (widespread in contemporary insight-teaching idiom — Thanissaro's signature, also Sujato, Anālayo, Goldstein, Kornfield, etc.) emphasizes the saṃ-√kṛ "together-making" root over the cetanā-specific reading; Sujato's "choices" emphasizes the active cetanā-led-decision angle._
+4. **saṅkhāra** (Skt: saṃskāra) — (here, the 4th aggregate) intentional formations, intentional activities; lit. "con-struction, together-making" (saṃ- + √kṛ "do, make"). _The Abhi. takes cetanā (intention, VI.f) as the leading factor of this aggregate, hence the older rendering "volitional formations" (Bodhi) — re-rendered "intentional" here for consistency with cetanā = intention. Alternative renderings: "fabrications" (widespread in modern translator/teacher consensus — Thanissaro's signature, also Sujato, Anālayo, Goldstein, Kornfield, etc.) emphasizes the saṃ-√kṛ "together-making" root over the cetanā-specific reading; Sujato's "choices" emphasizes the active cetanā-led-decision angle._
 
    _def-flag: `saṅkhāra` has at least five distinct doctrinal uses: (1) the second link in dependent origination — intentional formations conditioning consciousness (VII.a); (2) the fourth aggregate — intentional / constructive factors led by cetanā (here); (3) broadly, "all conditioned phenomena" / "all fabrications" (`sabbe saṅkhārā aniccā` "all fabrications are impermanent" — see VII.b); (4) the triad `kāya-saṅkhāra` / `vacī-saṅkhāra` / `citta-saṅkhāra` (bodily, verbal, mental formations / fabrications — MN 44, MN 9); (5) `āyu-saṅkhārā` — life-formations/life-force (MN 43, DN 16). Contexts do not reduce to a single gloss._
 
@@ -1222,7 +1222,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **daśa-bhūmi** — XII.d
 - _daurmanasya_ → see **domanassa** (VI.f)
 - **devekut** — XV (Hebrew)
-- **dhamma** (Skt: dharma) — VI.c, XI.a
+- **dhamma** (Skt: dharma) — VI.c (EBT), XI.a (Abhi.)
 - **dhamma-vicaya** (Skt: dharma-pravicaya) — VIII.b
 - _dhammakāya_ → see **dharmakāya** (XII.d)
 - **dhammānupassanā** (Skt: dharmānupaśyanā) — IV
@@ -1680,7 +1680,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **sukha** — III.c
 - **suññatā** (Skt: śūnyatā) — II
 - _śūnyatā_ → see **suññatā** (II)
-- **śūnyatā** — XII.a, XII.b
+- **śūnyatā** — XII.a (Prajñāpāramitā), XII.b (Madhyamaka)
 - **śūnyatā-śūnyatā** — XII.b
 - _svabhāva_ → see **sabhāva** (XI.a)
 - **svabhāva** — XII.b
@@ -1698,7 +1698,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **tantra** — XIII (Sanskrit-stratum)
 - **tat tvam asi** — XIV (Vedānta)
 - **tathāgatagarbha** — XII.d
-- **tathatā** — X.a, XII.a
+- **tathatā** — X.a (EBT), XII.a (Prajñāpāramitā)
 - **tatiyajjhāna** — III.c
 - _tejas-dhātu_ → see **tejo-dhātu** (VI.d)
 - **tejo-dhātu** (Skt: tejas-dhātu) — VI.d
