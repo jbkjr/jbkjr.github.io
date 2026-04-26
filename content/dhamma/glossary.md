@@ -19,7 +19,7 @@ enableToc: true
 </div>
 <!-- pdf:skip-end -->
 
-**Format.** Each Part carries a `(language; stratum)` annotation. In Pāli-canonical Parts (I–XI), headwords are Pāli with the Sanskrit form in parentheses — e.g. `**diṭṭhi** (Skt: dṛṣṭi)`, or `(Skt: same)` when IAST-identical. In Sanskrit-tradition Parts (XII–XIV), the Sanskrit form is the headword; a Pāli cognate is parenthesized only when it carries parallel doctrinal use. Non-Indic Parts (XV) use the standard transliteration with the original script where useful. Terms whose stratum diverges from the Part default carry an inline stratum tag after the headword. Entries give brief glosses and rendering-notes rather than full prose definitions; longer def-flags surface contested scholarship or multi-sense terms.
+**Format.** Each Part carries a `(language; stratum)` annotation. In Pāli-canonical Parts (I–XI), headwords are Pāli with the Sanskrit form in parentheses — e.g. **diṭṭhi** (Skt: dṛṣṭi), or `(Skt: same)` when IAST-identical. In Sanskrit-tradition Parts (XII–XIV), the Sanskrit form is the headword; a Pāli cognate is parenthesized only when it carries parallel doctrinal use. Non-Indic Parts (XV) use the standard transliteration with the original script where useful. Terms whose stratum diverges from the Part default carry an inline stratum tag after the headword. Entries give brief glosses and rendering-notes rather than full prose definitions; longer def-flags surface contested scholarship or multi-sense terms.
 
 **Abbreviations.** _Canonical:_ DN / MN / SN / AN — the four main Nikāyas (Dīgha / Majjhima / Saṃyutta / Aṅguttara); Sn — Sutta Nipāta; Dhp — Dhammapada; Itiv. — Itivuttaka; Ud. — Udāna; Vin. — Vinaya. _Commentarial / Abhidhamma:_ Vism — Visuddhimagga; Abhi. — Abhidhamma. _Dictionaries:_ PED — PTS Pali-English Dictionary; DPD — Digital Pali Dictionary; MW — Monier-Williams Sanskrit-English Dictionary; Apte — Apte Practical Sanskrit-English Dictionary.
 
@@ -186,7 +186,7 @@ _The Jhāna Factors (jhānaṅga) — in canonical order, as in the 1st-jhāna f
 - **sukha** (Skt: same) — happiness, happy. _Standardly "pleasure," "bliss," or "ease." "Happiness" follows Kumāra: sukha covers a range from gross (`kāmasukha` sensual happiness), to bodily (`kāyika sukha`), to the supramundane (`nibbānaṃ paramaṃ sukhaṃ` "Nibbāna is the highest happiness," where Sāriputta adds "just that is the sukha here: where there is nothing felt" — AN 9.34). "Pleasure" and "bliss" are too narrow: sukha includes a non-vedanā evaluative sense — the 4th jhāna formula explicitly abandons sukha as a vedanā-factor (`sukhassa ca pahānā` → `adukkham-asukhaṃ` "neither-painful-nor-pleasant"), but this evaluative-sukha sense is what licenses calling Nibbāna `paramaṃ sukhaṃ` in the same Sāriputta-AN-9.34 idiom (a sukha-of-peace that obtains where vedanā has been transcended)._
 - **ekaggatā** (Skt: ekāgratā) — still, stillness; lit. "one-placed, one-placed-ness." _Standardly "one-pointed, one-pointedness." "Still / stillness" follows Kumāra against "one-pointedness." Kumāra's case: `agga` in EBT usage does not mean "point" (spatially limited location) but either "top / tip" literally (tip-of-grass, top-of-tree) or — in a contracted-form sense related to `agāra` "place" (cf. `suññāgāra` "empty place," `dānagga` "alms-place") — "place." `Ekagga` = "one-placed" → idiomatically "still" (a still mind being one that is gathered, not scattered). PED (1921) introduced "one-pointedness of mind" as a hedged rendering in quote-marks acknowledging its non-Englishness, and it became entrenched in 20th-c. Theravāda; C. A. F. Rhys Davids (1900) earlier rendered `cittassekaggatā` as "self-collectedness." The `cittassa ekaggatā ayaṃ samādhi` passage (MN 44.12) reads naturally as "stillness of mind — this is composure," awkwardly as "one-pointedness of mind — this is concentration." Cross-ref to def-flag below on whether ekaggatā is a jhāna-factor._
 
-  _def-flag: the EBT first-jhāna formula lists four factors (vitakka, vicāra, pīti, sukha); ekaggatā appears as a separate mental quality but is not counted among those four in the sutta formula. The pañca-jhānaṅga analysis (counting ekaggatā as the fifth factor of first jhāna) is Abhidhamma/commentarial — `cittass'ekaggatā` is already among the absorption factors in Dhammasaṅgaṇī; see XI.b._
+  _def-flag: the recurring EBT first-jhāna formula foregrounds four terms — vitakka, vicāra, pīti, sukha — with ekaggatā appearing in the same paragraph as a separate mental quality but not counted among those four in the formula itself. MN 43 (Mahāvedalla, `paṭhamajjhānaṃ pañcaṅgikaṃ`) explicitly lists first jhāna as five-factored, adding `cittass'ekaggatā` as the fifth — so the five-factor enumeration is sutta-attested. Its development as a formal `pañca-jhānaṅga` framework (the systematic jhāna-factor scheme as such) is Abhidhamma/commentarial — `cittass'ekaggatā` already among the absorption factors in Dhammasaṅgaṇī; see XI.b._
 
 _Adjacent / supporting terms (not jhāna factors):_
 
@@ -215,7 +215,7 @@ _def-flag on the Part: the inclusion of the 21-exercise expansion (ānāpāna, f
 - **satipaṭṭhāna** (Skt: smṛtyupasthāna) — establishment of mindfulness, foundation of mindfulness
 - **sati** (Skt: smṛti) — mindfulness; lit. "remembering, recollection" (√smṛ "remember" — same root as Vedic `smṛti` "that which is remembered, tradition"). _Recurs across the seven sets: as sammā-sati on the eightfold path (VIII.a), as bojjhaṅga (VIII.b), as faculty (VIII.c), as power (VIII.d) — and as the EBT-attested cetasika (VI.f)._
 
-  _def-flag on the "mindfulness" rendering: the Pāli core-semantic is a memory-and-attention fusion — keeping-in-mind, holding-in-awareness, not-forgetting-what-should-be-attended-to (the object of practice, the teaching, the bodily posture, etc.). "Mindfulness" is a late-19th-c. English coinage (Rhys-Davids, Buddhist Suttas, 1881) that lost both the mnemonic layer and the deliberateness layer; in modern pop-mindfulness usage it has collapsed further into bare present-moment awareness, stripped of the object-keeping and remembering-the-instruction dimensions. Sujato has pushed "remembering" or "memory"; Gethin ("On Some Definitions of Mindfulness," 2011) has written the definitive critical survey. The rendering is now too entrenched to displace, but the √smṛ-root sense matters for reading sati as "holding the teaching / object-of-attention in mind" — a cognitive discipline with directional content — rather than as the thinner "being aware" register pop usage has accreted. This divergence is a live problem across the glossary: wherever "mindfulness" appears (IV, VI.f, VIII.a/b/c/d, sati-sampajañña in III.a), the Pāli term is doing heavier lifting than the English naming suggests._
+  _def-flag on the "mindfulness" rendering: the Pāli core-semantic is a memory-and-attention fusion — keeping-in-mind, holding-in-awareness, not-forgetting-what-should-be-attended-to (the object of practice, the teaching, the bodily posture, etc.). "Mindfulness" is an older English word, but its use as a Buddhist technical rendering of `sati` begins with late-19th-c. Buddhist studies (Rhys Davids, _Buddhist Suttas_, 1881); the rendering lost both the mnemonic layer and the deliberateness layer; in modern pop-mindfulness usage it has collapsed further into bare present-moment awareness, stripped of the object-keeping and remembering-the-instruction dimensions. Sujato has pushed "remembering" or "memory"; Gethin ("On Some Definitions of Mindfulness," 2011) has written the definitive critical survey. The rendering is now too entrenched to displace, but the √smṛ-root sense matters for reading sati as "holding the teaching / object-of-attention in mind" — a cognitive discipline with directional content — rather than as the thinner "being aware" register pop usage has accreted. This divergence is a live problem across the glossary: wherever "mindfulness" appears (IV, VI.f, VIII.a/b/c/d, sati-sampajañña in III.a), the Pāli term is doing heavier lifting than the English naming suggests._
 
 - **anupassanā** (Skt: anupaśyanā) — contemplation, sustained observation; lit. "looking-along, repeated-seeing" (anu- "along, repeatedly" + √paś "see"). _The abstract noun underlying all four foundation-names below; the satipaṭṭhāna formula's `kāye kāyānupassī viharati` ("dwells contemplating the body in the body") makes it the verbal-form of the practice._
 
@@ -284,7 +284,7 @@ _Four overlapping technical terms — three EBT (āyatana, indriya, dhātu) and 
 - **dhātu** (VI.d) — element / constituent; the eye as a _basic constituent_ in the 18-element analysis.
 - **dvāra** (XI.a) — door / gate (Abhi./commentarial); the eye as the _access-point_ through which objects enter cognition.
 
-_Abhi. explicitly identifies these for the eye: `cakkhāyatana` = `cakkhundriya` = `cakkhu-dhātu` — same `cakkhu-pasāda` referent under three (or four) lenses, all naming the **standing apparatus** rather than the cognitive event. (Parallel identification holds for the other four physical sense-organs; for `mano` the three framings co-refer but to a non-physical mental capacity, not to a `pasāda-rūpa`.) The actual seeing/hearing-as-event is `viññāṇa` (eye-consciousness, ear-consciousness, etc.; VI.b) arising from base + object via `phassa` (contact, VI.c) — saḷāyatana → phassa → vedanā at VII.a tracks the structural-to-dynamic transition._
+_Abhi. explicitly identifies these for the eye: `cakkhāyatana` = `cakkhundriya` = `cakkhu-dhātu` — same `cakkhu-pasāda` referent under three (or four) lenses, all naming the **standing apparatus** rather than the cognitive event. (Parallel identification holds for the other four physical sense-organs. The mental case diverges as noted above — `manāyatana` / `manindriya` / `mano-dhātu` do not all map onto one referent.) The actual seeing/hearing-as-event is `viññāṇa` (eye-consciousness, ear-consciousness, etc.; VI.b) arising from base + object via `phassa` (contact, VI.c) — saḷāyatana → phassa → vedanā at VII.a tracks the structural-to-dynamic transition._
 
 - **āyatana** (Skt: same) — sense-base, sense-sphere
 - **saḷāyatana** (Skt: ṣaḍāyatana) — the six sense-bases; _also DO link 5 (VII.a)._
@@ -609,7 +609,7 @@ _Note: Abhidhamma vocabulary below is the post-canonical systematization of EBT 
 - **paramattha** (Skt: paramārtha) — ultimate (truth / reality); _Abhi. sense: paramattha-sacca "ultimate truth" contrasted with sammuti-sacca "conventional truth."_
 - **sammuti** (Skt: saṃvṛti) — convention, conventional (truth); _Abhi. sense; cf. XII.b for the Madhyamaka `saṃvṛti-satya` usage._
 - **paññatti** (Skt: prajñapti) — concept, designation, nominal entity; _the conventional-reality counterpart to paramattha in Abhi._
-- **sabhāva** (Skt: svabhāva) — own-nature, intrinsic nature; _Abhi. sense: the defining characteristic by which a dhamma is that dhamma; cf. XII.b for Madhyamaka's critique of svabhāva._
+- **sabhāva** (Skt: svabhāva) — own-nature, intrinsic nature; _Abhi. sense: the defining characteristic by which a dhamma is that dhamma; cf. XII.b for Madhyamaka's critique of svabhāva — historically aimed at Sarvāstivāda / Vaibhāṣika ābhidharmika realism rather than the Theravāda system specifically, though structurally parallel._
 - **asabhāva** (Skt: asvabhāva) — without own-nature
 - **cetasika** (Skt: caitasika / caitta) (Abhi.) — mental factor, mental concomitant; _Abhi. sense: the technical 52-cetasika typology, paired with citta in the citta-cetasika analysis. Cf. VI.f for the EBT-attested mental-quality entries._
 - **javana** (Skt: same) — (in Abhi.) impulsion, active cognition, apperception; lit. "swift, running"
@@ -646,7 +646,7 @@ _Jhāna-factor analysis:_
 
 - **pañca-jhānaṅga** (Skt: pañca-dhyānāṅga) — the five jhāna-factors.
 
-  _def-flag: the five-factor analysis of first jhāna (vitakka, vicāra, pīti, sukha, ekaggatā) is Abhidhamma + Theravāda commentarial (already in Dhammasaṅgaṇī) — cross-ref to III.c ekaggatā def-flag._
+  _def-flag: the five-factor enumeration of first jhāna (vitakka, vicāra, pīti, sukha, ekaggatā) is sutta-attested at MN 43 (Mahāvedalla, `paṭhamajjhānaṃ pañcaṅgikaṃ`); its development as a formal `pañca-jhānaṅga` framework is Abhidhamma + Theravāda commentarial (already in Dhammasaṅgaṇī) — cross-ref to III.c ekaggatā def-flag._
 
 _Other Vism. apparatus:_
 
@@ -692,7 +692,7 @@ _Ordered by chronological-developmental stratum: Prajñāpāramitā → Madhyama
 - **madhyamaka** — the Middle (Way school); from madhyama "middle."
 - **mādhyamika** — Mādhyamika, adherent of Madhyamaka
 - **śūnyatā** — emptiness; _Madhyamaka sense: the absence of svabhāva in all phenomena. Cf. II and XII.a._
-- **svabhāva** — own-nature, intrinsic nature, inherent existence, ultimate existence; _the target of Nāgārjuna's critique. "Inherent existence" (Garfield, Siderits) emphasizes the ontological bite; "ultimate existence" / "true existence" (Hopkins, Gelug-tradition) emphasize the bears-up-under-ultimate-analysis quality — something ultimately exists iff it has svabhāva, and Madhyamaka denies this for all phenomena (everything exists only conventionally / `saṃvṛti-sat`). "Own-nature" (Gethin, more literal) is also common. Cf. XI.a for the Abhi. `sabhāva` sense this critique is aimed at._
+- **svabhāva** — own-nature, intrinsic nature, inherent existence, ultimate existence; _the target of Nāgārjuna's critique. "Inherent existence" (Garfield, Siderits) emphasizes the ontological bite; "ultimate existence" / "true existence" (Hopkins, Gelug-tradition) emphasize the bears-up-under-ultimate-analysis quality — something ultimately exists iff it has svabhāva, and Madhyamaka denies this for all phenomena (everything exists only conventionally / `saṃvṛti-sat`). "Own-nature" (Gethin, more literal) is also common. Cf. XI.a for the structurally parallel Theravāda Abhi. `sabhāva`; Nāgārjuna's actual historical target was Sarvāstivāda / Vaibhāṣika svabhāva-realism and analogous ābhidharmika dharma-theory more broadly, not specifically the later Theravāda Abhi system summarized in XI.a._
 - **niḥsvabhāva** — without svabhāva, lacking intrinsic nature
 - **nairātmya** — selflessness, absence of self; _abstract-noun form from `anātman` (= Pāli `anattā`, VI.a); systematized in Mahāyāna as the two selflessnesses (pudgala- / dharma-nairātmya below)._
 - **pudgala-nairātmya** — selflessness of persons; _the selflessness the śrāvakayāna already teaches._
@@ -821,7 +821,7 @@ _Pure-land / bodhisattva-stages vocabulary:_
 - **siddha** — accomplished one; _a practitioner who has attained siddhi._
 - **mahāsiddha** — great siddha; _the 84 Mahāsiddhas of the Indian tantric tradition._
 - **ḍākinī** — ḍākinī, sky-dancer, feminine enlightened energy; _Tibetan `khandro` (Wylie: mkha' 'gro "sky-goer")._
-- **mahāmudrā** — the Great Seal; _the Kagyü realization-system._
+- **mahāmudrā** — the Great Seal; _especially associated with the Kagyü realization-system, though present in other Tibetan lineages as well (notably Sakya, and via Padampa Sangye and the Shije lineage)._
 - **mahāsukha** — great bliss
 
 ### Tibetan (Dzogchen / Mahāmudrā)
@@ -840,8 +840,8 @@ _Pure-land / bodhisattva-stages vocabulary:_
 - **rangdrol** (Wylie: rang grol) (Dzogchen) — self-liberation
 - **jalü** (Wylie: 'ja' lus) (Dzogchen) — rainbow body
 - **gankyil** (Wylie: dga' 'khyil) (Dzogchen) — wheel of joy; _the tri-partite swirling symbol._
-- **rangtong** (Wylie: rang stong) — self-empty; _the Gelug/Madhyamaka reading — phenomena empty of own-nature._
-- **shentong** (Wylie: gzhan stong) — other-empty; _the Jonang reading — ultimate reality empty only of what is other than itself; a Tathāgatagarbha-inflected position._
+- **rangtong** (Wylie: rang stong) — self-empty; _the standard Madhyamaka reading — phenomena empty of own-nature; in Tibetan doxography especially associated with the Gelug systematization (Tsongkhapa-stream Prāsaṅgika), though rangtong-style readings are broader._
+- **shentong** (Wylie: gzhan stong) — other-empty; _ultimate reality empty only of what is other than itself; a Tathāgatagarbha-inflected position; especially associated with the Jonang school (Dolpopa, Tāranātha), with reception-history strands in Kagyu and Nyingma as well._
 - **trekchö** (Wylie: khregs chod) (Dzogchen) — cutting through, breakthrough; _one of the two principal Dzogchen practices (with tögal)._
 - **tögal** (Wylie: thod rgal) (Dzogchen) — direct crossing, leap-over; _the visionary / luminosity practice._
 - **kadag** (Wylie: ka dag) (Dzogchen) — primordial purity
@@ -926,7 +926,7 @@ _The Three Guṇas:_
 - **vyakta** (Sāṅkhya) — manifest
 - **avyakta** (Sāṅkhya) — unmanifest
 - **kaivalya** (Sāṅkhya / Yoga) — isolation, aloneness; _the Sāṅkhya-Yoga goal: puruṣa's separation from prakṛti._
-- **samprajñāta-samādhi** / **asamprajñāta-samādhi** (Pātañjala Yoga) — samādhi with / without cognized object; _the two-fold division in Yogasūtra 1.17–1.18, with samprajñāta further sub-divided into savitarka, nirvitarka, savicāra, nirvicāra forms (YS 1.42–1.44)._
+- **samprajñāta-samādhi** / **asamprajñāta-samādhi** (Pātañjala Yoga) — samādhi with / without cognized object; _the two-fold division at YS 1.17–1.18. YS 1.17 characterizes `samprajñāta` as accompanied by `vitarka`, `vicāra`, `ānanda`, and `asmitā`; YS 1.42–1.44 then elaborates the `savitarka` / `nirvitarka` and `savicāra` / `nirvicāra` samāpatti distinctions._
 - **prāṇa** — breath, life-force, vital energy
 - **kuṇḍalinī** (Hindu tantra / Haṭha-yoga) — coiled (serpent-energy); _not Sāṅkhya / Pātañjala-Yoga vocabulary — a Hindu-tantric and Haṭha-yoga concept (developed in the Śaiva and Nātha tantric corpora, codified in the Haṭhayogapradīpikā and similar texts) of dormant energy at the base of the spine, raised through the central channel in subtle-body practice. Listed here under Indic comparatives for its structural parallel to Vajrayāna `caṇḍālī` / Tibetan `tummo` (XIII)._
 
