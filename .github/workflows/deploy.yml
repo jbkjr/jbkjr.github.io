@@ -35,7 +35,8 @@ jobs:
           sudo apt-get install -y --no-install-recommends \
             pandoc texlive-xetex texlive-fonts-recommended lmodern \
             texlive-lang-cjk texlive-lang-chinese \
-            fonts-noto-cjk fonts-noto-cjk-extra
+            fonts-noto-cjk fonts-noto-cjk-extra \
+            fonts-noto-hebrew
 
       - name: Build Quartz
         run: npm run build

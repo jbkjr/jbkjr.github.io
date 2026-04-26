@@ -26,4 +26,42 @@
 \xeCJKDeclareCharClass{HalfRight}{`”}
 \xeCJKDeclareCharClass{Default}{`—, `–, `‘, `’}
 
+% Hebrew script fallback for Part XV Kabbalah entries (Times New Roman /
+% FreeSerif have no reliable Hebrew vowel-pointing coverage).
+% Fallback chain: scholarly fonts first (Noto/SBL/Ezra ship with most Linux
+% TeX distros and via Homebrew), then macOS built-ins (Arial Hebrew Scholar
+% has full Biblical-Hebrew vowel-pointing; New Peninim MT is a serif option;
+% Arial Hebrew is the basic macOS Hebrew font).
+\IfFontExistsTF{Noto Sans Hebrew}{
+  \newfontfamily\hebrewfont{Noto Sans Hebrew}
+}{
+  \IfFontExistsTF{SBL Hebrew}{
+    \newfontfamily\hebrewfont{SBL Hebrew}
+  }{
+    \IfFontExistsTF{Ezra SIL}{
+      \newfontfamily\hebrewfont{Ezra SIL}
+    }{
+      \IfFontExistsTF{Arial Hebrew Scholar}{
+        \newfontfamily\hebrewfont{Arial Hebrew Scholar}
+      }{
+        \IfFontExistsTF{New Peninim MT}{
+          \newfontfamily\hebrewfont{New Peninim MT}
+        }{
+          \IfFontExistsTF{Arial Hebrew}{
+            \newfontfamily\hebrewfont{Arial Hebrew}
+          }{
+            \newfontfamily\hebrewfont{Times New Roman}
+          }
+        }
+      }
+    }
+  }
+}
+% Track Hebrew + Latin blocks so the Hebrew→Latin exit transition fires
+% (without a tracked target block, the exit doesn't fire and subsequent
+% Latin text gets typeset in the Hebrew-only font). CJK blocks are left
+% untracked so xeCJK's existing automatic CJK font switching still works.
+\usepackage[Hebrew, Latin]{ucharclasses}
+\setTransitionsFor{Hebrew}{\hebrewfont}{\normalfont}
+
 \setlength{\parskip}{4pt plus 1pt minus 1pt}
