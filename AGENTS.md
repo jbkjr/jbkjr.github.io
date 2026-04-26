@@ -44,6 +44,9 @@
 - The shared transform is used by both Quartz and `scripts/glossary/preprocess.mjs`, so HTML and PDF links stay aligned. It handles multi-headword entries, duplicate headword suffixes, section-qualified term links, validated section refs, and index links.
 - PDF output is generated, not committed. Use `npm run glossary:pdf` to create `content/dhamma/glossary.pdf`; `npm run build` and `npm run serve` rebuild the PDF before running Quartz.
 - The glossary page uses `GlossaryMeta` for "Last updated" from Quartz git/file dates and `GlossaryTOC` as a narrow-screen inline TOC; desktop still uses the right-rail Quartz TOC.
+- Editorial / authoring conventions for the glossary content (headword rules, 15-Part stratum spine, def-flags, translation clusters) live at `content/dhamma/CLAUDE.md` — read it before editing `content/dhamma/glossary.md`. `content/dhamma/AGENTS.md` is a symlink to the same file.
+- Reference lexica (DPD, MW, PED, etc.) live at `content/dhamma/_references/` — a gitignored symlink pointing into `~/iCloud/jbkjr/BUDDHA/dhamma/dhamma glossary/_references/`. One-time setup from the repo root: `ln -s ~/iCloud/jbkjr/BUDDHA/dhamma/dhamma\ glossary/_references content/dhamma/_references`.
+- The three instruction files (`CLAUDE.md`, `AGENTS.md`, `TRANSLATION_CONVENTIONS.md`) are excluded from the Quartz build via `ignorePatterns` in `quartz.config.ts`.
 
 ## Working Agreements
 

@@ -8,5 +8,6 @@ tsconfig.tsbuildinfo
 .obsidian
 .quartz-cache
 private/
+content/dhamma/_references
 .replit
 replit.nix

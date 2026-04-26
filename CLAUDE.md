@@ -279,6 +279,13 @@ Quick reference for writing posts:
 
 **Wikilinks**: `[[slug]]` or `[[slug|display text]]` for internal links
 
+## Dhamma Glossary
+
+- Editorial / authoring conventions for the glossary content (headword rules, 15-Part stratum spine, def-flags, translation clusters) live at [`content/dhamma/CLAUDE.md`](content/dhamma/CLAUDE.md). Read it before editing [`content/dhamma/glossary.md`](content/dhamma/glossary.md). [`content/dhamma/AGENTS.md`](content/dhamma/AGENTS.md) is a symlink to the same file.
+- Translation rendering reference (Kumāra-2022 EBT samādhi/jhāna cluster, etc.) at [`content/dhamma/TRANSLATION_CONVENTIONS.md`](content/dhamma/TRANSLATION_CONVENTIONS.md) — internal working file, not cited from `glossary.md`.
+- Reference lexica (DPD, MW, PED, Apte, etc.) live at `content/dhamma/_references/` — a gitignored symlink pointing into `~/iCloud/jbkjr/BUDDHA/dhamma/dhamma glossary/_references/`. One-time setup from the repo root: `ln -s ~/iCloud/jbkjr/BUDDHA/dhamma/dhamma\ glossary/_references content/dhamma/_references`.
+- The three instruction files (`CLAUDE.md`, `AGENTS.md`, `TRANSLATION_CONVENTIONS.md`) are excluded from the Quartz build via `ignorePatterns` in [`quartz.config.ts`](quartz.config.ts).
+
 ## Notes
 
 - User is open to modifying Quartz framework files for customization

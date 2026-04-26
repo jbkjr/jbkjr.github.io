@@ -18,7 +18,16 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "jbkjr.me",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: [
+      "private",
+      "templates",
+      ".obsidian",
+      "**/CLAUDE.md",
+      "**/AGENTS.md",
+      "**/TRANSLATION_CONVENTIONS.md",
+      "**/_references",
+      "**/_references/**",
+    ],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
