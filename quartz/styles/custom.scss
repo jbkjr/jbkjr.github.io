@@ -79,6 +79,28 @@
   }
 }
 
+@media all and ($desktop) {
+  body[data-slug="dhamma/glossary"] {
+    .right.sidebar > .toc {
+      flex: 1 1 0;
+      min-height: 0;
+    }
+
+    .right.sidebar > .toc:has(button.toc-header.collapsed) {
+      flex: 0 1 1.4rem;
+      min-height: 1.4rem;
+    }
+
+    .right.sidebar > .toc > .toc-content.overflow {
+      flex: 1 1 0;
+      min-height: 0;
+      max-height: calc(100% - 2rem);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+    }
+  }
+}
+
 article.dhamma-glossary {
   line-height: 1.72;
 
