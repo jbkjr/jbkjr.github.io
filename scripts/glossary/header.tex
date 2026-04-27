@@ -3,6 +3,17 @@
 \usepackage{fontspec}
 \usepackage{xeCJK}
 
+% Generate /ActualText markers so PDF text extraction returns the source
+% characters regardless of glyph-to-CMap mapping. Locally on macOS the main
+% font resolves to Times New Roman, which has proper ToUnicode entries for
+% U+2194 (↔) and the ff / fi / fl ligature codepoints. On CI the main-font
+% fallback chain (Times New Roman ✗ → FreeSerif ✗ → TeX Gyre Termes ✗) lands
+% on Latin Modern Roman, whose ToUnicode coverage for those characters is
+% incomplete — the deployed PDF extracts the arrows as U+FFFD replacement
+% characters and the ligatures as their FB00-block codepoints. ActualText
+% bypasses both issues.
+\XeTeXgenerateactualtext=1
+
 \IfFontExistsTF{Times New Roman}{
   \setmainfont{Times New Roman}
 }{
