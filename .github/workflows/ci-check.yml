@@ -34,5 +34,22 @@ jobs:
             fonts-noto-cjk fonts-noto-cjk-extra \
             fonts-noto-core
 
+      # TEMPORARY: remove once Greek-rendering fix is verified.
+      - name: Debug font availability
+        run: |
+          echo "=== Greek-language fonts (fc-list :lang=el) ==="
+          fc-list :lang=el | sort
+          echo "=== Main-font fallback candidates ==="
+          for f in "Times New Roman" "FreeSerif" "TeX Gyre Termes" "Latin Modern Roman" "Noto Serif" "GFS Didot" "Linux Libertine O"; do
+            if fc-list | grep -q -i -F "$f"; then echo "AVAILABLE: $f"; else echo "MISSING:   $f"; fi
+          done
+
       - name: Build Quartz
         run: npm run build
+
+      - name: Upload glossary PDF
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: glossary-pdf
+          path: content/dhamma/glossary.pdf

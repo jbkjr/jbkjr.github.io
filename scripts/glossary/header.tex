@@ -92,4 +92,17 @@
 \setTransitionsFor{GreekAndCoptic}{\greekfont}{\normalfont}
 \setTransitionsFor{GreekExtended}{\greekfont}{\normalfont}
 
+% Suppress font-switching at the GreekAndCoptic↔GreekExtended boundary.
+% Both blocks share \greekfont, but \setTransitionsFor writes both an
+% "enter" and a "leave" token to every cross-pair register, and whichever
+% \setTransitionsFor call runs second wins. As written above, the GE→GAC
+% pair register ends up holding \normalfont (the "leave GE" token from
+% line 93), which strips the Greek font from any GAC character that
+% follows a GE character within a word (the σ in νοῦς, the ν in τὸ ἕν,
+% the σία in οὐσία). On CI the main font lacks polytonic Greek, so those
+% trailing characters render as missing glyphs. Nulling both directions
+% of the pair keeps \greekfont active across the boundary.
+\XeTeXinterchartoks \GreekAndCopticClass \GreekExtendedClass = {}
+\XeTeXinterchartoks \GreekExtendedClass \GreekAndCopticClass = {}
+
 \setlength{\parskip}{4pt plus 1pt minus 1pt}
