@@ -80,8 +80,16 @@
 % (without a tracked target block, the exit doesn't fire and subsequent
 % Latin text gets typeset in the wrong font). CJK blocks are left
 % untracked so xeCJK's existing automatic CJK font switching still works.
-\usepackage[Hebrew, GreekAndCoptic, Latin]{ucharclasses}
+%
+% GreekExtended (U+1F00–U+1FFF) is tracked separately from GreekAndCoptic
+% (U+0370–U+03FF) because precomposed polytonic characters (vowels with
+% breathing marks: ἀ, ὑ, ἕ, etc.) live in the Extended block. Without
+% GreekExtended tracked, words that *start* with such a character don't
+% trigger the Latin→Greek transition and render in the main Latin font
+% (which lacks polytonic-Greek coverage in CI).
+\usepackage[Hebrew, GreekAndCoptic, GreekExtended, Latin]{ucharclasses}
 \setTransitionsFor{Hebrew}{\hebrewfont}{\normalfont}
 \setTransitionsFor{GreekAndCoptic}{\greekfont}{\normalfont}
+\setTransitionsFor{GreekExtended}{\greekfont}{\normalfont}
 
 \setlength{\parskip}{4pt plus 1pt minus 1pt}
