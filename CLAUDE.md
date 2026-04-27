@@ -10,7 +10,7 @@ Personal website and blog for Jack Koch, rebuilt from Jekyll to Quartz v4.5.2 st
 
 ## Current State
 
-Active branch: `master` (Quartz site, deployed via GitHub Actions on push). The `quartz-rebuild` branch exists but is dormant — the rebuild has been merged.
+Active branch: `master` (Quartz site, deployed via GitHub Actions on push).
 
 ### Content Structure
 
