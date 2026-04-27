@@ -180,9 +180,20 @@ article.dhamma-glossary {
     }
   }
 
+  // Keep native ordered markers so Markdown-generated <ol start> values remain
+  // correct. Safari can misplace ::marker when a loose <li> starts with a block
+  // paragraph, so make that first paragraph participate in the marker line.
+  ol > .glossary-entry > p:first-child {
+    display: inline;
+  }
+
   .glossary-entry > p,
   .glossary-index-entry > p {
     margin: 0;
+  }
+
+  .glossary-entry > p + p {
+    margin-top: 0.5em;
   }
 
   .glossary-headword {
