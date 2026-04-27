@@ -1,0 +1,38 @@
+name: CI build check
+
+# Build-only smoke test for pull requests. Mirrors the build job in
+# deploy.yml exactly — same Linux runner, same fonts, same toolchain —
+# but without the deploy step. Confirms the site (including the
+# glossary PDF) builds in the CI environment before merging to master.
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0 # Fetch all history for git info
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            pandoc texlive-xetex texlive-fonts-recommended lmodern \
+            texlive-lang-cjk texlive-lang-chinese \
+            fonts-noto-cjk fonts-noto-cjk-extra \
+            fonts-noto-core
+
+      - name: Build Quartz
+        run: npm run build

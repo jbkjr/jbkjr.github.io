@@ -120,12 +120,13 @@ XII.  Mahāyāna (Sanskrit; Prajñāpāramitā · Madhyamaka · Yogācāra · Ma
         XII.a Prajñāpāramitā (the emptiness-pivot corpus, doctrinal source for Madhyamaka)
         XII.b Madhyamaka
         XII.c Yogācāra
-        XII.d Broader Sūtra Corpus (bodhisattva-path, trikāya, tathāgatagarbha, pure-land, plus East Asian sub-sub-section for satori / kenshō / wu)
+        XII.d Broader Sūtra Corpus (bodhisattva-path, trikāya, tathāgatagarbha, pure-land)
+        XII.e East Asian Mahāyāna — Chan/Zen (Japanese / Chinese)
 XIII. Vajrayāna & Dzogchen (Sanskrit / Tibetan; Vajrayāna · Dzogchen · Mahāmudrā)
 XIV.  Vedānta & Indic Comparatives (Sanskrit; Vedānta · Sāṅkhya · Yoga)
 XV.   Non-Indic Philosophical / Mystical Comparatives
 
-Note on the Mahāyāna sub-ordering (XII.a–XII.d): chronological-developmental (Prajñāpāramitā → Madhyamaka → Yogācāra → broader sūtra corpus), NOT doxographic-hierarchical. Madhyamaka is placed after its source corpus (Prajñāpāramitā) rather than promoted to the head of the Part. Doctrinal assent is differential — Madhyamaka in a Prāsaṅgika-rangtong reading is taken as philosophically binding; XII.d material is included as vocabulary, not as assented ontology. A headnote at the start of Part XII in glossary.md flags this.
+Note on the Mahāyāna sub-ordering (XII.a–XII.e): chronological-developmental (Prajñāpāramitā → Madhyamaka → Yogācāra → broader sūtra corpus → East Asian Chan/Zen), NOT doxographic-hierarchical. Madhyamaka is placed after its source corpus (Prajñāpāramitā) rather than promoted to the head of the Part. Doctrinal assent is differential — Madhyamaka in a Prāsaṅgika-rangtong reading is taken as philosophically binding; XII.d material is included as vocabulary, not as assented ontology. A headnote at the start of Part XII in glossary.md flags this.
 ```
 
 - **Definitions are intentionally absent** right now. Don't add them unless explicitly asked.

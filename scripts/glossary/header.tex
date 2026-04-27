@@ -57,11 +57,31 @@
     }
   }
 }
-% Track Hebrew + Latin blocks so the Hebrew→Latin exit transition fires
+% Greek script fallback for Part XV Plotinian / Patristic entries.
+% Times New Roman locally has Greek; CI Linux without TNR may fall through
+% to a font without polytonic-Greek coverage. Fallback chain mirrors Hebrew:
+% scholarly fonts first (Noto Serif ships with fonts-noto-core, already
+% installed for the Hebrew fix), then macOS built-ins.
+\IfFontExistsTF{Noto Serif}{
+  \newfontfamily\greekfont{Noto Serif}
+}{
+  \IfFontExistsTF{GFS Didot}{
+    \newfontfamily\greekfont{GFS Didot}
+  }{
+    \IfFontExistsTF{Linux Libertine O}{
+      \newfontfamily\greekfont{Linux Libertine O}
+    }{
+      \newfontfamily\greekfont{Times New Roman}
+    }
+  }
+}
+
+% Track Hebrew + Greek + Latin blocks so the script→Latin exit transitions fire
 % (without a tracked target block, the exit doesn't fire and subsequent
-% Latin text gets typeset in the Hebrew-only font). CJK blocks are left
+% Latin text gets typeset in the wrong font). CJK blocks are left
 % untracked so xeCJK's existing automatic CJK font switching still works.
-\usepackage[Hebrew, Latin]{ucharclasses}
+\usepackage[Hebrew, GreekAndCoptic, Latin]{ucharclasses}
 \setTransitionsFor{Hebrew}{\hebrewfont}{\normalfont}
+\setTransitionsFor{GreekAndCoptic}{\greekfont}{\normalfont}
 
 \setlength{\parskip}{4pt plus 1pt minus 1pt}
