@@ -36,3 +36,10 @@ jobs:
 
       - name: Build Quartz
         run: npm run build
+
+      - name: Upload glossary PDF
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: glossary-pdf
+          path: content/dhamma/glossary.pdf
