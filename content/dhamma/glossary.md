@@ -19,7 +19,7 @@ enableToc: true
 </div>
 <!-- pdf:skip-end -->
 
-**Format.** Each Part carries a `(language; stratum)` annotation. In Pāli-canonical Parts (I–XI), headwords are Pāli with the Sanskrit form in parentheses — e.g. **diṭṭhi** (Skt: dṛṣṭi), or (Skt: same) when IAST-identical. In Sanskrit-tradition Parts (XII–XIV), the Sanskrit form is the headword; a Pāli cognate is parenthesized only when it carries parallel doctrinal use. Non-Indic Parts (XV) use the standard transliteration with the original script where useful. Terms whose stratum diverges from the Part default carry an inline stratum tag after the headword. Entries give brief glosses and rendering-notes rather than full prose definitions; longer def-flags surface contested scholarship or multi-sense terms.
+**Format.** Each Part title carries a parenthetical with the canonical language(s); Pāli-canonical Parts (I–XI) additionally tag the doctrinal stratum (e.g., `EBT`, `Abhi. + Theravāda comm.`). In Pāli-canonical Parts (I–XI), headwords are Pāli with the Sanskrit form in parentheses — e.g. **diṭṭhi** (Skt: dṛṣṭi), or (Skt: same) when IAST-identical. In Sanskrit-tradition Parts (XII–XIV), the Sanskrit form is the headword; a Pāli cognate is parenthesized only when it carries parallel doctrinal use. Non-Indic Parts (XV) use the standard transliteration with the original script where useful. Terms whose stratum diverges from the Part default carry an inline stratum tag after the headword. Entries give brief glosses and rendering-notes rather than full prose definitions; longer def-flags surface contested scholarship or multi-sense terms.
 
 **Abbreviations.** _Canonical:_ DN / MN / SN / AN — the four main Nikāyas (Dīgha / Majjhima / Saṃyutta / Aṅguttara); Sn — Sutta Nipāta; Dhp — Dhammapada; Itiv. — Itivuttaka; Ud. — Udāna; Vin. — Vinaya. _Commentarial / Abhidhamma:_ Vism — Visuddhimagga; Abhi. — Abhidhamma. _Dictionaries:_ PED — PTS Pali-English Dictionary; DPD — Digital Pali Dictionary; MW — Monier-Williams Sanskrit-English Dictionary; Apte — Apte Practical Sanskrit-English Dictionary.
 
@@ -96,7 +96,7 @@ _The sage:_
 - **animitta** (Skt: same) — signless (meditation / liberation); without `nimitta` (III.c). _One of the three vimokkha-mukha alongside `suññatā` and `appaṇihita`; corresponds to `anicca` in the (late-canonical / commentarial) three-marks-to-three-doors mapping; cf. VI.a, and II `suññatā` for stratum._
 - **appaṇihita** (Skt: apraṇihita) — undirected, wishless, non-aspiring (meditation / liberation). _One of the three vimokkha-mukha (with `suññatā` and `animitta`); corresponds to `dukkha` in the (late-canonical / commentarial) three-marks-to-three-doors mapping; cf. VI.a, and II `suññatā` for stratum. "Undirected" follows Sujato; Bodhi "directionless / wishless."_
 
-- **pabhassara** (Skt: prabhāsvara) — luminous, radiant, bright; _the AN 1.49–52 description of citta (Sujato numbering; Bodhi *Numerical Discourses* AN 1.51–52; PTS 1.5.1–2) — `pabhassaramidaṃ, bhikkhave, cittaṃ, tañca kho āgantukehi upakkilesehi upakkiliṭṭhaṃ` "luminous, bhikkhus, is this mind, but it is defiled by adventitious defilements." A contested EBT passage: Theravāda commentarial readings identify the luminous citta with `bhavaṅga` (XI.a) — the subliminal life-continuum running between active cognitive moments; proto-Mahāyāna readings take it as a primordial luminous awareness, a thread that develops into Mahāyāna `prabhāsvara-citta` (XII.d), tathāgatagarbha (XII.d), and Vajrayāna `'od gsal` clear-light (XIII). Distinct from `viññāṇa` (VI.b) — viññāṇa is object-distinguishing cognition; pabhassara names the mind's luminous-knowing register._
+- **pabhassara** (Skt: prabhāsvara) — luminous, radiant, bright; _the AN 1.49–52 description of citta (Sujato numbering; Bodhi *Numerical Discourses* AN 1.51–52; PTS 1.5.1–2) — `pabhassaramidaṃ, bhikkhave, cittaṃ, tañca kho āgantukehi upakkilesehi upakkiliṭṭhaṃ` "luminous, bhikkhus, is this mind, but it is defiled by adventitious defilements." A contested EBT passage: Theravāda commentarial readings identify the luminous citta with `bhavaṅga` (XI.a) — the subliminal life-continuum running between active cognitive moments; proto-Mahāyāna readings take it as a primordial luminous awareness, a thread that develops into Mahāyāna `prabhāsvara-citta` (XII.d), tathāgatagarbha (XII.d), and Vajrayāna `'od gsal` clear-light (XIII.b). Distinct from `viññāṇa` (VI.b) — viññāṇa is object-distinguishing cognition; pabhassara names the mind's luminous-knowing register._
 
   _def-flag: pabhassara may be the closest Buddhist analogue to "phenomenal consciousness" in modern philosophy of mind (Block, Chalmers — qualia, what-it-is-likeness), but the comparison is interpretive rather than lexical; the Buddhist usage remains soteriological rather than merely descriptive._
 
@@ -140,6 +140,7 @@ _Frame-terms for the training:_
 - **appamāda** (Skt: apramāda) / **pamāda** (Skt: pramāda) — heedfulness / heedlessness. _Summary term for the urgency and care of the whole training: Dhp 21 `appamādo amatapadaṃ` "heedfulness is the deathless path"; Dhp ch. 2 Appamādavagga; the Buddha's last words at DN 16 — `appamādena sampādetha` "strive on with heedfulness." Distinct from effort / vīriya (VI.f) — appamāda is attentive vigilance as an attitudinal stance, not exertion._
 - **adhisīla** (Skt: adhiśīla) / **adhicitta** (Skt: same) / **adhipaññā** (Skt: adhiprajñā) — higher virtue / higher mind / higher wisdom; _the three higher trainings; the master frame under which the gradual training is often presented (AN 3.81, etc.)._
 - **bhāvanā** (Skt: same) — development, cultivation (used as a near-synonym for "meditation"); lit. "bringing-into-being" (causative of √bhū)
+- **kalyāṇa-mitta** (Skt: kalyāṇa-mitra) / **kalyāṇa-mittatā** (Skt: kalyāṇa-mitratā) — admirable friend / admirable friendship (alt. "good friend / good friendship," "spiritual friend / spiritual friendship"); lit. "beautiful friend" (`kalyāṇa` "beautiful, good, virtuous" + `mitta` "friend"), with the abstract-noun suffix `-tā` on the second form yielding "friendship." _SN 45.2 (Upaḍḍha-sutta): the Buddha rejects Ānanda's suggestion that admirable friendship is "half the holy life" and corrects it — `sakalam eva brahmacariyaṃ` "the entire holy life" is admirable friendship. The relational frame for the training: a `kalyāṇa-mitta` is one in whom the eightfold path (VIII.a) is embodied. Also at AN 8.54 (Dīghajāṇu-sutta) as a condition of present-life welfare._
 
 _The six direct knowledges (post-jhāna fruits):_
 
@@ -488,7 +489,7 @@ _The Four Bases:_
 3. **citta** (Skt: same) — (purposeful) mind, application of mind; _cf. VI.f in iddhipāda sense._
 4. **vīmaṃsā** (Skt: mīmāṃsā) — investigation, inquiry, examination
 
-- **iddhi** (Skt: ṛddhi) — psychic/spiritual power, success, accomplishment. _Pāli `iddhi` = Skt `ṛddhi` (from √ṛdh "thrive, accomplish"), NOT Skt `siddhi` (from √sidh "succeed"). The two are frequently conflated in Anglophone dharma writing — probably because both came to mean yogic attainments in later tantra, and `siddhi` is the form that escaped into English. In the Pāli canonical register the correct Pāli term is iddhi. Cf. `siddhi` at XIII for the Sanskrit-tantric term that absorbed iddhi-sense in later usage._
+- **iddhi** (Skt: ṛddhi) — psychic/spiritual power, success, accomplishment. _Pāli `iddhi` = Skt `ṛddhi` (from √ṛdh "thrive, accomplish"), NOT Skt `siddhi` (from √sidh "succeed"). The two are frequently conflated in Anglophone dharma writing — probably because both came to mean yogic attainments in later tantra, and `siddhi` is the form that escaped into English. In the Pāli canonical register the correct Pāli term is iddhi. Cf. `siddhi` at XIII.a for the Sanskrit-tantric term that absorbed iddhi-sense in later usage._
 
 ### VIII.g Fetters & Stages of Awakening
 
@@ -679,7 +680,7 @@ _The Sixteen Vipassanā-ñāṇas (Visuddhimagga insight-progress series):_
 
 ---
 
-## Part XII — Mahāyāna (Sanskrit, with Japanese / Chinese in XII.d East Asian; Prajñāpāramitā, Madhyamaka, Yogācāra, Mahāyāna sūtra)
+## Part XII — Mahāyāna — Sūtric (Sanskrit; XII.e in Chinese / Japanese)
 
 _Ordered by chronological-developmental stratum: Prajñāpāramitā → Madhyamaka → Yogācāra → broader Mahāyāna sūtra corpus. (First-wave chronology — Madhyamaka and Yogācāra continued to develop in dialogue after the 4th–5th c., and Yogācāra is not a strict "improvement" on Madhyamaka.)_
 
@@ -704,7 +705,7 @@ _Ordered by chronological-developmental stratum: Prajñāpāramitā → Madhyama
 - **paramārtha-satya** — ultimate truth; _cf. XI.a `paramattha`._
 - **dve satye** — the two truths; _the two-truths framing._
 - **catuṣkoṭi** — tetralemma, four corners; lit. "four-cornered"; _the fourfold logical schema (X / not-X / both / neither). Madhyamaka's distinctive move is to negate all four positions — sometimes called the "negative catuṣkoṭi" (in modern scholarship: Garfield, Westerhoff) or `catuṣkoṭi-vinirmukta` ("free from the four corners"). Nāgārjuna deploys this fourfold-negation pattern at MMK 1.1 ("not from itself, not from another, not from both, not without cause") and MMK 22.13–16 (the Tathāgata-after-death tetralemma in the Tathāgata-parīkṣā, picking up the EBT `avyākata` register at X.b); MMK 25.17–18 returns to the Tathāgata case under the nirvāṇa-parīkṣā. MMK 18.8 (`sarvaṃ tathyaṃ na vā tathyaṃ tathyaṃ cātathyam eva ca / naivātathyaṃ naiva tathyaṃ etad buddhānuśāsanam`) states the four-corner schema as such — phenomena's reality-status across the four positions._
-- **prasaṅga** / **Prāsaṅgika** — consequence; _"Prāsaṅgika" (and the matched "Svātantrika" below) is a later Tibetan doxographic classification retrojected onto Indian Madhyamaka — the school-label is Tibetan taxonomy, the method it names is Indian. The Prāsaṅgika method (associated by Tibetan doxographers with Buddhapālita and Candrakīrti, picked up by Tsongkhapa and the Gelug stream) uses consequence-only (`prasaṅga`) argumentation — refuting opponents by showing that their own premises entail absurd consequences, without putting forth any counter-thesis of one's own. The method is purely negational: it accepts no positive thesis carrying svabhāva-implication; it uses the opponent's metaphysical presumptions (their assumption of svabhāva) to undermine the opponent's argument from within, on the opponent's own terms. Contrasts with **Svātantrika** (Bhāviveka), which uses autonomous positive syllogisms (`svatantra-anumāna`) to establish Madhyamaka conclusions._
+- **prasaṅga** / **Prāsaṅgika** — consequence; _"Prāsaṅgika" (and the matched "Svātantrika" below) is a later Tibetan doxographic classification retrojected onto Indian Madhyamaka — the school-label is Tibetan taxonomy, the method it names is Indian. The Prāsaṅgika method (associated by Tibetan doxographers with Buddhapālita and Candrakīrti, picked up by Tsongkhapa and the Gelug stream) uses consequence-only (`prasaṅga`) argumentation — refuting opponents by showing that their own premises entail absurd consequences, without putting forth any counter-thesis of one's own. The method is purely negational: it accepts no positive thesis carrying svabhāva-implication; it uses the opponent's metaphysical presumptions (their assumption of svabhāva) to undermine the opponent's argument from within, on the opponent's own terms. Cf. `paryudāsa` / `prasajya-pratiṣedha` (XIV.c) for the formal grammatical-logical typology of negation that frames the prasaṅga method. Contrasts with **Svātantrika** (Bhāviveka), which uses autonomous positive syllogisms (`svatantra-anumāna`) to establish Madhyamaka conclusions._
 - **svātantra** / **Svātantrika** — independent inference; Svātantrika (sub-school admitting positive arguments). _Like Prāsaṅgika above, "Svātantrika" is later Tibetan doxographic classification retrojected onto Indian Madhyamaka — Bhāviveka and his stream are the figures the Tibetan taxonomy assigns the label to._
 - **apratiṣṭhita** — non-abiding, unestablished; _a characterization of emptiness._
 - **niṣprapañca** — free of conceptual proliferation, unelaborated; _cf. X.b._
@@ -789,21 +790,21 @@ _Tathāgatagarbha vocabulary:_
 
   _def-flag: Pāli `buddhadhātu` exists meaning "Buddha-relic" or "Buddha-element"; the Mahāyāna buddha-nature doctrinal sense (synonymous with tathāgatagarbha) is the loaded one._
 
-- **prabhāsvara-citta** — luminous mind; _the Mahāyāna systematization of the EBT `pabhassara citta` (II) theme. The intrinsic luminosity of mind that is obscured but never destroyed by defilements; closely associated with tathāgatagarbha and buddha-nature literature, and a central category in Yogācāra accounts of non-conceptual wisdom (jñāna). Vajrayāna inherits this as `'od gsal` clear-light (XIII)._
+- **prabhāsvara-citta** — luminous mind; _the Mahāyāna systematization of the EBT `pabhassara citta` (II) theme. The intrinsic luminosity of mind that is obscured but never destroyed by defilements; closely associated with tathāgatagarbha and buddha-nature literature, and a central category in Yogācāra accounts of non-conceptual wisdom (jñāna). Vajrayāna inherits this as `'od gsal` clear-light (XIII.b)._
 
 _Pure-land / bodhisattva-stages vocabulary:_
 
 - **buddha-kṣetra** — buddha-field, buddha-realm
 - **daśa-bhūmi** — the ten stages, ten grounds (of the bodhisattva)
 
-### XII.e East Asian Mahāyāna — Chan/Zen (Japanese / Chinese)
+### XII.e East Asian Mahāyāna — Chan/Zen (Chinese / Japanese)
 
-- **zazen** (坐禅; Japanese) / **zuòchán** (坐禅; Chinese) — seated meditation; lit. "sitting Zen." _The foundational practice across Chan/Zen traditions. Sōtō zazen is often understood specifically as `shikantaza` ("just sitting") — non-objective, non-goal-directed; Rinzai zazen typically incorporates kōan-investigation._
+- **zuòchán** (坐禅; Chinese) / **zazen** (坐禅; Japanese) — seated meditation; lit. "sitting Zen." _The foundational practice across Chan/Zen traditions. Sōtō zazen is often understood specifically as `shikantaza` ("just sitting") — non-objective, non-goal-directed; Rinzai zazen typically incorporates kōan-investigation._
 - **shikantaza** (只管打坐; Japanese) — "just sitting"; lit. "nothing but sitting" (只管 _shikan_ "only / just / nothing but" + 打坐 _taza_ "sit"). _Dōgen's articulation of zazen as the practice-realization (`shushō ittō`) of awakening itself, not a method to achieve awakening; Sōtō-tradition core._
-- **kōan** (公案; Japanese) / **gōngàn** (公案; Chinese) — public case, paradoxical question. _A teaching-narrative or impasse-question (Zhàozhōu's `wu`, "the sound of one hand," etc.) used in Rinzai/Linji practice as an object of meditative inquiry; the "case" is the impasse the practitioner sits with until conceptual mind exhausts._
-- **mushin** (無心; Japanese) / **wúxīn** (無心; Chinese) — no-mind; lit. "without-mind." _Mind free of attachment to thoughts and concepts; not a blank state but mind-functioning unimpeded by self-clinging or categorizing._
+- **gōngàn** (公案; Chinese) / **kōan** (公案; Japanese) — public case, paradoxical question. _A teaching-narrative or impasse-question (Zhàozhōu's `wu`, "the sound of one hand," etc.) used in Rinzai/Linji practice as an object of meditative inquiry; the "case" is the impasse the practitioner sits with until conceptual mind exhausts._
+- **wúxīn** (無心; Chinese) / **mushin** (無心; Japanese) — no-mind; lit. "without-mind." _Mind free of attachment to thoughts and concepts; not a blank state but mind-functioning unimpeded by self-clinging or categorizing._
 - **hishiryō** (非思量; Japanese) — non-thinking; lit. "not-thinking." _Dōgen's term (Fukan-zazengi) for the cognitive register of zazen — neither thinking (shiryō) nor not-thinking (fushiryō), but a third mode he describes as "the essence of zazen."_
-- **honraino menmoku** (本来の面目; Japanese) / **běnlái miànmù** (本來面目; Chinese) — "original face" (often expanded as "your original face before your parents were born"). _The practitioner's nature prior to conceptual elaboration; a common kōan-frame for inquiry into Buddha-nature._
+- **běnlái miànmù** (本來面目; Chinese) / **honraino menmoku** (本来の面目; Japanese) — "original face" (often expanded as "your original face before your parents were born"). _The practitioner's nature prior to conceptual elaboration; a common kōan-frame for inquiry into Buddha-nature._
 - **satori** (悟り; Japanese) — awakening, realization. _def-flag: Zen practice (especially Rinzai) loosely distinguishes `kenshō` as an initial breakthrough — seeing one's nature — from satori as the more complete realization, though the terms are often used interchangeably; Sōtō-tradition framings de-emphasize the distinction in favor of practice-realization unity (`shushō ittō`). The two-stage frame (initial glimpse → full awakening) maps loosely onto Theravāda's 1st-path / 4th-path structure (`sotāpanna` → `arahant`); structural analogy, not doctrinal equivalence (no fetter-eradication correspondence)._
 - **kenshō** (見性; Japanese) — seeing (one's) nature; lit. "see-nature"
 - **wu** (無; Chinese) — no, not, nothingness; _the Chinese gate-word of the famous Zhàozhōu kōan (Mumonkan 1)._
@@ -811,9 +812,11 @@ _Pure-land / bodhisattva-stages vocabulary:_
 
 ---
 
-## Part XIII — Vajrayāna, Dzogchen & Mahāmudrā (Sanskrit / Tibetan; Vajrayāna, Dzogchen, Mahāmudrā)
+## Part XIII — Mahāyāna — Tantric: Vajrayāna, Dzogchen & Mahāmudrā (Sanskrit / Tibetan)
 
-### Sanskrit-stratum
+_Vajrayāna is doctrinally a tantric mode within Mahāyāna (Mantrayāna), not a separate vehicle in most non-Tibetan classifications. This Part isolates the tantric methodological apparatus and its Tibetan elaboration for length and vocabulary cohesion; sūtric Mahāyāna is in Part XII._
+
+### XIII.a Sanskrit-stratum
 
 - **vajrayāna** — Diamond / Adamantine / Thunderbolt Vehicle
 - **vajra** — diamond, thunderbolt, adamant; _the implement, the path-principle, and a widely compounded element (vajra-guru, vajra-sattva, etc.)._
@@ -832,7 +835,7 @@ _Pure-land / bodhisattva-stages vocabulary:_
 - **mahāmudrā** — the Great Seal; _especially associated with the Kagyü realization-system, though present in other Tibetan lineages as well (notably Sakya, and via Padampa Sangye and the Shije lineage)._
 - **mahāsukha** — great bliss
 
-### Tibetan (Dzogchen / Mahāmudrā)
+### XIII.b Tibetan (Dzogchen / Mahāmudrā)
 
 - **dzogchen** (Wylie: rdzogs chen) (Dzogchen) — the Great Perfection; lit. "great completion." _The Nyingma tradition's non-dual realization-system — emphasizing the primordially-pure (`kadag`) and spontaneously-present (`lhundrub`) nature of mind (`rigpa`). Often classified as the ninth and highest of the nine yānas in Nyingma doxography._
 - **lama** (Wylie: bla ma) — lama, teacher; _Tibetan rendering of Skt `guru`. Tulku-lama, root-lama, etc._
@@ -860,11 +863,11 @@ _The four Dzogchen liberations (grol bzhi):_
 
 ---
 
-## Part XIV — Vedānta & Indic Comparatives (Sanskrit; Vedānta, Sāṅkhya, Yoga)
+## Part XIV — Vedānta & Indic Comparatives (Sanskrit)
 
 _Pāli surface cognates exist for several entries below (`puruṣa`/`purisa`, `prakṛti`/`pakati`, `pratyakṣa`/`paccakkha`, `prāṇa`/`pāṇa`, `svarūpa`/`sarūpa`) but the doctrinal usage here is Sanskrit-tradition only; the Pāli forms are not listed in parentheses._
 
-### Vedānta
+### XIV.a Vedānta
 
 - **ātman** — self, Self; _the Upaniṣadic self-principle; contrasts with Buddhist `anātman` (VI.a)._
 - **brahman** (n.) — brahman, the Absolute; _the Upaniṣadic ground of reality. Advaita distinguishes `nirguṇa-brahman` (brahman without qualities, the absolute) from `saguṇa-brahman` (brahman with qualities, identified with `īśvara`, the personal God)._
@@ -885,7 +888,7 @@ _Pāli surface cognates exist for several entries below (`puruṣa`/`purisa`, `p
 - **tat tvam asi** — "you are that" (Chāndogya Upaniṣad 6.8.7, etc.); _one of the four mahāvākyas._
 - **so'ham** — "I am he / that"; _abbreviated contemplative formula._
 - **ahaṃ brahmāsmi** — "I am brahman" (Bṛhadāraṇyaka 1.4.10); _another mahāvākya._
-- **neti neti** — "not this, not this"; _the foundational apophatic formula from the Bṛhadāraṇyaka Upaniṣad — primary locus BU 2.3.6 (`athāta ādeśo neti neti`), recurring at BU 3.9.26, 4.2.4, 4.4.22, 4.5.15 in the formula `sa eṣa neti nety ātmā`. Brahman / ātman characterized only by what it is not. Structural parallel to Buddhist negation-of-self (`na me so attā`) and to the Christian apophatic tradition (cf. XV Greek `apophasis`, `hyperousia`)._
+- **neti neti** — "not this, not this"; _the foundational apophatic formula from the Bṛhadāraṇyaka Upaniṣad — primary locus BU 2.3.6 (`athāta ādeśo neti neti`), recurring at BU 3.9.26, 4.2.4, 4.4.22, 4.5.15 in the formula `sa eṣa neti nety ātmā`. Brahman / ātman characterized only by what it is not. Structural parallel to Buddhist negation-of-self (`na me so attā`) and to the Christian apophatic tradition (cf. XV.a `apophasis`, `hyperousia`)._
 - **oṃkāra** — the syllable Oṃ; lit. "the making / uttering of Oṃ"
 - **praṇava** — the primordial sound; _a synonym for Oṃ; lit. "the praising / sounding-forth" (pra- + √nu)._
 - **udgītha** — the high-chant; _the chanted portion of Sāmavedic recitation; a major Chāndogya meditation object._
@@ -920,14 +923,14 @@ _Yogas (paths of practice):_
 
 - **bhakti-yoga** (Vedānta) — devotion; _loving devotion to a personal deity, the path of the *Bhagavad-Gītā* and of the later devotional traditions._
 - **karma-yoga** (Vedānta) — the yoga of action; _selfless action without attachment to its fruits (niṣkāma-karma), as taught in the *Gītā*._
-- **jñāna-yoga** (Vedānta) — the yoga of knowledge; _discriminative realization of brahman–ātman identity. In classical Advaita the identity holds for ātman stripped of upādhi (not jīva, ahaṃkāra, body-mind, or empirical self-experience); in Nisargadatta-style teaching language the manifest "I am" / witness-consciousness functions as a doorway to the Absolute but is itself transcended (Parabrahman is prior to even consciousness). Path of `viveka` and the three-stage `śravaṇa-manana-nididhyāsana` (both below); Advaita's path par excellence. Cf. XIV `jñāna` for the underlying term._
+- **jñāna-yoga** (Vedānta) — the yoga of knowledge; _discriminative realization of brahman–ātman identity. In classical Advaita the identity holds for ātman stripped of upādhi (not jīva, ahaṃkāra, body-mind, or empirical self-experience); in Nisargadatta-style teaching language the manifest "I am" / witness-consciousness functions as a doorway to the Absolute but is itself transcended (Parabrahman is prior to even consciousness). Path of `viveka` and the three-stage `śravaṇa-manana-nididhyāsana` (both below); Advaita's path par excellence. Cf. XIV.c `jñāna` for the underlying term._
 
 _Method-vocabulary of jñāna-yoga:_
 
 - **viveka** (Vedānta) — discrimination, discernment; _in Advaita, specifically `nitya-anitya-vastu-viveka` ("discrimination between the eternal and the non-eternal"), the first of Śaṅkara's four prerequisites (`sādhana-catuṣṭaya`) for liberating knowledge. Distinct from the Pāli `viveka` at III.c ("separation," the jhāna-formula sense) — same word, different doctrinal use._
 - **śravaṇa-manana-nididhyāsana** (Vedānta) — hearing, reflecting, meditating; _Śaṅkara's three-stage epistemic procedure on Bṛhadāraṇyaka 2.4.5 (`ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyaḥ`): hearing the teaching from a guru / from śruti (śravaṇa), reflecting on it (manana), and sustained contemplation toward direct realization (nididhyāsana). The standard Advaita pedagogy of jñāna-yoga._
 
-### Sāṅkhya / Yoga
+### XIV.b Sāṅkhya / Yoga
 
 - **puruṣa** (Sāṅkhya) — spirit, pure consciousness, the conscious principle
 - **prakṛti** (Sāṅkhya) — nature, primordial matter, the unconscious-material principle
@@ -944,9 +947,9 @@ _The Three Guṇas:_
 - **kaivalya** (Sāṅkhya / Yoga) — isolation, aloneness; _the Sāṅkhya-Yoga goal: puruṣa's separation from prakṛti._
 - **samprajñāta-samādhi** / **asamprajñāta-samādhi** (Pātañjala Yoga) — samādhi with / without cognized object; _the two-fold division at YS 1.17–1.18. YS 1.17 characterizes `samprajñāta` as accompanied by `vitarka`, `vicāra`, `ānanda`, and `asmitā`; YS 1.42–1.44 then elaborates the `savitarka` / `nirvitarka` and `savicāra` / `nirvicāra` samāpatti distinctions._
 - **prāṇa** — breath, life-force, vital energy
-- **kuṇḍalinī** (Hindu tantra / Haṭha-yoga) — coiled (serpent-energy); _not Sāṅkhya / Pātañjala-Yoga vocabulary — a Hindu-tantric and Haṭha-yoga concept (developed in the Śaiva and Nātha tantric corpora, codified in the Haṭhayogapradīpikā and similar texts) of dormant energy at the base of the spine, raised through the central channel in subtle-body practice. Listed here under Indic comparatives for its structural parallel to Vajrayāna `caṇḍālī` / Tibetan `tummo` (XIII)._
+- **kuṇḍalinī** (Hindu tantra / Haṭha-yoga) — coiled (serpent-energy); _not Sāṅkhya / Pātañjala-Yoga vocabulary — a Hindu-tantric and Haṭha-yoga concept (developed in the Śaiva and Nātha tantric corpora, codified in the Haṭhayogapradīpikā and similar texts) of dormant energy at the base of the spine, raised through the central channel in subtle-body practice. Listed here under Indic comparatives for its structural parallel to Vajrayāna `caṇḍālī` (XIII.a) / Tibetan `tummo` (XIII.b)._
 
-### Epistemology (pan-Indic)
+### XIV.c Epistemology (pan-Indic)
 
 - **pramāṇa** — means of valid knowledge, instrument of cognition; _systems differ on which and how many pramāṇas are admitted — e.g. Nyāya accepts four (perception, inference, comparison, verbal testimony), Advaita six (adding postulation and non-apprehension), the Cārvāka only direct perception._
 
@@ -958,24 +961,25 @@ _Core pramāṇas (common to most systems):_
 
 - **vikalpa** — conceptualization, mental construct, discriminative thought
 - **nirvikalpa** — without conceptualization, non-conceptual
+- **paryudāsa** / **prasajya-pratiṣedha** — implicative (choice) negation and non-implicative (sheer) negation; _the two negation-types in Sanskrit grammatical-logical analysis. `paryudāsa` ("not-X but Y") denies X while implying a positive alternative; `prasajya-pratiṣedha` ("not X at all") denies X without implication. Originating in Pāṇinian grammar and Mīmāṃsā exegesis; doctrinally consequential in Madhyamaka (XII.b), where Nāgārjuna's prasaṅga method is read as deploying `prasajya-pratiṣedha` to negate svabhāva without reifying its absence as a positive thesis._
 - **jñāna** (Pāli: ñāṇa) — knowledge, cognition; _cf. VI.f._
 
-### Ethics / Other
+### XIV.d Ethics / Other
 
 - **ahiṃsā** — non-harming, non-violence; lit. "non-injuring"
 - **dharma** — order, duty, righteousness (pan-Indic sense); _cf. XI.a for the Abhi. technical sense._
 
 ---
 
-## Part XV — Non-Indic Philosophical / Mystical Comparatives (Greek, Hebrew, German; non-Indic comparative)
+## Part XV — Non-Indic Philosophical / Mystical Comparatives (Greek, Hebrew, German)
 
 _Comparative entries below are included as orientation aids, not equivalence claims. They flag partial structural, phenomenological, or pedagogical resonances — not shared metaphysics, identical soteriology, or direct historical dependence. Where a structural-only analogy is at issue (e.g., kenosis / śūnyatā, ayin / śūnyatā, Gelassenheit / virāga, apatheia / upekkhā), the entry says so; where historical influence is plausible, it is flagged inline._
 
-### Greek
+### XV.a Greek
 
 _Platonic / Neoplatonic principles (Plotinus, Proclus, Pseudo-Dionysius):_
 
-- **to hen** (τὸ ἕν) (Plotinian) — the One; _Plotinus's first and highest principle, beyond being and beyond predication (Enneads VI.9). Cf. `brahman` (XIV) as non-dual ground._
+- **to hen** (τὸ ἕν) (Plotinian) — the One; _Plotinus's first and highest principle, beyond being and beyond predication (Enneads VI.9). Cf. `brahman` (XIV.a) as non-dual ground._
 - **nous** (νοῦς) (Plotinian) — intellect, mind, intelligence; _the second hypostasis — first emanation from the One, realm of the Platonic Forms._
 - **psychē** (ψυχή) (Plotinian) — soul; _the third hypostasis — world-soul and individual souls as its particularizations._
 - **hypostasis** (ὑπόστασις) (Plotinian) — "standing-under," subsistence, level-of-reality; _Plotinus's three principle-levels — `to hen`, `nous`, `psychē` — are the three hypostases. Christian trinitarian theology later redeploys the term for the three divine persons in one `ousia`._
@@ -1009,7 +1013,7 @@ _Christian-mystical / Gnostic:_
 - **plērōma** (πλήρωμα) — fullness; _Pauline cosmic fullness; Gnostic Pleroma as the totality of divine emanations._
 - **kenosis** (κένωσις) — emptying, self-emptying; _Philippians 2:7 on Christ's self-emptying incarnation; semantic echo of `śūnyatā`._
 
-### Hebrew (Kabbalah)
+### XV.b Hebrew (Kabbalah)
 
 _Divine absolute (beyond emanation):_
 
@@ -1038,7 +1042,7 @@ _Divine immanence, mystical union:_
 - **shekhinah** (שְׁכִינָה) — divine presence, indwelling; _God's immanent / dwelling aspect; often feminine-coded and identified with the tenth sefirah malkhut. In exile with Israel in post-biblical Jewish thought._
 - **devekut** (דְּבֵקוּת) — cleaving, adherence (to God); _mystical union via continuous cleaving to the divine — the central soteriological term in Ḥasidism._
 
-### German
+### XV.c German
 
 - **Erleuchtung** — enlightenment, illumination
 - **Aufklärung** — the (European) Enlightenment
@@ -1059,7 +1063,7 @@ _Notes:_
 
 ## Index
 
-_Alphabetical index of all headwords across Parts I–XV. Primary entries are in **bold**; cross-references from Sanskrit or Pāli equivalents are in *italics* and point to the primary entry. Location abbreviations are the Part + subsection (e.g. `VI.b`) or Part + named subsection (e.g. `XV (Greek)`). Terms with multiple appearances list all locations. Sort is alphabetical by Pāli / primary form, diacritics folded._
+_Alphabetical index of all headwords across Parts I–XV. Primary entries are in **bold**; cross-references from Sanskrit or Pāli equivalents are in *italics* and point to the primary entry. Location abbreviations are the Part + subsection (e.g. `VI.b`). Terms with multiple appearances list all locations. Sort is alphabetical by Pāli / primary form, diacritics folded._
 
 ### A
 
@@ -1067,22 +1071,22 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **abhijjhā-domanassa** (Skt: abhidhyā-daurmanasya) — IV
 - _abhijñā_ → see **abhiññā** (III.a)
 - **abhiññā** (Skt: abhijñā) — III.a
-- **abhiṣeka** — XIII (Sanskrit-stratum)
+- **abhiṣeka** — XIII.a
 - **adhicitta** — III.a
 - **adhipaññā** (Skt: adhiprajñā) — III.a
 - _adhiprajñā_ → see **adhipaññā** (III.a)
 - **adhisīla** (Skt: adhiśīla) — III.a
-- **adhyāsa** — XIV (Vedānta)
+- **adhyāsa** — XIV.a
 - _ādīnavānupaśyanā-jñāna_ → see **ādīnavānupassanā-ñāṇa** (XI.b)
 - **ādīnavānupassanā-ñāṇa** (Skt: ādīnavānupaśyanā-jñāna) — XI.b
 - **adosa** (Skt: adveṣa) — VI.f
-- **advaita** — XIV (Vedānta)
+- **advaita** — XIV.a
 - _adveṣa_ → see **adosa** (VI.f)
-- **agape** — XV (Greek)
-- **ahaṃ brahmāsmi** — XIV (Vedānta)
-- **ahaṃkāra** — XIV (Vedānta)
-- **ahiṃsā** — XIV (Ethics / Other)
-- **ajāti-vāda** — XIV (Vedānta)
+- **agape** — XV.a
+- **ahaṃ brahmāsmi** — XIV.a
+- **ahaṃkāra** — XIV.a
+- **ahiṃsā** — XIV.d
+- **ajāti-vāda** — XIV.a
 - **ākāsa-dhātu** (Skt: ākāśa-dhātu) — VI.d
 - **ākāsānañcāyatana** (Skt: ākāśānantyāyatana) — III.c
 - _ākāśānantyāyatana_ → see **ākāsānañcāyatana** (III.c)
@@ -1100,7 +1104,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _amṛta_ → see **amata** (II)
 - **anāgāmī** (Skt: anāgāmin) — VIII.g
 - _anāgāmin_ → see **anāgāmī** (VIII.g)
-- **ānanda** — XIV (Vedānta)
+- **ānanda** — XIV.a
 - **ānāpānasati** (Skt: ānāpānasmṛti) — IV
 - _ānāpānasmṛti_ → see **ānāpānasati** (IV)
 - **anāsava** (Skt: anāsrava) — II
@@ -1112,10 +1116,10 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _aniśrita_ → see **anissita** (X.a)
 - **anissita** (Skt: aniśrita) — X.a
 - _anitya_ → see **anicca** (VI.a)
-- **antaḥkaraṇa** — XIV (Vedānta)
+- **antaḥkaraṇa** — XIV.a
 - _anuloma-jñāna_ → see **anuloma-ñāṇa** (XI.b)
 - **anuloma-ñāṇa** (Skt: anuloma-jñāna) — XI.b
-- **anumāna** — XIV (Epistemology)
+- **anumāna** — XIV.c
 - **anupādāna** — X.a
 - **anupadhi** — I
 - **anupādisesa-nibbāna** (Skt: nirupadhiśeṣa-nirvāṇa) — II
@@ -1127,7 +1131,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _ap-dhātu_ → see **āpo-dhātu** (VI.d)
 - _apatrāpya_ → see **ottappa** (III.a)
 - **āpo-dhātu** (Skt: ap-dhātu) — VI.d
-- **apophasis** — XV (Greek)
+- **apophasis** — XV.a
 - **appamāda** (Skt: apramāda) — III.a
 - **appamāṇā** (Skt: apramāṇa) — V
 - **appanā-samādhi** (Skt: arpaṇā-samādhi) — XI.b
@@ -1152,7 +1156,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _āryasatya_ → see **ariyasacca** (IX)
 - **asabhāva** (Skt: asvabhāva) — XI.a
 - _aśaikṣa_ → see **asekha** (VIII.g)
-- _asamprajñāta-samādhi_ → see **samprajñāta-samādhi** (XIV)
+- _asamprajñāta-samādhi_ → see **samprajñāta-samādhi** (XIV.b)
 - _asaṃskṛta_ → see **asaṅkhata** (VII.b)
 - **asaṅkhata** (Skt: asaṃskṛta) — VII.b
 - **āsava** (Skt: āsrava) — II
@@ -1168,25 +1172,25 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _atanmayatā_ → see **atammayatā** (X.a)
 - **ātāpī** (Skt: ātāpin) — IV
 - _ātāpin_ → see **ātāpī** (IV)
-- **ātman** — XIV (Vedānta)
+- **ātman** — XIV.a
 - _auddhatya_ → see **uddhacca** (VIII.g)
 - _auddhatya-kaukṛtya_ → see **uddhacca-kukkucca** (III.b)
-- **Aufklärung** — XV (German)
+- **Aufklärung** — XV.c
 - _avidyā_ → see **avijjā** (VII.a, VIII.g)
-- **avidyā** — XIV (Vedānta)
+- **avidyā** — XIV.a
 - **avijjā** (Skt: avidyā) — VII.a, VIII.g
 - **avyākata** (Skt: avyākṛta) — X.b
 - _avyākṛta_ → see **avyākata** (X.b)
-- **avyakta** — XIV (Sāṅkhya / Yoga)
+- **avyakta** — XIV.b
 - **āyatana** — VI.c
-- **ayin** — XV (Hebrew)
+- **ayin** — XV.b
 
 ### B
 
 - **bala** — VIII.d
-- **bardo** — XIII (Tibetan)
-- _běnlái miànmù_ → see **honraino menmoku** (XII.e)
-- **bhakti-yoga** — XIV (Vedānta)
+- **bardo** — XIII.b
+- **běnlái miànmù** — XII.e
+- **bhakti-yoga** — XIV.a
 - _bhaṅga-jñāna_ → see **bhaṅga-ñāṇa** (XI.b)
 - **bhaṅga-ñāṇa** (Skt: bhaṅga-jñāna) — XI.b
 - **bhava** — VII.a
@@ -1195,7 +1199,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _bhayopasthāna-jñāna_ → see **bhayatupaṭṭhāna-ñāṇa** (XI.b)
 - **bhayatupaṭṭhāna-ñāṇa** (Skt: bhayopasthāna-jñāna) — XI.b
 - **bīja** — XII.c
-- **binah** — XV (Hebrew)
+- **binah** — XV.b
 - **bodhi** — II
 - **bodhicitta** — XII.d
 - **bodhipakkhiyā dhammā** (Skt: bodhipakṣa-dharma) — VIII
@@ -1204,12 +1208,12 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **bodhisattvayāna** — XII.d
 - _bodhyaṅga_ → see **bojjhaṅga** (VIII.b)
 - **bojjhaṅga** (Skt: bodhyaṅga) — VIII.b
-- **Brahmā** — XIV (Vedānta)
-- **brahman** — XIV (Vedānta)
+- **Brahmā** — XIV.a
+- **brahman** — XIV.a
 - **brahmavihāra** — V
 - **buddha-kṣetra** — XII.d
 - **buddhadhātu** — XII.d
-- **buddhi** — XIV (Vedānta)
+- **buddhi** — XIV.a
 
 ### C
 
@@ -1225,9 +1229,9 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _cetovimukti_ → see **cetovimutti** (II)
 - **cetovimutti** (Skt: cetovimukti) — II
 - **chanda** — VI.f, VIII.f
-- **cherdrol** — XIII (Tibetan)
-- **cidākāśa** — XIV (Vedānta)
-- **cit** — XIV (Vedānta)
+- **cherdrol** — XIII.b
+- **cidākāśa** — XIV.a
+- **cit** — XIV.a
 - **citta** — VI.f, VIII.f
 - **cittamātra** — XII.c
 - **cittānupassanā** (Skt: cittānupaśyanā) — IV
@@ -1236,18 +1240,18 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 
 ### D
 
-- **ḍākinī** — XIII (Sanskrit-stratum)
+- **ḍākinī** — XIII.a
 - **dāna-pāramitā** — XII.d
 - **daśa-bhūmi** — XII.d
 - _daurmanasya_ → see **domanassa** (VI.f)
-- **devekut** — XV (Hebrew)
+- **devekut** — XV.b
 - **dhamma** (Skt: dharma) — VI.c (EBT), XI.a (Abhi.)
 - **dhamma-vicaya** (Skt: dharma-pravicaya) — VIII.b
 - _dhammakāya_ → see **dharmakāya** (XII.d)
 - **dhammānupassanā** (Skt: dharmānupaśyanā) — IV
 - **dhāraṇī** — XII.d
 - _dharma_ → see **dhamma** (VI.c, XI.a)
-- **dharma** — XIV (Ethics / Other)
+- **dharma** — XIV.d
 - **dharma-nairātmya** — XII.b
 - _dharma-pravicaya_ → see **dhamma-vicaya** (VIII.b)
 - **dharmadhātu** — XII.c
@@ -1266,54 +1270,54 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **dukkha** (Skt: duḥkha) — I, VI.a
 - **dukkha-sacca** (Skt: duḥkha-satya) — IX
 - **dutiyajjhāna** — III.c
-- **dvaita** — XIV (Vedānta)
+- **dvaita** — XIV.a
 - **dvāra** — XI.a
 - **dve satye** — XII.b
 - _dveṣa_ → see **dosa** (VI.f)
-- **dzogchen** — XIII (Tibetan)
+- **dzogchen** — XIII.b
 
 ### E
 
-- **ein sof** — XV (Hebrew)
+- **ein sof** — XV.b
 - **ekaggatā** (Skt: ekāgratā) — III.c
 - _ekāgratā_ → see **ekaggatā** (III.c)
 - **ekayāna** — XII.d
 - **ekodibhāva** (Skt: ekotibhāva) — III.c
 - _ekotibhāva_ → see **ekodibhāva** (III.c)
-- **epistrophē** — XV (Greek)
-- **Erleuchtung** — XV (German)
-- **eros** — XV (Greek)
+- **epistrophē** — XV.a
+- **Erleuchtung** — XV.c
+- **eros** — XV.a
 
 ### G
 
 - **gandha** — VI.c
-- **gankyil** — XIII (Tibetan)
-- **Gelassenheit** — XV (German)
-- **gevurah** — XV (Hebrew)
+- **gankyil** — XIII.b
+- **Gelassenheit** — XV.c
+- **gevurah** — XV.b
 - **ghāna** (Skt: ghrāṇa) — VI.c
 - _ghrāṇa_ → see **ghāna** (VI.c)
-- **gnosis** — XV (Greek)
-- _gōngàn_ → see **kōan** (XII.e)
+- **gnosis** — XV.a
+- **gōngàn** — XII.e
 - _gotrabhū-jñāna_ → see **gotrabhū-ñāṇa** (XI.b)
 - **gotrabhū-ñāṇa** (Skt: gotrabhū-jñāna) — XI.b
-- **guṇa** — XIV (Sāṅkhya / Yoga)
-- **guru** — XIII (Sanskrit-stratum)
+- **guṇa** — XIV.b
+- **guru** — XIII.a
 
 ### H
 
-- **henōsis** — XV (Greek)
-- **ḥesed** — XV (Hebrew)
+- **henōsis** — XV.a
+- **ḥesed** — XV.b
 - **hetu** — VII.b
 - **hīnayāna** — XII.d
-- **Hiraṇyagarbha** — XIV (Vedānta)
+- **Hiraṇyagarbha** — XIV.a
 - **hiri** (Skt: hrī) — III.a
 - **hishiryō** — XII.e
-- **hod** — XV (Hebrew)
-- **ḥokhmah** — XV (Hebrew)
-- **honraino menmoku** — XII.e
+- **hod** — XV.b
+- **ḥokhmah** — XV.b
+- _honraino menmoku_ → see **běnlái miànmù** (XII.e)
 - _hrī_ → see **hiri** (III.a)
-- **hyperousia** — XV (Greek)
-- **hypostasis** — XV (Greek)
+- **hyperousia** — XV.a
+- **hypostasis** — XV.a
 
 ### I
 
@@ -1323,35 +1327,37 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **iddhipāda** (Skt: ṛddhipāda) — VIII.f
 - **indriya** — VIII.c
 - **indriya-saṃvara** — III.a
-- **Istigkeit** — XV (German)
-- **īśvara** — XIV (Vedānta)
+- **Istigkeit** — XV.c
+- **īśvara** — XIV.a
 
 ### J
 
-- **jalü** — XIII (Tibetan)
+- **jalü** — XIII.b
 - **jarā-maraṇa** — VII.a
 - **jāti** — VII.a
 - **javana** — XI.a
 - **jhāna** (Skt: dhyāna) — III.c
 - _jihvā_ → see **jivhā** (VI.c)
 - **jīva** — VI.e
-- **jīvanmukta** — XIV (Vedānta)
-- **jīvanmukti** — XIV (Vedānta)
+- **jīvanmukta** — XIV.a
+- **jīvanmukti** — XIV.a
 - **jivhā** (Skt: jihvā) — VI.c
 - _jñāna_ → see **ñāṇa** (VI.f)
-- **jñāna** (Pāli: ñāṇa) — XIV (Epistemology)
-- **jñāna-yoga** — XIV (Vedānta)
+- **jñāna** (Pāli: ñāṇa) — XIV.c
+- **jñāna-yoga** — XIV.a
 
 ### K
 
-- **kadag** — XIII (Tibetan)
-- **kaivalya** — XIV (Sāṅkhya / Yoga)
+- **kadag** — XIII.b
+- **kaivalya** — XIV.b
 - **kalāpa** — XI.a
+- **kalyāṇa-mitta** (Skt: kalyāṇa-mitra) — III.a
+- **kalyāṇa-mittatā** (Skt: kalyāṇa-mitratā) — III.a
 - **kāma-rāga** — VIII.g
 - **kāmacchanda** — III.b
 - **kāmāvacara** — XI.a
 - **kamma** (Skt: karman) — VII.b
-- **karma-yoga** — XIV (Vedānta)
+- **karma-yoga** — XIV.a
 - _karman_ → see **kamma** (VII.b)
 - **karuṇā** — V
 - **kasiṇa** (Skt: kṛtsna) — XI.b
@@ -1360,33 +1366,33 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _kāyagatāsmṛti_ → see **kāyagatāsati** (IV)
 - **kāyānupassanā** (Skt: kāyānupaśyanā) — IV
 - _kāyānupaśyanā_ → see **kāyānupassanā** (IV)
-- **kenosis** — XV (Greek)
+- **kenosis** — XV.a
 - **kenshō** — XII.e
-- **keter** — XV (Hebrew)
+- **keter** — XV.b
 - **khandha** (Skt: skandha) — VI.b
 - **khaṇika-samādhi** (Skt: kṣaṇika-samādhi) — XI.b
 - **khīṇāsava** (Skt: kṣīṇāsrava) — II
 - **kliṣṭa-manas** — XII.c
-- **kōan** — XII.e
+- _kōan_ → see **gōngàn** (XII.e)
 - _kṛtsna_ → see **kasiṇa** (XI.b)
 - _kṣaṇika-samādhi_ → see **khaṇika-samādhi** (XI.b)
 - **kṣānti-pāramitā** — XII.d
 - _kṣīṇāsrava_ → see **khīṇāsava** (II)
-- **kuṇḍalinī** — XIV (Hindu tantra / Haṭha-yoga)
+- **kuṇḍalinī** — XIV.b
 - **kusala** (Skt: kuśala) — III.a
 - **kusala-mūla** (Skt: kuśala-mūla) — VI.f
 
 ### L
 
-- **lama** — XIII (Tibetan)
-- **lhundrub** — XIII (Tibetan)
+- **lama** — XIII.b
+- **lhundrub** — XIII.b
 - **lobha** — VI.f
 - _lokottara_ → see **lokuttara** (XI.a)
 - **lokuttara** (Skt: lokottara) — XI.a
 
 ### M
 
-- **ma rigpa** — XIII (Tibetan)
+- **ma rigpa** — XIII.b
 - _madhyamā pratipad_ → see **majjhimā paṭipadā** (III.a)
 - **madhyamaka** — XII.b
 - **mādhyamika** — XII.b
@@ -1394,42 +1400,42 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **magga-ñāṇa** (Skt: mārga-jñāna) — XI.b
 - **magga-phala** (Skt: mārga-phala) — VIII.g
 - **magga-sacca** (Skt: mārga-satya) — IX
-- **mahāmudrā** — XIII (Sanskrit-stratum)
-- **mahāsiddha** — XIII (Sanskrit-stratum)
-- **mahāsukha** — XIII (Sanskrit-stratum)
+- **mahāmudrā** — XIII.a
+- **mahāsiddha** — XIII.a
+- **mahāsukha** — XIII.a
 - **mahāyāna** — XII.d
 - _maitrī_ → see **mettā** (V)
 - **majjhimā paṭipadā** (Skt: madhyamā pratipad) — III.a
-- **malkhut** — XV (Hebrew)
+- **malkhut** — XV.b
 - **māna** — VIII.g
 - _manas_ → see **mano** (VI.c)
-- **manas** — XIV (Vedānta)
+- **manas** — XIV.a
 - **manasikāra** — VI.f
-- **maṇḍala** — XIII (Sanskrit-stratum)
+- **maṇḍala** — XIII.a
 - **mano** (Skt: manas) — VI.c
 - **manovijñāna** — XII.c
-- **mantra** — XIII (Sanskrit-stratum)
+- **mantra** — XIII.a
 - _mārga_ → see **magga** (VIII.g)
 - _mārga-jñāna_ → see **magga-ñāṇa** (XI.b)
 - _mārga-phala_ → see **magga-phala** (VIII.g)
 - _mārga-satya_ → see **magga-sacca** (IX)
 - _mauneya_ → see **moneyya** (I)
-- **māyā** — XIV (Vedānta)
+- **māyā** — XIV.a
 - **mettā** (Skt: maitrī) — V
 - _mīmāṃsā_ → see **vīmaṃsā** (VIII.f)
 - **moha** — VI.f
 - **mokkha** (Skt: mokṣa) — II
 - _mokṣa_ → see **mokkha** (II)
-- **monad** — XV (Greek)
+- **monad** — XV.a
 - **moneyya** (Skt: mauneya) — I
 - **mu** — XII.e
 - **muditā** — V
-- **mudrā** — XIII (Sanskrit-stratum)
+- **mudrā** — XIII.a
 - _mukti_ → see **mutti** (II)
 - _mumukṣā-jñāna_ → see **muñcitukamyatā-ñāṇa** (XI.b)
 - **muñcitukamyatā-ñāṇa** (Skt: mumukṣā-jñāna) — XI.b
 - **muni** — I
-- **mushin** — XII.e
+- _mushin_ → see **wúxīn** (XII.e)
 - **mutti** (Skt: mukti) — II
 
 ### N
@@ -1441,10 +1447,10 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **nāma-rūpa-pariccheda-ñāṇa** (Skt: nāma-rūpa-paricchedaka-jñāna) — XI.b
 - _nāma-rūpa-paricchedaka-jñāna_ → see **nāma-rūpa-pariccheda-ñāṇa** (XI.b)
 - **ñāṇa** (Skt: jñāna) — VI.f
-- _ñāṇa_ → see **jñāna** (XIV (Epistemology))
+- _ñāṇa_ → see **jñāna** (XIV.c)
 - **nekkhamma** (Skt: naiṣkramya) — III.a
-- **neti neti** — XIV (Vedānta)
-- **netzaḥ** — XV (Hebrew)
+- **neti neti** — XIV.a
+- **netzaḥ** — XV.b
 - **nevasaññānāsaññāyatana** (Skt: naivasaṃjñānāsaṃjñāyatana) — III.c
 - **nibbāna** (Skt: nirvāṇa) — II
 - **nibbidā** (Skt: nirveda) — II
@@ -1453,7 +1459,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **niḥsvabhāva** — XII.b
 - **nimitta** — III.c
 - **nippapañca** (Skt: niṣprapañca) — X.b
-- **nirguṇa** — XIV (Vedānta)
+- **nirguṇa** — XIV.a
 - **nirmāṇakāya** — XII.d
 - **nirodha** — II
 - **nirodha-sacca** (Skt: nirodha-satya) — IX
@@ -1464,9 +1470,9 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _nirvāṇa_ → see **nibbāna** (II)
 - _nirveda_ → see **nibbidā** (II)
 - _nirvedānupaśyanā-jñāna_ → see **nibbidānupassanā-ñāṇa** (XI.b)
-- **nirvikalpa** — XIV (Epistemology)
+- **nirvikalpa** — XIV.c
 - **nirvikalpa-jñāna** — XII.c
-- **nirvikalpa-samādhi** — XIV (Vedānta)
+- **nirvikalpa-samādhi** — XIV.a
 - _niṣprapañca_ → see **nippapañca** (X.b)
 - **niṣprapañca** — XII.b
 - _niśraya_ → see **nissaya** (X.a)
@@ -1474,15 +1480,15 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **nissaya** (Skt: niśraya) — X.a
 - **nissita** (Skt: niśrita) — X.a
 - **nīvaraṇa** (Skt: nivāraṇa) — III.b
-- **noēsis** — XV (Greek)
-- **nous** — XV (Greek)
+- **noēsis** — XV.a
+- **nous** — XV.a
 
 ### O
 
-- **'od gsal** / **clear light** — XIII (Tibetan)
-- **oṃkāra** — XIV (Vedānta)
+- **'od gsal** / **clear light** — XIII.b
+- **oṃkāra** — XIV.a
 - **ottappa** (Skt: apatrāpya) — III.a
-- **ousia** — XV (Greek)
+- **ousia** — XV.a
 
 ### P
 
@@ -1514,6 +1520,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **parinibbāna** (Skt: parinirvāṇa) — II
 - _parinirvāṇa_ → see **parinibbāna** (II)
 - **pariniṣpanna-svabhāva** — XII.c
+- **paryudāsa** — XIV.c
 - **pasāda** / **pasāda-rūpa** (Skt: prasāda / prasāda-rūpa) — XI.a
 - **passaddhi** (Skt: praśrabdhi) — VI.f, VIII.b
 - **paṭhamajjhāna** — III.c
@@ -1529,7 +1536,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **phassa** (Skt: sparśa) — VI.c, VII.a
 - **phoṭṭhabba** (Skt: spraṣṭavya) — VI.c
 - **pīti** (Skt: prīti) — III.c, VIII.b
-- **plērōma** — XV (Greek)
+- **plērōma** — XV.a
 - _prabhāsvara_ → see **pabhassara** (II)
 - **prabhāsvara-citta** — XII.d
 - _prahāṇa_ → see **pahāna** (IX)
@@ -1539,13 +1546,14 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _prajñapti_ → see **paññatti** (XI.a)
 - _prajñāvimukti_ → see **paññāvimutti** (II)
 - _prajñendriya_ → see **paññindriya** (VIII.c)
-- **prakṛti** — XIV (Sāṅkhya / Yoga)
+- **prakṛti** — XIV.b
 - _pramāda_ → see **pamāda** (III.a)
-- **pramāṇa** — XIV (Epistemology)
+- **pramāṇa** — XIV.c
 - _prāmodya_ → see **pāmojja** (III.c)
-- **prāṇa** — XIV (Sāṅkhya / Yoga)
-- **praṇava** — XIV (Vedānta)
+- **prāṇa** — XIV.b
+- **praṇava** — XIV.a
 - _prapañca_ → see **papañca** (X.b)
+- **prasajya-pratiṣedha** — XIV.c
 - **prasaṅga** — XII.b
 - _prasāda_ / _prasāda-rūpa_ → see **pasāda** / **pasāda-rūpa** (XI.a)
 - **Prāsaṅgika** — XII.b
@@ -1556,7 +1564,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _pratisaṃkhyānupaśyanā-jñāna_ → see **paṭisaṅkhānupassanā-ñāṇa** (XI.b)
 - _pratītyasamutpāda_ → see **paṭiccasamuppāda** (VII.a)
 - **pratītyasamutpāda** — XII.b
-- **pratyakṣa** — XIV (Epistemology)
+- **pratyakṣa** — XIV.c
 - _pratyavekṣaṇā-jñāna_ → see **paccavekkhaṇa-ñāṇa** (XI.b)
 - _pratyaya_ → see **paccaya** (VII.b)
 - _pratyaya-parigraha-jñāna_ → see **paccaya-pariggaha-ñāṇa** (XI.b)
@@ -1565,21 +1573,21 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _prīti_ → see **pīti** (III.c, VIII.b)
 - _pṛthagjana_ → see **puthujjana** (VIII.g)
 - _pṛthivī-dhātu_ → see **pathavī-dhātu** (VI.d)
-- **psychē** — XV (Greek)
+- **psychē** — XV.a
 - **pudgala-nairātmya** — XII.b
-- **puruṣa** — XIV (Sāṅkhya / Yoga)
+- **puruṣa** — XIV.b
 - **puthujjana** (Skt: pṛthagjana) — VIII.g
 
 ### R
 
 - **rāga** — VI.f
-- **rajas** — XIV (Sāṅkhya / Yoga)
-- **rangdrol** — XIII (Tibetan)
-- **rangtong** — XIII (Tibetan)
+- **rajas** — XIV.b
+- **rangdrol** — XIII.b
+- **rangtong** — XIII.b
 - **rasa** — VI.c
 - _ṛddhi_ → see **iddhi** (VIII.f)
 - _ṛddhipāda_ → see **iddhipāda** (VIII.f)
-- **rigpa** — XIII (Tibetan)
+- **rigpa** — XIII.b
 - **rūpa** — VI.b, VI.c, VI.e
 - **rūpa-kalāpa** — XI.a
 - **rūpa-rāga** — VIII.g
@@ -1588,29 +1596,29 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 ### S
 
 - _śabda_ → see **sadda** (VI.c)
-- **śabda** — XIV (Epistemology)
+- **śabda** — XIV.c
 - **sabhāva** (Skt: svabhāva) — XI.a
 - **sacca** (Skt: satya) — IX
 - **sacchikiriyā** (Skt: sākṣātkriyā) — IX
-- **saccidānanda** — XIV (Vedānta)
+- **saccidānanda** — XIV.a
 - _ṣaḍāyatana_ → see **saḷāyatana** (VI.c, VII.a)
 - **sadda** (Skt: śabda) — VI.c
 - **saddhā** (Skt: śraddhā) — VI.f
 - **saddhindriya** (Skt: śraddhendriya) — VIII.c
-- **sādhana** — XIII (Sanskrit-stratum)
-- **saguṇa** — XIV (Vedānta)
+- **sādhana** — XIII.a
+- **saguṇa** — XIV.a
 - _śaikṣa_ → see **sekha** (VIII.g)
 - **sakadāgāmī** (Skt: sakṛdāgāmin) — VIII.g
 - **sakkāya-diṭṭhi** (Skt: satkāya-dṛṣṭi) — VIII.g
 - _sakṛdāgāmin_ → see **sakadāgāmī** (VIII.g)
-- **sākṣi-caitanya** — XIV (Vedānta)
-- **sākṣin** — XIV (Vedānta)
+- **sākṣi-caitanya** — XIV.a
+- **sākṣin** — XIV.a
 - _sākṣātkriyā_ → see **sacchikiriyā** (IX)
 - **saḷāyatana** (Skt: ṣaḍāyatana) — VI.c, VII.a
 - **samādhi** — III.c, VIII.b
 - **samādhindriya** (Skt: samādhīndriya) — VIII.c
 - **samatha** (Skt: śamatha) — III.c
-- **samaya** — XIII (Sanskrit-stratum)
+- **samaya** — XIII.a
 - **sambhogakāya** — XII.d
 - _saṃjñā_ → see **saññā** (VI.b)
 - _saṃjñāvedayitanirodha_ → see **saññāvedayitanirodha** (III.c)
@@ -1629,7 +1637,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **sammuti** (Skt: saṃvṛti) — XI.a
 - **sampajañña** (Skt: samprajanya) — IV
 - _samprajanya_ → see **sampajañña** (IV)
-- **samprajñāta-samādhi** / **asamprajñāta-samādhi** — XIV (Sāṅkhya / Yoga)
+- **samprajñāta-samādhi** / **asamprajñāta-samādhi** — XIV.b
 - **saṃsāra** — II
 - _saṃskāra_ → see **saṅkhāra** (VI.b, VII.a, VII.b)
 - _saṃskāropekṣā-jñāna_ → see **saṅkhārupekkhā-ñāṇa** (XI.b)
@@ -1656,39 +1664,39 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **saññāvedayitanirodha** (Skt: saṃjñāvedayitanirodha) — III.c
 - **santi** (Skt: śānti) — I
 - **santuṭṭhi** (Skt: saṃtuṣṭi) — III.a
-- **sat** — XIV (Vedānta)
+- **sat** — XIV.a
 - **sati** (Skt: smṛti) — IV, VIII.b
 - **sati-sampajañña** (Skt: smṛti-samprajanya) — III.a
 - **satindriya** (Skt: smṛtīndriya) — VIII.c
 - **satipaṭṭhāna** (Skt: smṛtyupasthāna) — IV
 - _satkāya-dṛṣṭi_ → see **sakkāya-diṭṭhi** (VIII.g)
 - **satori** — XII.e
-- **sattva** — XIV (Sāṅkhya / Yoga)
+- **sattva** — XIV.b
 - _satya_ → see **sacca** (IX)
 - _saumanasya_ → see **somanassa** (VI.f)
 - **saupādisesa-nibbāna** (Skt: sopadhiśeṣa-nirvāṇa) — II
-- **savikalpa-samādhi** — XIV (Vedānta)
-- **sefirah** — XV (Hebrew)
-- **sefirot** — XV (Hebrew)
+- **savikalpa-samādhi** — XIV.a
+- **sefirah** — XV.b
+- **sefirot** — XV.b
 - **sekha** (Skt: śaikṣa) — VIII.g
-- **sems nyid** — XIII (Tibetan)
-- **shardrol** — XIII (Tibetan)
-- **shekhinah** — XV (Hebrew)
-- **shentong** — XIII (Tibetan)
+- **sems nyid** — XIII.b
+- **shardrol** — XIII.b
+- **shekhinah** — XV.b
+- **shentong** — XIII.b
 - **shikantaza** — XII.e
-- **siddha** — XIII (Sanskrit-stratum)
-- **siddhi** — XIII (Sanskrit-stratum)
+- **siddha** — XIII.a
+- **siddhi** — XIII.a
 - **sīla** (Skt: śīla) — III.a
 - **śīla-pāramitā** — XII.d
 - **sīlabbata-parāmāsa** (Skt: śīlavrata-parāmarśa) — VIII.g
 - _śīlavrata-parāmarśa_ → see **sīlabbata-parāmāsa** (VIII.g)
 - _skandha_ → see **khandha** (VI.b)
 - _smṛti_ → see **sati** (IV, VIII.b)
-- **smṛti** — XIV (Vedānta)
+- **smṛti** — XIV.a
 - _smṛti-samprajanya_ → see **sati-sampajañña** (III.a)
 - _smṛtīndriya_ → see **satindriya** (VIII.c)
 - _smṛtyupasthāna_ → see **satipaṭṭhāna** (IV)
-- **so'ham** — XIV (Vedānta)
+- **so'ham** — XIV.a
 - **somanassa** (Skt: saumanasya) — VI.f
 - _sopadhiśeṣa-nirvāṇa_ → see **saupādisesa-nibbāna** (II)
 - **sota** (Skt: śrotra) — VI.c
@@ -1698,10 +1706,10 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _śraddhā_ → see **saddhā** (VI.f)
 - _śraddhendriya_ → see **saddhindriya** (VIII.c)
 - **śrāvakayāna** — XII.d
-- **śravaṇa-manana-nididhyāsana** — XIV (Vedānta)
+- **śravaṇa-manana-nididhyāsana** — XIV.a
 - _srotāpanna_ → see **sotāpanna** (VIII.g)
 - _śrotra_ → see **sota** (VI.c)
-- **śruti** — XIV (Vedānta)
+- **śruti** — XIV.a
 - _styāna-middha_ → see **thīna-middha** (III.b)
 - **sukha** — III.c
 - **suññatā** (Skt: śūnyatā) — II
@@ -1710,7 +1718,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **śūnyatā-śūnyatā** — XII.b
 - _svabhāva_ → see **sabhāva** (XI.a)
 - **svabhāva** — XII.b
-- **svarūpa** — XIV (Vedānta)
+- **svarūpa** — XIV.a
 - **svasaṃvedana** — XII.c
 - **svasaṃvitti** — XII.c
 - **svātantra** — XII.b
@@ -1718,31 +1726,31 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 
 ### T
 
-- **tamas** — XIV (Sāṅkhya / Yoga)
+- **tamas** — XIV.b
 - **taṇhā** (Skt: tṛṣṇā) — I, VII.a
 - **taṇhākkhaya** (Skt: tṛṣṇākṣaya) — II
-- **tantra** — XIII (Sanskrit-stratum)
-- **tat tvam asi** — XIV (Vedānta)
+- **tantra** — XIII.a
+- **tat tvam asi** — XIV.a
 - **tathāgatagarbha** — XII.d
 - **tathatā** — X.a (EBT), XII.a (Prajñāpāramitā)
 - **tatiyajjhāna** — III.c
 - _tejas-dhātu_ → see **tejo-dhātu** (VI.d)
 - **tejo-dhātu** (Skt: tejas-dhātu) — VI.d
-- **theōria** — XV (Greek)
-- **theōsis** — XV (Greek)
+- **theōria** — XV.a
+- **theōsis** — XV.a
 - **thīna-middha** (Skt: styāna-middha) — III.b
-- **tifʾeret** — XV (Hebrew)
+- **tifʾeret** — XV.b
 - **tiparivaṭṭa** (Skt: triparivarta) — IX
-- **to hen** — XV (Greek)
-- **tögal** — XIII (Tibetan)
-- **trekchö** — XIII (Tibetan)
+- **to hen** — XV.a
+- **tögal** — XIII.b
+- **trekchö** — XIII.b
 - **trikāya** — XII.d
 - _triparivarta_ → see **tiparivaṭṭa** (IX)
 - **trisvabhāva** — XII.c
 - _tṛṣṇā_ → see **taṇhā** (I, VII.a)
 - _tṛṣṇākṣaya_ → see **taṇhākkhaya** (II)
-- **tulku** — XIII (Tibetan)
-- **turīya** — XIV (Vedānta)
+- **tulku** — XIII.b
+- **turīya** — XIV.a
 
 ### U
 
@@ -1752,18 +1760,18 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **udayabbaya-ñāṇa** (Skt: udaya-vyaya-jñāna) — XI.b
 - **uddhacca** (Skt: auddhatya) — VIII.g
 - **uddhacca-kukkucca** (Skt: auddhatya-kaukṛtya) — III.b
-- **udgītha** — XIV (Vedānta)
+- **udgītha** — XIV.a
 - _udgraha-nimitta_ → see **uggaha-nimitta** (XI.b)
 - **uggaha-nimitta** (Skt: udgraha-nimitta) — XI.b
-- **Ungrund** — XV (German)
+- **Ungrund** — XV.c
 - **upacāra-samādhi** (Skt: upacāra-samādhi) — XI.b
 - **upādāna** — I, VII.a
 - **upādāna-khandha** (Skt: upādāna-skandha) — VI.b
 - _upādāna-skandha_ → see **upādāna-khandha** (VI.b)
 - **upadhi** — I
-- **upādhi** — XIV (Vedānta)
-- **Upaniṣad** — XIV (Vedānta)
-- **Upaniṣads** — XIV (Vedānta)
+- **upādhi** — XIV.a
+- **Upaniṣad** — XIV.a
+- **Upaniṣads** — XIV.a
 - **upāya** — XII.d
 - **upāya-kauśalya** — XII.d
 - **upekkhā** (Skt: upekṣā) — V, VI.f, VIII.b
@@ -1771,27 +1779,27 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 
 ### V
 
-- **vajra** — XIII (Sanskrit-stratum)
-- **vajrayāna** — XIII (Sanskrit-stratum)
+- **vajra** — XIII.a
+- **vajrayāna** — XIII.a
 - **vāsanā** — XII.c
 - **vāyo-dhātu** (Skt: vāyu-dhātu) — VI.d
 - _vāyu-dhātu_ → see **vāyo-dhātu** (VI.d)
-- **Veda** — XIV (Vedānta)
+- **Veda** — XIV.a
 - **vedanā** — VI.b, VII.a
 - **vedanānupassanā** (Skt: vedanānupaśyanā) — IV
 - _vedanānupaśyanā_ → see **vedanānupassanā** (IV)
-- **Vedānta** — XIV (Vedānta)
-- **Vedas** — XIV (Vedānta)
+- **Vedānta** — XIV.a
+- **Vedas** — XIV.a
 - **vicāra** — III.c
 - **vicikicchā** (Skt: vicikitsā) — III.b, VIII.g
 - _vicikitsā_ → see **vicikicchā** (III.b, VIII.g)
-- **videhamukti** — XIV (Vedānta)
+- **videhamukti** — XIV.a
 - _vijñāna_ → see **viññāṇa** (VI.b, VII.a)
 - _vijñāna-dhātu_ → see **viññāṇa-dhātu** (VI.d)
 - _vijñānānantyāyatana_ → see **viññāṇañcāyatana** (III.c)
 - **vijñānavāda** — XII.c
 - **vijñaptimātra** — XII.c
-- **vikalpa** — XIV (Epistemology)
+- **vikalpa** — XIV.c
 - **vīmaṃsā** (Skt: mīmāṃsā) — VIII.f
 - _vimukti_ → see **vimutti** (II)
 - _vimukti-jñāna-darśana_ → see **vimutti-ñāṇadassana** (III.a)
@@ -1811,30 +1819,30 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _vīrya_ → see **vīriya** (VI.f, VIII.b, VIII.f)
 - **vīrya-pāramitā** — XII.d
 - _vīryendriya_ → see **vīriyindriya** (VIII.c)
-- **viśiṣṭādvaita** — XIV (Vedānta)
+- **viśiṣṭādvaita** — XIV.a
 - **visuddhi** (Skt: viśuddhi) — XI.b
 - **vitakka** (Skt: vitarka) — III.c
 - _vitarka_ → see **vitakka** (III.c)
-- **viveka** — I, III.c, XIV (Vedānta)
-- **vyakta** — XIV (Sāṅkhya / Yoga)
+- **viveka** — I, III.c, XIV.a
+- **vyakta** — XIV.b
 - **vyāpāda** — III.b
 
 ### W
 
 - **wu** — XII.e
-- _wúxīn_ → see **mushin** (XII.e)
+- **wúxīn** — XII.e
 
 ### Y
 
 - **yāna** — XII.d
 - _yathābhūta-jñāna-darśana_ → see **yathābhūtaṃ ñāṇadassana** (III.a)
 - **yathābhūtaṃ ñāṇadassana** (Skt: yathābhūta-jñāna-darśana) — III.a
-- **yedrol** — XIII (Tibetan)
-- **yesod** — XV (Hebrew)
-- **yidam** — XIII (Tibetan)
+- **yedrol** — XIII.b
+- **yesod** — XV.b
+- **yidam** — XIII.b
 - **yogācāra** — XII.c
 
 ### Z
 
-- **zazen** — XII.e
-- _zuòchán_ → see **zazen** (XII.e)
+- _zazen_ → see **zuòchán** (XII.e)
+- **zuòchán** — XII.e

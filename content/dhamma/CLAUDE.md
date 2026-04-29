@@ -12,12 +12,15 @@ This file captures the editorial conventions for `glossary.md`. Read this before
 
 ## Section-level language-and-stratum annotation
 
-Every Part title in `glossary.md` carries a parenthetical with two slots: language convention(s) and doctrinal stratum. Format:
+Every Part title in `glossary.md` carries a parenthetical with at least one slot: the canonical language(s). Pāli-canonical Parts add a second `; stratum` slot to disambiguate the corpus. The stratum slot is dropped when the title or subsection structure already names the stratum (Sanskrit-tradition Parts XII–XIV; non-Indic Part XV). Format:
 
 ```
 ## Part III — The Gradual Training (Pāli; EBT)
 ## Part XI — Later Theravāda (Pāli; Abhi. + Theravāda comm.)
-## Part XIII — Madhyamaka (Sanskrit; Madhyamaka)
+## Part XII — Mahāyāna — Sūtric (Sanskrit; XII.e in Chinese / Japanese)
+## Part XIII — Mahāyāna — Tantric: Vajrayāna, Dzogchen & Mahāmudrā (Sanskrit / Tibetan)
+## Part XIV — Vedānta & Indic Comparatives (Sanskrit)
+## Part XV — Non-Indic Philosophical / Mystical Comparatives (Greek, Hebrew, German)
 ```
 
 When a Part spans multiple strata (e.g., a primarily-EBT Part containing a late-canonical or commentarial entry), tag the anomalous term inline with the stratum after the headword. Examples:
@@ -116,15 +119,24 @@ X.    Non-clinging and the Limits of Doctrine (Pāli; EBT)
 XI.   Later Theravāda (Pāli; Abhi. + Theravāda comm.)
         XI.a Abhi. systematics
         XI.b Commentarial Jhāna apparatus
-XII.  Mahāyāna (Sanskrit; Prajñāpāramitā · Madhyamaka · Yogācāra · Mahāyāna sūtra)
+XII.  Mahāyāna — Sūtric (Sanskrit; XII.e in Chinese · Japanese)
         XII.a Prajñāpāramitā (the emptiness-pivot corpus, doctrinal source for Madhyamaka)
         XII.b Madhyamaka
         XII.c Yogācāra
         XII.d Broader Sūtra Corpus (bodhisattva-path, trikāya, tathāgatagarbha, pure-land)
-        XII.e East Asian Mahāyāna — Chan/Zen (Japanese / Chinese)
-XIII. Vajrayāna & Dzogchen (Sanskrit / Tibetan; Vajrayāna · Dzogchen · Mahāmudrā)
-XIV.  Vedānta & Indic Comparatives (Sanskrit; Vedānta · Sāṅkhya · Yoga)
-XV.   Non-Indic Philosophical / Mystical Comparatives
+        XII.e East Asian Mahāyāna — Chan/Zen (Chinese / Japanese)
+XIII. Mahāyāna — Tantric: Vajrayāna, Dzogchen & Mahāmudrā (Sanskrit / Tibetan)
+        XIII.a Sanskrit-stratum
+        XIII.b Tibetan (Dzogchen / Mahāmudrā)
+XIV.  Vedānta & Indic Comparatives (Sanskrit)
+        XIV.a Vedānta
+        XIV.b Sāṅkhya / Yoga
+        XIV.c Epistemology (pan-Indic)
+        XIV.d Ethics / Other
+XV.   Non-Indic Philosophical / Mystical Comparatives (Greek · Hebrew · German)
+        XV.a Greek
+        XV.b Hebrew (Kabbalah)
+        XV.c German
 
 Note on the Mahāyāna sub-ordering (XII.a–XII.e): chronological-developmental (Prajñāpāramitā → Madhyamaka → Yogācāra → broader sūtra corpus → East Asian Chan/Zen), NOT doxographic-hierarchical. Madhyamaka is placed after its source corpus (Prajñāpāramitā) rather than promoted to the head of the Part. Doctrinal assent is differential — Madhyamaka in a Prāsaṅgika-rangtong reading is taken as philosophically binding; XII.d material is included as vocabulary, not as assented ontology. A headnote at the start of Part XII in glossary.md flags this.
 ```
