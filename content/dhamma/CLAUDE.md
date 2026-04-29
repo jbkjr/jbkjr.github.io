@@ -203,3 +203,5 @@ See `_references/README.md` for the SLP1↔IAST conversion table, DPD column ref
 ## Working file
 
 `glossary.md` (at `content/dhamma/glossary.md`) — the active draft.
+
+`TERMS_TO_ADD.md` — running queue of headwords flagged during revision passes but not yet drafted. Append candidates here; clear them once the entries land in `glossary.md`. Excluded from the Quartz build.
