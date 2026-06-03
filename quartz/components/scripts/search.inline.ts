@@ -19,6 +19,8 @@ let currentSearchTerm: string = ""
 const encoder = (str: string) => {
   return str
     .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
     .split(/\s+/)
     .filter((token) => token.length > 0)
 }

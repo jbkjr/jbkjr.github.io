@@ -88,6 +88,11 @@ interface HeadwordCollection {
   canonical: Map<string, string>
 }
 
+export interface GlossaryHeadword {
+  headword: string
+  slug: string
+}
+
 interface WalkState {
   inCode: boolean
   inHeading: boolean
@@ -107,6 +112,7 @@ export function applyGlossaryTransforms(
   updateTableOfContents(file, headings)
 
   const collection = collectHeadwords(tree)
+  updateHeadwordIndex(file, collection)
   injectEntryAnchors(collection, emitPandocAnchors)
   linkIndex(tree, collection)
   linkTerms(tree, collection)
@@ -166,6 +172,24 @@ function updateTableOfContents(file: Pick<VFile, "data"> | undefined, headings: 
     text: heading.text,
     slug: heading.slug,
   })) as TocEntry[]
+}
+
+function updateHeadwordIndex(
+  file: Pick<VFile, "data"> | undefined,
+  collection: HeadwordCollection,
+): void {
+  if (!file) return
+
+  const headwords: GlossaryHeadword[] = []
+  for (const [slug, records] of collection.bySlug) {
+    // records[0] is the canonical (first) occurrence, which also receives the
+    // bare `#slug` anchor in injectEntryAnchors — so it is the jump target.
+    const canonical = records[0]
+    if (!canonical) continue
+    headwords.push({ headword: canonical.headword, slug })
+  }
+  headwords.sort((a, b) => a.slug.localeCompare(b.slug))
+  file.data.glossaryHeadwords = headwords
 }
 
 function sectionMapFromHeadings(headings: HeadingRecord[]): Map<string, string> {
@@ -686,4 +710,10 @@ function addHClass(node: RootContent | PhrasingContent, className: string): void
       : []
   if (!classes.includes(className)) classes.push(className)
   data.hProperties.className = classes
+}
+
+declare module "vfile" {
+  interface DataMap {
+    glossaryHeadwords?: GlossaryHeadword[]
+  }
 }

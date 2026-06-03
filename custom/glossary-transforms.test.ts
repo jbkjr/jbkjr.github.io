@@ -6,11 +6,16 @@ import remarkParse from "remark-parse"
 import { unified } from "unified"
 import { visit } from "unist-util-visit"
 
-import { applyGlossaryTransforms } from "./glossary-transforms"
+import { applyGlossaryTransforms, asciiSlug } from "./glossary-transforms"
 
 function transform(markdown: string) {
   const tree = unified().use(remarkParse).parse(markdown) as Root
-  const file = { data: {} as { toc?: Array<{ depth: number; text: string; slug: string }> } }
+  const file = {
+    data: {} as {
+      toc?: Array<{ depth: number; text: string; slug: string }>
+      glossaryHeadwords?: Array<{ headword: string; slug: string }>
+    },
+  }
   applyGlossaryTransforms(tree, { slug: "dhamma/glossary" }, file as never)
   return { file, tree }
 }
@@ -117,6 +122,36 @@ test("links validated section references and index entries", () => {
   assert(found.some((link) => link.text === "III" && link.url === "#part-iii") === false)
   assert(found.some((link) => link.text === "dukkha" && link.url === "#dukkha"))
   assert(found.some((link) => link.text === "I" && link.url === "#part-i"))
+})
+
+test("exports a deduplicated, diacritic-folded headword index", () => {
+  const { file } = transform(`
+## Part I — Earliest
+
+- **dukkha** / **duḥkha** — unsatisfactory.
+- **dukkha** — duplicate in the same section.
+
+## Part VII — Dependent Origination
+
+- **viññāṇa** — consciousness.
+`)
+
+  const headwords = file.data.glossaryHeadwords ?? []
+
+  // One entry per unique slug (the twice-listed "dukkha" is collapsed), sorted by slug.
+  assert.deepEqual(headwords, [
+    { headword: "duḥkha", slug: "duhkha" },
+    { headword: "dukkha", slug: "dukkha" },
+    { headword: "viññāṇa", slug: "vinnana" },
+  ])
+
+  // Slugs are unique and each is the ASCII fold of its headword (the jump anchor).
+  const slugs = headwords.map((h) => h.slug)
+  assert.equal(new Set(slugs).size, slugs.length)
+  for (const { headword, slug } of headwords) {
+    assert.equal(slug, asciiSlug(headword))
+    assert.ok(slug.length > 0)
+  }
 })
 
 test("filters glossary toc to parts, roman subparts, and index", () => {

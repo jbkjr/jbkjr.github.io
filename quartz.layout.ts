@@ -2,6 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import GlossaryMeta from "./custom/components/GlossaryMeta"
 import GlossaryTOC from "./custom/components/GlossaryTOC"
+import GlossarySearch from "./custom/components/GlossarySearch"
 
 const sidebarExplorerOptions: Parameters<typeof Component.Explorer>[0] = {
   folderClickBehavior: "link",
@@ -82,6 +83,12 @@ export const defaultContentPageLayout: PageLayout = {
       component: GlossaryTOC(),
       condition: (page) => page.fileData.slug === "dhamma/glossary",
     }),
+    Component.MobileOnly(
+      Component.ConditionalRender({
+        component: GlossarySearch(),
+        condition: (page) => page.fileData.slug === "dhamma/glossary",
+      }),
+    ),
   ],
   left: [
     Component.PageTitle(),
@@ -99,6 +106,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(sidebarExplorerOptions),
   ],
   right: [
+    Component.DesktopOnly(
+      Component.ConditionalRender({
+        component: GlossarySearch(),
+        condition: (page) => page.fileData.slug === "dhamma/glossary",
+      }),
+    ),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
