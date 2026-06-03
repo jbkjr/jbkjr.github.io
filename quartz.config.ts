@@ -26,6 +26,7 @@ const config: QuartzConfig = {
       "**/AGENTS.md",
       "**/TRANSLATION_CONVENTIONS.md",
       "**/TERMS_TO_ADD.md",
+      "**/GLOSSARY_AUDIT.md",
       "**/_references",
       "**/_references/**",
     ],
