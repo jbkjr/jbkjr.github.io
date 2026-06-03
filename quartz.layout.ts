@@ -80,15 +80,13 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.TagList(),
     Component.ConditionalRender({
+      component: GlossarySearch(),
+      condition: (page) => page.fileData.slug === "dhamma/glossary",
+    }),
+    Component.ConditionalRender({
       component: GlossaryTOC(),
       condition: (page) => page.fileData.slug === "dhamma/glossary",
     }),
-    Component.MobileOnly(
-      Component.ConditionalRender({
-        component: GlossarySearch(),
-        condition: (page) => page.fileData.slug === "dhamma/glossary",
-      }),
-    ),
   ],
   left: [
     Component.PageTitle(),
@@ -106,12 +104,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(sidebarExplorerOptions),
   ],
   right: [
-    Component.DesktopOnly(
-      Component.ConditionalRender({
-        component: GlossarySearch(),
-        condition: (page) => page.fileData.slug === "dhamma/glossary",
-      }),
-    ),
+    Component.ConditionalRender({
+      component: GlossarySearch(),
+      condition: (page) => page.fileData.slug === "dhamma/glossary",
+    }),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),

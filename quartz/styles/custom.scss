@@ -74,9 +74,24 @@
   }
 }
 
+// Inline (top-of-page) search shows below the desktop breakpoint; the right-rail
+// copy shows at desktop — mirrors the GlossaryTOC / right-rail TOC split so the
+// search and TOC move to the top together on narrow screens.
+.page-header .glossary-search {
+  display: none;
+}
+
 @media all and not ($desktop) {
   .glossary-search {
     margin: 1.5rem 0;
+  }
+
+  .page-header .glossary-search {
+    display: block;
+  }
+
+  .right.sidebar .glossary-search {
+    display: none;
   }
 }
 
