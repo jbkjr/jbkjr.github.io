@@ -46,7 +46,7 @@ _What is to be relinquished:_
 
 _The predicament:_
 
-- **dukkha** (Skt: duḥkha) — unsatisfactory (adj.), unsatisfactoriness, suffering (nom.). _The existential predicament that frames the Aṭṭhakavagga soteriology — non-clinging is the response to dukkha. The goal-pointers in II (`vimutti`, `āsavakkhaya`, `nibbāna`) are co-extensively described as liberation FROM dukkha (e.g. `dukkhass'antakaro` "one who makes an end of dukkha," Sn 2.11, DN 16) and FROM the āsavas (DN 2 formula `kāmāsavāpi cittaṃ vimuccati…`); the āsava-language specifies the producing-currents that ending dukkha requires. Doctrinally `pariññeyya` (to be fully understood) within the 4NT schema, distinct from taṇhā / upādāna / diṭṭhi which are `pahātabba` (to be abandoned); cf. VI.a for the three-marks treatment, IX for the 4NT framing._
+- **dukkha** (Skt: duḥkha) — unsatisfactory (adj.), unsatisfactoriness, suffering (nom.). _The existential predicament that frames the Aṭṭhakavagga soteriology — non-clinging is the response to dukkha. The goal-pointers in II (`vimutti`, `āsavakkhaya`, `nibbāna`) are co-extensively described as liberation FROM dukkha (e.g. `dukkhass'antakaro` "one who makes an end of dukkha," Sn 2.11, DN 16) and FROM the āsavas (DN 2 formula `kāmāsavāpi cittaṃ vimuccati…`); the āsava-language specifies the producing-currents that must cease for dukkha to end. Doctrinally `pariññeyya` (to be fully understood) within the 4NT schema, distinct from taṇhā / upādāna / diṭṭhi which are `pahātabba` (to be abandoned); cf. VI.a for the three-marks treatment, IX for the 4NT framing._
 
 _The goal as freedom from clinging:_
 
@@ -126,7 +126,7 @@ _Each step is developmentally conditioned by the prior; DN 2 expresses this with
 _Parallel canonical formulas:_
 
 - _SN 12.23 Upanisā-sutta substitutes a different post-yathābhūtaṃ chain: `yathābhūta-ñāṇadassana` → `nibbidā` → `virāga` → `vimutti` → `khaye-ñāṇa` (= `āsavakkhaya-ñāṇa`). The Upanisā chain is structured around the explicit `upanisā` (supporting-condition) idiom — `X-upanisaṃ Y` ("Y has X as its supporting condition") — and interposes an affective-evaluative pair (turning-away from formations, fading of passion) between insight and liberation that DN 2's closing pericope does not. `khaye-ñāṇa` and `vimutti-ñāṇadassana` are formula-distinct but doctrinally near-synonymous reviewing knowledges, naming the post-liberation certitude by what's destroyed (the āsavas) and what's gained (vimutti) respectively. The two formulas have been read as reflecting different strata or competing liberation-narratives within EBT (Schmithausen 1981, On Some Aspects of Descriptions or Theories of "Liberating Insight" and "Enlightenment" in Early Buddhism; Vetter 1988, The Ideas and Meditative Practices of Early Buddhism); both are EBT._
-- _Note on DN 2's surface narrative: post-fourth-jhāna, DN 2 actually presents a sequence of `ñāṇa`-fruits beginning with `ñāṇadassana` of the body-and-the-viññāṇa-bound-thereto (a four-element-and-consciousness contemplation, distinct from step 8's 4NT `yathābhūtaṃ-ñāṇadassana`), continuing through `manomayiddhi` and the five abhiññās (`iddhividhi`, `dibbasota`, `cetopariyañāṇa`, `pubbenivāsānussati`, `cutūpapāta-/dibba-cakkhu-ñāṇa`) — all optional fruits — and culminating in `āsavakkhaya-ñāṇa`. The closing pericope (4NT `yathābhūtaṃ-pajāna` → `cittaṃ vimuccati` → `vimutti-ñāṇadassana`) is internal to that final ñāṇa; steps 8–10 of the numbered list above synthesize by extracting them as their own developmentally-conditioned moments. The "six abhiññās" listing under `abhiññā` below counts `āsavakkhaya-ñāṇa` as the sixth — an alternate organizing convention that folds the first DN 2 ñāṇa (body-with-viññāṇa) and `manomayiddhi` into the fourth-jhāna fruit and counts only the remaining five as numbered abhiññās._
+- _Note on DN 2's surface narrative: post-fourth-jhāna, DN 2 actually presents a sequence of `ñāṇa`-fruits beginning with `ñāṇadassana` of the body-and-the-viññāṇa-bound-thereto (a four-element-and-consciousness contemplation, distinct from step 8's 4NT `yathābhūtaṃ-ñāṇadassana`), continuing through `manomayiddhi` and the five abhiññās (`iddhividhi`, `dibbasota`, `cetopariyañāṇa`, `pubbenivāsānussati`, `cutūpapāta-/dibba-cakkhu-ñāṇa`) — all optional fruits — and culminating in `āsavakkhaya-ñāṇa`. In DN 2's surface narrative this closing pericope (4NT `yathābhūtaṃ-pajāna` → `cittaṃ vimuccati` → `vimutti-ñāṇadassana`) sits **inside** `āsavakkhaya-ñāṇa` (the last ñāṇa-fruit) rather than following it as a separate sequence; steps 8–10 of the numbered list above pull those three moments out and re-present them as their own developmentally-conditioned steps. The "six abhiññās" listing under `abhiññā` below counts `āsavakkhaya-ñāṇa` as the sixth — an alternate organizing convention that folds the first DN 2 ñāṇa (body-with-viññāṇa) and `manomayiddhi` into the fourth-jhāna fruit and counts only the remaining five as numbered abhiññās._
 
 _Ethical cultivation (adjacent to sīla):_
 
@@ -360,6 +360,7 @@ _Wholesome and unwholesome roots (mūla):_
 - **lobha** (Skt: same) / **dosa** (Skt: dveṣa) / **moha** (Skt: same) — greed / hatred / delusion; _the three akusala-mūla. At the root-analytic level: `lobha` is the broad craving-side (mapping to `taṇhā`); `dosa` is the aversion-side (the structural parallel that licenses the modern insight-pedagogy "craving / aversion" framing — see I `taṇhā` def-flag); `moha` maps to `avijjā` (DO link 1, fetter 10). Sensuality-restricted manifestations at lower analytic levels — `kāmacchanda` (III.b hindrance and VIII.g fetter 4, eliminated at 3rd path while broader taṇhā extends through bhava-/rūpa-/arūpa-forms only fully ended at 4th path), `kāma-rāga` (the sensual anusaya, VIII.g), `kāma-taṇhā` (sensuality-form of the three-fold taṇhā at SN 56.11). Aversion-mode at lower levels — `byāpāda` (III.b hindrance and VIII.g fetter 5), `paṭigha` (the latent aversion-anusaya, VIII.g)._
 - **alobha** (Skt: same) / **adosa** (Skt: adveṣa) / **amoha** (Skt: same) — non-greed / non-hatred / non-delusion; _the three kusala-mūla._
 - **rāga** (Skt: same) — passion, lust; _the broader pull-toward term, paired throughout EBT with dosa and moha. Related to but broader than `lobha` — rāga is the general coloring/passion register, `lobha` the technical root-quality. Reappears compounded in the higher fetters as `rūpa-rāga` (6), `arūpa-rāga` (7), and in the anusayas as `kāma-rāga` and `bhava-rāga` — see VIII.g._
+- **kilesa** (Skt: kleśa) — defilement, affliction; lit. "stain, impurity" (from kilissati "to be stained"). _The umbrella term for what defiles the mind — the genus under which the specific taxonomies fall: `āsava` (II), `nīvaraṇa` (III.b), the fetters and `anusaya` (VIII.g), `akusala-mūla` (above). The word-family is EBT-attested — `saṅkilesa` "corruption" (paired with `visuddhi` "purification," DN 1) and `upakkilesa` "adventitious mental imperfections" (the āgantuka "incoming" defilements that obscure the luminous citta, AN 1.10; cf. `pabhassara`, II) — but the bare noun `kilesa` is rare in the suttas (PED: "rare in the Piṭakas; in later works very frequent"), and the reified enumerated category, the ten kilesa-vatthūni (lobha, dosa, moha, māna, diṭṭhi, vicikicchā, thīna, uddhacca, ahirika, anottappa), is Abhi. / commentarial (Dhammasaṅgaṇī, Vibhaṅga, Vism). The Skt cognate `kleśa` becomes a central Mahāyāna term — the kleśa-āvaraṇa (afflictive obscuration) paired with the jñeya-āvaraṇa (cognitive obscuration)._
 - **domanassa** (Skt: daurmanasya) — mental pain, sadness, displeasure; _cf. IV satipaṭṭhāna refrain (`abhijjhā-domanassa`)._
 - **somanassa** (Skt: saumanasya) — mental pleasure, gladness, joy
 
@@ -392,6 +393,7 @@ _The canonical formula extends with the trailing phrase: `...jarā-maraṇa-soka
 - **hetu** (Skt: same) — cause
 - **paccaya** (Skt: pratyaya) — condition
 - **nidāna** (Skt: same) — source, cause, causal link
+- **upanisā** (Skt: upaniṣad) — supporting/proximate condition, basis; _the `X-upanisaṃ Y` idiom ("Y has X as its supporting condition") that structures SN 12.23 Upanisā-sutta's post-jhāna chain (`yathābhūta-ñāṇadassana` → `nibbidā` → `virāga` → `vimutti` → `khaye-ñāṇa`) — the so-called "transcendental dependent origination." Commentary glosses it ≈ `paccaya` / kāraṇa (Spk). def-flag: the etymology is unsettled — possibly Vedic `upaniṣad` (upa-ni-√sad, the word behind the Upaniṣads), but PED judges a contraction of `upanissaya` (upa-ni-√śri, "support, basis") more likely._
 - **saṅkhāra** (Skt: saṃskāra) — (here, sense 3 of the def-flag at VI.b) all conditioned phenomena, all formations, all fabrications; _the noun corresponding to `saṅkhata` below — used in `sabbe saṅkhārā aniccā` ("all fabrications are impermanent"), `sabba-saṅkhāra-samatha` ("settling of all fabrications," epithet of nibbāna at SN 6.1). Cross-ref to VI.b def-flag for the five distinct senses of saṅkhāra._
 - **saṅkhata** (Skt: saṃskṛta) — conditioned, constructed, fabricated
 - **asaṅkhata** (Skt: asaṃskṛta) — unconditioned, unconstructed, unfabricated; _standard epithet of nibbāna (cf. II)._
@@ -1386,6 +1388,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **khandha** (Skt: skandha) — VI.b
 - **khaṇika-samādhi** (Skt: kṣaṇika-samādhi) — XI.b
 - **khīṇāsava** (Skt: kṣīṇāsrava) — II
+- **kilesa** (Skt: kleśa) — VI.f
 - **kliṣṭa-manas** — XII.c
 - _kōan_ → see **gōngàn** (XII.e)
 - _kṛtsna_ → see **kasiṇa** (XI.b)
@@ -1784,6 +1787,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _upādāna-skandha_ → see **upādāna-khandha** (VI.b)
 - **upadhi** — I
 - **upādhi** — XIV.a
+- **upanisā** (Skt: upaniṣad) — VII.b
 - **Upaniṣad** — XIV.a
 - **Upaniṣads** — XIV.a
 - **upāya** — XII.d
