@@ -33,7 +33,7 @@ _What is to be relinquished:_
 
 - **diṭṭhi** (Skt: dṛṣṭi) — view, position.
 
-  _def-flag: treated here in its earliest-stratum sense as "view/position to be dropped"; the technical sammā-diṭṭhi usage belongs under VIII.a, and `sakkāya-diṭṭhi` (identity-view, fetter 1) at VIII.g picks up the negative-view-to-be-abandoned sense in a later technical key._
+  _def-flag: treated here in its earliest-stratum sense as "view/position to be dropped"; the technical sammā-diṭṭhi usage belongs under VIII.a, and `sakkāya-diṭṭhi` (identity-view, fetter 1) at VIII.g picks up the negative-view-to-be-abandoned sense in a later technical key. The systematic wrong-view taxonomies — `micchā-diṭṭhi` and the Six Teachers' denials (VIII.a), the eternalism / annihilationism and `atthitā` / `natthitā` antinomies (X.b) — are later four-Nikāya material, not earliest-stratum._
 
 - **anupādiyāno** (Skt: anupādāna) — not grasping; _the earliest stratum's non-clinging soteriology is carried by this negated participle of the upa-ā-√dā root — "not grasping anything in the world" (Sn 4.14), "not grasping, not even leaning on knowledge" (Sn 4.5). The abstract noun `upādāna` (clinging) is absent from the Aṭṭhakavagga / Pārāyanavagga; its systematization as DO link 9 belongs to the (still-EBT) four-Nikāya core, later than this earliest stratum → `upādāna@VII.a`._
 - **taṇhā** (Skt: tṛṣṇā) — craving; lit. "thirst" (cognate with English _thirst_ via PIE \*ters-). _Also appears in VII.a as `taṇhā@VII.a` (DO link 8); flagged here for the same reason._
@@ -416,8 +416,15 @@ _Note on `sammā`: rendered "proper" throughout, following Kumāra (2022). Stand
 
 #### Wisdom (paññā / Skt: prajñā)
 
-- **sammā-diṭṭhi** (Skt: samyag-dṛṣṭi) — proper view; _contrasts with the diṭṭhi-as-view-to-be-dropped of Part I and with sakkāya-diṭṭhi (fetter 1, VIII.g)._
+- **sammā-diṭṭhi** (Skt: samyag-dṛṣṭi) — proper view; _contrasts with the diṭṭhi-as-view-to-be-dropped of Part I and with sakkāya-diṭṭhi (fetter 1, VIII.g); its contrary is `micchā-diṭṭhi` (below)._
 - **sammā-saṅkappa** (Skt: samyak-saṃkalpa) — proper thought, proper resolve; _modern textbooks frequently render "right intention," but "intention" is more strictly cetanā (VI.f). Saṅkappa is the deliberate forming/disposing of mind, defined at MN 117 as thoughts of nekkhamma (renunciation, III.a), abyāpāda (non-ill-will), and avihiṃsā (non-cruelty)._
+
+_Wrong view (micchā-diṭṭhi) and the Six Teachers' denials:_
+
+- **micchā-diṭṭhi** (Skt: mithyā-dṛṣṭi) — wrong view; _the contrary of `sammā-diṭṭhi` (above) — its paired counterpart in MN 117 (Mahācattārīsaka), which sets each path-factor against its micchā counterpart, and the first factor of the "wrong tenfold path" (micchatta, AN 10.103). The three views below are what mundane (sāsava) sammā-diṭṭhi — MN 117's affirming of kamma-fruit, this world and the next, spontaneously-arising beings, and realized ascetics — is defined against: the positions of the Six Heretical Teachers (DN 2 Sāmaññaphala-sutta; cf. MN 60 Apaṇṇaka, MN 76 Sandaka)._
+- **natthika-diṭṭhi** (Skt: nāstika-dṛṣṭi) — the "there-is-not" view, nihilism; _Ajita Kesakambala's materialist denial (DN 2) of kamma-fruit, the other world, spontaneously-arising beings, and realized ascetics. def-flag: "nihilism" is standard but misleading at the EBT level — Ajita's ontology was materialist (four-elements), not a denial of existence as such; `natthika-diṭṭhi` names a specific bundle of denials, not a global "nothing exists." Distinct from the abstract `natthitā` (the bare non-existence pole, X.b → SN 12.15)._
+- **akiriya-diṭṭhi** (Skt: akriyā-dṛṣṭi) — the "no-action" view; _Pūraṇa Kassapa's denial (DN 2) that deeds carry moral weight — no good or evil done by acting._
+- **ahetuka-diṭṭhi** (Skt: ahetuka-dṛṣṭi) — the "no-cause" view; _Makkhali Gosāla's Ājīvika determinism (DN 2) — beings are defiled and purified without cause or condition._
 
 #### Ethical Conduct (sīla / Skt: śīla)
 
@@ -610,6 +617,12 @@ Post-mortem status of the tathāgata (the catuṣkoṭi-shaped set):
 8. **na hoti tathāgato paraṃ maraṇā** — the tathāgata does not exist after death
 9. **hoti ca na ca hoti tathāgato paraṃ maraṇā** — the tathāgata both exists and does not exist after death
 10. **neva hoti na na hoti tathāgato paraṃ maraṇā** — the tathāgata neither exists nor does not exist after death
+
+_The middle-teaching antinomies (the view-pairs the Buddha's "teaching by the middle" avoids):_
+
+- **sassata-diṭṭhi** (Skt: śāśvata-dṛṣṭi) / **uccheda-diṭṭhi** (Skt: uccheda-dṛṣṭi) — eternalism / annihilationism; _the two extremes the middle teaching rejects. Eternalism posits a self that persists eternally; annihilationism (lit. "cutting-off view," ud-√chid) presupposes a real self now, cut off at death. DN 1 Brahmajāla catalogues the varieties — four kinds of `sassatavāda`, seven of `ucchedavāda`. Distinct from the avyākata `sassato loko` / `asassato loko` above, which concern the world (loka); these concern the self (attā)._
+- **atthitā** (Skt: astitā) / **natthitā** (Skt: nāstitā) — existence / non-existence; _the duality SN 12.15 Kaccānagotta-sutta says "this world mostly relies on" (`dvayanissito … atthitañceva natthitañca`) and that the middle teaching transcends by teaching dependent origination instead (`ubho ante anupagamma majjhena tathāgato dhammaṁ deseti`). Load-bearing downstream: Nāgārjuna cites this sutta by name at MMK 15.7 to deny both `asti` and `nāsti`, making the EBT middle-teaching the source for the Madhyamaka critique of `svabhāva` (XII.b)._
+
 - **papañca** (Skt: prapañca) — conceptual proliferation, mental proliferation, objectification; _standardly "conceptual proliferation" (Ñāṇananda, Bodhi); "objectification" (Bodhi alt), "mental proliferation" (Thanissaro). Its stilling (`papañca-vūpasama`) frames the limit of useful doctrine (AN 4.173); MN 18 thematizes the cessation of `papañcasaññāsaṅkhā` (without the `-vūpasama` compound)._
 - **nippapañca** (Skt: niṣprapañca) — free of proliferation, unelaborated
 
@@ -708,7 +721,7 @@ _Ordered by chronological-developmental stratum: Prajñāpāramitā → Madhyama
 - **madhyamaka** — the Middle (Way school); from madhyama "middle."
 - **mādhyamika** — Mādhyamika, adherent of Madhyamaka
 - **śūnyatā** — emptiness; _Madhyamaka sense: the absence of svabhāva in all phenomena. Cf. II and XII.a._
-- **svabhāva** — own-nature, intrinsic nature, inherent existence, ultimate existence; _the target of Nāgārjuna's critique. "Inherent existence" (Garfield, Siderits) emphasizes the ontological bite; "ultimate existence" / "true existence" (Hopkins, Gelug-tradition) emphasize the bears-up-under-ultimate-analysis quality — something ultimately exists iff it has svabhāva, and Madhyamaka denies this for all phenomena (everything exists only conventionally / `saṃvṛti-sat`). "Own-nature" (Gethin, more literal) is also common. Cf. XI.a for the structurally parallel Theravāda Abhi. `sabhāva`; Nāgārjuna's actual historical target was Sarvāstivāda / Vaibhāṣika svabhāva-realism and analogous ābhidharmika dharma-theory more broadly, not specifically the later Theravāda Abhi system summarized in XI.a._
+- **svabhāva** — own-nature, intrinsic nature, inherent existence, ultimate existence; _the target of Nāgārjuna's critique. "Inherent existence" (Garfield, Siderits) emphasizes the ontological bite; "ultimate existence" / "true existence" (Hopkins, Gelug-tradition) emphasize the bears-up-under-ultimate-analysis quality — something ultimately exists iff it has svabhāva, and Madhyamaka denies this for all phenomena (everything exists only conventionally / `saṃvṛti-sat`). "Own-nature" (Gethin, more literal) is also common. Cf. XI.a for the structurally parallel Theravāda Abhi. `sabhāva`; Nāgārjuna's actual historical target was Sarvāstivāda / Vaibhāṣika svabhāva-realism and analogous ābhidharmika dharma-theory more broadly, not specifically the later Theravāda Abhi system summarized in XI.a. The EBT antecedent of the critique is SN 12.15 Kaccānagotta's rejection of the `atthitā` / `natthitā` (existence / non-existence) duality (X.b), which Nāgārjuna cites by name at MMK 15.7 to deny both `asti` and `nāsti`._
 - **niḥsvabhāva** — without svabhāva, lacking intrinsic nature
 - **nairātmya** — selflessness, absence of self; _abstract-noun form from `anātman` (= Pāli `anattā`, VI.a); systematized in Mahāyāna as the two selflessnesses (pudgala- / dharma-nairātmya below)._
 - **pudgala-nairātmya** — selflessness of persons; _the selflessness the śrāvakayāna already teaches._
@@ -1100,6 +1113,8 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **agape** — XV.a
 - **ahaṃ brahmāsmi** — XIV.a
 - **ahaṃkāra** — XIV.a
+- **ahetuka-diṭṭhi** (Skt: ahetuka-dṛṣṭi) — VIII.a
+- _ahetuka-dṛṣṭi_ → see **ahetuka-diṭṭhi** (VIII.a)
 - **ahiṃsā** — XIV.d
 - **ajāti-vāda** — XIV.a
 - **ākāsa-dhātu** (Skt: ākāśa-dhātu) — VI.d
@@ -1110,6 +1125,8 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **ākiñcaññāyatana** (Skt: ākiṃcanyāyatana) — III.c
 - _ākiṃcanya_ → see **ākiñcañña** (I)
 - _ākiṃcanyāyatana_ → see **ākiñcaññāyatana** (III.c)
+- **akiriya-diṭṭhi** (Skt: akriyā-dṛṣṭi) — VIII.a
+- _akriyā-dṛṣṭi_ → see **akiriya-diṭṭhi** (VIII.a)
 - **akusala** (Skt: akuśala) — III.a
 - **akusala-mūla** (Skt: akuśala-mūla) — VI.f
 - **ālayavijñāna** — XII.c
@@ -1179,6 +1196,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _āsravakṣaya_ → see **āsavakkhaya** (II)
 - **āśraya-parāvṛtti** — XII.c
 - **aṣṭa-vijñāna** — XII.c
+- _astitā_ → see **atthitā** (X.b)
 - **asubha** (Skt: aśubha) — XI.b
 - _asvabhāva_ → see **asabhāva** (XI.a)
 - **atammayatā** (Skt: atanmayatā) — X.a
@@ -1186,6 +1204,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **ātāpī** (Skt: ātāpin) — IV
 - _ātāpin_ → see **ātāpī** (IV)
 - **ātman** — XIV.a
+- **atthitā** (Skt: astitā) — X.b
 - _auddhatya_ → see **uddhacca** (VIII.g)
 - _auddhatya-kaukṛtya_ → see **uddhacca-kukkucca** (III.b)
 - **Aufklärung** — XV.c
@@ -1439,7 +1458,9 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _mauneya_ → see **moneyya** (I)
 - **māyā** — XIV.a
 - **mettā** (Skt: maitrī) — V
+- **micchā-diṭṭhi** (Skt: mithyā-dṛṣṭi) — VIII.a
 - _mīmāṃsā_ → see **vīmaṃsā** (VIII.f)
+- _mithyā-dṛṣṭi_ → see **micchā-diṭṭhi** (VIII.a)
 - **moha** — VI.f
 - **mokkha** (Skt: mokṣa) — II
 - _mokṣa_ → see **mokkha** (II)
@@ -1465,6 +1486,10 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _nāma-rūpa-paricchedaka-jñāna_ → see **nāma-rūpa-pariccheda-ñāṇa** (XI.b)
 - **ñāṇa** (Skt: jñāna) — VI.f
 - _ñāṇa_ → see **jñāna** (XIV.c)
+- _nāstika-dṛṣṭi_ → see **natthika-diṭṭhi** (VIII.a)
+- _nāstitā_ → see **natthitā** (X.b)
+- **natthika-diṭṭhi** (Skt: nāstika-dṛṣṭi) — VIII.a
+- **natthitā** (Skt: nāstitā) — X.b
 - **nekkhamma** (Skt: naiṣkramya) — III.a
 - **neti neti** — XIV.a
 - **netzaḥ** — XV.b
@@ -1681,6 +1706,8 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **saññāvedayitanirodha** (Skt: saṃjñāvedayitanirodha) — III.c
 - **santi** (Skt: śānti) — I
 - **santuṭṭhi** (Skt: saṃtuṣṭi) — III.a
+- **sassata-diṭṭhi** (Skt: śāśvata-dṛṣṭi) — X.b
+- _śāśvata-dṛṣṭi_ → see **sassata-diṭṭhi** (X.b)
 - **sat** — XIV.a
 - **sati** (Skt: smṛti) — IV, VIII.b
 - **sati-sampajañña** (Skt: smṛti-samprajanya) — III.a
@@ -1773,6 +1800,8 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 
 - **ubhatobhāgavimutta** (Skt: ubhayatobhāgavimukta) — II
 - _ubhayatobhāgavimukta_ → see **ubhatobhāgavimutta** (II)
+- **uccheda-diṭṭhi** (Skt: uccheda-dṛṣṭi) — X.b
+- _uccheda-dṛṣṭi_ → see **uccheda-diṭṭhi** (X.b)
 - _udaya-vyaya-jñāna_ → see **udayabbaya-ñāṇa** (XI.b)
 - **udayabbaya-ñāṇa** (Skt: udaya-vyaya-jñāna) — XI.b
 - **uddhacca** (Skt: auddhatya) — VIII.g

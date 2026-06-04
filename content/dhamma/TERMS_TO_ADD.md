@@ -4,7 +4,7 @@ Working queue of headwords flagged during revision passes. Append to the bottom;
 
 ## Wrong-views cluster (EBT)
 
-**Placement undecided — Jack to revisit when drafting.** The split below is one proposal (VIII.a contrast-class vs. X.b limit-points), not a settled call. Other plausible placements: extending the Part I `diṭṭhi` neighborhood, or consolidating the whole cluster in one Part with cross-references.
+**(✅ RESOLVED / APPLIED 2026-06-04 — Option A + 2 refinements.)** Split by doctrinal function: **Group A → VIII.a** (off `sammā-diṭṭhi`) — added `micchā-diṭṭhi` (new anchor) + `natthika-diṭṭhi` / `akiriya-diṭṭhi` / `ahetuka-diṭṭhi` as the Six-Teachers contrast-class (MN 117 / DN 2). **Group B → X.b** (Open Questions) — added `sassata-diṭṭhi` / `uccheda-diṭṭhi` (DN 1) and `atthitā` / `natthitā` (SN 12.15) as a labeled "middle-teaching antinomies" sub-block. Cross-refs added: Part I `diṭṭhi` def-flag → wrong-view taxonomies as later 4-Nikāya; `sammā-diṭṭhi` → "contrary is `micchā-diṭṭhi`"; `svabhāva` (XII.b) → SN 12.15 / `atthitā`-`natthitā` / MMK 15.7 hook. All 8 indexed (+ Skt cross-refs). Citations verified against bilara-data (DN 1/2, MN 117, SN 12.15, AN 10.103). _Original proposal retained below for reference._
 
 ### Proposed → VIII.a (sub-cluster off `sammā-diṭṭhi`)
 
