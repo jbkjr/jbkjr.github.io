@@ -186,7 +186,7 @@ _The Jhāna Factors (jhānaṅga) — in canonical order, as in the 1st-jhāna f
 
 - **vicāra** (Skt: same) — considering; lit. "moving/wandering about" (cf. _vicarati_ "to wander"). _Standardly "sustained thought," "examination," or "evaluation." "Considering" follows Kumāra; see vitakka def-flag for the scholarly divide._
 - **pīti** (Skt: prīti) — joy. _Standardly "rapture." "Joy" (Thanissaro, Kumāra) avoids the Christian-origin ecstasy-register of "rapture," which misfits the EBT picture of pīti arising from freedom-from-remorse (the pāmojja-chain below) and from `vivekajaṃ` (separation-born). A vibrating/swaying-body "rapture" reading does not track the Sutta usage._
-- **sukha** (Skt: same) — happiness, happy. _Standardly "pleasure," "bliss," or "ease." "Happiness" follows Kumāra: sukha covers a range from gross (`kāmasukha` sensual happiness), to bodily (`kāyika sukha`), to the supramundane (`nibbānaṃ paramaṃ sukhaṃ` "Nibbāna is the highest happiness," Dhp 203–204; cf. AN 9.34, where Sāriputta says "just that is the sukha here: where there is nothing felt"). "Pleasure" and "bliss" are too narrow: sukha includes a non-vedanā evaluative sense — the 4th jhāna formula explicitly abandons sukha as a vedanā-factor (`sukhassa ca pahānā` → `adukkham-asukhaṃ` "neither-painful-nor-pleasant"), but this evaluative-sukha sense is what licenses calling Nibbāna `paramaṃ sukhaṃ` in the Dhp 203 idiom, echoed in Sāriputta's AN 9.34 `sukhamidaṁ nibbānaṁ` (a sukha-of-peace that obtains where vedanā has been transcended)._
+- **sukha** (Skt: same) — happiness, happy. _Standardly "pleasure," "bliss," or "ease." "Happiness" follows Kumāra: sukha covers a range from gross (`kāmasukha` sensual happiness), to bodily (`kāyika sukha`), to the supramundane (`nibbānaṃ paramaṃ sukhaṃ` "Nibbāna is the highest happiness," Dhp 203–204; cf. AN 9.34, where Sāriputta says "just that is the sukha here: where there is nothing felt"). "Pleasure" and "bliss" are too narrow: sukha includes a non-vedanā evaluative sense — the 4th jhāna formula explicitly abandons sukha as a vedanā-factor (`sukhassa ca pahānā` → `adukkham-asukhaṃ` "neither-painful-nor-pleasant"), but this evaluative-sukha sense is what licenses calling Nibbāna `paramaṃ sukhaṃ` in the Dhp 203 idiom, echoed in Sāriputta's AN 9.34 `sukhamidaṃ nibbānaṃ` (a sukha-of-peace that obtains where vedanā has been transcended)._
 - **ekaggatā** (Skt: ekāgratā) — one-placed-ness. _Standardly "one-pointed, one-pointedness." Kumāra against "one-pointedness": `agga` in EBT usage does not mean "point" (spatially limited location) but either "top / tip" literally (tip-of-grass, top-of-tree) or — in a contracted-form sense related to `agāra` "place" (cf. `suññāgāra` "empty place," `dānagga` "alms-place") — "place." `Ekagga` = "one-placed" → idiomatically "still" (Kumāra's preferred rendering; lead here keeps the literal) — a still mind being one that is gathered, not scattered. PED (1921) introduced "one-pointedness of mind" as a hedged rendering in quote-marks acknowledging its non-Englishness, and it became entrenched in 20th-c. Theravāda; C. A. F. Rhys Davids (1900) earlier rendered `cittassekaggatā` as "self-collectedness." The `cittassa ekaggatā ayaṃ samādhi` passage (MN 44.12) reads naturally as "stillness of mind — this is composure," awkwardly as "one-pointedness of mind — this is concentration." Cross-ref to def-flag below on whether ekaggatā is a jhāna-factor._
 
   _def-flag: the recurring EBT first-jhāna formula foregrounds four terms — `vitakka`, `vicāra`, `pīti`, `sukha` — with `ekaggatā` appearing in the same paragraph as a separate mental quality but not counted among those four in the formula itself. MN 43 (Mahāvedalla, `paṭhamajjhānaṃ pañcaṅgikaṃ`) explicitly lists first jhāna as five-factored, adding `cittass'ekaggatā` as the fifth — so the five-factor enumeration is sutta-attested. Its development as a formal `pañca-jhānaṅga` framework (the systematic jhāna-factor scheme as such) is Abhidhamma/commentarial — `cittass'ekaggatā` already among the absorption factors in Dhammasaṅgaṇī; see XI.b._
@@ -621,7 +621,7 @@ Post-mortem status of the tathāgata (the catuṣkoṭi-shaped set):
 _The middle-teaching antinomies (the view-pairs the Buddha's "teaching by the middle" avoids):_
 
 - **sassata-diṭṭhi** (Skt: śāśvata-dṛṣṭi) / **uccheda-diṭṭhi** (Skt: uccheda-dṛṣṭi) — eternalism / annihilationism; _the two extremes the middle teaching rejects. Eternalism posits a self that persists eternally; annihilationism (lit. "cutting-off view," ud-√chid) presupposes a real self now, cut off at death. DN 1 Brahmajāla catalogues the varieties — four kinds of `sassatavāda`, seven of `ucchedavāda`. Distinct from the avyākata `sassato loko` / `asassato loko` above, which concern the world (loka); these concern the self (attā)._
-- **atthitā** (Skt: astitā) / **natthitā** (Skt: nāstitā) — existence / non-existence; _the duality SN 12.15 Kaccānagotta-sutta says "this world mostly relies on" (`dvayanissito … atthitañceva natthitañca`) and that the middle teaching transcends by teaching dependent origination instead (`ubho ante anupagamma majjhena tathāgato dhammaṁ deseti`). Load-bearing downstream: Nāgārjuna cites this sutta by name at MMK 15.7 to deny both `asti` and `nāsti`, making the EBT middle-teaching the source for the Madhyamaka critique of `svabhāva` (XII.b)._
+- **atthitā** (Skt: astitā) / **natthitā** (Skt: nāstitā) — existence / non-existence; _the duality SN 12.15 Kaccānagotta-sutta says "this world mostly relies on" (`dvayanissito … atthitañceva natthitañca`) and that the middle teaching transcends by teaching dependent origination instead (`ubho ante anupagamma majjhena tathāgato dhammaṃ deseti`). Load-bearing downstream: Nāgārjuna cites this sutta by name at MMK 15.7 to deny both `asti` and `nāsti`, making the EBT middle-teaching the source for the Madhyamaka critique of `svabhāva` (XII.b)._
 
 - **papañca** (Skt: prapañca) — conceptual proliferation, mental proliferation, objectification; _standardly "conceptual proliferation" (Ñāṇananda, Bodhi); "objectification" (Bodhi alt), "mental proliferation" (Thanissaro). Its stilling (`papañca-vūpasama`) frames the limit of useful doctrine (AN 4.173); MN 18 thematizes the cessation of `papañcasaññāsaṅkhā` (without the `-vūpasama` compound)._
 - **nippapañca** (Skt: niṣprapañca) — free of proliferation, unelaborated
@@ -1522,6 +1522,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **nissaya** (Skt: niśraya) — X.a
 - **nissita** (Skt: niśrita) — X.a
 - **nīvaraṇa** — III.b
+- **nīvaraṇa-pahāna** — III.a
 - **noēsis** — XV.a
 - **nous** — XV.a
 
@@ -1544,6 +1545,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _pañca-dhyānāṅga_ → see **pañca-jhānaṅga** (XI.b)
 - **pañca-jhānaṅga** (Skt: pañca-dhyānāṅga) — XI.b
 - **paññā** (Skt: prajñā) — VI.f
+- **paññā-bala** — VIII.d
 - **paññatti** (Skt: prajñapti) — XI.a
 - **paññāvimutti** (Skt: prajñāvimukti) — II
 - **paññindriya** (Skt: prajñendriya) — VIII.c
@@ -1646,6 +1648,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _ṣaḍāyatana_ → see **saḷāyatana** (VI.c, VII.a)
 - **sadda** (Skt: śabda) — VI.c
 - **saddhā** (Skt: śraddhā) — VI.f
+- **saddhā-bala** — VIII.d
 - **saddhindriya** (Skt: śraddhendriya) — VIII.c
 - **sādhana** — XIII.a
 - **saguṇa** — XIV.a
@@ -1658,6 +1661,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _sākṣātkriyā_ → see **sacchikiriyā** (IX)
 - **saḷāyatana** (Skt: ṣaḍāyatana) — VI.c, VII.a
 - **samādhi** — III.c, VIII.b
+- **samādhi-bala** — VIII.d
 - **samādhindriya** (Skt: samādhīndriya) — VIII.c
 - **samatha** (Skt: śamatha) — III.c
 - **samaya** — XIII.a
@@ -1710,6 +1714,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _śāśvata-dṛṣṭi_ → see **sassata-diṭṭhi** (X.b)
 - **sat** — XIV.a
 - **sati** (Skt: smṛti) — IV, VIII.b
+- **sati-bala** — VIII.d
 - **sati-sampajañña** (Skt: smṛti-samprajanya) — III.a
 - **satindriya** (Skt: smṛtīndriya) — VIII.c
 - **satipaṭṭhāna** (Skt: smṛtyupasthāna) — IV
@@ -1862,6 +1867,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - _vipaśyanā-jñāna_ → see **vipassanā-ñāṇa** (XI.b)
 - **virāga** — II
 - **vīriya** (Skt: vīrya) — VI.f, VIII.b, VIII.f
+- **vīriya-bala** — VIII.d
 - **vīriyindriya** (Skt: vīryendriya) — VIII.c
 - _vīrya_ → see **vīriya** (VI.f, VIII.b, VIII.f)
 - **vīrya-pāramitā** — XII.d
@@ -1871,6 +1877,8 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **vitakka** (Skt: vitarka) — III.c
 - _vitarka_ → see **vitakka** (III.c)
 - **viveka** — I, III.c, XIV.a
+- _vivikta-śayanāsana_ → see **vivitta-senāsana** (III.a)
+- **vivitta-senāsana** (Skt: vivikta-śayanāsana) — III.a
 - **vyakta** — XIV.b
 - _vyāpāda_ → see **byāpāda** (III.b, VIII.g)
 
