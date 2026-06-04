@@ -153,6 +153,15 @@ Use inline `*def-flag: …*` notes when a term has contested scholarship, multip
 
 When a term's etymology illuminates a non-obvious rendering choice, append a short inline `lit. "…"` note after the rendering, semicolon-separated: `— rendering; lit. "literal meaning."` Plain text (not italic — etymology is reference content, not metadata). Skip when the rendering already _is_ the literal sense (e.g., `arūpa` = "formless" needs no lit. note). Skip when the etymology is contested or uninformative. Current examples: `samādhi` (lit. "placing/collecting together"), `vicāra` (lit. "moving/wandering about").
 
+## Multi-headword entries
+
+When one entry groups several headwords with `/`, the gloss after the em-dash follows one of two patterns, chosen by whether the headwords denote distinct referents:
+
+- **Positional gloss — slash.** When each headword is a _distinct_ referent, give one gloss per headword separated by `/` mirroring the headword slashes: `lobha / dosa / moha — greed / hatred / delusion`. The parallel slashes signal a one-to-one mapping. Used by `hiri / ottappa`, `kusala / akusala`, `adhisīla / adhicitta / adhipaññā`, `magga / phala / magga-phala`, etc.
+- **Shared gloss — comma.** When the headwords name _one_ referent (synonym pairs; base/compound or singular/plural form-variants; cross-language equivalents), give a single gloss for that shared referent; commas inside it are alternative renderings, not positional: `svasaṃvedana / svasaṃvitti — reflexive cognition, self-awareness (of cognition)` (synonym pair); `pasāda / pasāda-rūpa — sensitive matter, sensitive material` (base/compound, one referent).
+
+Never use commas to separate positionally-mapped glosses — that collides with the comma-as-multiple-renderings convention (e.g. `samādhi — composure, collectedness`) and reads as if the glosses were synonyms of a single term.
+
 ## Open consistency calls (pending Jack's decision)
 
 These are flagged but not yet resolved. Don't silently fix them — surface them when relevant:

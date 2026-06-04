@@ -50,7 +50,7 @@ _The predicament:_
 
 _The goal as freedom from clinging:_
 
-- **anupadhi** (Skt: same) / **nirupadhi** (Skt: same) — without substrate, free of acquisition; _the goal-pointer corresponding to upadhi._
+- **anupadhi** (Skt: same) / **nirupadhi** (Skt: same) — without substrate / free of acquisition; _the goal-pointer corresponding to upadhi._
 - **santi** (Skt: śānti) — peace; _cf. Sn 4.14 `santi-pada` ("peace-state"; also Sn 1.12, Sn 5.12) as a synonym for the goal._
 
 _The sage:_
@@ -357,8 +357,8 @@ _def-flag on the section: this gathers EBT-attested mental qualities, factors, a
 _Wholesome and unwholesome roots (mūla):_
 
 - **kusala-mūla** (Skt: kuśala-mūla) / **akusala-mūla** (Skt: akuśala-mūla) — wholesome / unwholesome roots; _the three wholesome and three unwholesome root-qualities paired as a root-analytic schema (AN 3.34, etc.); cf. III.a `kusala`/`akusala`._
-- **lobha** (Skt: same) / **dosa** (Skt: dveṣa) / **moha** (Skt: same) — greed (covetous-pull-toward), hatred, delusion; _the three akusala-mūla. At the root-analytic level: `lobha` is the broad craving-side (mapping to `taṇhā`); `dosa` is the aversion-side (the structural parallel that licenses the modern insight-pedagogy "craving / aversion" framing — see I `taṇhā` def-flag); `moha` maps to `avijjā` (DO link 1, fetter 10). Sensuality-restricted manifestations at lower analytic levels — `kāmacchanda` (III.b hindrance and VIII.g fetter 4, eliminated at 3rd path while broader taṇhā extends through bhava-/rūpa-/arūpa-forms only fully ended at 4th path), `kāma-rāga` (the sensual anusaya, VIII.g), `kāma-taṇhā` (sensuality-form of the three-fold taṇhā at SN 56.11). Aversion-mode at lower levels — `byāpāda` (III.b hindrance and VIII.g fetter 5), `paṭigha` (the latent aversion-anusaya, VIII.g)._
-- **alobha** (Skt: same) / **adosa** (Skt: adveṣa) / **amoha** (Skt: same) — non-greed, non-hatred, non-delusion; _the three kusala-mūla._
+- **lobha** (Skt: same) / **dosa** (Skt: dveṣa) / **moha** (Skt: same) — greed (covetous-pull-toward) / hatred / delusion; _the three akusala-mūla. At the root-analytic level: `lobha` is the broad craving-side (mapping to `taṇhā`); `dosa` is the aversion-side (the structural parallel that licenses the modern insight-pedagogy "craving / aversion" framing — see I `taṇhā` def-flag); `moha` maps to `avijjā` (DO link 1, fetter 10). Sensuality-restricted manifestations at lower analytic levels — `kāmacchanda` (III.b hindrance and VIII.g fetter 4, eliminated at 3rd path while broader taṇhā extends through bhava-/rūpa-/arūpa-forms only fully ended at 4th path), `kāma-rāga` (the sensual anusaya, VIII.g), `kāma-taṇhā` (sensuality-form of the three-fold taṇhā at SN 56.11). Aversion-mode at lower levels — `byāpāda` (III.b hindrance and VIII.g fetter 5), `paṭigha` (the latent aversion-anusaya, VIII.g)._
+- **alobha** (Skt: same) / **adosa** (Skt: adveṣa) / **amoha** (Skt: same) — non-greed / non-hatred / non-delusion; _the three kusala-mūla._
 - **rāga** (Skt: same) — passion, lust; _the broader pull-toward term, paired throughout EBT with dosa and moha. Related to but broader than `lobha` — rāga is the general coloring/passion register, `lobha` the technical root-quality. Reappears compounded in the higher fetters as `rūpa-rāga` (6), `arūpa-rāga` (7), and in the anusayas as `kāma-rāga` and `bhava-rāga` — see VIII.g._
 - **domanassa** (Skt: daurmanasya) — mental pain, sadness, displeasure; _cf. IV satipaṭṭhāna refrain (`abhijjhā-domanassa`)._
 - **somanassa** (Skt: saumanasya) — mental pleasure, gladness, joy
@@ -921,7 +921,7 @@ _Pāli surface cognates exist for several entries below (`puruṣa`/`purisa`, `p
 
   _def-flag: Advaita "limiting adjunct" — that which makes the one brahman appear as many. Distinct from Pāli `upadhi` (I) — different Sanskrit words (upa-ā-√dhā vs. upa-√dhā); the macron is the tell._
 
-- **sākṣin** / **sākṣi-caitanya** — witness, witness-consciousness; _the uninvolved awareness in which experience appears. A distinctive Advaita category._
+- **sākṣin** / **sākṣi-caitanya** — witness / witness-consciousness; _the uninvolved awareness in which experience appears. A distinctive Advaita category._
 - **jīvanmukta** / **jīvanmukti** — one-liberated-while-living / liberation-while-living; _the Advaita doctrine that mokṣa can obtain while the body persists._
 - **videhamukti** — liberation at death, bodiless liberation; _paired with jīvanmukti._
 - **ahaṃkāra** — I-maker, ego-principle; _ego-principle in the Sāṅkhya-Vedānta psychological hierarchy._
