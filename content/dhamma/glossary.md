@@ -69,13 +69,13 @@ _The sage:_
 - **saupādisesa-nibbāna** (Skt: sopadhiśeṣa-nirvāṇa) — nibbāna "with remainder"; the arhat's liberation while still alive (khandhas remaining). _Iti 44 (Nibbānadhātusutta) frames the pair as the two nibbāna-elements — `saupādisesā nibbānadhātu` / `anupādisesā nibbānadhātu`; the bare `-nibbāna` compound is later shorthand for the nibbānadhātu formula._
 - **anupādisesa-nibbāna** (Skt: nirupadhiśeṣa-nirvāṇa) — nibbāna "without remainder"; the nibbāna-at-death (khandhas drop). _Near-synonym of `parinibbāna` in EBT usage; for the Iti 44 `nibbānadhātu` framing see `saupādisesa-nibbāna`._
 - **amata** (Skt: amṛta) — the deathless; lit. "un-dying" (a- + √mṛ "die"). _A pervasive EBT epithet for the goal._
-- **saṃsāra** (Skt: same) — the round of rebirths, the wandering-on; lit. "flowing on" (saṃ- + √sṛ "flow"). _The correlative-contrast term to nibbāna; the condition from which nibbāna is release._
-- **āsava** (Skt: āsrava) — taint, defilement; lit. "flowing, inflow/outflow" (ā- + √sru "flow"). _The standard EBT enumeration is three (kāmāsava sensual-taint / bhavāsava becoming-taint / avijjāsava ignorance-taint, e.g. MN 9), with diṭṭhāsava added as a fourth in the Abhidhamma (Vibhaṅga / Dhammasaṅgaṇī), not in the sutta lists. The Jain cognate `āsrava` means "karmic inflow."_
+- **saṃsāra** (Skt: same) — the round of rebirths, the wandering-on, cyclic existence; lit. "flowing on" (saṃ- + √sṛ "flow"). _The correlative-contrast term to nibbāna; the condition from which nibbāna is release._
+- **āsava** (Skt: āsrava) — taint, defilement; lit. "flowing, inflow/outflow" (ā- + √sru "flow"). _The standard EBT enumeration is three (kāmāsava sensual-taint / bhavāsava becoming-taint / avijjāsava ignorance-taint, e.g. MN 9), with diṭṭhāsava added as a fourth in the Abhidhamma (Vibhaṅga / Dhammasaṅgaṇī), not in the sutta lists. Thanissaro's signature rendering is "effluent" (the ā-√sru outflow image; cf. DPD "discharge, outflow"). The Jain cognate `āsrava` means "karmic inflow."_
 - **āsavakkhaya** (Skt: āsravakṣaya) — destruction of the āsavas. _An early goal-description (MN 27, DN 2, AN 6.55, etc.) — pre-systematic in the sense that "ending of the āsavas" predates and underwrites the more elaborate nibbāna / vimutti vocabulary as a compact name for what awakening accomplishes._
 - **anāsava** (Skt: anāsrava) — taint-free; _of the arhat, of nibbāna itself._
 - **khīṇāsava** (Skt: kṣīṇāsrava) — one whose āsavas are destroyed; _the arhat's defining state._
 - **taṇhākkhaya** (Skt: tṛṣṇākṣaya) — the ending / destruction of craving; _MN 37 (Cūḷataṇhāsaṅkhaya-sutta) frames the whole training around the ending of craving (there as the synonym `taṇhāsaṅkhaya`; `taṇhākkhaya` itself appears at MN 26, MN 64). Compressed paraphrase of the Buddha's repeated formulation that he teaches "only dukkha and its ending" — `dukkhañ ceva paññāpemi dukkhassa ca nirodhaṃ` (MN 22.37, SN 22.86); cf. AN 10.58, SN 12.23. Like `āsavakkhaya`, names the goal from the negative side — what is destroyed — rather than the positive (`vimutti`, `nibbāna`)._
-- **vimutti** (Skt: vimukti) — liberation, release.
+- **vimutti** (Skt: vimukti) — liberation, release, deliverance, emancipation, freedom.
 - **cetovimutti** (Skt: cetovimukti) — liberation of mind; _paired with paññāvimutti as the two aspects of the arhat's liberation (AN 2.31, MN 43, etc.)._
 - **paññāvimutti** (Skt: prajñāvimukti) — liberation by wisdom; _paired with cetovimutti._
 - **ubhatobhāgavimutta** (Skt: ubhayatobhāgavimukta) — liberated both ways; _every arhat has both cetovimutti and paññāvimutti; the ubhatobhāgavimutta arhat additionally has mastery of the `aṭṭha vimokkha` (eight liberations, DN 15 / AN 8.66 — three form-based contemplations, the four āruppa attainments, and `saññāvedayitanirodha`), distinguishing them from the paññāvimutta arhat (MN 70). Distinct schema from the three `vimokkha-mukha` (suññatā / animitta / appaṇihita) above — same root, different list._
@@ -272,9 +272,9 @@ _The Five Aggregates (pañcakkhandha):_
 3. **saññā** (Skt: saṃjñā) — perception; lit. "together-knowing" (saṃ- + √jñā). _Covers recognition, labeling, apperception._
 4. **saṅkhāra** (Skt: saṃskāra) — (here, the 4th aggregate) intentional formations, intentional activities; lit. "con-struction, together-making" (saṃ- + √kṛ "do, make"). _"Formations" or "mental formations" is the common generic rendering; the Abhi. takes cetanā (intention, VI.f) as the leading factor of this aggregate, hence Bodhi's more specific "volitional formations" — re-rendered "intentional" here for consistency with cetanā = intention. Other renderings: "fabrications" (Thanissaro's signature) emphasizes the saṃ-√kṛ "together-making" root over the cetanā-specific reading; Sujato's "choices" emphasizes the active cetanā-led-decision angle._
 
-   _def-flag: `saṅkhāra` has at least five distinct doctrinal uses: (1) the second link in dependent origination — intentional formations conditioning consciousness (VII.a); (2) the fourth aggregate — intentional / constructive factors led by cetanā (here); (3) broadly, "all conditioned phenomena" / "all fabrications" (`sabbe saṅkhārā aniccā` "all fabrications are impermanent" — see VII.b); (4) the triad `kāya-saṅkhāra` / `vacī-saṅkhāra` / `citta-saṅkhāra` (bodily, verbal, mental formations / fabrications — MN 44, MN 9); (5) `āyu-saṅkhārā` — life-formations/life-force (MN 43, DN 16). Contexts do not reduce to a single gloss._
+   _def-flag: `saṅkhāra` has at least five distinct doctrinal uses: (1) the second link in dependent origination — intentional formations conditioning consciousness (VII.a); (2) the fourth aggregate — intentional / constructive factors led by cetanā (here); (3) broadly, "all conditioned phenomena" / "all fabrications" (`sabbe saṅkhārā aniccā` "all fabrications are impermanent" — see VII.b) — the totalizing sense, in which even the other four aggregates are themselves saṅkhārā (conditioned); senses (1)–(2) are the narrower intentional-factors use, a proper subset of this; (4) the triad `kāya-saṅkhāra` / `vacī-saṅkhāra` / `citta-saṅkhāra` (bodily, verbal, mental formations / fabrications — MN 44, MN 9); (5) `āyu-saṅkhārā` — life-formations/life-force (MN 43, DN 16). Beneath the spread is an active/passive ambiguity in the word itself: an active sense — the forming, kammically-charged volition that constructs (senses 1–2, near-synonymous with kamma) — and a passive sense — what is formed, i.e. conditioned things (sense 3). English "formations" / "fabrications" carry the same ambiguity, which is what lets one rendering span all the uses (Bodhi, "Anicca Vata Saṅkhāra"). Contexts do not reduce to a single gloss._
 
-5. **viññāṇa** (Skt: vijñāna) — consciousness; lit. "knowing-apart" (vi- "apart, distinct" + √jñā "know") — the cognitive moment of _being-aware-of-an-object_, distinguishing X from non-X. _Six kinds: cakkhu-, sota-, ghāna-, jivhā-, kāya-, mano-viññāṇa — one per sense-modality. Also DO link 3 (VII.a); the consciousness-element (viññāṇa-dhātu, VI.d). Distinct from `citta` (heart-mind, VI.f) and `mano` (mind-as-sense-base, VI.c) — viññāṇa is the cognitive event arising at any sense-base; mano is itself a sense-base, the sixth one (mano-viññāṇa = the cognition arising at mano, parallel to cakkhu-viññāṇa at the eye). EBT sometimes treats the three (citta / mano / viññāṇa) as interchangeable (SN 12.61)._
+5. **viññāṇa** (Skt: vijñāna) — consciousness, cognition; lit. "knowing-apart" (vi- "apart, distinct" + √jñā "know") — the cognitive moment of _being-aware-of-an-object_, distinguishing X from non-X. _Six kinds: cakkhu-, sota-, ghāna-, jivhā-, kāya-, mano-viññāṇa — one per sense-modality. Also DO link 3 (VII.a); the consciousness-element (viññāṇa-dhātu, VI.d). Distinct from `citta` (heart-mind, VI.f) and `mano` (mind-as-sense-base, VI.c) — viññāṇa is the cognitive event arising at any sense-base; mano is itself a sense-base, the sixth one (mano-viññāṇa = the cognition arising at mano, parallel to cakkhu-viññāṇa at the eye). EBT sometimes treats the three (citta / mano / viññāṇa) as interchangeable (SN 12.61)._
 
 - **upādāna-khandha** (Skt: upādāna-skandha) — clinging-aggregate, aggregate subject to clinging; _the five khandhas insofar as they are objects of upādāna._
 
@@ -346,7 +346,7 @@ _def-flag on the section: this gathers EBT-attested mental qualities, factors, a
 - **citta** (Skt: same) — mind, heart-mind; _the affective/intentional sense, distinct from `viññāṇa` (consciousness, VI.b) and `mano` (mind-as-sense-base, VI.c). 3rd satipaṭṭhāna foundation (IV); also the iddhipāda-sense at VIII.f._
 - **cetanā** (Skt: same) — intention; _AN 6.63 famously defines kamma as cetanā:_ cetanāhaṃ bhikkhave kammaṃ vadāmi _— "what I call kamma, monks, is intention." Distinct from `saṅkappa` (deliberate forming/disposing of mind — VIII.a sammā-saṅkappa)._
 - **manasikāra** (Skt: same) — attention, bringing to mind; lit. "mind-making" (manas + √kṛ)
-- **saddhā** (Skt: śraddhā) — faith; lit. "putting heart on" (śrad + √dhā). _Faculty (VIII.c) and power (VIII.d)._
+- **saddhā** (Skt: śraddhā) — faith, confidence; lit. "putting heart on" (śrad + √dhā). _Faculty (VIII.c) and power (VIII.d)._
 - **chanda** (Skt: same) — motivation, zeal, wish-to-do; _in the wholesome / iddhipāda sense (VIII.f), explicitly distinct from `taṇhā` — chanda is the directional motivation that drives wholesome cultivation, taṇhā is the dukkha-generating craving._
 - **vīriya** (Skt: vīrya) — effort, energy, vigor; lit. "heroic-ness" (from vīra "hero"). _Recurs across the seven sets: bojjhaṅga (VIII.b), faculty (VIII.c), power (VIII.d), sammappadhāna (VIII.e), iddhipāda (VIII.f), and as sammā-vāyāma (VIII.a)._
 - **passaddhi** (Skt: praśrabdhi) — tranquillity, calm, repose; _also bojjhaṅga (VIII.b)._
@@ -392,7 +392,7 @@ _The canonical formula extends with the trailing phrase: `...jarā-maraṇa-soka
 - **hetu** (Skt: same) — cause
 - **paccaya** (Skt: pratyaya) — condition
 - **nidāna** (Skt: same) — source, cause, causal link
-- **saṅkhāra** (Skt: saṃskāra) — (here, sense 3 of the def-flag at VI.b) all conditioned phenomena, all fabrications; _the noun corresponding to `saṅkhata` below — used in `sabbe saṅkhārā aniccā` ("all fabrications are impermanent"), `sabba-saṅkhāra-samatha` ("settling of all fabrications," epithet of nibbāna at SN 6.1). Cross-ref to VI.b def-flag for the five distinct senses of saṅkhāra._
+- **saṅkhāra** (Skt: saṃskāra) — (here, sense 3 of the def-flag at VI.b) all conditioned phenomena, all formations, all fabrications; _the noun corresponding to `saṅkhata` below — used in `sabbe saṅkhārā aniccā` ("all fabrications are impermanent"), `sabba-saṅkhāra-samatha` ("settling of all fabrications," epithet of nibbāna at SN 6.1). Cross-ref to VI.b def-flag for the five distinct senses of saṅkhāra._
 - **saṅkhata** (Skt: saṃskṛta) — conditioned, constructed, fabricated
 - **asaṅkhata** (Skt: asaṃskṛta) — unconditioned, unconstructed, unfabricated; _standard epithet of nibbāna (cf. II)._
 - **kamma** (Skt: karman) — action; _usually left untransliterated in modern usage. EBT-defined as cetanā (intention, VI.f) at AN 6.63: "cetanāhaṃ bhikkhave kammaṃ vadāmi" — "what I call kamma, monks, is intention."_
@@ -623,7 +623,7 @@ _Note: Abhidhamma vocabulary below is the post-Nikāya systematization of EBT te
 - **paramattha** (Skt: paramārtha) — ultimate (truth / reality); _Abhi. / commentarial sense: paramattha-sacca "ultimate truth" contrasted with sammuti-sacca "conventional truth" — the conceptual distinction is an Abhidhamma-era development (Karunadasa), but the explicit paired two-truths terminology crystallizes in the commentaries._
 - **sammuti** (Skt: saṃvṛti) — convention, conventional (truth); _Abhi. sense; cf. XII.b for the Madhyamaka `saṃvṛti-satya` usage._
 - **paññatti** (Skt: prajñapti) — concept, designation, nominal entity; _the conventional-reality counterpart to paramattha in Abhi._
-- **sabhāva** (Skt: svabhāva) — own-nature, own-characteristic, defining nature; _Abhi. sense: the characteristic by which a dhamma is analytically identifiable as that dhamma. Not to be read as the Madhyamaka target-sense of independent, self-subsisting inherent existence — cf. XII.b for the Madhyamaka critique of svabhāva, historically aimed at Sarvāstivāda / Vaibhāṣika ābhidharmika realism rather than the Theravāda system specifically, though structurally parallel._
+- **sabhāva** (Skt: svabhāva) — own-nature, own-characteristic, essential nature; _Abhi. sense: the characteristic by which a dhamma is analytically identifiable as that dhamma. Not to be read as the Madhyamaka target-sense of independent, self-subsisting inherent existence — cf. XII.b for the Madhyamaka critique of svabhāva, historically aimed at Sarvāstivāda / Vaibhāṣika ābhidharmika realism rather than the Theravāda system specifically, though structurally parallel._
 - **asabhāva** (Skt: asvabhāva) — without own-nature
 - **cetasika** (Skt: caitasika / caitta) (Abhi.) — mental factor, mental concomitant; _Abhi. sense: the technical 52-cetasika typology, paired with citta in the citta-cetasika analysis. Cf. VI.f for the EBT-attested mental-quality entries._
 - **javana** (Skt: same) — (in Abhi.) impulsion, active cognition, apperception; lit. "swift, running"
@@ -853,9 +853,9 @@ _Vajrayāna is doctrinally a tantric mode within Mahāyāna (Mantrayāna), not a
 - **tulku** (Wylie: sprul sku) — incarnate lama, recognized reincarnation; _the Tibetan term that also translates Skt `nirmāṇakāya` (emanation-body, XII.d); in Tibetan Buddhist institutional usage, a recognized reincarnate teacher._
 - **bardo** (Wylie: bar do) — intermediate state, in-between state; _Tibetan-tradition elaboration of Skt `antarābhava`. The Bardo Thödol frames six bardos; the term has broader use beyond the between-lives bardo._
 - **yidam** (Wylie: yi dam) — personal meditation deity; _translates / functions like Skt `iṣṭa-devatā`._
-- **rigpa** (Wylie: rig pa) (Dzogchen) — awareness, pristine awareness, knowing; _the Dzogchen term for non-dual awareness as the ground of experience. Translation equivalent of Skt vidyā._
+- **rigpa** (Wylie: rig pa) (Dzogchen) — awareness, pristine awareness, pure awareness, knowing, presence; _the Dzogchen term for non-dual awareness as the ground of experience. Translation equivalent of Skt vidyā._
 - **ma rigpa** (Wylie: ma rig pa) (Dzogchen) — ignorance, non-knowing, non-recognition (of rigpa); _translation equivalent of Skt `avidyā` but Dzogchen-specific in usage._
-- **'od gsal** (Wylie) / **clear light** — Tibetan rendering of Skt `prabhāsvara`; _central to Mahāmudrā, Dzogchen, and the Six Yogas of Nāropa. The clear-light nature of mind, recognized at moments of subtle dissolution (sleep, dreaming, dying) and as the goal of practice. Cognate with the EBT `pabhassara` (II) and Mahāyāna `prabhāsvara-citta` (XII.d) but with its own Vajrayāna technical apparatus._
+- **'od gsal** (Wylie) / **clear light** — Tibetan rendering of Skt `prabhāsvara` (also rendered "luminosity"); _central to Mahāmudrā, Dzogchen, and the Six Yogas of Nāropa. The clear-light nature of mind, recognized at moments of subtle dissolution (sleep, dreaming, dying) and as the goal of practice. Cognate with the EBT `pabhassara` (II) and Mahāyāna `prabhāsvara-citta` (XII.d) but with its own Vajrayāna technical apparatus._
 - **sems nyid** (Wylie) — mind-itself, the nature of mind; _the Tibetan term for the intrinsic, non-dual nature of mind as opposed to thoughts / contents arising within it. Used across Mahāmudrā and Dzogchen; closely tied to `rigpa` and `'od gsal`._
 
 _The four Dzogchen liberations (grol bzhi):_
@@ -950,13 +950,13 @@ _Method-vocabulary of jñāna-yoga:_
 
 _The Three Guṇas:_
 
-1. **sattva** (Sāṅkhya) — lucidity, clarity, goodness
+1. **sattva** (Sāṅkhya) — lucidity, clarity, goodness, purity
 2. **rajas** (Sāṅkhya) — passion, activity
 3. **tamas** (Sāṅkhya) — inertia, dullness, darkness
 
 - **vyakta** (Sāṅkhya) — manifest
 - **avyakta** (Sāṅkhya) — unmanifest; _the equilibrium-state of prakṛti before manifestation. In the Bhagavad-Gītā and Vedānta, avyakta is variously absorbed depending on commentator and verse — often as unmanifest prakṛti / māyā, sometimes as `akṣara`, sometimes as a brahmanic register. In classical Sāṅkhya it is prakṛti-side, not brahman-side; Sāṅkhya is dualistic, and brahman is not a Sāṅkhya category._
-- **kaivalya** (Sāṅkhya / Yoga) — isolation, aloneness; _the Sāṅkhya-Yoga goal: puruṣa's separation from prakṛti._
+- **kaivalya** (Sāṅkhya / Yoga) — isolation, aloneness, independence, absolute freedom; _the Sāṅkhya-Yoga goal: puruṣa's separation from prakṛti — the literal "isolation" is the positive liberative state, the Seer standing free of nature._
 - **samprajñāta-samādhi** / **asamprajñāta-samādhi** (Pātañjala Yoga) — samādhi with / without cognized object; _the two-fold division at YS 1.17–1.18. YS 1.17 characterizes `samprajñāta` as accompanied by `vitarka`, `vicāra`, `ānanda`, and `asmitā`; YS 1.42–1.44 then elaborates the `savitarka` / `nirvitarka` and `savicāra` / `nirvicāra` samāpatti distinctions._
 - **prāṇa** — breath, life-force, vital energy
 - **kuṇḍalinī** (Hindu tantra / Haṭha-yoga) — coiled (serpent-energy); _not Sāṅkhya / Pātañjala-Yoga vocabulary — a Hindu-tantric and Haṭha-yoga concept (developed in the Śaiva and Nātha tantric corpora, codified in the Haṭhayogapradīpikā and similar texts) of dormant energy at the base of the spine, raised through the central channel in subtle-body practice. Listed here under Indic comparatives for its structural parallel to Vajrayāna `caṇḍālī` (XIII.a) / Tibetan `tummo` (XIII.b)._
@@ -1052,7 +1052,7 @@ _The Ten Sefirot (canonical order, from nearest-the-Infinite downward):_
 _Divine immanence, mystical union:_
 
 - **shekhinah** (שְׁכִינָה) — divine presence, indwelling; _God's immanent / dwelling aspect; often feminine-coded and identified with the tenth sefirah malkhut. In exile with Israel in post-biblical Jewish thought._
-- **devekut** (דְּבֵקוּת) — cleaving, adherence (to God); _mystical union via continuous cleaving to the divine — the central soteriological term in Ḥasidism._
+- **devekut** (דְּבֵקוּת) — cleaving, adherence, communion (to/with God); _continuous cleaving to the divine — "communion" (Scholem) rather than absorptive union, since Jewish mysticism generally preserves the soul–God distinction; the central soteriological term in Ḥasidism._
 
 ### XV.c German
 

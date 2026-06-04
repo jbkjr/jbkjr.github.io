@@ -104,3 +104,9 @@ Mixed bag of edits flagged from reading the live site. Line numbers are snapshot
     - Add `**anusaya** (Skt: anuśaya) — VIII.g` in A (after `anupassanā`, before `_anusmṛti_`); add `**bhava-rāga** (Skt: same) — VIII.g` in B (after `bhavaṅga`).
 
     _Pre-apply check: grep for any other prose mention of "fetter 4" / "fetter 5" / `kāma-rāga` / `paṭigha` not listed above, in case another entry cross-references them._
+
+## Rendering-presentation pass (queued 2026-06-04)
+
+13. **Rendering order — lead with preferred renderings.** Do a full read-through and reorder the comma-separated renderings in each entry so the preferred/lead rendering comes first (current order is sometimes lexicographic or accretive rather than by preference). Best as a dedicated pass with per-entry notes, since "favorite" is Jack's call per term.
+
+14. **`RENDERINGS_TO_CONSIDER.md` — candidate additional renderings (build-excluded).** Full per-term sweep of established renderings not yet present. **HIGH tier partially applied 2026-06-04:** added `saṃsāra` "cyclic existence", `āsava` "effluent" (Thanissaro), `vimutti` "deliverance/emancipation/freedom", `saddhā` "confidence", `rigpa` "pure awareness/presence", `'od gsal` "luminosity", `viññāṇa` "cognition", `sattva` "purity", `kaivalya` "independence/absolute freedom", `devekut` "communion"; replaced `sabhāva` "defining nature" → "essential nature". **Declined:** `anattā` "non-self" (metaphysical-thesis connotation), `nibbāna` "extinction" (annihilationist connotation), `khandha` "group(s)" (redundant). **Optional/pending:** `sambhogakāya` "bliss body" (looser Tibetan rendering); MED + LOW tiers not yet audited.
