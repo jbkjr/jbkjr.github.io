@@ -2,7 +2,7 @@
 
 Verification of every mechanically-checkable factual claim in `glossary.md` against primary sources. Triggered after the `upadhi`/`upādāna` ↔ Aṭṭhakavagga misattribution was caught, which suggested citations had been generated from plausibility rather than from the text.
 
-**Status: Section A APPLIED to `glossary.md` 2026-06-03** — all 32 confirmed errors fixed, with matching index updates (cross-refs re-sorted: `abdhātu` moved, `jarāmṛtyu` added; `(Skt: …)` dropped from now-`same` entries). **One item held: L38 `upādāna`** (the structural `→ anupādiyāno` split — awaiting your headword-form / Skt-cognate / index decisions; see `TERMS_TO_ADD.md` item 11). Sections B (unverified) and C (interpretive) are not actioned. Below, ✗ = former text, ✓ = applied. Line numbers as of 2026-06-03 (pre-edit).
+**Status: Section A APPLIED to `glossary.md` 2026-06-03** — all 32 confirmed errors fixed, with matching index updates (cross-refs re-sorted: `abdhātu` moved, `jarāmṛtyu` added; `(Skt: …)` dropped from now-`same` entries). **One item held: L38 `upādāna`** (the structural `→ anupādiyāno` split — awaiting your headword-form / Skt-cognate / index decisions; see `TERMS_TO_ADD.md` item 11). Section B (unverified): all 13 re-examined 2026-06-04 — 12 cleared (lexica + web/primary sources, incl. `sampajañña` vs Kumāra's book), 1 fixed (`saṅkhāra`, applied), 1 remains (samādhi/Anālayo page number); see §B-resolved. Section C (interpretive) is not actioned. Below, ✗ = former text, ✓ = applied. Line numbers as of 2026-06-03 (pre-edit).
 
 ## Method
 
@@ -12,10 +12,12 @@ Verification of every mechanically-checkable factual claim in `glossary.md` agai
 
 |                                     | Claims    | Pass      | **Fail**              | Unverified | Interpretive |
 | ----------------------------------- | --------- | --------- | --------------------- | ---------- | ------------ |
-| Citations / stratum / attributions  | ~290      | —         | 24                    | 8          | ~60          |
-| Etymologies / Skt cognates / `lit.` | ~430      | —         | 9                     | 5          | ~15          |
+| Citations / stratum / attributions  | ~290      | —         | 25                    | 1          | ~60          |
+| Etymologies / Skt cognates / `lit.` | ~430      | —         | 9                     | 0          | ~15          |
 | Index ↔ body consistency           | 713       | **713**   | 0                     | 0          | 0            |
-| **Total**                           | **1,405** | **1,283** | **32** (≈30 distinct) | **13**     | **66**       |
+| **Total**                           | **1,405** | **1,289** | **33** (≈31 distinct) | **1**      | **66**       |
+
+_Update 2026-06-04 (three rounds): all 13 originally-"Unverified" items were re-examined. **12 cleared** (5 etymology vs `_references/` lexica; 7 citation/attribution vs web + primary sources, incl. `sampajañña` confirmed against Kumāra's book — see §B-resolved). **1 fixed** (`saṅkhāra` — an unsupported secondary attribution, now a Section-A-style correction, moved to Fail). **1 remains** unverified — only the exact page for samādhi/Anālayo (substance is standard). Unverified now stands at 1._
 
 **Two reassurances:** (1) The "earliest stratum" framing is sound — Aṭṭhakavagga + Pārāyanavagga as oldest is well-supported (Norman, Vetter, Gómez, Nakamura, Jayawickrama); the spine's principle is fine. What broke was _attribution to_ the stratum, not the dating thesis. (2) The index is internally consistent (713/713).
 
@@ -194,23 +196,35 @@ Verification of every mechanically-checkable factual claim in `glossary.md` agai
 
 ---
 
-## B. Unverified (13) — need your library / sources I couldn't reach
+## B. Unverified (1) — needs a physical book I couldn't reach
 
-Not errors — mechanically uncheckable from canon + open lexica; appropriately hedged:
+One sub-claim remains genuinely uncheckable online; it is hedged in the entry, and the rest of the entry is verified:
 
-- **`suññatā` (L92)** — Vism XXI.66–73 (Paṭisambhidāmagga II 48 part _confirmed_; Vism chapter needs PTS/BPS edition).
-- **`ekaggatā` (L190)** — Rhys Davids 1900 "self-collectedness" (likely; needs page).
-- **`samādhi` (L176)** — Anālayo _Satipaṭṭhāna_ p72 (needs book).
-- **`abhiññā` (L107)** — Āgama parallels DĀ 27 / MĀ 146 (not in bilara; standard in Anālayo's parallel studies).
-- **`sampajañña` (L236)** — "full awareness" as Kumāra's rendering (check his 2022 translations).
-- **`cittānupassanā` (L229)** — `Skt: cittānupaśyanā`: DPD gives `citta + anudarśana`; compound not directly attested (classical: `cittānudarśanā`). _Borderline — worth checking._
-- **`kāyagatāsati` (L235)** — `Skt: kāyagatāsmṛti`: BHS attests `kāyagatānusmṛti`. _Borderline._
-- **`mettā` (L249)** — "loving-friendliness" (Gunaratana) — check _Four Immeasurable Minds_ / _Beyond Mindfulness_.
-- **`rūpa` (L270)** — Bodhi "materiality" ("sometimes" hedge fine).
-- **`saṅkhāra` (L273)** — "fabrications" for Goldstein/Kornfield (source or drop; ties to the L273 fix above).
-- **`rūpa-kalāpa` (L624)** — `(Skt: same)`: compound not attested in MW/BHS/DPD (needs Abhidharmakośa).
-- **`vāsanā` (L731)** — `lit. "infusing, perfuming"`: "perfuming" attested, "infusing" not → consider narrowing to "perfuming, scenting."
-- **`Istigkeit` (L1049)** — Eckhart "neologism": gloss confirmed; only "neologism" (coinage vs. repurposing) unverified.
+- **`samādhi` (L176)** — "Anālayo independently arrived at the same etymology (_Satipaṭṭhāna_, p72)." The substance (Anālayo reads samādhi as collectedness/unification, not single-object fixation) is standard; only the exact page **p72** needs the book. The same entry's Kumāra rendering ("composure, collectedness") is confirmed.
+
+### B-resolved — round 2: cleared/fixed 2026-06-04 (web + primary sources)
+
+Seven of the eight citation/attribution items closed:
+
+- ✅ **`suññatā` (L92)** — Vism XXI.66–73 **confirmed.** The "triple gateway to liberation" sits at Vism XXI.66ff; §70 = void-liberation via the not-self contemplation; the anicca→signless / dukkha→desireless / anattā→void correlations match the entry exactly. Keep.
+- ✅ **`ekaggatā` (L190)** — Rhys Davids 1900 **confirmed against the primary text.** Her Dhammasaṅgaṇi §11: "What on that occasion is **self-collectedness** (_cittass' ekaggata_)?" (Bonus: Kumāra's "stillness"/"stillness of mind" for ekaggatā confirmed in his own comparison table.) Keep.
+- ✅ **`abhiññā` (now L147)** — **resolved.** The flagged DĀ 27 / MĀ 146 Āgama-parallel claim is no longer in the entry; it now cites DN 2 / MN 27, and DN 2 (Sujato) carries the full six-knowledge sequence (psychic power → past-life recollection → rebirth-clairvoyance → destruction of defilements). Keep.
+- ✅ **`mettā` (L249)** — "loving-friendliness" (Gunaratana) **confirmed** as his preferred rendering (from `mitta` "friend"). Keep.
+- ✅ **`Istigkeit` (now L1060)** — Eckhart "neologism" **confirmed.** Scholarship (Project MUSE, "Eckhartian Neologisms"; Beccarisi) states Eckhart coined istic/isticheit. Keep.
+- ✅ **`sampajañña` (L236)** — "full awareness" = Kumāra **confirmed against his book** (Jack's copy). Kumāra states verbatim in a footnote: _"'Alertness' is translated from sampajañña, which I translate as 'full awareness'."_ He uses it throughout (e.g. `sato sampajāno` = "mindful and fully aware"; `satisampajañña` = "mindfulness and full awareness"). The entry's SN 47.35 definition was separately confirmed via bilara. Keep. _(Also clears the only other open item from the samādhi-cluster confirmation.)_
+- 🔧 **`saṅkhāra` (L273)** — **fixed (applied 2026-06-04).** "fabrications" is Thanissaro's signature (confirmed), but the secondary attribution "also Goldstein, Kornfield, etc." is unsupported — Goldstein renders saṅkhāra "(mental) formations," and no source ties either teacher to "fabrications." Dropped the secondary attribution; kept "Thanissaro's signature."
+
+_Confirmed in passing:_ Kumāra's samādhi-cluster renderings used across Parts II–X all match his published comparison table — `samādhi` = "composure, collectedness", `ekaggatā` = "stillness", `nimitta` = "basis, object", `vitakka`/`vicāra` = "thinking"/"considering", `viveka` = "separation".
+
+### B-resolved — round 1: cleared 2026-06-04 against `_references/` lexica (MW / Apte / BHS)
+
+These 5 etymology / Skt-cognate items were re-checked. **No glossary edits required** — all stand. Two were positively confirmed (the original flags were over-cautious); three are sound as constructed-cognates / hedged attributions. Line numbers refreshed post-restructure.
+
+- **`cittānupassanā` (L229)** — `Skt: cittānupaśyanā`: ✅ **confirmed.** BHS attests both `anupaśyanā` and `anupaśyin` as headwords — the genuine Buddhist-Sanskrit cognate of Pāli `anupassanā`. Classical `anudarśana` is the wrong register for a Buddhist meditation term; `citta + anupaśyanā` is a regular compound. Keep.
+- **`vāsanā` (L742)** — `lit. "infusing, perfuming"`: ✅ **confirmed (original flag wrong).** MW `vāsana` (n.) reads verbatim "the act of perfuming or fumigating, **infusing, steeping**"; root √vās (cl. 10) = "to perfume, make fragrant, scent, fumigate, steep." "Infusing" is directly attested, and the √vās "perfuming" derivation is the correct etymology for the Yogācāra habit-energy sense. Keep — do _not_ narrow to "perfuming, scenting."
+- **`kāyagatāsati` (L235)** — `Skt: kāyagatāsmṛti`: sound. `kāyagata` attested in MW (mfn. "dwelling in the body," Manu xi.98); `smṛti` = standard cognate of `sati`. BHS attests _neither_ `kāyagatāsmṛti` nor `kāyagatānusmṛti` (the original "BHS attests kāyagatānusmṛti" claim does not hold), so there's no reason to switch registers; the entry frames it as sati-practice (MN 119), so `sati→smṛti` is consistent. Constructed cognate, as `(Skt: …)` parens normally are. Keep.
+- **`rūpa-kalāpa` (L635)** — `(Skt: same)`: sound. `kalāpa` is genuine Sanskrit (MW: m. "a bundle, band," from √ap "that which holds single parts together"). Both morphemes are IAST-identical Pāli↔Skt, so `(Skt: same)` is correct _as a form statement_ — all the convention claims. The compound is a Theravāda-Abhidhamma coinage (unattested in MW/BHS/Apte; Sanskrit analog `saṃghāta`/`paramāṇu-saṃghāta`), but the XI.a placement already signals that. Keep.
+- **`rūpa` (L270)** — Bodhi "materiality": sound, not lexicon-checkable. True and correctly hedged — Bodhi uses "form" in the Nikāya translations (CDB/MLDB), "materiality" systematically in the Abhidhamma manual (CMA). "Sometimes renders" is accurate. Keep.
 
 ## C. Interpretive (66) — not errors, your call
 
