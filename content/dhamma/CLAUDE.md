@@ -68,11 +68,25 @@ Doctrinal stratum is not philological tidiness — it tracks real doctrinal comm
 
   This matches Monier-Williams, Apte, and the standard scholarly convention used in academic Indology (Olivelle, Bronkhorst, Edgerton, etc.). The popular forms (`karma`, `ātma`) are compound-initial allomorphs that 19th-c. theosophical and 20th-c. popular writing treated as base forms; they're not what dictionaries cite.
 
-  Exception: in compounds, the -n correctly drops by Sanskrit sandhi (`karma-yoga`, `nāma-rūpa`, `brahma-vihāra`). The compound spellings stay as written.
+  Exception: in compounds, the -n correctly drops by Sanskrit sandhi (`karma-yoga`, `nāma-rūpa`, `brahmavihāra`). The compound spellings stay as written. (Whether such a compound is then hyphenated or written solid is governed separately — see _Compound orthography_ below; `brahmavihāra` is solid as a lexicalized term, `nāma-rūpa` / `karma-yoga` hyphenate as paradigm/analytic compounds.)
 
 - **Drop Vedic pitch accents** (the acute over vowels: `bráhman`, `ātmán`) unless quoting Vedic material directly. They're a Vedic-philology notation; classical Sanskrit lost the pitch accent. Disambiguate `brahman` (n., the absolute) vs. `brahman` (m., the deity/priest) using a gender label, not the accent.
 
 - **Use accurate IAST diacriticals.** Macrons, dots above/below — treat any mismatch as a real error. Don't auto-normalize forms; if uncertain, ask.
+
+## Compound orthography (hyphen vs. solid)
+
+Romanized compounds take one of three forms. The policy is **implicit in the existing entries** — followed consistently but, until now, unstated; this codifies it so new headwords stay aligned.
+
+- **Solid (conjoined)** — fully-lexicalized single-concept terms (the "household words" cited as one unit) and compounds where sandhi has already fused the members. Examples: `nibbāna`, `paṭiccasamuppāda`, `satipaṭṭhāna`, `ānāpānasati`, `kāyagatāsati`, `cetovimutti`, `paññāvimutti`, `āsavakkhaya`, `brahmavihāra`, `ariyasacca`, and the sandhi-fused formless attainments (`ākāsānañcāyatana`, `nevasaññānāsaññāyatana`).
+- **Hyphenated** — two triggers:
+  1. **Paradigm-set members sharing a head noun**, so the family reads as a family: `*-ñāṇa` (insight-knowledges), `*-dhātu` (elements), `*-diṭṭhi` (views), `*-bala` (powers), `*-sacca` (truths), `*-pāramitā`, `*-samādhi` (samādhi types), `*-nimitta`, `*-svabhāva`, `*-rāga`, `*-mūla`, `*-nibbāna`, `*-samāpatti`, `*-yoga`.
+  2. **Two-member analytic compounds** (dvandvas and qualifier-noun) where exposing the constituents aids reading: `nāma-rūpa`, `sati-sampajañña`, `thīna-middha`, `uddhacca-kukkucca`, `indriya-saṃvara`, `sammā-diṭṭhi`, `sakkāya-diṭṭhi`, `jarā-maraṇa`, `magga-phala`.
+- **Spaced** — genuine multi-word phrases, not single compounds: `majjhimā paṭipadā`, `yathābhūtaṃ ñāṇadassana` (`yathābhūtaṃ` is an adverb, not a compound member).
+
+Governing intuition: **hyphenate to expose structure (especially paradigm membership); write solid when the term is one lexicalized concept or sandhi has already fused it.**
+
+Caveat — a thin overlay is per-term convention, not mechanical. `cetovimutti` / `paññāvimutti` are solid even though structurally they parallel the hyphenated `*-ñāṇa` set, because that canonical pair is conventionally written solid in the literature (Bodhi et al.). When a term has a settled dominant scholarly spelling, follow it; otherwise apply the buckets above. If a new compound is genuinely ambiguous, ask.
 
 ## Capitalization
 
