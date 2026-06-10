@@ -101,9 +101,9 @@ The glossary is organized **historical-developmentally within EBT first, then la
 
 ```
 I.    Earliest Stratum (Pāli; Aṭṭhakavagga / Pārāyanavagga)
-II.   The Goal — Āsavakkhaya & Nibbāna (Pāli; EBT)
+II.   The Goal: Nibbāna & Āsavakkhaya (Pāli; EBT)
 III.  The Gradual Training (Pāli; EBT)
-        III.a Sequence (sīla → indriya-saṃvara → sati-sampajañña → santuṭṭhi → hindrances → jhāna → yathābhūtaṃ ñāṇadassana → āsavakkhaya)
+        III.a Sequence (sīla → indriya-saṃvara → sati-sampajañña → santuṭṭhi → vivitta-senāsana → hindrances → jhāna → yathābhūtaṃ ñāṇadassana → āsavakkhaya)
         III.b Hindrances (pañca nīvaraṇāni)
         III.c Jhāna & Samādhi (EBT formulation only — commentarial apparatus goes in XI.b)
 IV.   Satipaṭṭhāna (Pāli; EBT)
@@ -123,9 +123,9 @@ VIII. Path Systematizations within EBT (Pāli; EBT — systematic)
         VIII.b Bojjhaṅgas
         VIII.c Faculties (indriya)
         VIII.d Powers (bala)
-        VIII.e Right Strivings (sammappadhāna)
+        VIII.e Proper Strivings (sammappadhāna)
         VIII.f Bases of Power (iddhipāda)
-        VIII.g Fetters & Stream-entry
+        VIII.g Fetters & Stages of Awakening
 IX.   Four Noble Truths as Systematic Frame (Pāli; EBT — late-systematic)
 X.    Non-clinging and the Limits of Doctrine (Pāli; EBT)
         X.a Non-clinging themes
@@ -161,7 +161,7 @@ Note on the Mahāyāna sub-ordering (XII.a–XII.e): chronological-developmental
 
 ## Def-flag convention
 
-Use inline `*def-flag: …*` notes when a term has contested scholarship, multiple senses across strata, or a Pāli/Mahāyāna sense divergence worth surfacing. Current def-flags include: `mokkha` (two homophonous Pāli forms, both OIA reflexes — from OIA `mukhya` "chief" and OIA `*mokṣa-` "release"), `saṅkhāra` (five distinct doctrinal uses), `ekaggatā` (EBT vs. commentarial jhāna-factor status), `vitakka` / `vicāra` (wide/EBT "thinking/considering" reading vs. narrow/commentarial attention-mechanics reading — `abhiniropana` / `anumajjana` in Vism), `taṇhā` (the "craving / aversion as unified clinging-engagement dynamic" reading vs. classical scholarly "craving" alone), `bojjhaṅga` sequence (EBT vs. commentarial), `bodhipakkhiya` (seven sets EBT-grouped, strict "37" is late), `satipaṭṭhāna` (21-exercise expansion scholarship-contested), `dhammakāya` (EBT epithet vs. Mahāyāna doctrinal body), `buddhadhātu` (Pāli relic sense vs. Mahāyāna buddha-nature), `anicca` (listed in multiple Parts), three-marks-to-three-doors mapping (anchored at II `suññatā` — symmetric `tilakkhaṇa`-to-`vimokkha-mukha` correspondence is `late canon. / Theravāda comm.`, not EBT lexical fact).
+Use inline `*def-flag: …*` notes when a term has contested scholarship, multiple senses across strata, or a Pāli/Mahāyāna sense divergence worth surfacing. Current def-flags include: `mokkha` (two homophonous Pāli forms, both OIA reflexes — from OIA `mukhya` "chief" and OIA `*mokṣa-` "release"), `saṅkhāra` (five distinct doctrinal uses), `ekaggatā` (EBT vs. commentarial jhāna-factor status), `vitakka` / `vicāra` (wide/EBT "thinking/considering" reading vs. narrow/commentarial attention-mechanics reading — `abhiniropana` / `anumajjana` in Vism), `taṇhā` (the "craving / aversion as unified clinging-engagement dynamic" reading vs. classical scholarly "craving" alone), `bojjhaṅga` sequence (EBT vs. commentarial), `bodhipakkhiya` (seven sets EBT-grouped, strict "37" is late), `satipaṭṭhāna` (21-exercise expansion scholarship-contested), `dhammakāya` (EBT epithet vs. Mahāyāna doctrinal body), `buddhadhātu` (Pāli relic sense vs. Mahāyāna buddha-nature), three-marks-to-three-doors mapping (anchored at II `suññatā` — symmetric `tilakkhaṇa`-to-`vimokkha-mukha` correspondence is `late canon. / Theravāda comm.`, not EBT lexical fact).
 
 ## Literal-gloss (`lit.`) convention
 

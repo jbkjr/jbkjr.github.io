@@ -89,7 +89,7 @@ _The sage:_
 - **virāga** (Skt: same) — dispassion, fading of passion; _same sequence._
 - **bodhi** (Skt: same) — awakening. _"Enlightenment" in older translations; "awakening" is the modern scholarly consensus that better tracks the √budh "wake" root._
 - **sammā-sambodhi** (Skt: samyak-saṃbodhi) — complete, proper awakening; a Buddha's kind of awakening. _Standardly "right awakening" or "perfect awakening" (sammā rendered "right" / "perfect" in most translations); see VIII.a sammā note for the "proper" rendering rationale._
-- **suññatā** (Skt: śūnyatā) — emptiness. _One of the three `vimokkha-mukha` ("doors to liberation"; with `animitta` and `appaṇihita`). The three terms and their use as `vimokkha-mukha` are EBT (MN 43, MN 121, etc.); the symmetric three-marks-to-three-doors mapping (suññatā ↔ anattā, animitta ↔ anicca, appaṇihita ↔ dukkha) is a path-system systematization — Paṭisambhidāmagga II 48 (Vimokkhakathā), elaborated at Visuddhimagga XXI.66–73 — not an EBT lexical correspondence (cf. VI.a). Distinct from the `aṭṭha vimokkha` (eight liberations, DN 15 / AN 8.66) referenced under `ubhatobhāgavimutta` above — same root, different schema._
+- **suññatā** (Skt: śūnyatā) — emptiness. _One of the three terms later grouped as the `vimokkha-mukha` ("doors to liberation"; with `animitta` and `appaṇihita`). The three terms themselves — and their use as the three samādhis / cetovimuttis — are EBT (MN 43, MN 121, etc.); but the compound `vimokkha-mukha` and the "doors to liberation" framing as such are late-canonical (Paṭisambhidāmagga, Vimokkhakathā, and later), not four-Nikāya. The symmetric three-marks-to-three-doors mapping (suññatā ↔ anattā, animitta ↔ anicca, appaṇihita ↔ dukkha) belongs to the same stratum — Paṭisambhidāmagga II 48 (Vimokkhakathā), elaborated at Visuddhimagga XXI.66–73 — not an EBT lexical correspondence (cf. VI.a). Distinct from the `aṭṭha vimokkha` (eight liberations, DN 15 / AN 8.66) referenced under `ubhatobhāgavimutta` above — same root, different schema._
 
   _def-flag: EBT sense is meditative/phenomenological (MN 121, MN 122); the Prajñāpāramitā/Madhyamaka sense — universal negation of svabhāva (not itself an ontological posit; cf. XII.b śūnyatā-śūnyatā) — goes under XII.a / XII.b._
 
@@ -709,6 +709,8 @@ _The Sixteen Vipassanā-ñāṇas (Visuddhimagga insight-progress series):_
 ## Part XII — Mahāyāna — Sūtric (Sanskrit; XII.e in Chinese / Japanese)
 
 _Ordered by chronological-developmental stratum: Prajñāpāramitā → Madhyamaka → Yogācāra → broader Mahāyāna sūtra corpus. (First-wave chronology — Madhyamaka and Yogācāra continued to develop in dialogue after the 4th–5th c., and Yogācāra is not a strict "improvement" on Madhyamaka.)_
+
+_Inclusion in this Part records the vocabulary, not blanket assent to its metaphysics — and the assent here is differential. The emptiness-of-svabhāva analysis of Madhyamaka (XII.b), on a Prāsaṅgika-rangtong reading, is taken as philosophically binding, with the Prajñāpāramitā corpus (XII.a) as its doctrinal source; Yogācāra (XII.c) is engaged more guardedly; and the broader sūtra corpus (XII.d) — tathāgatagarbha, trikāya, the bodhisattva-path cosmology, pure-land — is carried as vocabulary the reader will meet, not as assented ontology. This is the same stratum-distance the glossary marks throughout: later material is surfaced because it is load-bearing in its tradition, not because its inclusion implies endorsement._
 
 ### XII.a Prajñāpāramitā
 
