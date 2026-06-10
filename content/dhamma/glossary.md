@@ -78,7 +78,7 @@ _The sage:_
 - **vimutti** (Skt: vimukti) — liberation, release, deliverance, emancipation, freedom.
 - **cetovimutti** (Skt: cetovimukti) — liberation of mind; _paired with paññāvimutti as the two aspects of the arhat's liberation (AN 2.31, MN 43, etc.)._
 - **paññāvimutti** (Skt: prajñāvimukti) — liberation by wisdom; _paired with cetovimutti._
-- **ubhatobhāgavimutta** (Skt: ubhayatobhāgavimukta) — liberated both ways; _every arhat has both cetovimutti and paññāvimutti; the ubhatobhāgavimutta arhat additionally has mastery of the `aṭṭha vimokkha` (eight liberations, DN 15 / AN 8.66 — three form-based contemplations, the four āruppa attainments, and `saññāvedayitanirodha`), distinguishing them from the paññāvimutta arhat (MN 70). Distinct schema from the three `vimokkha-mukha` (suññatā / animitta / appaṇihita) above — same root, different list._
+- **ubhatobhāgavimutta** (Skt: ubhayatobhāgavimukta) — liberated both ways; _every arhat has both cetovimutti and paññāvimutti; the ubhatobhāgavimutta arhat additionally has mastery of the `aṭṭha vimokkha` (eight liberations, DN 15 / AN 8.66 — three form-based contemplations, the four āruppa attainments, and `saññāvedayitanirodha`), distinguishing them from the paññāvimutta arhat (MN 70). Distinct schema from the three `vimokkha-mukha` (suññatā / animitta / appaṇihita) below — same root, different list._
 - **mutti** (Skt: mukti) — liberation, release; _near-synonym of vimutti, used more sparingly in the canon._
 - **mokkha** (Skt: mokṣa) — liberation, release.
 
@@ -89,7 +89,7 @@ _The sage:_
 - **virāga** (Skt: same) — dispassion, fading of passion; _same sequence._
 - **bodhi** (Skt: same) — awakening. _"Enlightenment" in older translations; "awakening" is the modern scholarly consensus that better tracks the √budh "wake" root._
 - **sammā-sambodhi** (Skt: samyak-saṃbodhi) — complete, proper awakening; a Buddha's kind of awakening. _Standardly "right awakening" or "perfect awakening" (sammā rendered "right" / "perfect" in most translations); see VIII.a sammā note for the "proper" rendering rationale._
-- **suññatā** (Skt: śūnyatā) — emptiness. _One of the three `vimokkha-mukha` ("doors to liberation"; with `animitta` and `appaṇihita`). The three terms and their use as `vimokkha-mukha` are EBT (MN 43, MN 121, etc.); the symmetric three-marks-to-three-doors mapping (suññatā ↔ anattā, animitta ↔ anicca, appaṇihita ↔ dukkha) is a path-system systematization — Paṭisambhidāmagga II 48 (Vimokkhakathā), elaborated at Visuddhimagga XXI.66–73 — not an EBT lexical correspondence (cf. VI.a). Distinct from the `aṭṭha vimokkha` (eight liberations, DN 15 / AN 8.66) referenced under `ubhatobhāgavimutta` below — same root, different schema._
+- **suññatā** (Skt: śūnyatā) — emptiness. _One of the three `vimokkha-mukha` ("doors to liberation"; with `animitta` and `appaṇihita`). The three terms and their use as `vimokkha-mukha` are EBT (MN 43, MN 121, etc.); the symmetric three-marks-to-three-doors mapping (suññatā ↔ anattā, animitta ↔ anicca, appaṇihita ↔ dukkha) is a path-system systematization — Paṭisambhidāmagga II 48 (Vimokkhakathā), elaborated at Visuddhimagga XXI.66–73 — not an EBT lexical correspondence (cf. VI.a). Distinct from the `aṭṭha vimokkha` (eight liberations, DN 15 / AN 8.66) referenced under `ubhatobhāgavimutta` above — same root, different schema._
 
   _def-flag: EBT sense is meditative/phenomenological (MN 121, MN 122); the Prajñāpāramitā/Madhyamaka sense — universal negation of svabhāva (not itself an ontological posit; cf. XII.b śūnyatā-śūnyatā) — goes under XII.a / XII.b._
 
@@ -682,7 +682,7 @@ _Other Vism. apparatus:_
 - **kasiṇa** (Skt: kṛtsna) — kasiṇa; a meditation object used as a fixed visual or elemental basis for absorption; lit. "whole, entire." _Usually left untransliterated; "totality" when glossed._
 - **asubha** (Skt: aśubha) — the foul, the unattractive; _the ten contemplations of the foul (decomposing-corpse contemplations)._
 - **anussati** (Skt: anusmṛti) — recollection; _the ten recollections (Buddhānussati, etc.), systematized in Vism._
-- **visuddhi** (Skt: viśuddhi) — purification; _the seven purifications scheme specifically (Visuddhimagga spine); cf. II for the general term._
+- **visuddhi** (Skt: viśuddhi) — purification; _the seven purifications scheme specifically (Visuddhimagga spine); cf. VI.f (`kilesa`) for the general saṅkilesa / visuddhi sense._
 - **vipassanā-ñāṇa** (Skt: vipaśyanā-jñāna) — insight-knowledge; _the general category-term; see the sixteen-ñāṇa sequence below._
 
 _The Sixteen Vipassanā-ñāṇas (Visuddhimagga insight-progress series):_
@@ -974,7 +974,7 @@ _The Three Guṇas:_
 - **kaivalya** (Sāṅkhya / Yoga) — isolation, aloneness, independence, absolute freedom; _the Sāṅkhya-Yoga goal: puruṣa's separation from prakṛti — the literal "isolation" is the positive liberative state, the Seer standing free of nature._
 - **samprajñāta-samādhi** / **asamprajñāta-samādhi** (Pātañjala Yoga) — samādhi with / without cognized object; _the two-fold division at YS 1.17–1.18. YS 1.17 characterizes `samprajñāta` as accompanied by `vitarka`, `vicāra`, `ānanda`, and `asmitā`; YS 1.42–1.44 then elaborates the `savitarka` / `nirvitarka` and `savicāra` / `nirvicāra` samāpatti distinctions._
 - **prāṇa** — breath, life-force, vital energy
-- **kuṇḍalinī** (Hindu tantra / Haṭha-yoga) — coiled (serpent-energy); _not Sāṅkhya / Pātañjala-Yoga vocabulary — a Hindu-tantric and Haṭha-yoga concept (developed in the Śaiva and Nātha tantric corpora, codified in the Haṭhayogapradīpikā and similar texts) of dormant energy at the base of the spine, raised through the central channel in subtle-body practice. Listed here under Indic comparatives for its structural parallel to Vajrayāna `caṇḍālī` (XIII.a) / Tibetan `tummo` (XIII.b)._
+- **kuṇḍalinī** (Hindu tantra / Haṭha-yoga) — coiled (serpent-energy); _not Sāṅkhya / Pātañjala-Yoga vocabulary — a Hindu-tantric and Haṭha-yoga concept (developed in the Śaiva and Nātha tantric corpora, codified in the Haṭhayogapradīpikā and similar texts) of dormant energy at the base of the spine, raised through the central channel in subtle-body practice. Listed here under Indic comparatives for its structural parallel to Vajrayāna `caṇḍālī` / Tibetan `tummo` (tantric inner-heat practice)._
 
 ### XIV.c Epistemology (pan-Indic)
 
@@ -1161,7 +1161,8 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **anusaya** (Skt: anuśaya) — VIII.g
 - _anusmṛti_ → see **anussati** (XI.b)
 - **anussati** (Skt: anusmṛti) — XI.b
-- **anuttara-samyak-saṃbodhi** — XII.d- _apatrāpya_ → see **ottappa** (III.a)
+- **anuttara-samyak-saṃbodhi** — XII.d
+- _apatrāpya_ → see **ottappa** (III.a)
 - **āpo-dhātu** (Skt: abdhātu) — VI.d
 - **apophasis** — XV.a
 - **appamāda** (Skt: apramāda) — III.a
@@ -1180,7 +1181,8 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **arūpa** — VI.e
 - **arūpa-rāga** — VIII.g
 - **arūpa-samāpatti** (Skt: ārūpya-samāpatti) — III.c
-- **arūpāvacara** (Skt: ārūpyāvacara) — XI.a- _ārūpya-samāpatti_ → see **arūpa-samāpatti** (III.c)
+- **arūpāvacara** (Skt: ārūpyāvacara) — XI.a
+- _ārūpya-samāpatti_ → see **arūpa-samāpatti** (III.c)
 - _ārūpyāvacara_ → see **arūpāvacara** (XI.a)
 - _ārya-pudgala_ → see **ariya-puggala** (VIII.g)
 - _āryasatya_ → see **ariyasacca** (IX)
@@ -1259,7 +1261,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **catuṣkoṭi** — XII.b
 - _catvāri āryasatyāni_ → see **cattāri ariyasaccāni** (IX)
 - **cetanā** — VI.f
-- **cetasika** (Skt: caitasika / caitta) — XI.a
+- **cetasika** (Skt: caitasika / caitta) — VI.f (EBT), XI.a (Abhi.)
 - _cetovimukti_ → see **cetovimutti** (II)
 - **cetovimutti** (Skt: cetovimukti) — II
 - **chanda** — VI.f, VIII.f
