@@ -82,7 +82,9 @@ Romanized compounds take one of three forms. The policy is **implicit in the exi
 - **Hyphenated** — two triggers:
   1. **Paradigm-set members sharing a head noun**, so the family reads as a family: `*-ñāṇa` (insight-knowledges), `*-dhātu` (elements), `*-diṭṭhi` (views), `*-bala` (powers), `*-sacca` (truths), `*-pāramitā`, `*-samādhi` (samādhi types), `*-nimitta`, `*-svabhāva`, `*-rāga`, `*-mūla`, `*-nibbāna`, `*-samāpatti`, `*-yoga`.
   2. **Two-member analytic compounds** (dvandvas and qualifier-noun) where exposing the constituents aids reading: `nāma-rūpa`, `sati-sampajañña`, `thīna-middha`, `uddhacca-kukkucca`, `indriya-saṃvara`, `sammā-diṭṭhi`, `sakkāya-diṭṭhi`, `jarā-maraṇa`, `magga-phala`.
-- **Spaced** — genuine multi-word phrases, not single compounds: `majjhimā paṭipadā`, `yathābhūtaṃ ñāṇadassana` (`yathābhūtaṃ` is an adverb, not a compound member).
+- **Spaced** — genuine multi-word phrases, not single compounds: `majjhimā paṭipadā`, `bodhipakkhiyā dhammā` (inflected phrases, not compounds).
+
+Special case — `yathābhūta-ñāṇadassana` (decided 2026-06-11; `_working/REVISION_TRIAGE.md` B11): write the hyphenated nominal compound wherever the noun is meant — the compound is the attested chain-form (SN 12.23 ×4, AN 10.2 ×2: `yathābhūtañāṇadassanaṃ`); DN 2 has no nominal form at all, only the adverb-verb idiom `yathābhūtaṃ pajānāti` (16×). Spaced `yathābhūtaṃ …` appears only when quoting that verb idiom; `yathābhūtaṃ-pajāna` is the glossary's hyphenated nominalization of it.
 
 Governing intuition: **hyphenate to expose structure (especially paradigm membership); write solid when the term is one lexicalized concept or sandhi has already fused it.**
 
@@ -103,7 +105,7 @@ The glossary is organized **historical-developmentally within EBT first, then la
 I.    Earliest Stratum (Pāli; Aṭṭhakavagga / Pārāyanavagga)
 II.   The Goal: Nibbāna & Āsavakkhaya (Pāli; EBT)
 III.  The Gradual Training (Pāli; EBT)
-        III.a Sequence (sīla → indriya-saṃvara → sati-sampajañña → santuṭṭhi → vivitta-senāsana → hindrances → jhāna → yathābhūtaṃ ñāṇadassana → āsavakkhaya)
+        III.a Sequence (sīla → indriya-saṃvara → sati-sampajañña → santuṭṭhi → vivitta-senāsana → hindrances → jhāna → yathābhūta-ñāṇadassana → āsavakkhaya)
         III.b Hindrances (pañca nīvaraṇāni)
         III.c Jhāna & Samādhi (EBT formulation only — commentarial apparatus goes in XI.b)
 IV.   Satipaṭṭhāna (Pāli; EBT)
@@ -163,6 +165,8 @@ Note on the Mahāyāna sub-ordering (XII.a–XII.e): chronological-developmental
 
 Use inline `*def-flag: …*` notes when a term has contested scholarship, multiple senses across strata, or a Pāli/Mahāyāna sense divergence worth surfacing. Current def-flags include: `mokkha` (two homophonous Pāli forms, both OIA reflexes — from OIA `mukhya` "chief" and OIA `*mokṣa-` "release"), `saṅkhāra` (five distinct doctrinal uses), `ekaggatā` (EBT vs. commentarial jhāna-factor status), `vitakka` / `vicāra` (wide/EBT "thinking/considering" reading vs. narrow/commentarial attention-mechanics reading — `abhiniropana` / `anumajjana` in Vism), `taṇhā` (the "craving / aversion as unified clinging-engagement dynamic" reading vs. classical scholarly "craving" alone), `bojjhaṅga` sequence (EBT vs. commentarial), `bodhipakkhiya` (seven sets EBT-grouped, strict "37" is late), `satipaṭṭhāna` (21-exercise expansion scholarship-contested), `dhammakāya` (EBT epithet vs. Mahāyāna doctrinal body), `buddhadhātu` (Pāli relic sense vs. Mahāyāna buddha-nature), three-marks-to-three-doors mapping (anchored at II `suññatā` — symmetric `tilakkhaṇa`-to-`vimokkha-mukha` correspondence is `late canon. / Theravāda comm.`, not EBT lexical fact).
 
+Formatting: a def-flag always occupies its own indented italic paragraph beneath its entry — never embedded mid-note (normalized 2026-06-11; `_working/REVISION_TRIAGE.md` A3/B12).
+
 ## Literal-gloss (`lit.`) convention
 
 When a term's etymology illuminates a non-obvious rendering choice, append a short inline `lit. "…"` note after the rendering, semicolon-separated: `— rendering; lit. "literal meaning."` Plain text (not italic — etymology is reference content, not metadata). Skip when the rendering already _is_ the literal sense (e.g., `arūpa` = "formless" needs no lit. note). Skip when the etymology is contested or uninformative. Current examples: `samādhi` (lit. "placing/collecting together"), `vicāra` (lit. "moving/wandering about").
@@ -175,6 +179,16 @@ When one entry groups several headwords with `/`, the gloss after the em-dash fo
 - **Shared gloss — comma.** When the headwords name _one_ referent (synonym pairs; base/compound or singular/plural form-variants; cross-language equivalents), give a single gloss for that shared referent; commas inside it are alternative renderings, not positional: `svasaṃvedana / svasaṃvitti — reflexive cognition, self-awareness (of cognition)` (synonym pair); `pasāda / pasāda-rūpa — sensitive matter, sensitive material` (base/compound, one referent).
 
 Never use commas to separate positionally-mapped glosses — that collides with the comma-as-multiple-renderings convention (e.g. `samādhi — composure, collectedness`) and reads as if the glosses were synonyms of a single term.
+
+## Slash, em-dash & spelling conventions
+
+Decided 2026-06-11 (`_working/REVISION_TRIAGE.md` B1/B2/B3):
+
+- **Spaced `/` is dictionary formatting only**: between the headwords of a multi-headword entry, between the positional glosses that mirror them, and in Part/section-title language tags (`(Pāli; Aṭṭhakavagga / Pārāyanavagga)`). The Abbreviations block's grouped sigla (`DN / MN / SN / AN`) count as dictionary formatting.
+- **In running prose, slashes are unspaced** (`craving/aversion`) — with one readability exception: keep the spaces when either operand contains an internal space (`DN 2 / MN 27`), per standard typographic practice.
+- Renderings of a single headword are comma-separated, never slashed (see Multi-headword entries above).
+- **Em-dashes are always spaced** (`—`), both as the headword—gloss separator and in prose.
+- **American spellings** throughout (`tranquility`, not `tranquillity`), except inside verbatim quotations.
 
 ## Open consistency calls (pending Jack's decision)
 
@@ -245,3 +259,4 @@ Working queues and audit trails live in `content/dhamma/_working/`, excluded fro
 - `_working/RENDERINGS_TO_CONSIDER.md` — candidate additional renderings not yet applied to the glossary.
 - `_working/GLOSSARY_AUDIT.md` — citation / consistency audit trail.
 - `_working/GLOSSARY_REVIEW.md` — fresh-eyes review notes.
+- `_working/REVISION_TRIAGE.md` — Jack's PDF annotation passes, extracted and triaged into groups A (applied) / B (needs ruling) / C (discuss) / D (answered side questions) / E (resolved). Batch 1 covers Parts I–VIII.a; later batches append as Jack annotates further.
