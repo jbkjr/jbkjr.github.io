@@ -110,3 +110,17 @@ Mixed bag of edits flagged from reading the live site. Line numbers are snapshot
 13. **Rendering order — lead with preferred renderings.** Do a full read-through and reorder the comma-separated renderings in each entry so the preferred/lead rendering comes first (current order is sometimes lexicographic or accretive rather than by preference). Best as a dedicated pass with per-entry notes, since "favorite" is Jack's call per term.
 
 14. **`RENDERINGS_TO_CONSIDER.md` — candidate additional renderings (build-excluded).** Full per-term sweep of established renderings not yet present. **HIGH tier partially applied 2026-06-04:** added `saṃsāra` "cyclic existence", `āsava` "effluent" (Thanissaro), `vimutti` "deliverance/emancipation/freedom", `saddhā` "confidence", `rigpa` "pure awareness/presence", `'od gsal` "luminosity", `viññāṇa` "cognition", `sattva` "purity", `kaivalya` "independence/absolute freedom", `devekut` "communion"; replaced `sabhāva` "defining nature" → "essential nature". **Declined:** `anattā` "non-self" (metaphysical-thesis connotation), `nibbāna` "extinction" (annihilationist connotation), `khandha` "group(s)" (redundant). **Optional/pending:** `sambhogakāya` "bliss body" (looser Tibetan rendering); MED + LOW tiers not yet audited.
+
+## Coverage candidates (queued 2026-06-10, from Fable review §5)
+
+Path-central / clear gaps:
+
+- **yoniso manasikāra** — appropriate / wise attention (MN 2, AN 1.x); the doctrinally load-bearing compound. Bare `manasikāra` is present (VI.f); this is arguably more central to the path. Contrast `ayoniso manasikāra` (the āsava-/DO-feeding mode). Candidate Part: III.a or VI.f.
+- **saṃvega** — the canonical urgency-affect (spiritual urgency on confronting dukkha / mortality); conspicuous next to `appamāda` (III.a). Often paired with `pasāda` (confidence). Candidate Part: I or III.a.
+- **vimokkha** (Skt: vimokṣa) — liberation, release; currently doing heavy work buried inside `ubhatobhāgavimutta` (aṭṭha vimokkha) and `suññatā` (vimokkha-mukha) with no Part II headword of its own. Distinguish from the `mokkha` / `vimutti` cluster already at II.
+
+Closes existing loops (already referenced in passing):
+
+- **upakkilesa** (Skt: upakleśa) — adventitious mental imperfections / corruptions (the āgantuka "incoming" defilements obscuring the luminous citta, AN 1.10); currently defined in passing inside `kilesa` (VI.f) and `pabhassara` (II). Candidate Part: VI.f.
+- **antarābhava** (Skt: same) — intermediate state between death and rebirth; already referenced from `bardo` (XIII.b). Theravāda rejects it / Sarvāstivāda + later accept it — a def-flag candidate. Candidate Part: XI.a, or a comparative note.
+- **caṇḍālī** (Skt) / **tummo** (Tib. gtum mo) — tantric inner-heat ("fierce woman") practice; adding these as XIII.a / XIII.b headwords would let the `kuṇḍalinī` (XIV.b) cross-ref be restored as real pointers (de-linked 2026-06-10 — see review §1.4).

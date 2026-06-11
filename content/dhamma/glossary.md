@@ -19,7 +19,7 @@ enableToc: true
 </div>
 <!-- pdf:skip-end -->
 
-**Format.** Each Part title carries a parenthetical with the canonical language(s); Pāli-canonical Parts (I–XI) additionally tag the doctrinal stratum (e.g., `EBT`, `Abhi. + Theravāda comm.`). In Pāli-canonical Parts (I–XI), headwords are Pāli with the Sanskrit form in parentheses — e.g. **diṭṭhi** (Skt: dṛṣṭi), or (Skt: same) when IAST-identical. In Sanskrit-tradition Parts (XII–XIV), the Sanskrit form is the headword; a Pāli cognate is parenthesized only when it carries parallel doctrinal use. Non-Indic Parts (XV) use the standard transliteration with the original script where useful. Terms whose stratum diverges from the Part default carry an inline stratum tag after the headword. Entries give brief glosses and rendering-notes rather than full prose definitions; longer def-flags surface contested scholarship or multi-sense terms.
+**Format.** Each Part title carries a parenthetical with the canonical language(s); Pāli-canonical Parts (I–XI) additionally tag the doctrinal stratum (e.g., `EBT`, `Abhi. + Theravāda comm.`). In Pāli-canonical Parts (I–XI), headwords are Pāli with the Sanskrit form in parentheses — e.g. **diṭṭhi** (Skt: dṛṣṭi), or (Skt: same) when IAST-identical. In Sanskrit-tradition Parts (XII–XIV), the Sanskrit form is the headword; a Pāli cognate is parenthesized only when it carries parallel doctrinal use. Non-Indic Parts (XV) use the standard transliteration with the original script where useful. Terms whose stratum diverges from the Part default carry an inline stratum tag after the headword. Entries give brief glosses and rendering-notes rather than full prose definitions — though a handful of doctrinally load-bearing entries run to short essays; longer def-flags surface contested scholarship or multi-sense terms.
 
 **Abbreviations.** _Canonical:_ DN / MN / SN / AN — the four main Nikāyas (Dīgha / Majjhima / Saṃyutta / Aṅguttara); Sn — Sutta Nipāta; Dhp — Dhammapada; Itiv. — Itivuttaka; Ud. — Udāna; Vin. — Vinaya. _Commentarial / Abhidhamma:_ Vism — Visuddhimagga; Abhi. — Abhidhamma. _Dictionaries:_ PED — PTS Pali-English Dictionary; DPD — Digital Pali Dictionary; MW — Monier-Williams Sanskrit-English Dictionary; Apte — Apte Practical Sanskrit-English Dictionary.
 
@@ -130,7 +130,7 @@ _Parallel canonical formulas:_
 
 _Ethical cultivation (adjacent to sīla):_
 
-- **hiri** (Skt: hrī) / **ottappa** (Skt: apatrāpya) — shame / moral dread; _the "guardians of the world" (AN 2.9, Itiv. 42); a paired-virtues cluster sitting beside sīla rather than within the numbered DN-2 sequence._
+- **hiri** (Skt: hrī) / **ottappa** (Skt: apatrāpya) — conscience / dread of wrongdoing; _the "guardians of the world" (AN 2.9, Itiv. 42); a paired-virtues cluster sitting beside sīla rather than within the numbered DN-2 sequence. The pair splits by reference-direction: hiri is the inward guardian — self-respecting shame / conscience (Vism: `lajjā`, "from within"); ottappa the outward — dread of wrongdoing's consequences and others' censure (Vism: `ubbega`, "from without"). "Shame" sits between them: PED/Vism attach it to hiri, but the before-others sense is closer to ottappa (DPD)._
 - **nekkhamma** (Skt: naiṣkramya) — renunciation; lit. "going forth" (nis- + √kram "step"). _Component of sammā-saṅkappa (VIII.a); the going-forth from household life that frames the entire training in DN 2 / MN 27._
 
 _Frame-terms for the training:_
@@ -287,7 +287,7 @@ _Four overlapping technical terms — three EBT (āyatana, indriya, dhātu) and 
 - **dhātu** (VI.d) — element / constituent; the eye as a _basic constituent_ in the 18-element analysis.
 - **dvāra** (XI.a) — door / gate (Abhi./commentarial); the eye as the _access-point_ through which objects enter cognition.
 
-_Abhi. explicitly identifies these for the eye: `cakkhāyatana` = `cakkhundriya` = `cakkhu-dhātu` — same `cakkhu-pasāda` referent under three (or four) lenses; the lenses are conceptually distinct (locus / capacity / constituent / access-point) even when they pick out one referent, and all name the **standing apparatus** rather than the cognitive event. (Parallel identification holds for the other four physical sense-organs. The mental case diverges as noted above — `manāyatana` / `manindriya` / `mano-dhātu` do not all map onto one referent.) The actual seeing/hearing-as-event is `viññāṇa` (eye-consciousness, ear-consciousness, etc.; VI.b) arising from base + object via `phassa` (contact, VI.c) — saḷāyatana → phassa → vedanā at VII.a tracks the structural-to-dynamic transition._
+_Abhi. explicitly identifies these for the eye: `cakkhāyatana` = `cakkhundriya` = `cakkhu-dhātu` — same `cakkhu-pasāda` referent under three (or four) lenses, all naming the **standing apparatus** rather than the cognitive event. (Parallel identification holds for the other four physical sense-organs. The mental case diverges as noted above — `manāyatana` / `manindriya` / `mano-dhātu` do not all map onto one referent.) The actual seeing/hearing-as-event is `viññāṇa` (eye-consciousness, ear-consciousness, etc.; VI.b) arising from base + object via `phassa` (contact, VI.c) — saḷāyatana → phassa → vedanā at VII.a tracks the structural-to-dynamic transition._
 
 - **āyatana** (Skt: same) — sense-base, sense-sphere
 - **saḷāyatana** (Skt: ṣaḍāyatana) — the six sense-bases; _also DO link 5 (VII.a)._
