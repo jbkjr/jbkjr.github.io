@@ -235,8 +235,13 @@ Paths below are relative to `content/dhamma/` (where this file and the symlink b
 
 See `_references/README.md` for the SLP1↔IAST conversion table, DPD column reference, JSON-loading recipes, and lookup examples. Always cross-check at least one entry before quoting a definition — OCR/digitization quality varies.
 
-## Working file
+## Working files
 
 `glossary.md` (at `content/dhamma/glossary.md`) — the active draft.
 
-`TERMS_TO_ADD.md` — running queue of headwords flagged during revision passes but not yet drafted. Append candidates here; clear them once the entries land in `glossary.md`. Excluded from the Quartz build.
+Working queues and audit trails live in `content/dhamma/_working/`, excluded from the Quartz build as a whole folder (`**/_working/**` in `ignorePatterns` — no new pattern needed when more are added):
+
+- `_working/TERMS_TO_ADD.md` — running queue of headwords flagged during revision passes but not yet drafted. Append candidates here; clear them once the entries land in `glossary.md`.
+- `_working/RENDERINGS_TO_CONSIDER.md` — candidate additional renderings not yet applied to the glossary.
+- `_working/GLOSSARY_AUDIT.md` — citation / consistency audit trail.
+- `_working/GLOSSARY_REVIEW.md` — fresh-eyes review notes.
