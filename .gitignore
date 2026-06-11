@@ -11,3 +11,7 @@ private/
 content/dhamma/_references
 .replit
 replit.nix
+
+# Claude Code: ignore local/session state, keep shared launch config
+.claude/*
+!.claude/launch.json
