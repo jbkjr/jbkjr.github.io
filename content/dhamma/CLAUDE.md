@@ -159,6 +159,7 @@ Note on the Mahāyāna sub-ordering (XII.a–XII.e): chronological-developmental
 
 - **Definitions are intentionally absent** right now. Don't add them unless explicitly asked.
 - **Don't reorder or re-section** without checking first.
+- **Part I "What is to be relinquished" ordering** is attestation-centrality in Sn 4–5 (verified against bilara-data 2026-06-11; `_working/REVISION_TRIAGE.md` C3): `diṭṭhi` (Sn 4's signature target — 23 hits vs 5 in Sn 5) → `anupādiyāno` (the grasping-cluster; lexically tied with taṇhā in Sn 4 at 8/8, but the stratum's distinctive soteriological move per Gómez/Vetter/Burford) → `taṇhā` → `upadhi` (0 hits in Sn 4; the Pārāyanavagga's goal-axis). Don't re-sort without re-litigating.
 - Homonymous terms with different doctrinal contexts get **split entries** with a cross-reference — e.g., `sabhāva` appears under XI.a (Abhi.) with the dhamma-theory sense, and `svabhāva` appears under XII.b (Madhyamaka) as the target of Nāgārjuna's critique. Same phonological word, incompatible doctrinal contexts; the split is the whole point.
 
 ## Def-flag convention
