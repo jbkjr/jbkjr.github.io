@@ -19,7 +19,7 @@ enableToc: true
 </div>
 <!-- pdf:skip-end -->
 
-**Format.** Each Part title carries a parenthetical with the canonical language(s); Pāli-canonical Parts (I–XI) additionally tag the doctrinal stratum (e.g., `EBT`, `Abhi. + Theravāda comm.`). In Pāli-canonical Parts (I–XI), headwords are Pāli with the Sanskrit form in parentheses — e.g. **diṭṭhi** (Skt: dṛṣṭi), or (Skt: same) when IAST-identical. In Sanskrit-tradition Parts (XII–XIV), the Sanskrit form is the headword; a Pāli cognate is parenthesized only when it carries parallel doctrinal use. Non-Indic Parts (XV) use the standard transliteration with the original script where useful. Terms whose stratum diverges from the Part default carry an inline stratum tag after the headword. Entries give brief glosses and rendering-notes rather than full prose definitions — though a handful of doctrinally load-bearing entries run to short essays; longer def-flags surface contested scholarship or multi-sense terms.
+**Format.** Each Part title carries a parenthetical with the canonical language(s); Pāli-canonical Parts (I–XI) additionally tag the doctrinal stratum (e.g., `EBT`, `Abhi. + Theravāda comm.`). In Pāli-canonical Parts (I–XI), headwords are Pāli with the Sanskrit form in parentheses — e.g. **diṭṭhi** (Skt: dṛṣṭi), or (Skt: same) when IAST-identical. In Sanskrit-tradition Parts (XII–XIV), the Sanskrit form is the headword; a Pāli cognate is parenthesized only when it carries parallel doctrinal use. Non-Indic Parts (XV) use the standard transliteration with the original script where useful. Terms whose stratum diverges from the Part default carry an inline stratum tag after the headword. Entries give brief glosses and rendering-notes rather than full prose definitions — though a handful of doctrinally load-bearing entries run to short essays; longer def-flags surface contested scholarship or multi-sense terms. Pāli quotations keep inflected forms: masculine a-stem nouns pluralize with -ā (`dhammā`, `saṅkhārā`, `khandhā` — plurals of dhamma, saṅkhāra, khandha; Skt nom. pl. dharmāḥ, saṃskārāḥ, skandhāḥ) — not to be confused with feminine singulars in -ā (taṇhā, saññā, paññā, mettā); English prose uses anglicized plurals (dhammas, jhānas).
 
 **Abbreviations.** _Canonical:_ DN / MN / SN / AN — the four main Nikāyas (Dīgha / Majjhima / Saṃyutta / Aṅguttara); DĀ / MĀ — Dīrgha / Madhyama Āgama (Chinese parallels); Sn — Sutta Nipāta; Dhp — Dhammapada; Itiv. — Itivuttaka; Ud. — Udāna; Vin. — Vinaya. _Doctrinal labels:_ EBT — Early Buddhist Texts (the four Nikāyas + Āgama parallels); DO — dependent origination (paṭiccasamuppāda); 4NT — the four noble truths. _Commentarial / Abhidhamma:_ Vism — Visuddhimagga; Spk — Sāratthappakāsinī (SN commentary); Abhi. — Abhidhamma. _Other texts:_ MMK — Mūlamadhyamakakārikā (Nāgārjuna); YS — Yoga Sūtra (Patañjali). _Linguistic:_ OIA — Old Indo-Aryan; PIE — Proto-Indo-European; BHS — Buddhist Hybrid Sanskrit. _Dictionaries:_ PED — PTS Pali-English Dictionary; DPD — Digital Pali Dictionary; MW — Monier-Williams Sanskrit-English Dictionary; Apte — Apte Practical Sanskrit-English Dictionary.
 
@@ -35,6 +35,7 @@ _What is to be relinquished:_
 
   _def-flag: treated here in its earliest-stratum sense as "view/position to be dropped"; the technical sammā-diṭṭhi usage belongs under VIII.a, and `sakkāya-diṭṭhi` (identity-view, fetter 1) at VIII.g picks up the negative-view-to-be-abandoned sense in a later technical key. The systematic wrong-view taxonomies — `micchā-diṭṭhi` and the Six Teachers' denials (VIII.a), the `sassata`/`uccheda` (eternalism/annihilationism) and `atthitā`/`natthitā` (existence/non-existence) antinomies (X.b) — are later four-Nikāya material, not earliest-stratum._
 
+- **papañcasaṅkhā** (Skt: prapañca-saṃkhyā) — proliferation-reckonings, proliferation-categories; lit. "reckoning, designation" (`saṅkhā`, Skt saṃkhyā — spanning counting → naming → concept). _The Aṭṭhakavagga's two attestations carry its dispute-genealogy: quarrels and disputes traced to papañca-categories rooted in perception (Sn 4.11 Kalahavivāda, `saññānidānā hi papañcasaṅkhā`), and their root — the notion "I am" — to be stopped entirely (Sn 4.14 Tuvaṭaka, `mūlaṃ papañcasaṅkhāya … asmīti`). The same earliest-stratum soteriology as the diṭṭhi-critique above, aimed at the conceptual machinery that generates views. For saṅkhā's English: "reckonings" is the PED-literal; Thanissaro "categories" (of objectification), Ñāṇamoli/Bodhi "notions" (both at MN 18's `papañcasaññāsaṅkhā`). For the bare noun and its four-Nikāya systematization (MN 18's Madhupiṇḍika sequence) → `papañca` (X.b)._
 - **anupādiyāno** (Skt: anupādāna) — not grasping; _the earliest stratum's non-clinging soteriology is carried by this negated participle of the upa-ā-√dā root — "not grasping anything in the world" (Sn 4.14), "not grasping, not even leaning on knowledge" (Sn 4.5). The abstract noun `upādāna` (clinging; VII.a) is absent from the Aṭṭhakavagga/Pārāyanavagga; its systematization as DO link 9 belongs to the (still-EBT) four-Nikāya core, later than this earliest stratum._
 - **taṇhā** (Skt: tṛṣṇā) — craving; lit. "thirst" (cognate with English _thirst_ via PIE \*ters-). _Also appears in VII.a as `taṇhā` (DO link 8); flagged here per the Part headnote's criterion._
 
@@ -631,7 +632,7 @@ _The middle-teaching antinomies (the view-pairs the Buddha's "teaching by the mi
 - **sassata-diṭṭhi** (Skt: śāśvata-dṛṣṭi) / **uccheda-diṭṭhi** (Skt: uccheda-dṛṣṭi) — eternalism / annihilationism; _the two extremes the middle teaching rejects. Eternalism posits a self that persists eternally; annihilationism (lit. "cutting-off view," ud-√chid) presupposes a real self now, cut off at death. DN 1 Brahmajāla catalogues the varieties — four kinds of `sassatavāda`, seven of `ucchedavāda`. Distinct from the avyākata `sassato loko` / `asassato loko` above, which concern the world (loka); these concern the self (attā)._
 - **atthitā** (Skt: astitā) / **natthitā** (Skt: nāstitā) — existence / non-existence; _the duality SN 12.15 Kaccānagotta-sutta says "this world mostly relies on" (`dvayanissito … atthitañceva natthitañca`) and that the middle teaching transcends by teaching dependent origination instead (`ubho ante anupagamma majjhena tathāgato dhammaṃ deseti`). Load-bearing downstream: Nāgārjuna cites this sutta by name at MMK 15.7 to deny both `asti` and `nāsti`, making the EBT middle-teaching the source for the Madhyamaka critique of `svabhāva` (XII.b)._
 
-- **papañca** (Skt: prapañca) — conceptual proliferation, mental proliferation, objectification; _standardly "conceptual proliferation" (Ñāṇananda, Bodhi); "objectification" (Bodhi alt), "mental proliferation" (Thanissaro). Its stilling (`papañca-vūpasama`) frames the limit of useful doctrine (AN 4.173); MN 18 thematizes the cessation of `papañcasaññāsaṅkhā` (without the `-vūpasama` compound)._
+- **papañca** (Skt: prapañca) — conceptual proliferation, mental proliferation, objectification; _standardly "conceptual proliferation" (Ñāṇananda); "mental proliferation" (Ñāṇamoli/Bodhi), "objectification" (Thanissaro). Earliest-stratum anchor: the Aṭṭhakavagga attests the compound `papañcasaṅkhā` (I) — Sn 4.11's dispute-genealogy, Sn 4.14's asmi-root. Its stilling (`papañca-vūpasama`) frames the limit of useful doctrine (AN 4.173); MN 18 thematizes the cessation of `papañcasaññāsaṅkhā` (without the `-vūpasama` compound)._
 - **nippapañca** (Skt: niṣprapañca) — free of proliferation, unelaborated
 
 ---
@@ -1574,6 +1575,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **paññāvimutti** (Skt: prajñāvimukti) — II
 - **paññindriya** (Skt: prajñendriya) — VIII.c
 - **papañca** (Skt: prapañca) — X.b
+- **papañcasaṅkhā** (Skt: prapañca-saṃkhyā) — I
 - _paramārtha_ → see **paramattha** (XI.a)
 - **paramārtha-satya** — XII.b
 - **paramattha** (Skt: paramārtha) — XI.a
@@ -1623,6 +1625,7 @@ _Alphabetical index of all headwords across Parts I–XV. Primary entries are in
 - **prāṇa** — XIV.b
 - **praṇava** — XIV.a
 - _prapañca_ → see **papañca** (X.b)
+- _prapañca-saṃkhyā_ → see **papañcasaṅkhā** (I)
 - **prasajya-pratiṣedha** — XIV.c
 - **prasaṅga** — XII.b
 - _prasāda_ / _prasāda-rūpa_ → see **pasāda** / **pasāda-rūpa** (XI.a)
