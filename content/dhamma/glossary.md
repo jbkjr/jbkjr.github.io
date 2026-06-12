@@ -113,7 +113,7 @@ _The gradual-training pericope (DN 2, MN 27, MN 38, MN 39, MN 51, MN 53, MN 107,
 1. **sīla** (Skt: śīla) — virtue, ethical conduct, morality. _DN 2 expounds in three sub-sections: `cūḷasīla`, `majjhimasīla`, `mahāsīla`._
 2. **indriya-saṃvara** (Skt: same) — sense-restraint, restraint of the faculties.
 3. **sati-sampajañña** (Skt: smṛti-samprajanya) — mindfulness and clear comprehension; _expanded as the satipaṭṭhāna training in IV._
-4. **santuṭṭhi** (Skt: saṃtuṣṭi) — contentment; _DN 2's bird-with-wings simile._
+4. **santuṭṭhi** (Skt: saṃtuṣṭi) — contentment (with the requisites); _DN 2's bird-with-wings simile._
 5. **vivitta-senāsana** (Skt: vivikta-śayanāsana) — resort to a solitary lodging; _the canonical training-narrative for the renunciant retiring to root-of-tree, charnel-ground, mountain-cleft. Neither necessary nor sufficient for jhāna — what the jhānas require is `viveka` (III.c): separation from sensuality and unwholesome states. Physical solitude supports but doesn't compel that._
 6. **nīvaraṇa-pahāna** (Skt: nīvaraṇa-prahāṇa) — abandonment of the hindrances; _MN 27 / MN 39: `pañca nīvaraṇe pahāya cetaso upakkilese paññāya dubbalīkaraṇe` ("having abandoned the five hindrances — the corruptions of the mind that weaken wisdom"); DN 2 instead enumerates each hindrance separately. See III.b for `pañca nīvaraṇa`._
 7. **cattāro rūpa-jhānā** — the four form-jhānas; _see III.c._
@@ -390,9 +390,9 @@ _The canonical formula extends with the trailing phrase: `...jarā-maraṇa-soka
 
 ### VII.b Causal-Frame Terms
 
-- **hetu** (Skt: same) — cause
-- **paccaya** (Skt: pratyaya) — condition
-- **nidāna** (Skt: same) — source, cause, causal link
+- **hetu** (Skt: same) — cause; _in the suttas, near-synonymous with `paccaya` (the paired idiom `ko hetu ko paccayo`, e.g. MN 135); in Abhi., narrowed to the six roots (`lobha`/`dosa`/`moha` and opposites) as `hetu-paccaya`, first of the 24 paccayas (XI.a)._
+- **paccaya** (Skt: pratyaya) — condition; _in Abhi., the genus-term for conditionality — the 24 paccayas of the Paṭṭhāna (XI.a)._
+- **nidāna** (Skt: same) — source, cause, causal link; lit. "tying down" (ni + √dā) — source-as-anchor, vs. hetu's impulsion image
 - **upanisā** (Skt: upaniṣad) — supporting/proximate condition, basis; _the `X-upanisaṃ Y` idiom ("Y has X as its supporting condition") that structures SN 12.23 Upanisā-sutta's post-jhāna chain (`yathābhūta-ñāṇadassana` → `nibbidā` → `virāga` → `vimutti` → `khaye-ñāṇa`) — the so-called "transcendental dependent origination." Commentary glosses it ≈ `paccaya`/kāraṇa (Spk)._
 
   _def-flag: the etymology is unsettled — possibly Vedic `upaniṣad` (upa-ni-√sad, the word behind the Upaniṣads), but PED judges a contraction of `upanissaya` (upa-ni-√śri, "support, basis") more likely._
@@ -428,7 +428,7 @@ _Wrong view (micchā-diṭṭhi) and the Six Teachers' denials:_
 
   _def-flag: "nihilism" is standard but misleading at the EBT level — Ajita's ontology was materialist (four-elements), not a denial of existence as such; `natthika-diṭṭhi` names a specific bundle of denials, not a global "nothing exists." Distinct from the abstract `natthitā` (the bare non-existence pole, X.b → SN 12.15)._
 - **akiriya-diṭṭhi** (Skt: akriyā-dṛṣṭi) — the "no-action" view; _Pūraṇa Kassapa's denial (DN 2) that deeds carry moral weight — no good or evil done by acting._
-- **ahetuka-diṭṭhi** (Skt: ahetuka-dṛṣṭi) — the "no-cause" view; _Makkhali Gosāla's Ājīvika determinism (DN 2) — beings are defiled and purified without cause or condition._
+- **ahetuka-diṭṭhi** (Skt: ahetuka-dṛṣṭi) — the "no-cause" view; _Makkhali Gosāla's denial (DN 2) that any cause or condition — including one's own effort — defiles or purifies beings; the corollary of his Ājīvika niyati-vāda, the doctrine of all-determining fate._
 
 #### Ethical Conduct (sīla / Skt: śīla)
 
