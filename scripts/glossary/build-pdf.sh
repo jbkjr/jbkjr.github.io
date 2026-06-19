@@ -38,9 +38,12 @@ fi
 
 mkdir -p content/dhamma
 
-GIT_DATE=$(git log -1 --format='%cd' --date=format:'%B %d, %Y' -- content/dhamma/glossary.md 2>/dev/null || true)
+# Render the committer date in UTC so the PDF matches the web build, which
+# Quartz produces on GitHub Actions (UTC). Without this, a commit made near
+# midnight local time renders one day earlier in the PDF than on the site.
+GIT_DATE=$(TZ=UTC git log -1 --format='%cd' --date=format-local:'%B %d, %Y' -- content/dhamma/glossary.md 2>/dev/null || true)
 if [[ -z "$GIT_DATE" ]]; then
-  GIT_DATE=$(date '+%B %d, %Y')
+  GIT_DATE=$(TZ=UTC date '+%B %d, %Y')
 fi
 LAST_UPDATED="Last updated $(echo "$GIT_DATE" | sed 's/ 0/ /')"
 
