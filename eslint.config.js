@@ -42,6 +42,12 @@ export default [
     },
     rules: {
       ...tseslint.configs.recommended.rules,
+      // TypeScript resolves identifiers against its own libs ("DOM" is in
+      // tsconfig), so `tsc --noEmit` already catches genuinely undefined names.
+      // Leaving no-undef on just means re-declaring every DOM type by hand and
+      // getting false positives (HTMLElement, KeyboardEvent, …) when we don't.
+      // Disabling it for TS is the typescript-eslint recommendation.
+      "no-undef": "off",
       "@typescript-eslint/no-unused-vars": [
         "warn",
         {

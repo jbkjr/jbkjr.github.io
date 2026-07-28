@@ -44,6 +44,11 @@ const STANDALONE_SECTION_REF_RE = /\b(XIII|XIV|XII|XI|XV|VIII|VII|VI|IV|IX|III|I
 const EXPLICIT_TERM_REF_RE = /^(.+?)@([IVX]+(?:\.[a-z])?)$/
 const SECTION_QUALIFIER_RE = /^\s*\(([IVX]+(?:\.[a-z])?)\)/
 
+// Longest gloss kept in the client-side search index. Entries whose gloss runs
+// past this are truncated with an ellipsis — the index is for finding an entry,
+// not for reading it.
+const GLOSS_MAX_LENGTH = 150
+
 const UNLISTED_HEADING_TEXT = new Set([
   "Sanskrit-stratum",
   "Tibetan (Dzogchen / Mahāmudrā)",
@@ -76,6 +81,8 @@ interface EntryRecord {
   headword: string
   slug: string
   partAnchor: string
+  partLabel: string
+  gloss: string
   qualifiedSlug: string
   paragraph: Paragraph
   strong: PhrasingContent
@@ -91,6 +98,10 @@ interface HeadwordCollection {
 export interface GlossaryHeadword {
   headword: string
   slug: string
+  /** Section label of the entry's home Part, e.g. "III.a" or "XII". */
+  part: string
+  /** The gloss following the headword's em-dash, truncated for the index. */
+  gloss: string
 }
 
 interface WalkState {
@@ -186,7 +197,12 @@ function updateHeadwordIndex(
     // bare `#slug` anchor in injectEntryAnchors — so it is the jump target.
     const canonical = records[0]
     if (!canonical) continue
-    headwords.push({ headword: canonical.headword, slug })
+    headwords.push({
+      headword: canonical.headword,
+      slug,
+      part: canonical.partLabel,
+      gloss: canonical.gloss,
+    })
   }
   headwords.sort((a, b) => a.slug.localeCompare(b.slug))
   file.data.glossaryHeadwords = headwords
@@ -206,6 +222,7 @@ function collectHeadwords(tree: Root): HeadwordCollection {
   const canonical = new Map<string, string>()
   const usedQualifiedSlugs = new Set<string>()
   let currentPartAnchor: string | undefined
+  let currentPartLabel = ""
   let inIndex = false
 
   visit(tree, (node) => {
@@ -217,11 +234,14 @@ function collectHeadwords(tree: Root): HeadwordCollection {
       if (label === "Index") {
         inIndex = true
         currentPartAnchor = undefined
+        currentPartLabel = ""
       } else if (heading.depth === 2 && label) {
         inIndex = false
         currentPartAnchor = sectionId(label)
+        currentPartLabel = label
       } else if (heading.depth === 3 && label && !inIndex) {
         currentPartAnchor = sectionId(label)
+        currentPartLabel = label
       }
       return
     }
@@ -231,6 +251,10 @@ function collectHeadwords(tree: Root): HeadwordCollection {
     const listItem = node as ListItem
     const paragraph = findFirstParagraph(listItem)
     if (!paragraph) return
+
+    // One gloss per paragraph: multi-headword entries (`hiri / ottappa — …`)
+    // share a single gloss line, so every headword in the entry gets the same.
+    const gloss = glossFromParagraph(paragraph)
 
     for (const strong of findHeadwordStrongNodes(paragraph)) {
       const headword = cleanTerm(mdastToString(strong))
@@ -250,6 +274,8 @@ function collectHeadwords(tree: Root): HeadwordCollection {
         headword,
         slug,
         partAnchor: currentPartAnchor,
+        partLabel: currentPartLabel,
+        gloss,
         qualifiedSlug,
         paragraph,
         strong,
@@ -587,6 +613,45 @@ function findHeadwordStrongNodes(paragraph: Paragraph): PhrasingContent[] {
   }
 
   return headwords
+}
+
+// An italic run starts a rendering-note when the gloss before it has already
+// closed — i.e. it follows sentence-or-clause punctuation, or the em-dash
+// itself. Italics *inside* a clause are cited words (`cognate with English
+// _thirst_`) and belong to the gloss.
+const NOTE_BOUNDARY_RE = /[.!?;:—–]\s*$/
+
+/**
+ * Pull the gloss out of an entry paragraph — the text after the headword's
+ * em-dash, up to where the italic rendering-note begins.
+ *
+ * Entries read `**headword** (Skt: …) — gloss; _note._` A handful put the whole
+ * gloss inside the note (`**vimutti** (II) — _the liberation event itself…_`);
+ * there the note-boundary check trips on the em-dash, leaving nothing before
+ * the note, and the full paragraph text is used instead.
+ */
+function glossFromParagraph(paragraph: Paragraph): string {
+  let beforeNote = ""
+  let full = ""
+  let inNote = false
+
+  for (const child of paragraph.children) {
+    const text = mdastToString(child)
+    if (child.type === "emphasis" && NOTE_BOUNDARY_RE.test(beforeNote)) inNote = true
+    if (!inNote) beforeNote += text
+    full += text
+  }
+
+  return glossAfterDash(beforeNote) || glossAfterDash(full)
+}
+
+function glossAfterDash(text: string): string {
+  const dash = text.indexOf("—")
+  if (dash === -1) return ""
+
+  const gloss = cleanTerm(text.slice(dash + 1)).replace(/[;,.]+$/, "")
+  if (gloss.length <= GLOSS_MAX_LENGTH) return gloss
+  return `${gloss.slice(0, GLOSS_MAX_LENGTH).trimEnd()}…`
 }
 
 function parseExplicitTermReference(value: string): { term: string; section?: string } {

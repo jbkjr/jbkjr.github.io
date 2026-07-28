@@ -34,7 +34,18 @@ Active branch: `master` (Quartz site, deployed via GitHub Actions on push).
 - **Typography**: Open Sans for headers/body, IBM Plex Mono for code
 - **Explorer**: Custom posts folder icon, empty folder UX fixes, link-mode folders
 - **Listing Page**: Minimal 2-column (date | title) design
-- **Bug Fixes**: Font URL encoding, footnote popover caching
+- **Homepage landing** (`custom/components/HomeLanding.tsx`): destination cards +
+  recent-posts list rendered under the intro prose. Card counts are derived from
+  `allFiles` (and, for the glossary, from its emitted headword index), so they
+  never need hand-updating. Card copy lives in `quartz.layout.ts`.
+- **Reading progress** (`custom/components/ReadingProgress.tsx`): hairline scroll
+  indicator on every page except the homepage.
+- **404**: links into Writing / Glossary / Research, not just "return home."
+- **Footer**: links the RSS feed (`/index.xml`), which `ContentIndex` already emitted.
+- **Bug Fixes**: Font URL encoding, footnote popover caching, mobile horizontal
+  overflow (the mobile Explorer drawer was `position: absolute` inside the padded
+  left sidebar, so its `100vw` width overhung the viewport; the footer link row
+  didn't wrap)
 
 ### Deployment
 
@@ -266,7 +277,11 @@ Implementation lives in `custom/`: shared mdast transform in `custom/glossary-tr
 
 The shared transform runs in two places — Quartz (web build) and `scripts/glossary/preprocess.mjs` (PDF build) — so HTML and PDF cross-links stay aligned. PDF output is generated, not committed: `npm run glossary:pdf` regenerates `content/dhamma/glossary.pdf`; `npm run build` and `npm run serve` rebuild the PDF before running Quartz.
 
-The glossary page swaps in `GlossaryMeta` (Last-updated from Quartz git/file dates) and `GlossaryTOC` (narrow-screen inline TOC); desktop keeps the right-rail Quartz TOC.
+The glossary page swaps in `GlossaryMeta` (Last-updated from Quartz git/file dates) and `GlossaryTOC` (narrow-screen inline TOC); desktop keeps the right-rail Quartz TOC. The graph is conditionally dropped on this page — the glossary has almost no outbound wikilinks, so its graph was a stub and the (very long) TOC needed the room.
+
+`GlossarySearch` searches **both** Pāli headwords and English glosses, so "craving" finds `taṇhā`. The index is built by the shared transform: for each entry it records the headword, its Part label (`III.a`), and the gloss — the text between the headword's em-dash and the start of the italic rendering-note. Italics _inside_ a clause (`cognate with English _thirst_`) are cited words and stay in the gloss; a note is only recognized after clause-ending punctuation or the em-dash itself (`NOTE_BOUNDARY_RE`). Results show headword · Part · gloss with the match highlighted; `/` focuses the box, and jumping to an entry flashes it so the target is findable in a 1,900-line page.
+
+Note that Quartz's SPA router handles same-page anchors with `scrollIntoView` + `pushState` and fires **no** `hashchange`, so anything reacting to in-page jumps has to hook the click as well.
 
 - Editorial / authoring conventions for the glossary content (headword rules, 15-Part stratum spine, def-flags, translation clusters) live at [`content/dhamma/CLAUDE.md`](content/dhamma/CLAUDE.md). Read it before editing [`content/dhamma/glossary.md`](content/dhamma/glossary.md). [`content/dhamma/AGENTS.md`](content/dhamma/AGENTS.md) is a symlink to the same file.
 - Translation rendering reference (Kumāra-2022 EBT samādhi/jhāna cluster, etc.) at [`content/dhamma/TRANSLATION_CONVENTIONS.md`](content/dhamma/TRANSLATION_CONVENTIONS.md) — internal working file, not cited from `glossary.md`.

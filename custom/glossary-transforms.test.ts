@@ -13,7 +13,7 @@ function transform(markdown: string) {
   const file = {
     data: {} as {
       toc?: Array<{ depth: number; text: string; slug: string }>
-      glossaryHeadwords?: Array<{ headword: string; slug: string }>
+      glossaryHeadwords?: Array<{ headword: string; slug: string; part: string; gloss: string }>
     },
   }
   applyGlossaryTransforms(tree, { slug: "dhamma/glossary" }, file as never)
@@ -133,16 +133,19 @@ test("exports a deduplicated, diacritic-folded headword index", () => {
 
 ## Part VII — Dependent Origination
 
+### VII.a Twelve Links
+
 - **viññāṇa** — consciousness.
 `)
 
   const headwords = file.data.glossaryHeadwords ?? []
 
   // One entry per unique slug (the twice-listed "dukkha" is collapsed), sorted by slug.
+  // Multi-headword entries share the single gloss line that follows them.
   assert.deepEqual(headwords, [
-    { headword: "duḥkha", slug: "duhkha" },
-    { headword: "dukkha", slug: "dukkha" },
-    { headword: "viññāṇa", slug: "vinnana" },
+    { headword: "duḥkha", slug: "duhkha", part: "I", gloss: "unsatisfactory" },
+    { headword: "dukkha", slug: "dukkha", part: "I", gloss: "unsatisfactory" },
+    { headword: "viññāṇa", slug: "vinnana", part: "VII.a", gloss: "consciousness" },
   ])
 
   // Slugs are unique and each is the ASCII fold of its headword (the jump anchor).
@@ -152,6 +155,36 @@ test("exports a deduplicated, diacritic-folded headword index", () => {
     assert.equal(slug, asciiSlug(headword))
     assert.ok(slug.length > 0)
   }
+})
+
+test("indexes glosses without their italic rendering notes", () => {
+  const { file } = transform(`
+## Part III — The Gradual Training
+
+- **sīla** (Skt: śīla) — virtue, ethical conduct, morality. _DN 2 expounds in three sub-sections._
+- **sati-sampajañña** — mindfulness and clear comprehension; _expanded as the satipaṭṭhāna training in IV._
+- **taṇhā** — craving; lit. "thirst" (cognate with English _thirst_). _Sn 4 target._
+- **vimutti** — _the liberation event itself; named from two sides._
+- **saṅkhāra** — a very long gloss that keeps going well past any reasonable length for a single search result line, and therefore has to be cut short somewhere sensible before it is handed to the client.
+`)
+
+  const bySlug = new Map((file.data.glossaryHeadwords ?? []).map((h) => [h.slug, h]))
+
+  // The terse gloss is kept; the trailing italic note is not.
+  assert.equal(bySlug.get("sila")?.gloss, "virtue, ethical conduct, morality")
+
+  // A note introduced by a semicolon is still a note.
+  assert.equal(bySlug.get("sati-sampajanna")?.gloss, "mindfulness and clear comprehension")
+
+  // Italics *inside* a clause are cited words, not a note, so the gloss runs on.
+  assert.equal(bySlug.get("tanha")?.gloss, 'craving; lit. "thirst" (cognate with English thirst)')
+
+  // Entries whose whole gloss lives inside the italic note fall back to it.
+  assert.equal(bySlug.get("vimutti")?.gloss, "the liberation event itself; named from two sides")
+
+  const long = bySlug.get("sankhara")?.gloss ?? ""
+  assert.ok(long.endsWith("…"))
+  assert.ok(long.length <= 151)
 })
 
 test("filters glossary toc to parts, roman subparts, and index", () => {

@@ -278,7 +278,10 @@ li.posts-folder {
     .explorer-content {
       box-sizing: border-box;
       z-index: 100;
-      position: absolute;
+      // Fixed, not absolute: as an absolute box its containing block is the
+      // left sidebar, which sits inside the page's horizontal padding — so a
+      // 100vw drawer overhung the viewport and the page scrolled sideways.
+      position: fixed;
       top: 0;
       left: 0;
       margin-top: 0;

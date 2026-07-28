@@ -4,7 +4,7 @@ import {
   QuartzComponentProps,
 } from "../../quartz/components/types"
 import { classNames } from "../../quartz/util/lang"
-// @ts-ignore
+// @ts-expect-error — esbuild resolves .inline bundles; TS has no module for them
 import script from "./scripts/glossary-search.inline"
 
 const GlossarySearch: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
@@ -19,16 +19,22 @@ const GlossarySearch: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
   // exist in the DOM without colliding; the inline script scopes within each.
   return (
     <div class={classNames(displayClass, "glossary-search")}>
-      <div class="glossary-search-label">Glossary Search</div>
+      <div class="glossary-search-label">
+        Glossary Search
+        <span class="glossary-search-count">{headwords.length} terms</span>
+      </div>
       <input
         class="glossary-search-bar"
         type="text"
         autocomplete="off"
         spellcheck={false}
-        placeholder="Search glossary…"
-        aria-label="Search glossary terms"
+        placeholder="Pāli term or English gloss…"
+        aria-label="Search glossary terms and glosses"
       />
       <ul class="glossary-search-results" role="listbox"></ul>
+      <p class="glossary-search-empty" hidden>
+        No match. Try an English gloss — “craving”, “composure”, “emptiness”.
+      </p>
       <script
         type="application/json"
         class="glossary-headword-index"

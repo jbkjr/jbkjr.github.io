@@ -3,17 +3,227 @@
 
 // put your custom CSS here!
 
+@keyframes glossary-entry-flash {
+  0% {
+    background-color: var(--highlight);
+    box-shadow: 0 0 0 0.35rem var(--highlight);
+  }
+  70% {
+    background-color: var(--highlight);
+    box-shadow: 0 0 0 0.35rem var(--highlight);
+  }
+  100% {
+    background-color: transparent;
+    box-shadow: 0 0 0 0.35rem transparent;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Reading progress — hairline across the top of the viewport.
+// ---------------------------------------------------------------------------
+
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 2px;
+  pointer-events: none;
+}
+
+.reading-progress-fill {
+  width: 100%;
+  height: 100%;
+  background: var(--secondary);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  will-change: transform;
+}
+
+// ---------------------------------------------------------------------------
+// Homepage landing — wayfinding into writing, the glossary, and research.
+// ---------------------------------------------------------------------------
+
+.home-landing {
+  margin-top: 2.5rem;
+}
+
+.home-destinations {
+  display: grid;
+  // 12rem keeps all three cards on one row at the ~630px content width, and
+  // folds to two, then one, as the column narrows.
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 0.75rem;
+}
+
+.home-destination {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: none;
+  color: inherit;
+  text-decoration: none;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    transform 0.15s ease;
+
+  &:hover {
+    border-color: var(--secondary);
+    background: var(--highlight);
+    transform: translateY(-2px);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
+}
+
+.home-destination-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  color: var(--dark);
+  font-family: var(--headerFont);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.home-destination-count {
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.home-destination-blurb {
+  color: var(--darkgray);
+  // Overrides base.scss's semibold on <a>; this is description text, not a label.
+  font-weight: 400;
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.home-recent {
+  margin-top: 2.25rem;
+}
+
+.home-recent-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--lightgray);
+  font-size: 1rem;
+}
+
+.home-recent-all {
+  color: var(--gray);
+  font-family: var(--bodyFont);
+  font-weight: 400;
+  font-size: 0.82rem;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--secondary);
+  }
+}
+
+.home-recent-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.15rem 1rem;
+    padding: 0.42rem 0;
+  }
+
+  li + li {
+    border-top: 1px solid var(--lightgray);
+  }
+}
+
+.home-recent-title {
+  flex: 1 1 16rem;
+  color: var(--dark);
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--secondary);
+  }
+}
+
+.home-recent-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  color: var(--gray);
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.home-recent-tag {
+  padding: 0.05rem 0.4rem;
+  border-radius: 4px;
+  background: var(--lightgray);
+  color: var(--darkgray);
+  font-size: 0.72rem;
+}
+
+@media all and ($mobile) {
+  // Tags are the first thing to go when the row has to wrap.
+  .home-recent-tag {
+    display: none;
+  }
+}
+
 .glossary-search {
   position: relative;
   margin-bottom: 1rem;
 
   .glossary-search-label {
-    display: block;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem;
     margin-bottom: 0.4rem;
     color: var(--dark);
     font-family: var(--headerFont);
     font-weight: 700;
     font-size: 0.9rem;
+  }
+
+  .glossary-search-count {
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 0.78rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .glossary-search-empty {
+    margin: 0.5rem 0 0;
+    color: var(--gray);
+    font-size: 0.82rem;
+    line-height: 1.5;
+
+    &[hidden] {
+      display: none;
+    }
   }
 
   .glossary-search-bar {
@@ -54,8 +264,10 @@
     }
 
     a {
-      display: block;
-      padding: 0.28rem 0.5rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0 0.5rem;
+      padding: 0.32rem 0.5rem;
       border-radius: 4px;
       background: transparent;
       color: var(--darkgray);
@@ -70,6 +282,38 @@
     a:hover {
       background: var(--lightgray);
       color: var(--dark);
+    }
+
+    mark {
+      background: var(--textHighlight);
+      color: inherit;
+      border-radius: 2px;
+    }
+
+    .glossary-search-headword {
+      color: var(--dark);
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    // Part label ("III.a") in the glossary's own section-reference idiom.
+    .glossary-search-part {
+      align-self: center;
+      color: var(--gray);
+      font-family: var(--codeFont);
+      font-size: 0.76rem;
+      white-space: nowrap;
+    }
+
+    .glossary-search-gloss {
+      grid-column: 1 / -1;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      color: var(--gray);
+      font-size: 0.82rem;
+      line-height: 1.4;
     }
   }
 }
@@ -256,6 +500,18 @@ article.dhamma-glossary {
   .glossary-entry {
     margin: 0.58rem 0;
     position: relative;
+  }
+
+  // Landing on an entry from search or a cross-reference: a brief tint so the
+  // reader can see which of ~1,900 lines the jump targeted.
+  .glossary-entry-flash {
+    animation: glossary-entry-flash 1.6s ease-out;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .glossary-entry-flash {
+      animation: none;
+    }
   }
 
   ul > .glossary-entry {

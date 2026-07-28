@@ -11,7 +11,9 @@ footer {
     padding: 0;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    // Wraps so the row can't run past the viewport on narrow screens.
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
     margin-top: -1rem;
 
     & li a {

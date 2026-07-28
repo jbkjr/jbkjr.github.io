@@ -1,0 +1,30 @@
+.not-found {
+  h1 {
+    margin-bottom: 0.25rem;
+    font-size: 3.5rem;
+  }
+
+  .not-found-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+
+    a {
+      padding: 0.4rem 0.8rem;
+      border: 1px solid var(--lightgray);
+      border-radius: 6px;
+      color: var(--darkgray);
+      text-decoration: none;
+      transition:
+        border-color 0.15s ease,
+        background-color 0.15s ease;
+
+      &:hover {
+        border-color: var(--secondary);
+        background: var(--highlight);
+        color: var(--dark);
+      }
+    }
+  }
+}

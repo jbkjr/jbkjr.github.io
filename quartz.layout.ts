@@ -1,8 +1,11 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
+import { FullSlug } from "./quartz/util/path"
 import * as Component from "./quartz/components"
 import GlossaryMeta from "./custom/components/GlossaryMeta"
 import GlossaryTOC from "./custom/components/GlossaryTOC"
 import GlossarySearch from "./custom/components/GlossarySearch"
+import HomeLanding from "./custom/components/HomeLanding"
+import ReadingProgress from "./custom/components/ReadingProgress"
 
 const sidebarExplorerOptions: Parameters<typeof Component.Explorer>[0] = {
   folderClickBehavior: "link",
@@ -48,12 +51,43 @@ const sidebarExplorerOptions: Parameters<typeof Component.Explorer>[0] = {
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    // Wayfinding into the three bodies of work, below the homepage intro.
+    Component.ConditionalRender({
+      component: HomeLanding({
+        destinations: [
+          {
+            slug: "posts" as FullSlug,
+            title: "Writing",
+            blurb: "Essays on suffering and the dhamma, AI safety, and metamodernism.",
+            countPrefix: "posts",
+            countNoun: "posts",
+          },
+          {
+            slug: "dhamma/glossary" as FullSlug,
+            title: "A Dhamma Glossary",
+            blurb:
+              "A historical-stratum reference for Pāli, Sanskrit, and comparative terminology.",
+          },
+          {
+            slug: "projects" as FullSlug,
+            title: "Research",
+            blurb: "Goal misgeneralization, and agency through the intentional stance.",
+            countPrefix: "projects",
+            countNoun: "projects",
+          },
+        ],
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+  ],
   footer: Component.Footer({
     links: {
       LessWrong: "https://www.lesswrong.com/users/jbkjr",
       GitHub: "https://github.com/jbkjr",
       LinkedIn: "https://linkedin.com/in/jbkjr",
+      // ContentIndex emits the feed; nothing linked to it before.
+      RSS: "/index.xml",
     },
   }),
 }
@@ -61,6 +95,12 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    // Long-form pages only — the homepage is short enough that a progress bar
+    // would just be decoration.
+    Component.ConditionalRender({
+      component: ReadingProgress(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
@@ -108,7 +148,12 @@ export const defaultContentPageLayout: PageLayout = {
       component: GlossarySearch(),
       condition: (page) => page.fileData.slug === "dhamma/glossary",
     }),
-    Component.Graph(),
+    // The glossary has almost no outbound wikilinks, so its graph is a stub —
+    // drop it there and give the (very long) table of contents the space.
+    Component.ConditionalRender({
+      component: Component.Graph(),
+      condition: (page) => page.fileData.slug !== "dhamma/glossary",
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
