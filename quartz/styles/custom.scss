@@ -19,26 +19,82 @@
 }
 
 // ---------------------------------------------------------------------------
-// Reading progress — hairline across the top of the viewport.
+// Scroll aids (custom/components/ScrollAids.tsx): hairline reading-progress
+// bar + back-to-top button. The inline script toggles .scroll-aids-active
+// (page is long enough to need them) and .visible (scrolled past the first
+// viewport).
 // ---------------------------------------------------------------------------
 
-.reading-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
-  height: 2px;
-  pointer-events: none;
-}
+.scroll-aids {
+  .reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 2px;
+    pointer-events: none;
+  }
 
-.reading-progress-fill {
-  width: 100%;
-  height: 100%;
-  background: var(--secondary);
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  will-change: transform;
+  .reading-progress-bar {
+    height: 100%;
+    background: var(--secondary);
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    will-change: transform;
+  }
+
+  &:not(.scroll-aids-active) .reading-progress {
+    display: none;
+  }
+
+  .back-to-top {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    border: 1px solid var(--lightgray);
+    border-radius: 50%;
+    background: var(--light);
+    color: var(--darkgray);
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(0.5rem);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    transition:
+      opacity 0.25s ease,
+      transform 0.25s ease,
+      color 0.15s ease,
+      border-color 0.15s ease;
+
+    svg {
+      width: 1.1rem;
+      height: 1.1rem;
+    }
+
+    &:hover,
+    &:focus-visible {
+      border-color: var(--secondary);
+      color: var(--secondary);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+
+  &.scroll-aids-active .back-to-top.visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -208,11 +264,42 @@
     font-size: 0.9rem;
   }
 
+  .glossary-search-tools {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.7rem;
+  }
+
   .glossary-search-count {
     color: var(--gray);
     font-weight: 400;
     font-size: 0.78rem;
     font-variant-numeric: tabular-nums;
+  }
+
+  .glossary-random {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.28rem;
+    padding: 0;
+    border: none;
+    background: none;
+    color: var(--gray);
+    font-family: var(--headerFont);
+    font-weight: 600;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: color 0.15s ease;
+
+    svg {
+      width: 0.85rem;
+      height: 0.85rem;
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: var(--secondary);
+    }
   }
 
   .glossary-search-empty {

@@ -5,7 +5,7 @@ import GlossaryMeta from "./custom/components/GlossaryMeta"
 import GlossaryTOC from "./custom/components/GlossaryTOC"
 import GlossarySearch from "./custom/components/GlossarySearch"
 import HomeLanding from "./custom/components/HomeLanding"
-import ReadingProgress from "./custom/components/ReadingProgress"
+import ScrollAids from "./custom/components/ScrollAids"
 
 const sidebarExplorerOptions: Parameters<typeof Component.Explorer>[0] = {
   folderClickBehavior: "link",
@@ -80,6 +80,9 @@ export const sharedPageComponents: SharedLayout = {
       }),
       condition: (page) => page.fileData.slug === "index",
     }),
+    // Progress bar + back-to-top; its script hides both on short pages, so no
+    // per-page condition is needed. position: fixed, so placement here is moot.
+    ScrollAids(),
   ],
   footer: Component.Footer({
     links: {
@@ -95,12 +98,6 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // Long-form pages only — the homepage is short enough that a progress bar
-    // would just be decoration.
-    Component.ConditionalRender({
-      component: ReadingProgress(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",

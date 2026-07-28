@@ -8,6 +8,9 @@ export default [
       "public/**",
       "node_modules/**",
       ".quartz-cache/**",
+      // Claude Code worktrees are full checkouts; without this their quartz/
+      // copies (ignored above only at the top level) get linted.
+      ".claude/**",
       "quartz/**",
       "**/*.js",
       "**/*.mjs",

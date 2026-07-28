@@ -176,11 +176,28 @@ function setupContainer(container: Element) {
     window.setTimeout(clearResults, 0)
   }
 
+  // Random-entry button: instant jump (no smooth scroll — animating across a
+  // page this long is disorienting) with the same landing flash as a search hit.
+  const randomButton = container.querySelector<HTMLButtonElement>(".glossary-random")
+  const onRandom = () => {
+    if (entries.length === 0) return
+    const target = entries[Math.floor(Math.random() * entries.length)]
+    const el = document.getElementById(target.slug)
+    if (!el) return
+    // replaceState (not location.hash) so mashing the button doesn't pile up
+    // history entries; "instant" overrides the global scroll-behavior: smooth.
+    history.replaceState(null, "", `#${target.slug}`)
+    el.scrollIntoView({ block: "start", behavior: "instant" })
+    flashEntry(target.slug)
+  }
+  randomButton?.addEventListener("click", onRandom)
+
   input.addEventListener("input", onInput)
   input.addEventListener("keydown", onKeydown)
   results.addEventListener("click", onResultsClick)
 
   window.addCleanup(() => {
+    randomButton?.removeEventListener("click", onRandom)
     input.removeEventListener("input", onInput)
     input.removeEventListener("keydown", onKeydown)
     results.removeEventListener("click", onResultsClick)
@@ -217,23 +234,25 @@ function setupShortcut(): void {
   window.addCleanup(() => document.removeEventListener("keydown", onKeydown))
 }
 
+// Flash the entry a jump lands on, so the reader can see which of ~1,900 lines
+// the jump targeted. Shared by hash navigation and the random-entry button.
+function flashEntry(id: string): void {
+  if (!id) return
+
+  const anchor = document.getElementById(id)
+  const entry = anchor?.closest(".glossary-entry")
+  if (!entry) return
+
+  entry.classList.remove("glossary-entry-flash")
+  // Force a reflow so re-triggering the same entry replays the animation.
+  void (entry as HTMLElement).offsetWidth
+  entry.classList.add("glossary-entry-flash")
+}
+
 // Flash the entry a jump lands on. Deep-linking into a 1,900-line reference
 // otherwise drops the reader mid-page with no cue about which line matched.
 function setupTargetFlash(): void {
-  const flashId = (id: string) => {
-    if (!id) return
-
-    const anchor = document.getElementById(id)
-    const entry = anchor?.closest(".glossary-entry")
-    if (!entry) return
-
-    entry.classList.remove("glossary-entry-flash")
-    // Force a reflow so re-clicking the same result replays the animation.
-    void (entry as HTMLElement).offsetWidth
-    entry.classList.add("glossary-entry-flash")
-  }
-
-  const flashFromLocation = () => flashId(decodeURIComponent(window.location.hash.slice(1)))
+  const flashFromLocation = () => flashEntry(decodeURIComponent(window.location.hash.slice(1)))
 
   // Quartz's SPA router handles same-page anchors with scrollIntoView +
   // pushState, which fires no hashchange — so in-page jumps (search results,
@@ -248,7 +267,7 @@ function setupTargetFlash(): void {
     // Synchronously: the router's own handler sits on window, so it scrolls
     // after this one runs either way, and a hidden tab (where rAF never fires)
     // still gets the class applied.
-    flashId(decodeURIComponent(href.slice(1)))
+    flashEntry(decodeURIComponent(href.slice(1)))
   }
 
   flashFromLocation()

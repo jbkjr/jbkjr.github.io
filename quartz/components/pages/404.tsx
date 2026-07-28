@@ -1,4 +1,3 @@
-import { i18n } from "../../i18n"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 import style from "../styles/notFound.scss"
 
@@ -17,10 +16,13 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
 
   return (
     <article class="popover-hint not-found">
-      <h1>404</h1>
-      <p>{i18n(cfg.locale).pages.error.notFound}</p>
+      <p class="not-found-code">404</p>
+      <h1>Page not found</h1>
+      <p class="not-found-quip">
+        Impermanent, like all conditioned things — this page may have moved, or never arisen at all.
+      </p>
       <nav class="not-found-links" aria-label="Sections of this site">
-        <a href={baseDir || "/"}>{i18n(cfg.locale).pages.error.home}</a>
+        <a href={baseDir || "/"}>Home</a>
         {destinations.map(({ path, label }) => (
           <a href={`${baseDir}/${path}`}>{label}</a>
         ))}

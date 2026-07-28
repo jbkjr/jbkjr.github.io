@@ -38,9 +38,12 @@ Active branch: `master` (Quartz site, deployed via GitHub Actions on push).
   recent-posts list rendered under the intro prose. Card counts are derived from
   `allFiles` (and, for the glossary, from its emitted headword index), so they
   never need hand-updating. Card copy lives in `quartz.layout.ts`.
-- **Reading progress** (`custom/components/ReadingProgress.tsx`): hairline scroll
-  indicator on every page except the homepage.
-- **404**: links into Writing / Glossary / Research, not just "return home."
+- **Scroll aids** (`custom/components/ScrollAids.tsx`): hairline reading-progress
+  bar + floating back-to-top button, mounted site-wide; the inline script
+  auto-disables both on pages shorter than ~2 viewports.
+- **404**: custom page (`quartz/components/pages/404.tsx`, styles in
+  `quartz/components/styles/notFound.scss`) — centered, impermanence quip, pill
+  links into Home / Writing / Glossary / Research.
 - **Footer**: links the RSS feed (`/index.xml`), which `ContentIndex` already emitted.
 - **Bug Fixes**: Font URL encoding, footnote popover caching, mobile horizontal
   overflow (the mobile Explorer drawer was `position: absolute` inside the padded
@@ -233,7 +236,8 @@ custom/                     # Project-local code that isn't an upstream Quartz p
   ├── glossary-transforms.ts      # Shared mdast transform (used by Quartz + PDF preprocess)
   ├── glossary-transforms.test.ts # tsx --test
   ├── glossary.ts                 # Quartz adapter
-  └── components/                 # GlossaryMeta, GlossaryTOC
+  └── components/                 # GlossaryMeta, GlossaryTOC, GlossarySearch,
+                                  # HomeLanding, ScrollAids (+ scripts/)
 
 scripts/glossary/           # Glossary PDF build pipeline
   ├── build-pdf.sh         # Pandoc → LaTeX → PDF
@@ -279,7 +283,7 @@ The shared transform runs in two places — Quartz (web build) and `scripts/glos
 
 The glossary page swaps in `GlossaryMeta` (Last-updated from Quartz git/file dates) and `GlossaryTOC` (narrow-screen inline TOC); desktop keeps the right-rail Quartz TOC. The graph is conditionally dropped on this page — the glossary has almost no outbound wikilinks, so its graph was a stub and the (very long) TOC needed the room.
 
-`GlossarySearch` searches **both** Pāli headwords and English glosses, so "craving" finds `taṇhā`. The index is built by the shared transform: for each entry it records the headword, its Part label (`III.a`), and the gloss — the text between the headword's em-dash and the start of the italic rendering-note. Italics _inside_ a clause (`cognate with English _thirst_`) are cited words and stay in the gloss; a note is only recognized after clause-ending punctuation or the em-dash itself (`NOTE_BOUNDARY_RE`). Results show headword · Part · gloss with the match highlighted; `/` focuses the box, and jumping to an entry flashes it so the target is findable in a 1,900-line page.
+`GlossarySearch` searches **both** Pāli headwords and English glosses, so "craving" finds `taṇhā`. The index is built by the shared transform: for each entry it records the headword, its Part label (`III.a`), and the gloss — the text between the headword's em-dash and the start of the italic rendering-note. Italics _inside_ a clause (`cognate with English _thirst_`) are cited words and stay in the gloss; a note is only recognized after clause-ending punctuation or the em-dash itself (`NOTE_BOUNDARY_RE`). Results show headword · Part · gloss with the match highlighted; `/` focuses the box, and jumping to an entry flashes it so the target is findable in a 1,900-line page. A "random" button in the search header jumps to a random entry (instant scroll + the same flash).
 
 Note that Quartz's SPA router handles same-page anchors with `scrollIntoView` + `pushState` and fires **no** `hashchange`, so anything reacting to in-page jumps has to hook the click as well.
 
