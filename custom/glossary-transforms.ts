@@ -83,6 +83,7 @@ interface EntryRecord {
   partAnchor: string
   partLabel: string
   gloss: string
+  aliases: string[]
   qualifiedSlug: string
   paragraph: Paragraph
   strong: PhrasingContent
@@ -102,6 +103,8 @@ export interface GlossaryHeadword {
   part: string
   /** The gloss following the headword's em-dash, truncated for the index. */
   gloss: string
+  /** Equivalent headwords and conventional English renderings. */
+  aliases?: string[]
 }
 
 interface WalkState {
@@ -192,19 +195,28 @@ function updateHeadwordIndex(
   if (!file) return
 
   const headwords: GlossaryHeadword[] = []
+  const seen = new Set<string>()
   for (const [slug, records] of collection.bySlug) {
-    // records[0] is the canonical (first) occurrence, which also receives the
-    // bare `#slug` anchor in injectEntryAnchors — so it is the jump target.
-    const canonical = records[0]
-    if (!canonical) continue
-    headwords.push({
-      headword: canonical.headword,
-      slug,
-      part: canonical.partLabel,
-      gloss: canonical.gloss,
-    })
+    for (const record of records) {
+      // Folding is for lookup, not lexical identity: upadhi and upādhi, and
+      // the same headword used in different sections, must remain distinct.
+      const identity = JSON.stringify([
+        record.headword.normalize("NFC"),
+        record.partLabel,
+        record.gloss,
+      ])
+      if (seen.has(identity)) continue
+      seen.add(identity)
+      headwords.push({
+        headword: record.headword,
+        slug: record.isFirstOccurrence ? slug : record.qualifiedSlug,
+        part: record.partLabel,
+        gloss: truncateGloss(record.gloss),
+        ...(record.aliases.length ? { aliases: record.aliases } : {}),
+      })
+    }
   }
-  headwords.sort((a, b) => a.slug.localeCompare(b.slug))
+  headwords.sort((a, b) => asciiSlug(a.headword).localeCompare(asciiSlug(b.headword)))
   file.data.glossaryHeadwords = headwords
 }
 
@@ -252,11 +264,12 @@ function collectHeadwords(tree: Root): HeadwordCollection {
     const paragraph = findFirstParagraph(listItem)
     if (!paragraph) return
 
-    // One gloss per paragraph: multi-headword entries (`hiri / ottappa — …`)
-    // share a single gloss line, so every headword in the entry gets the same.
     const gloss = glossFromParagraph(paragraph)
+    const strongNodes = findHeadwordStrongNodes(paragraph)
+    const glosses = positionalGlosses(gloss, strongNodes.length)
+    const aliases = aliasesFromParagraph(paragraph, strongNodes)
 
-    for (const strong of findHeadwordStrongNodes(paragraph)) {
+    for (const [index, strong] of strongNodes.entries()) {
       const headword = cleanTerm(mdastToString(strong))
       const slug = asciiSlug(headword)
       if (!headword || !slug) continue
@@ -275,7 +288,8 @@ function collectHeadwords(tree: Root): HeadwordCollection {
         slug,
         partAnchor: currentPartAnchor,
         partLabel: currentPartLabel,
-        gloss,
+        gloss: glosses[index],
+        aliases: aliases[index],
         qualifiedSlug,
         paragraph,
         strong,
@@ -358,7 +372,9 @@ function linkIndexChildren(
   for (let index = 0; index < children.length; index += 1) {
     const child = children[index]
     if (child.type === "strong") {
-      const target = collection.canonical.get(asciiSlug(cleanTerm(mdastToString(child))))
+      const term = cleanTerm(mdastToString(child))
+      const record = recordsForTerm(term, collection)?.[0]
+      const target = record && (record.isFirstOccurrence ? record.slug : record.qualifiedSlug)
       if (target) {
         children[index] = makeLinkNode(`#${target}`, "glossary-index-term", [
           child,
@@ -417,7 +433,7 @@ function resolveTermReference(
 ): { display: string; target: string } | undefined {
   const explicit = parseExplicitTermReference(code.value)
   const slug = asciiSlug(explicit.term)
-  const records = collection.bySlug.get(slug)
+  const records = recordsForTerm(explicit.term, collection)
   if (!records || records.length === 0) return undefined
 
   const requestedSection = explicit.section ?? sectionQualifierFromSibling(nextSibling)
@@ -431,8 +447,16 @@ function resolveTermReference(
 
   return {
     display: explicit.term,
-    target: collection.canonical.get(slug) ?? records[0].qualifiedSlug,
+    target: records[0].isFirstOccurrence ? slug : records[0].qualifiedSlug,
   }
+}
+
+function recordsForTerm(term: string, collection: HeadwordCollection): EntryRecord[] | undefined {
+  const records = collection.bySlug.get(asciiSlug(term))
+  const exact = records?.filter(
+    (record) => record.headword.normalize("NFC") === term.normalize("NFC"),
+  )
+  return exact?.length ? exact : records
 }
 
 function linkSectionReferencesInTree(tree: Root, sections: Map<string, string>): void {
@@ -649,9 +673,83 @@ function glossAfterDash(text: string): string {
   const dash = text.indexOf("—")
   if (dash === -1) return ""
 
-  const gloss = cleanTerm(text.slice(dash + 1)).replace(/[;,.]+$/, "")
+  return cleanTerm(text.slice(dash + 1)).replace(/[;,.]+$/, "")
+}
+
+function truncateGloss(gloss: string): string {
   if (gloss.length <= GLOSS_MAX_LENGTH) return gloss
   return `${gloss.slice(0, GLOSS_MAX_LENGTH).trimEnd()}…`
+}
+
+// Only top-level spaced slashes map distinct headwords to distinct glosses.
+// Slashes in etymologies, quoted phrases, or parenthetical notes do not.
+function splitPositional(value: string): string[] {
+  const parts: string[] = []
+  let depth = 0
+  let quoted = false
+  let start = 0
+  for (let i = 0; i < value.length; i++) {
+    if (value[i] === '"') quoted = !quoted
+    if (quoted) continue
+    if (value[i] === "(") depth++
+    if (value[i] === ")") depth--
+    if (depth === 0 && value.slice(i, i + 3) === " / ") {
+      parts.push(value.slice(start, i).trim())
+      start = i + 3
+      i += 2
+    }
+  }
+  parts.push(value.slice(start).trim())
+  return parts
+}
+
+function positionalGlosses(gloss: string, count: number): string[] {
+  if (count < 2) return [gloss]
+  const alternative = gloss.match(/\s*\(alt\.\s+([^)]*)\)/)
+  const main = alternative ? gloss.replace(alternative[0], "") : gloss
+  const parts = splitPositional(main)
+  if (parts.length !== count) return Array(count).fill(gloss)
+  const alternatives = alternative ? splitPositional(alternative[1]) : []
+  if (alternative && alternatives.length !== count) return splitPositional(gloss)
+  return parts.map((part, index) =>
+    alternatives.length === count ? `${part} (alt. ${alternatives[index]})` : part,
+  )
+}
+
+function aliasesFromParagraph(paragraph: Paragraph, headwords: PhrasingContent[]): string[][] {
+  const aliases = headwords.map(() => [] as string[])
+  let index = -1
+  for (const child of paragraph.children) {
+    if (headwords.includes(child)) index++
+    if (child.type !== "text") continue
+    const beforeDash = child.value.split("—")[0]
+    for (const match of beforeDash.matchAll(/\((?:Skt|Pāli|Wylie):\s*([^)]*)\)/g)) {
+      if (index < 0) continue
+      const terms = match[1].split(/\s+\/\s+/).filter((term) => term !== "same")
+      if (index === headwords.length - 1 && terms.length === headwords.length && index > 0) {
+        terms.forEach((term, i) => aliases[i].push(term))
+      } else {
+        aliases[index].push(...terms)
+      }
+    }
+    if (child.value.includes("—")) break
+  }
+
+  // The first sentence of a Standardly note contains conventional renderings;
+  // later quoted examples and argumentative prose are not search aliases.
+  for (const child of paragraph.children) {
+    if (child.type !== "emphasis") continue
+    const note = mdastToString(child)
+    const standard = note.match(/^Standardly\s+(.*?)(?:\.(?:["”]|\s|$)|$)/)?.[1]
+    if (!standard) continue
+    const terms = [...standard.matchAll(/["“]([^"”]+)(?:["”]|$)/g)].map((match) =>
+      match[1].replace(/[.,;]+$/, "").trim(),
+    )
+    aliases.forEach((list) => list.push(...terms))
+  }
+  return aliases.map((list, i) =>
+    [...new Set(list)].filter((term) => term !== mdastToString(headwords[i])),
+  )
 }
 
 function parseExplicitTermReference(value: string): { term: string; section?: string } {

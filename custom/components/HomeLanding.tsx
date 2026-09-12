@@ -33,7 +33,10 @@ const defaultOptions: Options = {
 // here keeps the "N terms" badge honest without a second source of truth.
 function glossaryTermCount(allFiles: QuartzPluginData[]): number | undefined {
   const glossary = allFiles.find((file) => file.slug === "dhamma/glossary")
-  return glossary?.glossaryHeadwords?.length
+  const headwords = glossary?.glossaryHeadwords
+  return headwords
+    ? new Set(headwords.map((entry) => entry.headword.normalize("NFC"))).size
+    : undefined
 }
 
 function isPost(file: QuartzPluginData): boolean {

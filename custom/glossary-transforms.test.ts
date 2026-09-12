@@ -1,4 +1,5 @@
 import assert from "node:assert/strict"
+import { readFileSync } from "node:fs"
 import test from "node:test"
 import type { Heading, Link, Root, Text } from "mdast"
 import { toString as mdastToString } from "mdast-util-to-string"
@@ -6,14 +7,15 @@ import remarkParse from "remark-parse"
 import { unified } from "unified"
 import { visit } from "unist-util-visit"
 
-import { applyGlossaryTransforms, asciiSlug } from "./glossary-transforms"
+import { applyGlossaryTransforms, asciiSlug, type GlossaryHeadword } from "./glossary-transforms"
+import { indexGlossaryEntries, searchGlossary } from "./glossary-search"
 
 function transform(markdown: string) {
   const tree = unified().use(remarkParse).parse(markdown) as Root
   const file = {
     data: {} as {
       toc?: Array<{ depth: number; text: string; slug: string }>
-      glossaryHeadwords?: Array<{ headword: string; slug: string; part: string; gloss: string }>
+      glossaryHeadwords?: GlossaryHeadword[]
     },
   }
   applyGlossaryTransforms(tree, { slug: "dhamma/glossary" }, file as never)
@@ -124,12 +126,12 @@ test("links validated section references and index entries", () => {
   assert(found.some((link) => link.text === "I" && link.url === "#part-i"))
 })
 
-test("exports a deduplicated, diacritic-folded headword index", () => {
+test("deduplicates identical entries while retaining legacy first-occurrence targets", () => {
   const { file } = transform(`
 ## Part I — Earliest
 
 - **dukkha** / **duḥkha** — unsatisfactory.
-- **dukkha** — duplicate in the same section.
+- **dukkha** — unsatisfactory.
 
 ## Part VII — Dependent Origination
 
@@ -155,6 +157,119 @@ test("exports a deduplicated, diacritic-folded headword index", () => {
     assert.equal(slug, asciiSlug(headword))
     assert.ok(slug.length > 0)
   }
+})
+
+test("keeps homographs and section senses separate in search, index links, and inline links", () => {
+  const { file, tree } = transform(`
+## Part I — Early
+
+- **upadhi** — acquisition.
+- **dhamma** — teaching.
+
+## Part XIV — Comparatives
+
+### XIV.a Vedānta
+
+- **upādhi** — limiting adjunct.
+- **dhamma** — another contextual sense.
+
+See \`upādhi\`, \`upadhi\`, and \`dhamma\` (XIV.a).
+
+## Index
+
+- **upādhi** — XIV.a
+- **upadhi** — I
+`)
+  const entries = indexGlossaryEntries(file.data.glossaryHeadwords ?? [])
+  const result = searchGlossary(entries, "upādhi")[0]
+  assert.equal(result.entry.slug, "part-xiv-a-upadhi")
+  assert.equal(searchGlossary(entries, "upadhi")[0].entry.slug, "upadhi")
+  assert.equal(searchGlossary(entries, "limiting adjunct")[0].entry.headword, "upādhi")
+  assert.equal(searchGlossary(entries, "dhamma").length, 2)
+  assert(
+    links(tree)
+      .filter((link) => link.text === "upādhi")
+      .every((link) => link.url === "#part-xiv-a-upadhi"),
+  )
+  assert(links(tree).some((link) => link.text === "dhamma" && link.url === "#part-xiv-a-dhamma"))
+  for (const entry of entries) assert(anchorIds(tree).includes(entry.slug))
+})
+
+test("maps positional glosses and equivalents without splitting synonyms or quoted etymologies", () => {
+  const { file } = transform(`
+## Part I — Terms
+
+- **lobha** (Skt: same) / **dosa** (Skt: dveṣa) / **moha** (Skt: same) — greed / hatred / delusion.
+- **kusala** / **akusala** — wholesome / unwholesome (alt. skillful / unskillful).
+- **pasāda** / **pasāda-rūpa** (Skt: prasāda / prasāda-rūpa) — sensitive matter, sensitive material; lit. "clarity / translucence".
+- **svasaṃvedana** / **svasaṃvitti** — reflexive cognition, self-awareness.
+`)
+  const entries = file.data.glossaryHeadwords ?? []
+  const get = (term: string) => entries.find((entry) => entry.headword === term)!
+  assert.equal(get("lobha").gloss, "greed")
+  assert.equal(get("dosa").gloss, "hatred")
+  assert.deepEqual(get("dosa").aliases, ["dveṣa"])
+  assert.equal(get("moha").gloss, "delusion")
+  assert.equal(get("kusala").gloss, "wholesome (alt. skillful)")
+  assert.equal(get("akusala").gloss, "unwholesome (alt. unskillful)")
+  assert.equal(get("pasāda").gloss, get("pasāda-rūpa").gloss)
+  assert.deepEqual(get("pasāda-rūpa").aliases, ["prasāda-rūpa"])
+  assert.equal(get("svasaṃvedana").gloss, get("svasaṃvitti").gloss)
+})
+
+test("indexes conventional-rendering aliases without indexing later argumentative quotations", () => {
+  const { file } = transform(`
+## Part III — Meditation
+
+- **samādhi** (Skt: same) — composure. _Standardly "concentration." Later examples include "unrelated phrase"._
+- **jhāna** (Skt: dhyāna) — meditation. _Standardly "meditative absorption," "absorption," or left as "jhāna." Further prose._
+- **sammā-diṭṭhi** (Skt: samyag-dṛṣṭi) — proper view. _Standardly "right view". A note._
+`)
+  const entries = indexGlossaryEntries(file.data.glossaryHeadwords ?? [])
+  assert.equal(searchGlossary(entries, "concentration")[0].entry.headword, "samādhi")
+  assert.equal(searchGlossary(entries, "right view")[0].entry.headword, "sammā-diṭṭhi")
+  assert.equal(searchGlossary(entries, "dhyana")[0].entry.headword, "jhāna")
+  assert.equal(searchGlossary(entries, "meditative absorption")[0].entry.headword, "jhāna")
+  assert.deepEqual(searchGlossary(entries, "unrelated phrase"), [])
+  assert.deepEqual(searchGlossary(entries, "   "), [])
+})
+
+test("the current glossary resolves the reviewed lookups to real, distinct entry anchors", () => {
+  const source = readFileSync(new URL("../content/dhamma/glossary.md", import.meta.url), "utf8")
+  const { file, tree } = transform(source)
+  const entries = indexGlossaryEntries(file.data.glossaryHeadwords ?? [])
+  for (const [query, term, part] of [
+    ["upādhi", "upādhi", "XIV.a"],
+    ["limiting adjunct", "upādhi", "XIV.a"],
+    ["nirvāṇa", "nibbāna", "II"],
+    ["concentration", "samādhi", "III.c"],
+    ["right view", "sammā-diṭṭhi", "VIII.a"],
+  ]) {
+    assert(
+      searchGlossary(entries, query).some(
+        ({ entry }) => entry.headword === term && entry.part === part,
+      ),
+      query,
+    )
+  }
+  const hatred = searchGlossary(entries, "hatred").map(({ entry }) => entry.headword)
+  assert.equal(hatred[0], "dosa")
+  assert.equal(searchGlossary(entries, "nirvāṇa")[0].entry.headword, "nibbāna")
+  assert(hatred.includes("dosa"))
+  assert(!hatred.includes("lobha"))
+  assert(!hatred.includes("moha"))
+  const ids = anchorIds(tree)
+  assert.equal(ids.length, new Set(ids).size, "anchor IDs must be unique")
+  for (const entry of entries) assert(ids.includes(entry.slug), entry.slug)
+
+  const pdfTree = unified().use(remarkParse).parse(source) as Root
+  applyGlossaryTransforms(pdfTree, { slug: "dhamma/glossary", emitPandocAnchors: true })
+  const pdfAnchors = new Set<string>()
+  visit(pdfTree, "html", (node) => {
+    const id = node.value.match(/^\[\]\{#([^}]+)\}$/)?.[1]
+    if (id) pdfAnchors.add(id)
+  })
+  for (const entry of entries) assert(pdfAnchors.has(entry.slug), entry.slug)
 })
 
 test("indexes glosses without their italic rendering notes", () => {

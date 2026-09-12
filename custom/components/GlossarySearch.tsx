@@ -22,7 +22,9 @@ const GlossarySearch: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
       <div class="glossary-search-label">
         Glossary Search
         <span class="glossary-search-tools">
-          <span class="glossary-search-count">{headwords.length} terms</span>
+          <span class="glossary-search-count">
+            {new Set(headwords.map((entry) => entry.headword.normalize("NFC"))).size} terms
+          </span>
           <button type="button" class="glossary-random" title="Jump to a random entry">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +52,7 @@ const GlossarySearch: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
         type="text"
         autocomplete="off"
         spellcheck={false}
-        placeholder="Pāli term or English gloss…"
+        placeholder="Term, equivalent, or English gloss…"
         aria-label="Search glossary terms and glosses"
       />
       <ul class="glossary-search-results" role="listbox"></ul>
