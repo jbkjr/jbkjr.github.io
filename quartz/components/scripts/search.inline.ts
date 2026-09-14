@@ -16,13 +16,50 @@ interface Item {
 type SearchType = "basic" | "tags"
 let searchType: SearchType = "basic"
 let currentSearchTerm: string = ""
-const encoder = (str: string) => {
-  return str
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/\p{Diacritic}/gu, "")
-    .split(/\s+/)
-    .filter((token) => token.length > 0)
+const encoder = (str: string): string[] => {
+  const tokens: string[] = []
+  let bufferStart = -1
+  let bufferEnd = -1
+  const lower = str.toLowerCase()
+  const normalizeToken = (token: string) => token.normalize("NFD").replace(/\p{Diacritic}/gu, "")
+
+  let i = 0
+  for (const char of lower) {
+    const code = char.codePointAt(0)!
+
+    const isCJK =
+      (code >= 0x3040 && code <= 0x309f) ||
+      (code >= 0x30a0 && code <= 0x30ff) ||
+      (code >= 0x4e00 && code <= 0x9fff) ||
+      (code >= 0xac00 && code <= 0xd7af) ||
+      (code >= 0x20000 && code <= 0x2a6df)
+
+    const isWhitespace = code === 32 || code === 9 || code === 10 || code === 13
+
+    if (isCJK) {
+      if (bufferStart !== -1) {
+        tokens.push(normalizeToken(lower.slice(bufferStart, bufferEnd)))
+        bufferStart = -1
+      }
+      tokens.push(char)
+    } else if (isWhitespace) {
+      if (bufferStart !== -1) {
+        tokens.push(normalizeToken(lower.slice(bufferStart, bufferEnd)))
+        bufferStart = -1
+      }
+    } else {
+      if (bufferStart === -1) bufferStart = i
+      bufferEnd = i + char.length
+    }
+
+    i += char.length
+  }
+
+  if (bufferStart !== -1) {
+    tokens.push(normalizeToken(lower.slice(bufferStart)))
+  }
+
+  return tokens
 }
 
 let index = new FlexSearch.Document<Item>({
