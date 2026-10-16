@@ -291,6 +291,8 @@ li.posts-folder {
       // Fixed, not absolute: as an absolute box its containing block is the
       // left sidebar, which sits inside the page's horizontal padding — so a
       // 100vw drawer overhung the viewport and the page scrolled sideways.
+      // Being viewport-anchored, it no longer inherits the page's 1rem gutter,
+      // so pad it back in (+5px to line up with the hamburger's own padding).
       position: fixed;
       top: 0;
       left: 0;
@@ -303,7 +305,7 @@ li.posts-folder {
         transform 200ms ease,
         visibility 200ms ease;
       overflow: hidden;
-      padding: 4rem 0 2rem 0;
+      padding: 4rem calc(1rem + 5px) 2rem;
       height: 100dvh;
       max-height: 100dvh;
       visibility: hidden;

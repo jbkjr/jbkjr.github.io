@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "serve"],
       "port": 8080
+    },
+    {
+      "name": "quartz-no-pdf",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "quartz", "--", "build", "--serve"],
+      "port": 8080
     }
   ]
 }
