@@ -1,0 +1,43 @@
+name: Verify and build site
+description: >
+  The one gate for this site, shared by deploy.yml and ci-check.yml so a PR is
+  checked exactly as a deploy is. Tests, types and lint, then `npm run build`,
+  which builds Quartz and the glossary PDF and ends with scripts/verify-site.mjs.
+  Expects the repository to be checked out with full history (dates come from git).
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v6
+      with:
+        node-version-file: .node-version
+
+    - name: Install dependencies
+      shell: bash
+      run: npm ci
+
+    - name: Test
+      shell: bash
+      run: npm test
+
+    - name: Type-check
+      shell: bash
+      run: npx tsc --noEmit
+
+    - name: Lint
+      shell: bash
+      run: npm run lint
+
+    - name: Install PDF toolchain
+      shell: bash
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y --no-install-recommends \
+          pandoc texlive-xetex texlive-fonts-recommended lmodern \
+          texlive-lang-cjk texlive-lang-chinese \
+          fonts-noto-cjk fonts-noto-cjk-extra \
+          fonts-noto-core
+
+    - name: Build and verify site
+      shell: bash
+      run: npm run build

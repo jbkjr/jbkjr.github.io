@@ -22,7 +22,7 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for git info
 
-      - uses: ./.github/actions/build
+      - uses: ./.github/actions/site-gate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
