@@ -27,7 +27,8 @@ function setupContainer(container: Element) {
   const input = container.querySelector<HTMLInputElement>(".glossary-search-bar")
   const results = container.querySelector<HTMLElement>(".glossary-search-results")
   const empty = container.querySelector<HTMLElement>(".glossary-search-empty")
-  const dataEl = container.querySelector(".glossary-headword-index")
+  // One copy per page, held by one of the instances.
+  const dataEl = document.querySelector(".glossary-headword-index")
   if (!input || !results || !dataEl) return
 
   let entries: IndexedEntry[]

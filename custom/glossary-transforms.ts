@@ -14,7 +14,9 @@ import { toString as mdastToString } from "mdast-util-to-string"
 import { visit } from "unist-util-visit"
 import type { VFile } from "vfile"
 
-const GLOSSARY_SLUG = "dhamma/glossary"
+// Lives here, not in glossary.ts, because the PDF build imports this file directly
+// under Node type stripping. Everything else takes it from glossary.ts.
+export const GLOSSARY_SLUG = "dhamma/glossary"
 const HEADING_ATTRIBUTE_RE = /\s+\{[^}]*\}\s*$/
 const ROMAN_REFS = [
   "XIII",

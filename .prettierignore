@@ -3,3 +3,4 @@ node_modules
 .quartz-cache
 content/dhamma/glossary.md
 package-lock.json
+content/dhamma/_working
