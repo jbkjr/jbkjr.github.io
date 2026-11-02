@@ -145,7 +145,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.ConditionalRender({
-      component: GlossarySearch(),
+      component: GlossarySearch({ embedIndex: false }),
       condition: isGlossary,
     }),
     // The glossary has almost no outbound wikilinks, so its graph is a stub —
