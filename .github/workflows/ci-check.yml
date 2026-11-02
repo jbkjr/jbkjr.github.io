@@ -1,9 +1,8 @@
 name: CI build check
 
-# Build-only smoke test for pull requests. Mirrors the build job in
-# deploy.yml exactly — same Linux runner, same fonts, same toolchain —
-# but without the deploy step. Confirms the site (including the
-# glossary PDF) builds in the CI environment before merging to master.
+# The gate for pull requests. Runs the same composite action as deploy.yml, on
+# the same Linux runner with the same fonts and toolchain, without the deploy
+# step, so a PR that passes here will pass the deploy's build too.
 
 on:
   pull_request:
@@ -18,24 +17,7 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for git info
 
-      - uses: actions/setup-node@v6
-        with:
-          node-version-file: .node-version
-
-      - name: Install Dependencies
-        run: npm ci
-
-      - name: Install PDF toolchain
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends \
-            pandoc texlive-xetex texlive-fonts-recommended lmodern \
-            texlive-lang-cjk texlive-lang-chinese \
-            fonts-noto-cjk fonts-noto-cjk-extra \
-            fonts-noto-core
-
-      - name: Build Quartz
-        run: npm run build
+      - uses: ./.github/actions/build
 
       - name: Upload glossary PDF
         if: always()
