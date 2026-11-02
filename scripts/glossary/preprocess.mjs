@@ -9,7 +9,7 @@ import remarkGfm from "remark-gfm"
 import remarkParse from "remark-parse"
 import remarkStringify from "remark-stringify"
 
-import { applyGlossaryTransforms } from "../../custom/glossary-transforms.ts"
+import { applyGlossaryTransforms, GLOSSARY_SLUG } from "../../custom/glossary-transforms.ts"
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const repoRoot = resolve(__dirname, "..", "..")
@@ -25,7 +25,7 @@ const parser = unified().use(remarkParse).use(remarkFrontmatter, ["yaml"]).use(r
 const tree = parser.parse(source)
 
 applyGlossaryTransforms(tree, {
-  slug: "dhamma/glossary",
+  slug: GLOSSARY_SLUG,
   emitPandocAnchors: true,
 })
 

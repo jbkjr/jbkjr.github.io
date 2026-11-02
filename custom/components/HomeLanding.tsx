@@ -7,6 +7,7 @@ import {
 import { Date, getDate } from "../../quartz/components/Date"
 import { FullSlug, resolveRelative } from "../../quartz/util/path"
 import { classNames } from "../../quartz/util/lang"
+import { GLOSSARY_SLUG, glossaryTermCount } from "../glossary"
 
 interface Destination {
   /** Slug of the page this card opens. */
@@ -27,16 +28,6 @@ interface Options {
 const defaultOptions: Options = {
   destinations: [],
   recentLimit: 4,
-}
-
-// The glossary publishes its headword index onto its own file data; reading it
-// here keeps the "N terms" badge honest without a second source of truth.
-function glossaryTermCount(allFiles: QuartzPluginData[]): number | undefined {
-  const glossary = allFiles.find((file) => file.slug === "dhamma/glossary")
-  const headwords = glossary?.glossaryHeadwords
-  return headwords
-    ? new Set(headwords.map((entry) => entry.headword.normalize("NFC"))).size
-    : undefined
 }
 
 function isPost(file: QuartzPluginData): boolean {
@@ -60,7 +51,7 @@ export default ((userOpts?: Partial<Options>) => {
       .slice(0, opts.recentLimit)
 
     const countFor = (destination: Destination): string | undefined => {
-      if (destination.slug === "dhamma/glossary") {
+      if (destination.slug === GLOSSARY_SLUG) {
         const terms = glossaryTermCount(allFiles)
         return terms ? `${terms} terms` : undefined
       }

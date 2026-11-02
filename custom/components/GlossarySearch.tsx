@@ -6,6 +6,7 @@ import {
 import { classNames } from "../../quartz/util/lang"
 // @ts-expect-error — esbuild resolves .inline bundles; TS has no module for them
 import script from "./scripts/glossary-search.inline"
+import { glossaryTermCount } from "../glossary"
 
 const GlossarySearch: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const headwords = fileData.glossaryHeadwords
@@ -23,7 +24,7 @@ const GlossarySearch: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
         Glossary Search
         <span class="glossary-search-tools">
           <span class="glossary-search-count">
-            {new Set(headwords.map((entry) => entry.headword.normalize("NFC"))).size} terms
+            {glossaryTermCount([fileData])} terms
           </span>
           <button type="button" class="glossary-random" title="Jump to a random entry">
             <svg
