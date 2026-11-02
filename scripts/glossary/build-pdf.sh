@@ -1,15 +1,21 @@
 #!/usr/bin/env bash
 # Build the dhamma glossary PDF from content/dhamma/glossary.md.
 #
-# Output: content/dhamma/glossary.pdf, served by Quartz at /dhamma/glossary.pdf.
+# Output: public/dhamma/glossary.pdf, served at /dhamma/glossary.pdf. Run it after
+# Quartz: `quartz build` empties public/ first, and Quartz can't copy the PDF in
+# from content/ because globby 16 honours the repo's .gitignore.
 # Requires pandoc, xelatex, xeCJK, and a CJK font.
 
 set -euo pipefail
 
 cd "$(dirname "$0")/../.."
 
-command -v pandoc >/dev/null
-command -v xelatex >/dev/null
+for tool in pandoc xelatex; do
+  if ! command -v "$tool" >/dev/null; then
+    echo "build-pdf.sh: $tool not found; the glossary PDF needs pandoc and xelatex" >&2
+    exit 1
+  fi
+done
 
 HEADER_SRC="scripts/glossary/header.tex"
 HEADER="$HEADER_SRC"
@@ -36,7 +42,8 @@ if [[ "${OSTYPE:-}" == "darwin"* ]] && ! grep -qi "Noto Serif CJK" <<< "$FONTS";
   fi
 fi
 
-mkdir -p content/dhamma
+OUTPUT="public/dhamma/glossary.pdf"
+mkdir -p "$(dirname "$OUTPUT")"
 
 # Render the committer date in UTC so the PDF matches the web build, which
 # Quartz produces on GitHub Actions (UTC). Without this, a commit made near
@@ -52,7 +59,7 @@ TMPFILES+=("$TRANSFORMED")
 node --experimental-strip-types scripts/glossary/preprocess.mjs "$TRANSFORMED"
 
 pandoc "$TRANSFORMED" \
-  -o content/dhamma/glossary.pdf \
+  -o "$OUTPUT" \
   --pdf-engine=xelatex \
   -V geometry:margin=1in \
   -V documentclass=article \
@@ -63,4 +70,4 @@ pandoc "$TRANSFORMED" \
   --toc-depth=3 \
   -H "$HEADER"
 
-echo "Built content/dhamma/glossary.pdf ($LAST_UPDATED)"
+echo "Built $OUTPUT ($LAST_UPDATED)"

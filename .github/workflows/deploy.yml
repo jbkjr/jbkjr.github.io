@@ -22,24 +22,7 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for git info
 
-      - uses: actions/setup-node@v6
-        with:
-          node-version-file: .node-version
-
-      - name: Install Dependencies
-        run: npm ci
-
-      - name: Install PDF toolchain
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends \
-            pandoc texlive-xetex texlive-fonts-recommended lmodern \
-            texlive-lang-cjk texlive-lang-chinese \
-            fonts-noto-cjk fonts-noto-cjk-extra \
-            fonts-noto-core
-
-      - name: Build Quartz
-        run: npm run build
+      - uses: ./.github/actions/site-gate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5

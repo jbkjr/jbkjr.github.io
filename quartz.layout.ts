@@ -6,6 +6,7 @@ import GlossaryTOC from "./custom/components/GlossaryTOC"
 import GlossarySearch from "./custom/components/GlossarySearch"
 import HomeLanding from "./custom/components/HomeLanding"
 import ScrollAids from "./custom/components/ScrollAids"
+import { GLOSSARY_SLUG, isGlossary } from "./custom/glossary"
 
 const sidebarExplorerOptions: Parameters<typeof Component.Explorer>[0] = {
   folderClickBehavior: "link",
@@ -16,6 +17,8 @@ const sidebarExplorerOptions: Parameters<typeof Component.Explorer>[0] = {
     return true
   },
   mapFn: (node) => {
+    // Literal on purpose: Explorer serializes this function to the browser with
+    // toString(), so it can't reference GLOSSARY_SLUG.
     if (node.data?.slug === "dhamma/glossary") {
       node.displayName = "glossary"
     }
@@ -64,7 +67,7 @@ export const sharedPageComponents: SharedLayout = {
             countNoun: "posts",
           },
           {
-            slug: "dhamma/glossary" as FullSlug,
+            slug: GLOSSARY_SLUG as FullSlug,
             title: "A Dhamma Glossary",
             blurb:
               "A historical-stratum reference for Pāli, Sanskrit, and comparative terminology.",
@@ -109,20 +112,20 @@ export const defaultContentPageLayout: PageLayout = {
         page.fileData.slug !== "index" &&
         !page.fileData.slug?.startsWith("projects/") &&
         page.fileData.slug !== "dhamma" &&
-        page.fileData.slug !== "dhamma/glossary",
+        !isGlossary(page),
     }),
     Component.ConditionalRender({
       component: GlossaryMeta(),
-      condition: (page) => page.fileData.slug === "dhamma/glossary",
+      condition: isGlossary,
     }),
     Component.TagList(),
     Component.ConditionalRender({
       component: GlossarySearch(),
-      condition: (page) => page.fileData.slug === "dhamma/glossary",
+      condition: isGlossary,
     }),
     Component.ConditionalRender({
       component: GlossaryTOC(),
-      condition: (page) => page.fileData.slug === "dhamma/glossary",
+      condition: isGlossary,
     }),
   ],
   left: [
@@ -142,14 +145,14 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.ConditionalRender({
-      component: GlossarySearch(),
-      condition: (page) => page.fileData.slug === "dhamma/glossary",
+      component: GlossarySearch({ embedIndex: false }),
+      condition: isGlossary,
     }),
     // The glossary has almost no outbound wikilinks, so its graph is a stub —
     // drop it there and give the (very long) table of contents the space.
     Component.ConditionalRender({
       component: Component.Graph(),
-      condition: (page) => page.fileData.slug !== "dhamma/glossary",
+      condition: (page) => !isGlossary(page),
     }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),

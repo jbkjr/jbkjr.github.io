@@ -1,11 +1,12 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 import style from "../styles/notFound.scss"
+import { GLOSSARY_SLUG } from "../../../custom/glossary"
 
 // The site moved from Jekyll, so a stale inbound link is the likeliest way to
 // land here — offer the sections by name rather than only a link home.
 const destinations = [
   { path: "posts", label: "Writing" },
-  { path: "dhamma/glossary", label: "A Dhamma Glossary" },
+  { path: GLOSSARY_SLUG, label: "A Dhamma Glossary" },
   { path: "projects", label: "Research" },
 ]
 

@@ -31,10 +31,7 @@ export default ((opts?: Options) => {
               <a href={link}>
                 {icons[text] &&
                   (icons[text].startsWith("img:") ? (
-                    <span
-                      class="social-icon social-icon-image"
-                      data-image={icons[text].substring(4)}
-                    ></span>
+                    <span class="social-icon social-icon-image"></span>
                   ) : (
                     <span
                       class="social-icon"
