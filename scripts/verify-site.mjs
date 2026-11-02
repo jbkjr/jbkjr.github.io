@@ -30,12 +30,13 @@ const NEVER_PUBLISHED =
   /(^|\/)(_working|_references|private|templates|\.obsidian)(\/|$)|(^|\/)(CLAUDE|AGENTS|TRANSLATION_CONVENTIONS)(\.|\/|$)/i
 
 const KB = 1024
-// Page and shared-asset weight, about 15% above the sizes when last set. Raise one
-// only on purpose. Gzip approximates what the CDN sends; PNG and PDF don't compress.
+// Page and shared-asset weight, about 15-20% above the sizes when last set. Raise
+// one on purpose, as content grows. Gzip approximates what the CDN sends; PNG and
+// PDF don't compress.
 const GZIP_BUDGETS = {
-  "index.html": 15 * KB,
-  [GLOSSARY_PAGE]: 150 * KB,
-  "index.css": 15 * KB,
+  "index.html": 14 * KB,
+  [GLOSSARY_PAGE]: 145 * KB,
+  "index.css": 12 * KB,
   "prescript.js": 2 * KB,
   "postscript.js": 255 * KB,
   "static/contentIndex.json": 150 * KB,
