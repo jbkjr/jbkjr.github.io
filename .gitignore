@@ -2,6 +2,7 @@
 .gitignore
 node_modules
 public
+# Old PDF output path; a stale local copy must not be committed or emitted.
 content/dhamma/glossary.pdf
 prof
 tsconfig.tsbuildinfo

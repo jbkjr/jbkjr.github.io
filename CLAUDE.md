@@ -191,9 +191,10 @@ Component.Explorer({
 ### Commands
 
 ```bash
-npm run serve             # Build glossary PDF + dev server with hot reload (port 8080)
-npm run build             # Build glossary PDF + static site (one-shot)
-npm run glossary:pdf      # Just rebuild content/dhamma/glossary.pdf
+npm run serve             # Dev server with hot reload (port 8080); no glossary PDF
+npm run build             # Static site, then glossary PDF, then scripts/verify-site.mjs
+npm run glossary:pdf      # Write public/dhamma/glossary.pdf (run after Quartz, which empties public/)
+npm run verify            # Check public/ against the site's pins and byte budgets
 npm run test              # tsx --test (currently covers custom/glossary-transforms.test.ts)
 npm run check             # Type checking + format checking
 npm run format            # Auto-format with Prettier
@@ -279,7 +280,7 @@ Quick reference for writing posts:
 
 Implementation lives in `custom/`: shared mdast transform in `custom/glossary-transforms.ts`, Quartz adapter in `custom/glossary.ts`, glossary-only React components (`GlossaryMeta`, `GlossaryTOC`) in `custom/components/`. Keep `content/dhamma/glossary.md` as clean source markdown — don't commit explicit heading attributes (`{#part-i}`, `{.unlisted}`); the shared transform generates section IDs, entry anchors, and the curated TOC.
 
-The shared transform runs in two places — Quartz (web build) and `scripts/glossary/preprocess.mjs` (PDF build) — so HTML and PDF cross-links stay aligned. PDF output is generated, not committed: `npm run glossary:pdf` regenerates `content/dhamma/glossary.pdf`; `npm run build` and `npm run serve` rebuild the PDF before running Quartz.
+The shared transform runs in two places — Quartz (web build) and `scripts/glossary/preprocess.mjs` (PDF build) — so HTML and PDF cross-links stay aligned. PDF output is generated, not committed: `npm run glossary:pdf` writes `public/dhamma/glossary.pdf`, and `npm run build` runs it after Quartz, since Quartz empties `public/` first. `npm run serve` skips it; run `npm run glossary:pdf` while serving if you need the file locally.
 
 The glossary page swaps in `GlossaryMeta` (Last-updated from Quartz git/file dates) and `GlossaryTOC` (narrow-screen inline TOC); desktop keeps the right-rail Quartz TOC. The graph is conditionally dropped on this page — the glossary has almost no outbound wikilinks, so its graph was a stub and the (very long) TOC needed the room.
 
