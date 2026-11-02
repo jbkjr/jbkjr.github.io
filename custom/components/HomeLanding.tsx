@@ -86,7 +86,7 @@ export default ((userOpts?: Partial<Options>) => {
             <h2 class="home-recent-heading">
               Recent writing
               <a class="home-recent-all" href={resolveRelative(here, "posts" as FullSlug)}>
-                All posts →
+                All posts <span class="home-recent-arrow">→</span>
               </a>
             </h2>
             <ul class="home-recent-list">

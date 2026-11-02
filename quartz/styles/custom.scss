@@ -194,6 +194,13 @@
   }
 }
 
+// Open Sans has no arrow glyph, but its Google Fonts ranges claim U+2192, so this
+// one character made every homepage visitor download the 70 KB math and symbols
+// subsets only to fall back to system-ui anyway. Going straight there skips them.
+.home-recent-arrow {
+  font-family: system-ui, sans-serif;
+}
+
 .home-recent-list {
   margin: 0;
   padding: 0;
