@@ -88,14 +88,36 @@ test("a PDF that isn't one, or is truncated, fails", () => {
 })
 
 test("the Download link must exist and reach the PDF", () => {
+  const noDownload = /has no download link resolving to dhamma\/glossary\.pdf/
   assertFails(
     { "dhamma/glossary.html": glossary.replace('<a href="/dhamma/glossary.pdf">PDF</a>', "") },
-    /no PDF download link/,
+    noDownload,
   )
   assertFails(
     { "dhamma/glossary.html": glossary.replace("/dhamma/glossary.pdf", "/dhamma/gone.pdf") },
-    /does not resolve/,
+    noDownload,
   )
+})
+
+test("an external PDF of the same name can't stand in for the Download link", () => {
+  assertFails(
+    {
+      "dhamma/glossary.html": glossary.replace(
+        "/dhamma/glossary.pdf",
+        "https://example.com/dhamma/glossary.pdf",
+      ),
+    },
+    /has no download link resolving/,
+  )
+})
+
+test("other PDF links, on the glossary or elsewhere, don't fail the build", () => {
+  const citations = '<a href="https://example.com/paper.pdf">paper</a><a href="./gone.pdf">x</a>'
+  const result = verify({
+    "dhamma/glossary.html": glossary + citations,
+    "posts/a.html": footer + citations,
+  })
+  assert.equal(result.status, 0, result.stderr)
 })
 
 test("an alias pointing nowhere fails, as does losing aliases", () => {

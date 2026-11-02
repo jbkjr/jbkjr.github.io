@@ -91,13 +91,14 @@ function checkGlossaryPage(site, fail) {
   const html = site.read(GLOSSARY_PAGE)
   if (html === undefined) return fail(`${GLOSSARY_PAGE} is missing`)
 
-  const download = hrefsIn(html).filter((href) => href.endsWith(".pdf"))
-  if (download.length === 0) fail(`${GLOSSARY_PAGE} has no PDF download link`)
-  for (const href of download) {
-    if (resolveHref(site.root, GLOSSARY_PAGE, href) !== GLOSSARY_PDF) {
-      fail(`${GLOSSARY_PAGE}: download link ${href} does not resolve to ${GLOSSARY_PDF}`)
-    }
-  }
+  // Other PDF links on the page are citations, which aren't this check's concern.
+  const hasDownload = hrefsIn(html).some(
+    (href) =>
+      !/^[a-z][a-z0-9+.-]*:/i.test(href) &&
+      href.endsWith("glossary.pdf") &&
+      resolveHref(site.root, GLOSSARY_PAGE, href) === GLOSSARY_PDF,
+  )
+  if (!hasDownload) fail(`${GLOSSARY_PAGE} has no download link resolving to ${GLOSSARY_PDF}`)
 
   const ids = new Set([...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]))
   const fragments = hrefsIn(html)
