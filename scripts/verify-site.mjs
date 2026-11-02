@@ -2,7 +2,8 @@
 // Pins what the published site must contain, checked against the built output.
 // Quartz builds happily when a page, asset or link goes missing, and that is how
 // the glossary PDF disappeared for seven weeks (see scripts/glossary/build-pdf.sh),
-// so `npm run build` ends here and a failure stops the deploy.
+// so `npm run build` ends here and a failure stops the deploy. Byte budgets only
+// warn: the glossary grows often, and a page growing shouldn't block publishing.
 //
 // Usage: node scripts/verify-site.mjs [dir]   (default: public)
 
@@ -30,9 +31,9 @@ const NEVER_PUBLISHED =
   /(^|\/)(_working|_references|private|templates|\.obsidian)(\/|$)|(^|\/)(CLAUDE|AGENTS|TRANSLATION_CONVENTIONS)(\.|\/|$)/i
 
 const KB = 1024
-// Page and shared-asset weight, about 15-20% above the sizes when last set. Raise
-// one on purpose, as content grows. Gzip approximates what the CDN sends; PNG and
-// PDF don't compress.
+// Page and shared-asset weight, about 15-20% above the sizes when last set. Going
+// over prints a warning. Raise a budget when the growth is expected content. Gzip
+// approximates what the CDN sends; PNG and PDF don't compress.
 const GZIP_BUDGETS = {
   "index.html": 14 * KB,
   [GLOSSARY_PAGE]: 145 * KB,
@@ -208,9 +209,9 @@ function checkPages(site, fail) {
   }
 }
 
-function checkBudgets(site, fail) {
+function checkBudgets(site, fail, warn) {
   const check = (file, budget, size, unit) => {
-    if (size > budget) fail(`${file} is ${size} bytes ${unit}, over its ${budget} byte budget`)
+    if (size > budget) warn(`${file} is ${size} bytes ${unit}, over its ${budget} byte budget`)
   }
   for (const [file, budget] of Object.entries(GZIP_BUDGETS)) {
     const path = join(site.root, file)
@@ -225,9 +226,13 @@ function checkBudgets(site, fail) {
 }
 
 export function verifySite(root) {
-  if (!existsSync(root)) return [`${root} does not exist; build the site first`]
+  if (!existsSync(root)) {
+    return { failures: [`${root} does not exist; build the site first`], warnings: [] }
+  }
   const failures = []
+  const warnings = []
   const fail = (message) => failures.push(message)
+  const warn = (message) => warnings.push(message)
   const files = walk(root)
   const site = {
     root,
@@ -245,13 +250,18 @@ export function verifySite(root) {
   checkFooters(site, fail)
   checkFeeds(site, fail)
   checkPages(site, fail)
-  checkBudgets(site, fail)
-  return [...new Set(failures)]
+  checkBudgets(site, fail, warn)
+  return { failures: [...new Set(failures)], warnings }
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const root = resolve(process.argv[2] ?? "public")
-  const failures = verifySite(root)
+  const { failures, warnings } = verifySite(root)
+  for (const warning of warnings) {
+    // Actions turns this stdout form into an annotation on the run summary.
+    if (process.env.GITHUB_ACTIONS) console.log(`::warning::${warning}`)
+    else console.error(`verify-site: warning: ${warning}`)
+  }
   if (failures.length > 0) {
     console.error(`verify-site: ${failures.length} problem(s) in ${root}`)
     for (const failure of failures) console.error(`  - ${failure}`)

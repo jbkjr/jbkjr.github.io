@@ -194,7 +194,7 @@ Component.Explorer({
 npm run serve             # Dev server with hot reload (port 8080); no glossary PDF
 npm run build             # Static site, then glossary PDF, then scripts/verify-site.mjs
 npm run glossary:pdf      # Write public/dhamma/glossary.pdf (run after Quartz, which empties public/)
-npm run verify            # Check public/ against the site's pins and byte budgets
+npm run verify            # Check public/ against the site's pins; byte budgets only warn
 npm run test              # tsx --test (currently covers custom/glossary-transforms.test.ts)
 npm run check             # Type checking + format checking
 npm run format            # Auto-format with Prettier

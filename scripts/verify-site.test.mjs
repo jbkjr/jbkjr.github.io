@@ -51,14 +51,14 @@ function validSite() {
 }
 
 let counter = 0
-function verify(changes = {}) {
+function verify(changes = {}, env = process.env) {
   const root = join(tmp, `site-${counter++}`)
   for (const [file, content] of Object.entries({ ...validSite(), ...changes })) {
     if (content === null) continue
     mkdirSync(dirname(join(root, file)), { recursive: true })
     writeFileSync(join(root, file), content)
   }
-  return spawnSync(process.execPath, [script, root], { encoding: "utf8" })
+  return spawnSync(process.execPath, [script, root], { encoding: "utf8", env })
 }
 
 function assertFails(changes, message) {
@@ -185,10 +185,44 @@ test("homepage counts, 404 links, list-page dates and og images are pinned", () 
   assertFails({ "index-og-image.webp": null }, /og:image .* is missing/)
 })
 
-test("byte budgets fail on oversized assets", () => {
-  assertFails({ "static/lw_icon.png": "x".repeat(340 * 1024) }, /lw_icon\.png is \d+ bytes raw/)
+const oversizedIcon = { "static/lw_icon.png": "x".repeat(340 * 1024) }
+
+test("an over-budget asset warns without failing the build", () => {
+  const { GITHUB_ACTIONS: _ignored, ...env } = process.env
+  const result = verify(oversizedIcon, env)
+  assert.equal(result.status, 0, result.stderr)
+  assert.match(
+    result.stderr,
+    /warning: static\/lw_icon\.png is \d+ bytes raw, over its \d+ byte budget/,
+  )
+  assert.match(result.stdout, /verify-site: ok/)
+
   const incompressible = Array.from({ length: 80000 }, (_, i) =>
     (i * 2654435761).toString(36),
   ).join("")
-  assertFails({ "index.css": incompressible }, /index\.css is \d+ bytes gzipped/)
+  const gzipped = verify({ "index.css": incompressible }, env)
+  assert.equal(gzipped.status, 0, gzipped.stderr)
+  assert.match(gzipped.stderr, /warning: index\.css is \d+ bytes gzipped/)
+})
+
+test("over-budget warnings become annotations on GitHub Actions", () => {
+  const result = verify(oversizedIcon, { ...process.env, GITHUB_ACTIONS: "true" })
+  assert.equal(result.status, 0, result.stderr)
+  assert.match(result.stdout, /^::warning::static\/lw_icon\.png is \d+ bytes raw/m)
+})
+
+test("an asset within budget prints no warning", () => {
+  assert.doesNotMatch(verify().stderr + verify().stdout, /warning/)
+})
+
+test("a budgeted asset that is missing still fails", () => {
+  assertFails({ "postscript.js": null }, /postscript\.js is missing/)
+  assertFails({ "static/lw_icon.png": null }, /lw_icon\.png is missing/)
+})
+
+test("warnings don't hide structural failures", () => {
+  const result = verify({ ...oversizedIcon, "dhamma/glossary.pdf": null })
+  assert.equal(result.status, 1)
+  assert.match(result.stderr, /glossary\.pdf is missing/)
+  assert.match(result.stdout + result.stderr, /lw_icon\.png is \d+ bytes raw/)
 })
